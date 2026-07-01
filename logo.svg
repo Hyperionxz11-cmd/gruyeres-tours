@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" width="520" height="140">
+  <defs>
+    <style>
+      .hdr-green { fill: #1A3C2E; }
+      .hdr-gold { fill: #C9A84C; }
+      .hdr-stroke-gold { stroke: #C9A84C; }
+      .hdr-fill-gold { fill: #C9A84C; }
+      .hdr-fill-green { fill: #1A3C2E; }
+      .hdr-fill-white { fill: #FFFFFF; }
+    </style>
+  </defs>
+  <g transform="translate(72, 70)">
+    <circle cx="0" cy="0" r="58" fill="none" stroke="#C9A84C" stroke-width="2.2"/>
+    <circle cx="0" cy="0" r="53" fill="none" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/>
+    <path d="M-48,22 L-30,-5 Q-22,-18 -14,-8 L8,22 Z" class="hdr-fill-green" opacity="0.7"/>
+    <path d="M-6,22 L12,-12 Q20,-24 28,-14 L48,22 Z" class="hdr-fill-green" opacity="0.7"/>
+    <path d="M-50,24 L-24,-2 Q-16,-15 -8,0 L10,24 Z" class="hdr-fill-green"/>
+    <path d="M-10,24 L14,-16 Q22,-28 30,-12 L50,24 Z" class="hdr-fill-green"/>
+    <path d="M-26,-2 L-24,-5 L-22,-2 L-24,0 Z" class="hdr-fill-white" opacity="0.85"/>
+    <path d="M12,-16 L14,-19 L16,-16 L14,-14 Z" class="hdr-fill-white" opacity="0.85"/>
+    <rect x="-32" y="-12" width="64" height="14" rx="1" class="hdr-fill-gold"/>
+    <rect x="-34" y="-12" width="68" height="3" rx="0.5" class="hdr-fill-gold" opacity="0.6"/>
+    <rect x="-30" y="-40" width="14" height="30" class="hdr-fill-gold"/>
+    <polygon points="-33,-40 -23,-54 -13,-40" class="hdr-fill-gold"/>
+    <rect x="-26" y="-30" width="6" height="8" rx="3" class="hdr-fill-green"/>
+    <rect x="-30" y="-44" width="3" height="4" class="hdr-fill-green"/>
+    <rect x="-24" y="-44" width="3" height="4" class="hdr-fill-green"/>
+    <rect x="-17" y="-44" width="3" height="4" class="hdr-fill-green"/>
+    <rect x="16" y="-40" width="14" height="30" class="hdr-fill-gold"/>
+    <polygon points="13,-40 23,-54 33,-40" class="hdr-fill-gold"/>
+    <rect x="20" y="-30" width="6" height="8" rx="3" class="hdr-fill-green"/>
+    <rect x="16" y="-44" width="3" height="4" class="hdr-fill-green"/>
+    <rect x="23" y="-44" width="3" height="4" class="hdr-fill-green"/>
+    <rect x="30" y="-44" width="3" height="4" class="hdr-fill-green"/>
+    <rect x="-11" y="-52" width="22" height="42" class="hdr-fill-gold"/>
+    <polygon points="-15,-52 0,-68 15,-52" class="hdr-fill-gold"/>
+    <path d="M-5,-15 L-5,-28 Q0,-34 5,-28 L5,-15 Z" class="hdr-fill-green"/>
+    <rect x="-11" y="-56" width="4" height="4" class="hdr-fill-green"/>
+    <rect x="-4" y="-56" width="4" height="4" class="hdr-fill-green"/>
+    <rect x="7" y="-56" width="4" height="4" class="hdr-fill-green"/>
+    <polygon points="0,-76 1.5,-72 5.5,-72 2.5,-69.5 4,-65.5 0,-68 -4,-65.5 -2.5,-69.5 -5.5,-72 -1.5,-72" class="hdr-fill-gold"/>
+    <circle cx="-10" cy="-73" r="1.2" class="hdr-fill-gold" opacity="0.5"/>
+    <circle cx="10" cy="-73" r="1.2" class="hdr-fill-gold" opacity="0.5"/>
+  </g>
+  <text x="158" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="600" class="hdr-green" letter-spacing="0.5">Gruyères</text>
+  <line x1="158" y1="76" x2="370" y2="76" class="hdr-stroke-gold" stroke-width="1.5"/>
+  <rect x="261" y="74" width="4" height="4" transform="rotate(45 263 76)" class="hdr-fill-gold"/>
+  <text x="158" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="400" class="hdr-gold" letter-spacing="6">TOURS</text>
+  <text x="158" y="122" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="300" class="hdr-green" letter-spacing="2" opacity="0.6">DESTINATION PREMIUM · SUISSE</text>
+</svg>

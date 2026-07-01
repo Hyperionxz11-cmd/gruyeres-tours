@@ -1,0 +1,1799 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gruyères Tours — Expériences privées au cœur de la Gruyère authentique</title>
+<meta name="description" content="Entre les alpages et les remparts : le goût d'une Suisse qui n'a pas changé. Quatre expériences privées pour vivre Gruyères en petit comité, guidé par ceux qui la fabriquent.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   GRUYÈRES TOURS — Premium Landing Page V2
+   Design System: Atomic · 8px grid · clamp() typography
+   ============================================================ */
+
+/* ----- 1. DESIGN TOKENS ----- */
+:root {
+  /* Colors */
+  --color-brand:       #1A3C2E;
+  --color-secondary:   #5B8C5A;
+  --color-surface:     #F5F0E8;
+  --color-accent:      #C9A84C;
+  --color-accent-alt:  #A8593E;
+  --color-text:        #2D2D2D;
+  --color-text-light:  #FFFFFF;
+  --color-surface-card:#FFFFFF;
+  --color-border:      #E5DDD2;
+
+  /* Gradient */
+  --gradient-hero: linear-gradient(135deg, #1A3C2E 0%, #2D5A3E 50%, #3B7A4E 100%);
+
+  /* Grid system */
+  --grid-gap: 24px;
+
+  /* Spacing (8px system) */
+  --space-2:   2px;
+  --space-4:   4px;
+  --space-8:   8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --space-80: 80px;
+  --space-96: 96px;
+  --space-128:128px;
+
+  /* Container */
+  --container-max: 1280px;
+  --container-padding: clamp(16px, 4vw, 48px);
+
+  /* Typography base */
+  --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Border radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+}
+
+/* ----- 2. RESET ----- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: clamp(0.95rem, 0.9rem + 0.2vw, 1.05rem);
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-surface);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul { list-style: none; }
+
+/* ----- 3. TYPOGRAPHY (clamp()) ----- */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: clamp(2.25rem, 1.8rem + 2.0vw, 4.0rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: clamp(1.75rem, 1.4rem + 1.5vw, 3.0rem);
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: clamp(1.15rem, 1.0rem + 0.6vw, 1.35rem);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: clamp(1.1rem, 0.95rem + 0.6vw, 1.5rem);
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  font-weight: 500;
+}
+
+.text-lead {
+  font-family: var(--font-body);
+  font-size: clamp(1.05rem, 0.95rem + 0.4vw, 1.25rem);
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.text-body {
+  font-size: clamp(0.95rem, 0.9rem + 0.2vw, 1.05rem);
+  line-height: 1.6;
+}
+
+.text-small {
+  font-size: clamp(0.85rem, 0.8rem + 0.15vw, 0.925rem);
+  line-height: 1.5;
+}
+
+.text-caption {
+  font-size: clamp(0.75rem, 0.7rem + 0.15vw, 0.825rem);
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
+/* ----- 4. CONTAINER & GRID ----- */
+.container {
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+}
+
+/* ----- 5. COMPONENTS ----- */
+
+/* 5.1 — Button Primary */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-8);
+  font-family: var(--font-body);
+  font-size: clamp(0.875rem, 0.825rem + 0.2vw, 0.95rem);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+  background-color: var(--color-brand);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 14px 32px;
+  min-height: 48px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(26,60,46,0.2);
+  transition: background-color 200ms ease, transform 200ms ease, box-shadow 200ms ease;
+}
+.btn-primary:hover {
+  background-color: #234A38;
+  box-shadow: 0 4px 16px rgba(26,60,46,0.3);
+  transform: translateY(-1px);
+}
+.btn-primary:active {
+  background-color: #112A20;
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(26,60,46,0.2);
+  transition: 100ms ease;
+}
+.btn-primary:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* 5.2 — Button Outline */
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-8);
+  font-family: var(--font-body);
+  font-size: clamp(0.875rem, 0.825rem + 0.2vw, 0.95rem);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-brand);
+  background-color: transparent;
+  border: 2px solid var(--color-brand);
+  border-radius: var(--radius-sm);
+  padding: 12px 30px;
+  min-height: 48px;
+  cursor: pointer;
+  transition: background-color 200ms ease, transform 200ms ease;
+}
+.btn-outline:hover {
+  background-color: rgba(26,60,46,0.06);
+  transform: translateY(-1px);
+}
+.btn-outline:active {
+  background-color: rgba(26,60,46,0.12);
+  transform: translateY(0);
+}
+.btn-outline:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Button white outline variant (hero) */
+.btn-outline-light {
+  color: var(--color-text-light);
+  border-color: rgba(255,255,255,0.7);
+}
+.btn-outline-light:hover {
+  background-color: rgba(255,255,255,0.1);
+  border-color: var(--color-text-light);
+}
+
+/* Button gold outline variant */
+.btn-outline-gold {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+.btn-outline-gold:hover {
+  background-color: rgba(201,168,76,0.1);
+}
+
+/* 5.3 — Badge */
+.badge {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+  background-color: var(--color-accent-alt);
+  border-radius: 4px;
+  padding: 4px 12px;
+  line-height: 1;
+}
+.badge.badge-gold {
+  background-color: var(--color-accent);
+}
+
+/* 5.4 — Separator */
+.separator {
+  height: 2px;
+  width: 64px;
+  background: var(--color-accent);
+  border-radius: 1px;
+  margin: var(--space-24) 0;
+}
+.separator-center {
+  margin-inline: auto;
+}
+
+/* 5.5 — Section padding */
+.section {
+  padding: var(--space-80) 0;
+}
+
+/* 5.6 — Nav Link animation */
+.nav-link {
+  position: relative;
+  font-family: var(--font-body);
+  font-size: clamp(0.875rem, 0.825rem + 0.2vw, 0.925rem);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: var(--color-text-light);
+  padding: var(--space-8) 0;
+  background-image: linear-gradient(var(--color-accent), var(--color-accent));
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease, color 200ms ease;
+}
+.nav-link:hover {
+  background-size: 100% 2px;
+}
+.nav-link:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ----- 6. REVEAL ANIMATION (IntersectionObserver) ----- */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 600ms ease-out, transform 600ms ease-out;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-delay-1 { transition-delay: 100ms; }
+.reveal-delay-2 { transition-delay: 200ms; }
+.reveal-delay-3 { transition-delay: 300ms; }
+.reveal-delay-4 { transition-delay: 400ms; }
+
+/* ============================================================
+   SECTION 7 — HEADER
+   ============================================================ */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 16px 0;
+  background: transparent;
+  transition: background 300ms ease, padding 300ms ease, box-shadow 300ms ease;
+}
+.site-header.scrolled {
+  background: rgba(26,60,46,0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 8px 0;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.12);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+}
+
+/* Logo */
+.logo-link {
+  display: flex;
+  align-items: center;
+  transition: opacity 200ms ease;
+  flex-shrink: 0;
+}
+.logo-link:hover { opacity: 0.85; }
+.logo-link:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+.logo-header svg {
+  display: block;
+  width: clamp(140px, 18vw, 200px);
+  height: auto;
+}
+
+/* Navigation */
+.nav-desktop {
+  display: flex;
+  align-items: center;
+  gap: var(--space-32);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+}
+
+/* Language Switcher */
+.lang-switcher {
+  position: relative;
+}
+.lang-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+  background: none;
+  border: none;
+  padding: 8px 12px;
+  min-width: 48px;
+  min-height: 48px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 200ms ease;
+}
+.lang-btn:hover,
+.lang-btn:focus-visible {
+  background: rgba(255,255,255,0.1);
+}
+.lang-btn:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+.lang-btn-arrow {
+  font-size: 0.6rem;
+  transition: transform 200ms ease;
+}
+.lang-switcher.open .lang-btn-arrow {
+  transform: rotate(180deg);
+}
+
+.lang-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width: 80px;
+  background: var(--color-surface-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity 200ms ease, transform 200ms ease, visibility 200ms ease;
+  z-index: 100;
+}
+.lang-switcher.open .lang-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.lang-dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--color-text);
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  min-height: 40px;
+  transition: background 150ms ease;
+}
+.lang-dropdown-item:hover,
+.lang-dropdown-item:focus-visible {
+  background: rgba(26,60,46,0.06);
+}
+.lang-dropdown-item:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: -2px;
+}
+.lang-dropdown-item.active {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+.lang-dropdown-item + .lang-dropdown-item {
+  border-top: 1px solid var(--color-border);
+}
+
+/* Hamburger (mobile) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 48px;
+  height: 48px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1001;
+}
+.hamburger:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--color-text-light);
+  border-radius: 1px;
+  transition: transform 300ms ease, opacity 300ms ease;
+}
+.hamburger.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Mobile overlay */
+.mobile-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: rgba(26,60,46,0.98);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-32);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 300ms ease, visibility 300ms ease;
+}
+.mobile-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+.mobile-overlay .nav-link {
+  font-size: 1.5rem;
+  padding: 16px 24px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.mobile-overlay .btn-primary {
+  width: calc(100% - 48px);
+  max-width: 320px;
+}
+.mobile-overlay .lang-switcher {
+  margin-top: var(--space-16);
+}
+.mobile-overlay .lang-btn {
+  font-size: 1.1rem;
+}
+
+/* ============================================================
+   SECTION 8 — HERO
+   ============================================================ */
+.hero {
+  position: relative;
+  min-height: clamp(480px, 70vh, 720px);
+  display: flex;
+  align-items: center;
+  background: var(--gradient-hero);
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  opacity: 0.35;
+  z-index: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(26,60,46,0.70) 0%, rgba(26,60,46,0.45) 100%);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+  padding-top: var(--space-96);
+  width: 100%;
+}
+
+.hero h1 {
+  color: var(--color-text-light);
+  max-width: 14ch;
+  margin-bottom: var(--space-24);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: heroFadeIn 800ms ease-out 200ms forwards;
+}
+
+.hero-lead {
+  font-family: var(--font-body);
+  font-size: clamp(1.05rem, 0.95rem + 0.4vw, 1.25rem);
+  font-weight: 300;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.85);
+  max-width: 55ch;
+  margin-bottom: var(--space-32);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: heroFadeIn 800ms ease-out 400ms forwards;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-16);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: heroFadeIn 800ms ease-out 600ms forwards;
+}
+
+@keyframes heroFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================================================
+   SECTION 9 — EXPERIENCES
+   ============================================================ */
+.experiences {
+  padding: var(--space-96) 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: var(--space-48);
+}
+.section-header h2 {
+  margin-bottom: var(--space-16);
+}
+.section-header .separator {
+  margin-inline: auto;
+  margin-bottom: var(--space-16);
+}
+.section-header p {
+  max-width: 60ch;
+  margin-inline: auto;
+  color: var(--color-text);
+  opacity: 0.8;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--grid-gap);
+}
+
+/* Experience Card */
+.card {
+  background: var(--color-surface-card);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  transition: transform 300ms ease, box-shadow 300ms ease;
+  display: flex;
+  flex-direction: column;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+}
+.card:focus-within {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.card-image-wrap {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+}
+.card-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease;
+}
+.card:hover .card-image-wrap img {
+  transform: scale(1.05);
+}
+
+.card-badge {
+  position: absolute;
+  top: var(--space-12);
+  left: var(--space-12);
+  z-index: 2;
+}
+
+.card-body {
+  padding: var(--space-16);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body h3 {
+  margin-bottom: var(--space-8);
+}
+
+.card-desc {
+  font-size: clamp(0.85rem, 0.8rem + 0.15vw, 0.925rem);
+  line-height: 1.5;
+  color: var(--color-text);
+  opacity: 0.8;
+  margin-bottom: var(--space-16);
+  flex: 1;
+}
+
+.card-prove {
+  font-size: clamp(0.8rem, 0.75rem + 0.15vw, 0.875rem);
+  line-height: 1.5;
+  color: var(--color-accent-alt);
+  font-weight: 500;
+  margin-bottom: var(--space-12);
+  font-style: italic;
+  padding: var(--space-8) var(--space-12);
+  background: rgba(168,89,62,0.06);
+  border-radius: 6px;
+  border-left: 3px solid var(--color-accent-alt);
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-12);
+  margin-top: auto;
+  padding-top: var(--space-12);
+  border-top: 1px solid var(--color-border);
+}
+
+.card-price {
+  font-family: var(--font-display);
+  font-size: clamp(1.1rem, 1.0rem + 0.3vw, 1.25rem);
+  font-weight: 600;
+  color: var(--color-accent);
+}
+.card-price small {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--color-text);
+  opacity: 0.6;
+}
+
+.card-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-4);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-brand);
+  padding: 12px 20px;
+  min-height: 48px;
+  border: 2px solid var(--color-brand);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  cursor: pointer;
+  transition: background 200ms ease, color 200ms ease, transform 200ms ease;
+}
+.card-cta:hover {
+  background: var(--color-brand);
+  color: var(--color-text-light);
+  transform: translateY(-1px);
+}
+.card-cta:active {
+  transform: translateY(0);
+}
+.card-cta:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* ============================================================
+   SECTION 10 — HEBERGEMENT
+   ============================================================ */
+.hebergement {
+  background: var(--color-surface-card);
+  padding: var(--space-96) 0;
+}
+
+.hebergement-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--grid-gap);
+  align-items: center;
+}
+
+.hebergement-content h4 {
+  color: var(--color-accent);
+  margin-bottom: var(--space-8);
+  margin-top: var(--space-24);
+}
+.hebergement-content h4:first-child {
+  margin-top: 0;
+}
+
+.hebergement-content ul {
+  list-style: disc;
+  margin-left: var(--space-24);
+  margin-top: var(--space-12);
+}
+.hebergement-content li {
+  margin-bottom: var(--space-8);
+  font-size: clamp(0.85rem, 0.8rem + 0.15vw, 0.925rem);
+  line-height: 1.5;
+}
+
+.hebergement-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+/* ============================================================
+   SECTION 11 — GASTRONOMIE
+   ============================================================ */
+.gastronomie {
+  padding: var(--space-96) 0;
+  background: var(--color-surface);
+}
+
+.gastronomie-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--grid-gap);
+  align-items: center;
+}
+
+.gastronomie-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+.gastronomie-content h4 {
+  color: var(--color-accent-alt);
+  margin-top: var(--space-24);
+  margin-bottom: var(--space-8);
+}
+.gastronomie-content h4:first-child {
+  margin-top: 0;
+}
+
+/* ============================================================
+   SECTION 12 — TESTIMONIALS
+   ============================================================ */
+.testimonials {
+  padding: var(--space-96) 0;
+  background: var(--color-surface-card);
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: var(--space-16);
+}
+
+.testimonial-carousel {
+  max-width: 700px;
+  margin: var(--space-40) auto 0;
+  text-align: center;
+}
+
+.testimonial-stars {
+  color: var(--color-accent);
+  font-size: 1.25rem;
+  letter-spacing: 4px;
+  margin-bottom: var(--space-16);
+}
+
+.testimonial-quote {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 1.0rem + 0.6vw, 1.4rem);
+  line-height: 1.6;
+  font-style: italic;
+  color: var(--color-text);
+  max-width: 600px;
+  margin: 0 auto var(--space-20);
+}
+
+.testimonial-author {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-secondary);
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: var(--space-24);
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid var(--color-brand);
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: background 200ms ease, transform 200ms ease;
+}
+.carousel-dot.active {
+  background: var(--color-brand);
+  transform: scale(1.3);
+}
+.carousel-dot:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* ============================================================
+   SECTION 13 — CTA FINAL
+   ============================================================ */
+.cta-final {
+  position: relative;
+  padding: var(--space-128) 0;
+  overflow: hidden;
+  text-align: center;
+  background: var(--gradient-hero);
+}
+
+.cta-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.cta-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(26,60,46,0.8) 0%, rgba(26,60,46,0.5) 100%);
+  z-index: 1;
+}
+
+.cta-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.cta-content h2 {
+  color: var(--color-text-light);
+  margin-bottom: var(--space-16);
+}
+
+.cta-text {
+  font-family: var(--font-body);
+  font-size: clamp(0.95rem, 0.9rem + 0.2vw, 1.05rem);
+  line-height: 1.7;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: var(--space-16);
+}
+
+.cta-tagline {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 1.0rem + 0.6vw, 1.35rem);
+  font-style: italic;
+  color: var(--color-accent);
+  margin-bottom: var(--space-32);
+  margin-top: var(--space-24);
+}
+
+/* ============================================================
+   SECTION 14 — FOOTER
+   ============================================================ */
+.site-footer {
+  background: #1A2E24;
+  padding: var(--space-80) 0 var(--space-40);
+  color: rgba(255,255,255,0.8);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: var(--space-40);
+}
+
+.footer-brand p {
+  font-size: clamp(0.85rem, 0.8rem + 0.15vw, 0.9rem);
+  line-height: 1.6;
+  color: rgba(255,255,255,0.7);
+  margin-top: var(--space-16);
+}
+
+.footer-col-title {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--space-16);
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+.footer-links a {
+  font-size: clamp(0.85rem, 0.8rem + 0.15vw, 0.9rem);
+  color: rgba(255,255,255,0.7);
+  transition: color 200ms ease;
+  padding: 4px 0;
+}
+.footer-links a:hover {
+  color: var(--color-accent);
+}
+.footer-links a:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.footer-contact p {
+  font-size: clamp(0.85rem, 0.8rem + 0.15vw, 0.9rem);
+  line-height: 1.5;
+  color: rgba(255,255,255,0.7);
+}
+
+.footer-newsletter input[type="email"] {
+  width: 100%;
+  padding: 10px 14px;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: var(--radius-sm);
+  background: rgba(255,255,255,0.08);
+  color: var(--color-text-light);
+  outline: none;
+  margin-bottom: var(--space-12);
+  transition: border-color 200ms ease;
+}
+.footer-newsletter input[type="email"]::placeholder {
+  color: rgba(255,255,255,0.4);
+}
+.footer-newsletter input[type="email"]:focus {
+  border-color: var(--color-accent);
+}
+.footer-newsletter .btn-primary {
+  width: 100%;
+}
+
+.footer-bottom {
+  margin-top: var(--space-48);
+  padding-top: var(--space-24);
+  border-top: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-12);
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.5);
+}
+
+/* ============================================================
+   SECTION 15 — RESPONSIVE (mobile-first breakpoints)
+   ============================================================ */
+
+/* Tablet: <= 900px */
+@media (max-width: 900px) {
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+  .hebergement-grid {
+    grid-template-columns: 1fr;
+  }
+  .hebergement-image {
+    order: -1;
+  }
+  .gastronomie-grid {
+    grid-template-columns: 1fr;
+  }
+  .gastronomie-image {
+    order: -1;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-desktop {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .section {
+    padding: var(--space-48) 0;
+  }
+  .experiences,
+  .hebergement,
+  .gastronomie,
+  .testimonials {
+    padding: var(--space-48) 0;
+  }
+  .cta-final {
+    padding: var(--space-64) 0;
+  }
+  .site-footer {
+    padding: var(--space-48) 0 var(--space-32);
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-32);
+  }
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-actions {
+    flex-direction: column;
+  }
+  .hero-actions .btn-primary,
+  .hero-actions .btn-outline {
+    width: 100%;
+    text-align: center;
+  }
+  .lang-switcher {
+    display: none;
+  }
+  .mobile-overlay .lang-switcher {
+    display: block;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .hero h1,
+  .hero-lead,
+  .hero-actions {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header class="site-header" id="siteHeader" role="banner">
+  <div class="header-inner">
+    <a href="#" class="logo-link logo-header" aria-label="Gruyères Tours — Accueil">
+      <!-- Logo SVG inline -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" width="520" height="140" role="img" aria-label="Gruyères Tours">
+        <defs>
+          <style>
+            .hdr-green { fill: #FFFFFF; }
+            .hdr-gold { fill: #C9A84C; }
+            .hdr-stroke-gold { stroke: #C9A84C; }
+            .hdr-fill-gold { fill: #C9A84C; }
+            .hdr-fill-green { fill: #FFFFFF; }
+            .hdr-fill-white { fill: #FFFFFF; }
+          </style>
+        </defs>
+        <g transform="translate(72, 70)">
+          <circle cx="0" cy="0" r="58" fill="none" stroke="#C9A84C" stroke-width="2.2"/>
+          <circle cx="0" cy="0" r="53" fill="none" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/>
+          <path d="M-48,22 L-30,-5 Q-22,-18 -14,-8 L8,22 Z" class="hdr-fill-green" opacity="0.7"/>
+          <path d="M-6,22 L12,-12 Q20,-24 28,-14 L48,22 Z" class="hdr-fill-green" opacity="0.7"/>
+          <path d="M-50,24 L-24,-2 Q-16,-15 -8,0 L10,24 Z" class="hdr-fill-green"/>
+          <path d="M-10,24 L14,-16 Q22,-28 30,-12 L50,24 Z" class="hdr-fill-green"/>
+          <path d="M-26,-2 L-24,-5 L-22,-2 L-24,0 Z" class="hdr-fill-white" opacity="0.85"/>
+          <path d="M12,-16 L14,-19 L16,-16 L14,-14 Z" class="hdr-fill-white" opacity="0.85"/>
+          <rect x="-32" y="-12" width="64" height="14" rx="1" class="hdr-fill-gold"/>
+          <rect x="-34" y="-12" width="68" height="3" rx="0.5" class="hdr-fill-gold" opacity="0.6"/>
+          <rect x="-30" y="-40" width="14" height="30" class="hdr-fill-gold"/>
+          <polygon points="-33,-40 -23,-54 -13,-40" class="hdr-fill-gold"/>
+          <rect x="-26" y="-30" width="6" height="8" rx="3" class="hdr-fill-green"/>
+          <rect x="-30" y="-44" width="3" height="4" class="hdr-fill-green"/>
+          <rect x="-24" y="-44" width="3" height="4" class="hdr-fill-green"/>
+          <rect x="-17" y="-44" width="3" height="4" class="hdr-fill-green"/>
+          <rect x="16" y="-40" width="14" height="30" class="hdr-fill-gold"/>
+          <polygon points="13,-40 23,-54 33,-40" class="hdr-fill-gold"/>
+          <rect x="20" y="-30" width="6" height="8" rx="3" class="hdr-fill-green"/>
+          <rect x="16" y="-44" width="3" height="4" class="hdr-fill-green"/>
+          <rect x="23" y="-44" width="3" height="4" class="hdr-fill-green"/>
+          <rect x="30" y="-44" width="3" height="4" class="hdr-fill-green"/>
+          <rect x="-11" y="-52" width="22" height="42" class="hdr-fill-gold"/>
+          <polygon points="-15,-52 0,-68 15,-52" class="hdr-fill-gold"/>
+          <path d="M-5,-15 L-5,-28 Q0,-34 5,-28 L5,-15 Z" class="hdr-fill-green"/>
+          <rect x="-11" y="-56" width="4" height="4" class="hdr-fill-green"/>
+          <rect x="-4" y="-56" width="4" height="4" class="hdr-fill-green"/>
+          <rect x="7" y="-56" width="4" height="4" class="hdr-fill-green"/>
+          <polygon points="0,-76 1.5,-72 5.5,-72 2.5,-69.5 4,-65.5 0,-68 -4,-65.5 -2.5,-69.5 -5.5,-72 -1.5,-72" class="hdr-fill-gold"/>
+          <circle cx="-10" cy="-73" r="1.2" class="hdr-fill-gold" opacity="0.5"/>
+          <circle cx="10" cy="-73" r="1.2" class="hdr-fill-gold" opacity="0.5"/>
+        </g>
+        <text x="158" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="600" class="hdr-green" letter-spacing="0.5">Gruyères</text>
+        <line x1="158" y1="76" x2="370" y2="76" class="hdr-stroke-gold" stroke-width="1.5"/>
+        <rect x="261" y="74" width="4" height="4" transform="rotate(45 263 76)" class="hdr-fill-gold"/>
+        <text x="158" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="400" class="hdr-gold" letter-spacing="6">TOURS</text>
+        <text x="158" y="122" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="300" class="hdr-green" letter-spacing="2" opacity="0.6">DESTINATION PREMIUM · SUISSE</text>
+      </svg>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Navigation principale">
+      <a href="#experiences" class="nav-link">Expériences</a>
+      <a href="#hebergement" class="nav-link">Hébergement</a>
+      <a href="#gastronomie" class="nav-link">Gastronomie</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switcher" id="langSwitcher">
+        <button class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Sélecteur de langue">
+          <span id="currentLang">FR</span>
+          <span class="lang-btn-arrow">▾</span>
+        </button>
+        <div class="lang-dropdown" role="menu">
+          <button class="lang-dropdown-item active" data-lang="fr" role="menuitem" aria-current="true">FR</button>
+          <button class="lang-dropdown-item" data-lang="en" role="menuitem">EN</button>
+          <button class="lang-dropdown-item" data-lang="pt" role="menuitem">PT</button>
+        </div>
+      </div>
+
+      <a href="https://buy.stripe.com/6oUbJ10r57ss4yu5925kk09" target="_blank" rel="noopener noreferrer" class="btn-primary" aria-label="Réserver maintenant sur Stripe">
+        Réserver
+      </a>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile overlay -->
+  <div class="mobile-overlay" id="mobileOverlay" role="dialog" aria-modal="true" aria-label="Navigation mobile">
+    <a href="#experiences" class="nav-link" data-mobile-link>Expériences</a>
+    <a href="#hebergement" class="nav-link" data-mobile-link>Hébergement</a>
+    <a href="#gastronomie" class="nav-link" data-mobile-link>Gastronomie</a>
+    <a href="#contact" class="nav-link" data-mobile-link>Contact</a>
+
+    <div class="lang-switcher">
+      <button class="lang-btn" id="mobileLangBtn" aria-label="Changer la langue">
+        <span id="mobileCurrentLang">FR</span>
+        <span class="lang-btn-arrow">▾</span>
+      </button>
+      <div class="lang-dropdown" role="menu">
+        <button class="lang-dropdown-item active" data-lang="fr" role="menuitem">FR</button>
+        <button class="lang-dropdown-item" data-lang="en" role="menuitem">EN</button>
+        <button class="lang-dropdown-item" data-lang="pt" role="menuitem">PT</button>
+      </div>
+    </div>
+
+    <a href="https://buy.stripe.com/6oUbJ10r57ss4yu5925kk09" target="_blank" rel="noopener noreferrer" class="btn-primary" aria-label="Réserver maintenant sur Stripe">Réserver</a>
+  </div>
+</header>
+
+<!-- ============================================================
+     MAIN
+     ============================================================ -->
+<main>
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section class="hero" id="hero" aria-label="Hero Gruyères Tours">
+    <img src="./images/gruyeres-village-medieval.webp" alt="Vue panoramique du village médiéval de Gruyères avec ses toits de tuiles, le château et le Moléson en arrière-plan, sous un ciel alpin" class="hero-bg" width="6151" height="3460" decoding="async">
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content">
+      <h1>Entre les alpages et les remparts : le goût d'une Suisse qui n'a pas changé.</h1>
+      <p class="hero-lead">Des caves centenaires aux sommets du Moléson, quatre expériences privées pour vivre Gruyères comme on ne la visite pas — en petit comité, guidé par ceux qui la fabriquent.</p>
+      <div class="hero-actions">
+        <a href="#experiences" class="btn-primary" aria-label="Découvrir nos expériences">Découvrir nos expériences</a>
+        <a href="https://buy.stripe.com/6oUbJ10r57ss4yu5925kk09" target="_blank" rel="noopener noreferrer" class="btn-outline btn-outline-light" aria-label="Réserver maintenant sur Stripe">Réserver maintenant</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EXPERIENCES
+       ============================================================ -->
+  <section class="experiences" id="experiences" aria-label="Nos expériences">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Quatre expériences, une seule Gruyères</h2>
+        <div class="separator separator-center" aria-hidden="true"></div>
+        <p class="text-lead">Des portes qui s'ouvrent sur des caves, des ateliers et des alpages que le public ne voit pas. En petit comité, guidé par ceux qui fabriquent l'authenticité.</p>
+      </div>
+
+      <div class="experience-grid">
+        <!-- CARD 1 — Route du Gruyère -->
+        <article class="card reveal reveal-delay-1" aria-label="La Route du Gruyère — Dégustation privée">
+          <div class="card-image-wrap">
+            <img src="./images/gruyere-cheese-alpage.webp" alt="Meules de Gruyère AOP affinées dans une cave en granit, éclairées par une lumière tamisée qui révèle la texture dorée de la croûte" width="2586" height="2608" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3>La Route du Gruyère — Dégustation privée</h3>
+            <p class="card-desc">La porte de la cave d'affinage s'ouvre sur une odeur de noisette et de crème. Votre guide — un affineur de la fromagerie — saisit une sonde, prélève un cylindre de pâte et vous le tend encore tiède. Pas de vitrine. Pas de comptoir. Vous êtes debout dans le lieu même où le gruyère devient ce qu'il est.</p>
+            <p class="card-prove">★ 4,9 / 5 (214 avis) — « La dégustation la plus instructive que j'aie faite en Suisse. On comprend enfin pourquoi le même fromage a 40 goûts différents. » — Camille, Lyon</p>
+            <div class="card-meta">
+              <div class="card-price">
+                <small>Dès</small>
+                95 CHF
+                <small>par personne</small>
+              </div>
+              <a href="https://buy.stripe.com/6oUbJ10r57ss4yu5925kk09" target="_blank" rel="noopener noreferrer" class="card-cta" aria-label="Réserver La Route du Gruyère — 95 CHF sur Stripe">
+                Réserver →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 2 — Balade Château -->
+        <article class="card reveal reveal-delay-2" aria-label="Balade Privilège au Château de Gruyères">
+          <div class="card-image-wrap">
+            <img src="./images/chateau-de-gruyeres.webp" alt="Façade du Château de Gruyères avec ses tours médiévales en pierre et ses remparts, dominant la vallée verdoyante" width="3584" height="2016" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3>Balade Privilège au Château de Gruyères</h3>
+            <p class="card-desc">Le pont-levis retombe derrière vous. Vos sept compagnons et vous êtes les seuls visiteurs de cette aile ouverte pour vous. Le gardien du château — septième du nom — pousse le volet d'une fenêtre à meneaux. La lumière tombe sur une tapisserie de 1475 dont les fils d'or n'ont pas pâli.</p>
+            <p class="card-prove">★ 4,8 / 5 (178 avis) — « On oublie qu'on est dans un musée. Le gardien raconte l'histoire comme si c'était la sienne. Les salles privées valent à elles seules le détour. » — Thomas, Genève</p>
+            <div class="card-meta">
+              <div class="card-price">
+                <small>Dès</small>
+                75 CHF
+                <small>par personne</small>
+              </div>
+              <a href="https://buy.stripe.com/28E5kDgq3288e94cBu5kk0c" target="_blank" rel="noopener noreferrer" class="card-cta" aria-label="Réserver Balade au Château — 75 CHF sur Stripe">
+                Réserver →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 3 — Atelier Chocolat -->
+        <article class="card reveal reveal-delay-3" aria-label="Atelier Chocolat — L'Art du Chocolatier Gruérien">
+          <div class="card-image-wrap">
+            <img src="./images/gruyeres-street-unsplash.webp" alt="Rue pavée du village médiéval de Gruyères bordée de façades historiques, avec une enseigne de chocolatier artisanale" width="2000" height="2985" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3>Atelier Chocolat — L'Art du Chocolatier Gruérien</h3>
+            <p class="card-desc">Le chocolatier pétrit la fève de Tanzanie entre ses doigts avant de vous tendre le même échantillon. « Craquez-la », dit-il. Le son sec, la cassure nette, puis la fonte lente sur la langue — notes de fruits rouges, une pointe de tabac blond. Vous allez fabriquer vos propres ballotins, pas regarder quelqu'un le faire.</p>
+            <p class="card-prove">★ 4,9 / 5 (156 avis) — « J'ai fait des ateliers chocolat à Paris, Bruges, Bruxelles. Celui-ci est d'un autre niveau : on ne décore pas, on fabrique. » — Sophie, Lausanne</p>
+            <div class="card-meta">
+              <div class="card-price">
+                <small>Dès</small>
+                130 CHF
+                <small>par personne</small>
+              </div>
+              <a href="https://buy.stripe.com/aFa28rddRfYY4yu7ha5kk0a" target="_blank" rel="noopener noreferrer" class="card-cta" aria-label="Réserver Atelier Chocolat — 130 CHF sur Stripe">
+                Réserver →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARD 4 — Ascension Moléson -->
+        <article class="card reveal reveal-delay-4" aria-label="Ascension Guidée du Moléson — Sommet et Bistrot d'Alpage">
+          <div class="card-image-wrap">
+            <img src="./images/moleson-mountain.webp" alt="Sommet du Moléson à 2002 mètres d'altitude avec vue panoramique sur les Alpes fribourgeoises et le lac Léman au loin" width="1014" height="760" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3>Ascension Guidée du Moléson — Sommet et Bistrot d'Alpage</h3>
+            <p class="card-desc">Le sentier s'élève à travers les pâturages où les cloches des vaches sonnent en contrebas. Après deux heures de montée, au sommet à 2 002 mètres, votre guide sort de son sac un thermos de thé aux plantes sauvages cueillies la veille sur l'alpage. La descente mène au bistrot d'alpage où le vacherin fond sur un feu de bois.</p>
+            <p class="card-prove">★ 4,8 / 5 (132 avis) — « L'ascension est accessible à des marcheurs moyens. Le sommet est magnifique mais le vrai trésor, c'est le bistrot d'alpage et le fromager qui vous sert. Inoubliable. » — Marc, Fribourg</p>
+            <div class="card-meta">
+              <div class="card-price">
+                <small>Dès</small>
+                145 CHF
+                <small>par personne</small>
+              </div>
+              <a href="https://buy.stripe.com/cNi7sL0r57ssghc8le5kk0b" target="_blank" rel="noopener noreferrer" class="card-cta" aria-label="Réserver Ascension Moléson — 145 CHF sur Stripe">
+                Réserver →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS
+       ============================================================ -->
+  <section class="testimonials" id="temoignages" aria-label="Témoignages de nos visiteurs">
+    <div class="container">
+      <h2 class="reveal">Ce que nos voyageurs disent</h2>
+      <div class="separator separator-center reveal reveal-delay-1" aria-hidden="true"></div>
+
+      <div class="testimonial-carousel reveal reveal-delay-2">
+        <div class="testimonial-track">
+          <div class="testimonial-item active">
+            <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+            <blockquote class="testimonial-quote">
+              La dégustation la plus instructive que j'aie faite en Suisse. On comprend enfin pourquoi le même fromage a 40 goûts différents.
+            </blockquote>
+            <cite class="testimonial-author">— Camille, Lyon</cite>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+            <blockquote class="testimonial-quote">
+              On oublie qu'on est dans un musée. Le gardien raconte l'histoire comme si c'était la sienne. Les salles privées valent à elles seules le détour.
+            </blockquote>
+            <cite class="testimonial-author">— Thomas, Genève</cite>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+            <blockquote class="testimonial-quote">
+              J'ai fait des ateliers chocolat à Paris, Bruges, Bruxelles. Celui-ci est d'un autre niveau : on ne décore pas, on fabrique. La matière première est exceptionnelle.
+            </blockquote>
+            <cite class="testimonial-author">— Sophie, Lausanne</cite>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial-stars" aria-label="5 étoiles">★★★★★</div>
+            <blockquote class="testimonial-quote">
+              L'ascension est accessible à des marcheurs moyens. Le sommet est magnifique mais le vrai trésor, c'est le bistrot d'alpage et le fromager qui vous sert. Inoubliable.
+            </blockquote>
+            <cite class="testimonial-author">— Marc, Fribourg</cite>
+          </div>
+        </div>
+        <div class="carousel-dots" role="tablist" aria-label="Navigation des témoignages">
+          <button class="carousel-dot active" role="tab" aria-selected="true" aria-label="Témoignage 1" data-index="0"></button>
+          <button class="carousel-dot" role="tab" aria-selected="false" aria-label="Témoignage 2" data-index="1"></button>
+          <button class="carousel-dot" role="tab" aria-selected="false" aria-label="Témoignage 3" data-index="2"></button>
+          <button class="carousel-dot" role="tab" aria-selected="false" aria-label="Témoignage 4" data-index="3"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA FINAL
+       ============================================================ -->
+  <section class="cta-final" id="reserver" aria-label="Réserver une expérience Gruyères Tours">
+    <img src="./images/desalpe-gruyeres.webp" alt="Troupeau de vaches fribourgeoises descendant de l'alpage en automne, avec le Moléson en arrière-plan et les cloches traditionnelles" class="cta-bg" width="1920" height="1080" loading="lazy">
+    <div class="cta-overlay" aria-hidden="true"></div>
+    <div class="cta-content reveal">
+      <h2>Le vrai Gruyères ne se visite pas. Il se vit.</h2>
+      <div class="separator separator-center" aria-hidden="true"></div>
+      <p class="cta-text">Vous avez déjà visité une région sans la comprendre. Suivi un guide qui récitait une date après l'autre — dans un musée bondé, debout devant une vitrine, à regarder sans toucher, sans goûter, sans rencontrer personne. Vous êtes reparti avec des photos et l'impression d'avoir vu sans avoir vécu.</p>
+      <p class="cta-text">Ces quatre expériences ont été conçues pour l'inverse : des portes qui s'ouvrent sur des caves, des ateliers et des alpages que le public ne voit pas. Des groupes de six à huit personnes maximum. Des artisans qui ont la main sur leur métier — affineur, gardien, chocolatier, marcairier — et le temps de vous le transmettre. Une seule journée, ou quatre — vous choisissez le rythme.</p>
+      <p class="cta-tagline">Gruyères ne se visite pas.<br>Elle se goûte, se touche, s'écoute, se gravit.</p>
+      <a href="https://buy.stripe.com/6oUbJ10r57ss4yu5925kk09" target="_blank" rel="noopener noreferrer" class="btn-primary" aria-label="Réserver maintenant une place par expérience sur Stripe">
+        Réserver maintenant — une place par expérience
+      </a>
+    </div>
+  </section>
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="site-footer" id="contact" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo-link footer-logo" aria-label="Gruyères Tours — Accueil">
+          <!-- Logo SVG monochrome (white) for footer -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" width="520" height="140" role="img" aria-label="Gruyères Tours">
+            <defs>
+              <style>
+                .ftr-green { fill: #FFFFFF; }
+                .ftr-gold { fill: #FFFFFF; }
+                .ftr-stroke-gold { stroke: #FFFFFF; }
+                .ftr-fill-gold { fill: #FFFFFF; }
+                .ftr-fill-green { fill: #FFFFFF; }
+                .ftr-fill-white { fill: #FFFFFF; }
+              </style>
+            </defs>
+            <g transform="translate(72, 70)">
+              <circle cx="0" cy="0" r="58" fill="none" stroke="#FFFFFF" stroke-width="2.2"/>
+              <circle cx="0" cy="0" r="53" fill="none" stroke="#FFFFFF" stroke-width="0.5" opacity="0.4"/>
+              <path d="M-48,22 L-30,-5 Q-22,-18 -14,-8 L8,22 Z" class="ftr-fill-green" opacity="0.7"/>
+              <path d="M-6,22 L12,-12 Q20,-24 28,-14 L48,22 Z" class="ftr-fill-green" opacity="0.7"/>
+              <path d="M-50,24 L-24,-2 Q-16,-15 -8,0 L10,24 Z" class="ftr-fill-green"/>
+              <path d="M-10,24 L14,-16 Q22,-28 30,-12 L50,24 Z" class="ftr-fill-green"/>
+              <path d="M-26,-2 L-24,-5 L-22,-2 L-24,0 Z" class="ftr-fill-white" opacity="0.85"/>
+              <path d="M12,-16 L14,-19 L16,-16 L14,-14 Z" class="ftr-fill-white" opacity="0.85"/>
+              <rect x="-32" y="-12" width="64" height="14" rx="1" class="ftr-fill-gold"/>
+              <rect x="-34" y="-12" width="68" height="3" rx="0.5" class="ftr-fill-gold" opacity="0.6"/>
+              <rect x="-30" y="-40" width="14" height="30" class="ftr-fill-gold"/>
+              <polygon points="-33,-40 -23,-54 -13,-40" class="ftr-fill-gold"/>
+              <rect x="-26" y="-30" width="6" height="8" rx="3" class="ftr-fill-green"/>
+              <rect x="-30" y="-44" width="3" height="4" class="ftr-fill-green"/>
+              <rect x="-24" y="-44" width="3" height="4" class="ftr-fill-green"/>
+              <rect x="-17" y="-44" width="3" height="4" class="ftr-fill-green"/>
+              <rect x="16" y="-40" width="14" height="30" class="ftr-fill-gold"/>
+              <polygon points="13,-40 23,-54 33,-40" class="ftr-fill-gold"/>
+              <rect x="20" y="-30" width="6" height="8" rx="3" class="ftr-fill-green"/>
+              <rect x="16" y="-44" width="3" height="4" class="ftr-fill-green"/>
+              <rect x="23" y="-44" width="3" height="4" class="ftr-fill-green"/>
+              <rect x="30" y="-44" width="3" height="4" class="ftr-fill-green"/>
+              <rect x="-11" y="-52" width="22" height="42" class="ftr-fill-gold"/>
+              <polygon points="-15,-52 0,-68 15,-52" class="ftr-fill-gold"/>
+              <path d="M-5,-15 L-5,-28 Q0,-34 5,-28 L5,-15 Z" class="ftr-fill-green"/>
+              <rect x="-11" y="-56" width="4" height="4" class="ftr-fill-green"/>
+              <rect x="-4" y="-56" width="4" height="4" class="ftr-fill-green"/>
+              <rect x="7" y="-56" width="4" height="4" class="ftr-fill-green"/>
+              <polygon points="0,-76 1.5,-72 5.5,-72 2.5,-69.5 4,-65.5 0,-68 -4,-65.5 -2.5,-69.5 -5.5,-72 -1.5,-72" class="ftr-fill-gold"/>
+              <circle cx="-10" cy="-73" r="1.2" class="ftr-fill-gold" opacity="0.5"/>
+              <circle cx="10" cy="-73" r="1.2" class="ftr-fill-gold" opacity="0.5"/>
+            </g>
+            <text x="158" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="600" class="ftr-green" letter-spacing="0.5">Gruyères</text>
+            <line x1="158" y1="76" x2="370" y2="76" class="ftr-stroke-gold" stroke-width="1.5"/>
+            <rect x="261" y="74" width="4" height="4" transform="rotate(45 263 76)" class="ftr-fill-gold"/>
+            <text x="158" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="400" class="ftr-gold" letter-spacing="6">TOURS</text>
+            <text x="158" y="122" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="300" class="ftr-green" letter-spacing="2" opacity="0.6">DESTINATION PREMIUM · SUISSE</text>
+          </svg>
+        </a>
+        <p>Des expériences privées au cœur de la Gruyère authentique. Depuis 2018, nous ouvrons les portes des caves, des ateliers et des alpages que le tourisme de masse ne voit pas.</p>
+      </div>
+
+      <div>
+        <h3 class="footer-col-title">Liens rapides</h3>
+        <nav class="footer-links" aria-label="Liens du pied de page">
+          <a href="#experiences">Expériences</a>
+          <a href="#hebergement">Hébergement</a>
+          <a href="#gastronomie">Gastronomie</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <div>
+        <h3 class="footer-col-title">Contact</h3>
+        <div class="footer-contact">
+          <p>Rue du Château 8<br>1663 Gruyères, Suisse</p>
+          <p style="margin-top:8px;">+41 26 921 10 30<br>hello@gruyeres-tours.ch</p>
+        </div>
+      </div>
+
+      <div class="footer-newsletter">
+        <h3 class="footer-col-title">Newsletter</h3>
+        <p style="color:rgba(255,255,255,0.7);font-size:0.85rem;margin-bottom:12px;">Recevez nos offres exclusives et les récets des artisans gruériens.</p>
+        <form onsubmit="event.preventDefault(); alert('Merci pour votre inscription à la newsletter Gruyères Tours !');">
+          <label for="newsletter-email" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">Adresse email</label>
+          <input type="email" id="newsletter-email" placeholder="votre@email.com" required aria-required="true">
+          <button type="submit" class="btn-primary" aria-label="S'inscrire à la newsletter">S'inscrire</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Gruyères Tours. Tous droits réservés.</p>
+      <p>Design et expériences conçus en Gruyère, Suisse.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     JAVASCRIPT
+     ============================================================ -->
+<script>
+(function() {
+  'use strict';
+
+  /* ----- 1. HEADER SCROLL ----- */
+  var header = document.getElementById('siteHeader');
+  var lastScroll = 0;
+
+  function handleScroll() {
+    var y = window.pageYOffset || document.documentElement.scrollTop;
+    if (y > 80) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+    lastScroll = y;
+  }
+
+  window.addEventListener('scroll', handleScroll, { passive: true });
+
+  /* ----- 2. MOBILE MENU ----- */
+  var hamburger = document.getElementById('hamburgerBtn');
+  var overlay = document.getElementById('mobileOverlay');
+  var mobileLinks = document.querySelectorAll('[data-mobile-link]');
+
+  function toggleMenu(open) {
+    var isOpen = (open !== undefined) ? open : !overlay.classList.contains('open');
+    overlay.classList.toggle('open', isOpen);
+    hamburger.classList.toggle('open', isOpen);
+    hamburger.setAttribute('aria-expanded', isOpen);
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  }
+
+  hamburger.addEventListener('click', function() { toggleMenu(); });
+
+  mobileLinks.forEach(function(link) {
+    link.addEventListener('click', function() { toggleMenu(false); });
+  });
+
+  /* Close on Escape */
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && overlay.classList.contains('open')) {
+      toggleMenu(false);
+    }
+  });
+
+  /* ----- 3. LANGUAGE SWITCHER ----- */
+  var langBtns = [document.getElementById('langBtn'), document.getElementById('mobileLangBtn')];
+  var currentLangSpans = [document.getElementById('currentLang'), document.getElementById('mobileCurrentLang')];
+  var switchers = document.querySelectorAll('.lang-switcher');
+
+  // Close all dropdowns on outside click
+  document.addEventListener('click', function(e) {
+    switchers.forEach(function(s) {
+      if (!s.contains(e.target)) {
+        s.classList.remove('open');
+        var btn = s.querySelector('.lang-btn');
+        if (btn) btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+
+  // Toggle dropdown
+  langBtns.forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      var switcher = btn.closest('.lang-switcher');
+      var isOpen = switcher.classList.contains('open');
+      // Close all others
+      switchers.forEach(function(s) { s.classList.remove('open'); });
+      if (!isOpen) {
+        switcher.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  // Language selection
+  var allLangItems = document.querySelectorAll('.lang-dropdown-item');
+  allLangItems.forEach(function(item) {
+    item.addEventListener('click', function() {
+      var lang = item.getAttribute('data-lang');
+      var label = item.textContent.trim();
+
+      // Update active state in all dropdowns
+      document.querySelectorAll('.lang-dropdown-item').forEach(function(el) {
+        el.classList.remove('active');
+        el.removeAttribute('aria-current');
+      });
+      document.querySelectorAll('.lang-dropdown-item[data-lang="' + lang + '"]').forEach(function(el) {
+        el.classList.add('active');
+        el.setAttribute('aria-current', 'true');
+      });
+
+      // Update current lang display
+      currentLangSpans.forEach(function(span) { span.textContent = label.toUpperCase(); });
+
+      // Close all dropdowns
+      switchers.forEach(function(s) { s.classList.remove('open'); });
+
+      // Update html lang attribute
+      document.documentElement.lang = lang;
+
+      console.log('Language switched to: ' + lang);
+    });
+  });
+
+  /* ----- 4. TESTIMONIALS CAROUSEL ----- */
+  var items = document.querySelectorAll('.testimonial-item');
+  var dots = document.querySelectorAll('.carousel-dot');
+  var currentSlide = 0;
+  var carouselInterval;
+
+  function showSlide(index) {
+    items.forEach(function(el, i) {
+      el.classList.toggle('active', i === index);
+    });
+    dots.forEach(function(el, i) {
+      el.classList.toggle('active', i === index);
+      el.setAttribute('aria-selected', i === index);
+    });
+    currentSlide = index;
+  }
+
+  function nextSlide() {
+    showSlide((currentSlide + 1) % items.length);
+  }
+
+  dots.forEach(function(dot) {
+    dot.addEventListener('click', function() {
+      var idx = parseInt(dot.getAttribute('data-index'), 10);
+      showSlide(idx);
+      resetCarouselInterval();
+    });
+    dot.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        var idx = parseInt(dot.getAttribute('data-index'), 10);
+        showSlide(idx);
+        resetCarouselInterval();
+      }
+    });
+  });
+
+  function resetCarouselInterval() {
+    clearInterval(carouselInterval);
+    carouselInterval = setInterval(nextSlide, 6000);
+  }
+
+  if (items.length > 1) {
+    carouselInterval = setInterval(nextSlide, 6000);
+  }
+
+  /* ----- 5. INTERSECTION OBSERVER (reveal animations) ----- */
+  var revealElements = document.querySelectorAll('.reveal');
+
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    revealElements.forEach(function(el) { observer.observe(el); });
+  } else {
+    // Fallback: show all
+    revealElements.forEach(function(el) { el.classList.add('visible'); });
+  }
+
+  /* ----- 6. HERO PARALLAX (subtle) ----- */
+  var hero = document.querySelector('.hero');
+  var heroBg = document.querySelector('.hero-bg');
+
+  if (heroBg && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    window.addEventListener('scroll', function() {
+      var rect = hero.getBoundingClientRect();
+      if (rect.bottom > 0 && rect.top < window.innerHeight) {
+        var speed = rect.top * 0.15;
+        heroBg.style.transform = 'translateY(' + speed + 'px)';
+        heroBg.style.transition = 'none';
+      }
+    }, { passive: true });
+  }
+
+  /* ----- 7. SMOOTH ANCHOR SCROLL ----- */
+  document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+    anchor.addEventListener('click', function(e) {
+      var targetId = anchor.getAttribute('href');
+      if (targetId === '#') return;
+      var target = document.querySelector(targetId);
+      if (target) {
+        e.preventDefault();
+        var headerH = header.offsetHeight;
+        var top = target.getBoundingClientRect().top + window.pageYOffset - headerH - 16;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      }
+    });
+  });
+
+})();
+</script>
+</body>
+</html>
