@@ -1,2 +1,5 @@
-# gruyeres-tours
-Site Gruyères Tours — Expériences privées au cœur de la Gruyère authentique
+# Gruyères Tours
+
+Site web de Gruyères Tours — Expériences privées au cœur de la Gruyère authentique.
+
+Déploiement : Vercel
