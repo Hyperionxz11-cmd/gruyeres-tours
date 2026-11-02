@@ -16,10 +16,12 @@
 {{ogAlternates}}
   <meta property="og:title" content="{{metaTitle}}">
   <meta property="og:description" content="{{ogDescription}}">
-  <meta property="og:image" content="{{base}}/web/hero_hd_sm.jpg">
+  <meta property="og:image" content="{{base}}/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:url" content="{{url}}">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="preload" as="image" href="/web/hero-gruyeres-panorama.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="/img/chateau-2400.webp" imagesrcset="/img/chateau-800.webp 800w, /img/chateau-1400.webp 1400w, /img/chateau-2400.webp 2400w" imagesizes="100vw" fetchpriority="high">
 {{fontPreload}}
   <link rel="icon" type="image/svg+xml" href="/logo.svg">
   <link rel="stylesheet" href="/style.css?v={{version}}">
@@ -38,7 +40,7 @@
         <span>Gruyères Tours</span>
       </a>
       <nav class="nav-links" aria-label="{{ariaMainNav}}">
-        <a href="#experience">{{navExperience}}</a>
+        <a href="#region">{{regionEyebrow}}</a>
         <a href="#stops">{{navStops}}</a>
         <a href="#schedule">{{navSchedule}}</a>
         <a href="#offer">{{navOffer}}</a>
@@ -56,7 +58,7 @@
   </header>
 
   <div class="mobile-panel" id="mobile-panel" aria-label="{{ariaMobileNav}}">
-    <a href="#experience">{{navExperience}}</a>
+    <a href="#region">{{regionEyebrow}}</a>
     <a href="#stops">{{navStops}}</a>
     <a href="#schedule">{{navSchedule}}</a>
     <a href="#offer">{{navOffer}}</a>
@@ -66,26 +68,33 @@
   </div>
 
   <main id="main">
-    <section class="hero">
-      <div class="hero-media">
-        <img src="/web/hero-gruyeres-panorama.webp" alt="{{altHero}}" width="2560" height="933" fetchpriority="high">
+    <section class="hero" aria-roledescription="carousel" aria-label="{{slidesLabel}}">
+      <div class="slides">
+        <figure class="slide is-active" data-cap="{{capChateau}}">[[img chateau "100vw" capChateau eager]]</figure>
+        <figure class="slide" data-cap="{{capDents}}">[[img dents "100vw" capDents defer]]</figure>
+        <figure class="slide" data-cap="{{capPanorama}}">[[img panorama "100vw" capPanorama defer]]</figure>
+        <figure class="slide" data-cap="{{capAlpage}}">[[img alpage "100vw" capAlpage defer]]</figure>
       </div>
       <div class="container hero-content">
-        <p class="eyebrow">{{heroEyebrow}}</p>
-        <h1>{{heroTitle}}</h1>
-        <p class="lead">{{heroLead}}</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#offer">{{heroCta}} <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+        <p class="eyebrow" data-rise>{{heroEyebrow}}</p>
+        <h1 data-rise style="--d:.12s">{{heroTitle}}</h1>
+        <p class="lead" data-rise style="--d:.24s">{{heroLead}}</p>
+        <div class="hero-actions" data-rise style="--d:.36s">
+          <a class="btn btn-primary" href="#offer" data-magnet>{{heroCta}} <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
           <a class="btn btn-ghost" href="#stops">{{heroCta2}}</a>
         </div>
-        <p class="status-pill"><i aria-hidden="true"></i>{{notice}}</p>
+        <p class="status-pill" data-rise style="--d:.48s"><i aria-hidden="true"></i>{{notice}}</p>
       </div>
       <div class="hero-foot">
         <div class="container">
-          <ul class="hero-facts">
-            <li>{{fact1}}</li><li>Gruyère AOP</li><li>Maison Cailler</li><li>{{fact4}}</li>
-          </ul>
-          <a class="scroll-hint" href="#experience"><i aria-hidden="true"></i>{{scroll}}</a>
+          <p class="slide-cap" aria-live="polite"><span class="slide-num">01</span><span class="slide-name">{{capChateau}}</span></p>
+          <div class="slide-dots" role="tablist">
+            <button type="button" role="tab" aria-selected="true" aria-label="{{capChateau}}"><i></i></button>
+            <button type="button" role="tab" aria-selected="false" aria-label="{{capDents}}"><i></i></button>
+            <button type="button" role="tab" aria-selected="false" aria-label="{{capPanorama}}"><i></i></button>
+            <button type="button" role="tab" aria-selected="false" aria-label="{{capAlpage}}"><i></i></button>
+          </div>
+          <a class="scroll-hint" href="#region"><i aria-hidden="true"></i>{{scroll}}</a>
         </div>
       </div>
     </section>
@@ -100,7 +109,26 @@
       </div>
     </section>
 
-    <section class="section" id="experience">
+    <section class="section region" id="region">
+      <div class="container region-head">
+        <div data-reveal>
+          <p class="eyebrow">{{regionEyebrow}}</p>
+          <h2>{{regionTitle}}</h2>
+        </div>
+        <p class="lead" data-reveal style="--d:.12s">{{regionLead}}</p>
+      </div>
+      <figure class="wide-shot" data-unveil>
+        <div class="wide-inner" data-parallax="0.12">[[img panorama "100vw" capPanorama lazy]]</div>
+        <figcaption class="container">{{capPanorama}}</figcaption>
+      </figure>
+      <div class="container mosaic">
+        <figure class="tile tile-a" data-unveil>[[img village "(max-width: 900px) 100vw, 46vw" capVillage lazy]]<figcaption>{{capVillage}}</figcaption></figure>
+        <figure class="tile tile-b" data-unveil style="--d:.1s">[[img cloches "(max-width: 900px) 100vw, 30vw" capCloches lazy]]<figcaption>{{capCloches}}</figcaption></figure>
+        <figure class="tile tile-c" data-unveil style="--d:.2s">[[img jogne "(max-width: 900px) 100vw, 30vw" capJogne lazy]]<figcaption>{{capJogne}}</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
       <div class="container experience-grid">
         <div data-reveal>
           <p class="eyebrow">{{experienceEyebrow}}</p>
@@ -119,23 +147,29 @@
     </section>
 
     <section class="section stops" id="stops">
-      <div class="container stops-head">
-        <div data-reveal>
-          <p class="eyebrow">{{stopsEyebrow}}</p>
-          <h2>{{stopsTitle}}</h2>
-          <p class="lead">{{stopsLead}}</p>
-        </div>
-        <div class="rail-nav" data-reveal style="--d:.15s">
-          <button type="button" data-rail="-1" aria-label="&lt;"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M14 8H3M7 4 3 8l4 4"/></svg></button>
-          <button type="button" data-rail="1" aria-label="&gt;"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button>
-        </div>
+      <div class="container stops-intro" data-reveal>
+        <p class="eyebrow">{{stopsEyebrow}}</p>
+        <h2>{{stopsTitle}}</h2>
+        <p class="lead">{{stopsLead}}</p>
       </div>
-      <div class="rail" tabindex="0" aria-label="{{navStops}}">
-        <article class="stop" data-reveal><figure class="stop-media"><img src="/web/2_sm.jpg" alt="{{alt1}}" width="600" height="400" loading="lazy"><span class="num">01</span></figure><h3>{{s1t}}</h3><p>{{s1d}}</p></article>
-        <article class="stop" data-reveal style="--d:.08s"><figure class="stop-media"><img src="/web/fromage2_sm.jpg" alt="{{alt2}}" width="600" height="452" loading="lazy"><span class="num">02</span></figure><h3>{{s2t}}</h3><p>{{s2d}}</p></article>
-        <article class="stop" data-reveal style="--d:.16s"><figure class="stop-media"><img src="/web/cailler2_sm.jpg" alt="{{alt3}}" width="600" height="452" loading="lazy"><span class="num">03</span></figure><h3>{{s3t}}</h3><p>{{s3d}}</p></article>
-        <article class="stop" data-reveal style="--d:.24s"><figure class="stop-media"><img src="/web/giger_sm.jpg" alt="{{alt4}}" width="600" height="399" loading="lazy"><span class="num">04</span></figure><h3>{{s4t}}</h3><p>{{s4d}}</p></article>
-        <article class="stop" data-reveal style="--d:.32s"><figure class="stop-media"><img src="/web/moleson_commons_sm.jpg" alt="{{alt5}}" width="600" height="400" loading="lazy"><span class="num">05</span></figure><h3>{{s5t}}</h3><p>{{s5d}}</p></article>
+      <div class="container story">
+        <div class="story-media" aria-hidden="true">
+          <div class="story-frame">
+            <figure class="story-img is-active">[[img cite "(max-width: 900px) 100vw, 55vw" alt1 lazy]]</figure>
+            <figure class="story-img">[[img fromage "(max-width: 900px) 100vw, 55vw" alt2 lazy]]</figure>
+            <figure class="story-img">[[img cailler "(max-width: 900px) 100vw, 55vw" alt3 lazy]]</figure>
+            <figure class="story-img">[[img saint-germain "(max-width: 900px) 100vw, 55vw" alt4 lazy]]</figure>
+            <figure class="story-img">[[img moleson "(max-width: 900px) 100vw, 55vw" alt5 lazy]]</figure>
+            <span class="story-count"><b>01</b> / 05</span>
+          </div>
+        </div>
+        <ol class="story-steps">
+          <li class="story-step is-active"><figure class="step-img">[[img cite "100vw" alt1 lazy]]</figure><span class="num">01</span><h3>{{s1t}}</h3><p>{{s1d}}</p></li>
+          <li class="story-step"><figure class="step-img">[[img fromage "100vw" alt2 lazy]]</figure><span class="num">02</span><h3>{{s2t}}</h3><p>{{s2d}}</p></li>
+          <li class="story-step"><figure class="step-img">[[img cailler "100vw" alt3 lazy]]</figure><span class="num">03</span><h3>{{s3t}}</h3><p>{{s3d}}</p></li>
+          <li class="story-step"><figure class="step-img">[[img saint-germain "100vw" alt4 lazy]]</figure><span class="num">04</span><h3>{{s4t}}</h3><p>{{s4d}}</p></li>
+          <li class="story-step"><figure class="step-img">[[img moleson "100vw" alt5 lazy]]</figure><span class="num">05</span><h3>{{s5t}}</h3><p>{{s5d}}</p></li>
+        </ol>
       </div>
     </section>
 
@@ -146,7 +180,7 @@
           <h2>{{scheduleTitle}}</h2>
           <p class="lead">{{scheduleLead}}</p>
         </div>
-        <ol class="timeline" style="margin:0;padding:0;list-style:none">
+        <ol class="timeline">
           <li class="step" data-reveal><span class="time">{{time1}}</span><div><h3>{{t1t}}</h3><p>{{t1d}}</p></div></li>
           <li class="step" data-reveal><span class="time">{{time2}}</span><div><h3>{{t2t}}</h3><p>{{t2d}}</p></div></li>
           <li class="step" data-reveal><span class="time">{{time3}}</span><div><h3>{{t3t}}</h3><p>{{t3d}}</p></div></li>
@@ -157,13 +191,19 @@
       </div>
     </section>
 
+    <figure class="interlude" data-unveil>
+      <div class="wide-inner" data-parallax="0.18">[[img lac "100vw" capLac lazy]]</div>
+      <figcaption class="container">{{capLac}}</figcaption>
+    </figure>
+
     <section class="section offer" id="offer">
+      <div class="offer-bg" aria-hidden="true">[[img dents "100vw" capDents lazy]]</div>
       <div class="container offer-grid">
         <div data-reveal>
           <p class="eyebrow">{{offerEyebrow}}</p>
           <h2>{{offerTitle}}</h2>
           <p class="lead">{{offerLead}}</p>
-          <a class="btn btn-primary" href="#stops">{{discover}} <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+          <a class="btn btn-primary" href="#stops" data-magnet>{{discover}} <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
         </div>
         <div class="card-glass" data-reveal style="--d:.15s">
           <h3>{{whyTitle}}</h3>
@@ -184,7 +224,7 @@
           <h2>{{beforeTitle}}</h2>
           <p class="lead">{{beforeLead}}</p>
         </div>
-        <ol class="todo" data-reveal style="--d:.1s;margin:0;padding:0;list-style:none">
+        <ol class="todo" data-reveal style="--d:.1s">
           <li>{{c1}}</li>
           <li>{{c2}}</li>
           <li>{{c3}}</li>
@@ -211,54 +251,19 @@
           </nav>
         </div>
       </div>
+      <details class="credits">
+        <summary>{{creditsTitle}}</summary>
+        <ul>
+{{creditsList}}
+        </ul>
+      </details>
       <div class="footer-bottom">
         <p>© 2026 Gruyères Tours</p>
-        <p>{{photoCredit}} <a href="https://commons.wikimedia.org/wiki/File:Eglise_Saint-Th%C3%A9odule,_Gruy%C3%A8res,_panorama.jpg" rel="noopener">Ascasis</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.{{ccLang}}" rel="license noopener">CC BY SA 4.0</a></p>
       </div>
     </div>
   </footer>
 
-  <script>
-    (function () {
-      var root = document.documentElement;
-      var header = document.querySelector(".site-header");
-      var menuBtn = document.querySelector(".menu-btn");
-      var lang = document.querySelector(".lang");
-
-      function onScroll() { header.classList.toggle("is-solid", window.scrollY > 40); }
-      onScroll();
-      window.addEventListener("scroll", onScroll, { passive: true });
-
-      function setMenu(open) {
-        root.classList.toggle("menu-open", open);
-        menuBtn.setAttribute("aria-expanded", String(open));
-        document.body.style.overflow = open ? "hidden" : "";
-      }
-      menuBtn.addEventListener("click", function () { setMenu(!root.classList.contains("menu-open")); });
-      document.querySelectorAll(".mobile-panel a").forEach(function (a) { a.addEventListener("click", function () { setMenu(false); }); });
-      document.addEventListener("keydown", function (e) { if (e.key === "Escape") { setMenu(false); lang.open = false; } });
-      document.addEventListener("click", function (e) { if (lang.open && !lang.contains(e.target)) lang.open = false; });
-
-      var rail = document.querySelector(".rail");
-      document.querySelectorAll("[data-rail]").forEach(function (b) {
-        b.addEventListener("click", function () {
-          var card = rail.querySelector(".stop");
-          rail.scrollBy({ left: Number(b.dataset.rail) * (card.offsetWidth + 24), behavior: "smooth" });
-        });
-      });
-
-      var items = document.querySelectorAll("[data-reveal]");
-      if ("IntersectionObserver" in window) {
-        var io = new IntersectionObserver(function (entries) {
-          entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add("is-in"); io.unobserve(en.target); } });
-        }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
-        items.forEach(function (el) { io.observe(el); });
-      } else {
-        items.forEach(function (el) { el.classList.add("is-in"); });
-      }
-
-      try { localStorage.setItem("gt-lang", "{{lang}}"); } catch (e) {}
-    })();
-  </script>
+  <script src="/site.js?v={{version}}" defer></script>
+  <script>try { localStorage.setItem("gt-lang", "{{lang}}"); } catch (e) {}</script>
 </body>
 </html>

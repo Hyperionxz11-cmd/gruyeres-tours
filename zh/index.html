@@ -26,14 +26,16 @@
   <meta property="og:locale:alternate" content="es_ES">
   <meta property="og:title" content="Gruyères Tours | 从日内瓦出发的格吕耶尔私人一日游">
   <meta property="og:description" content="一天游遍格吕耶尔，行程安排无需您操心。">
-  <meta property="og:image" content="https://gruyeres-tours.com/web/hero_hd_sm.jpg">
+  <meta property="og:image" content="https://gruyeres-tours.com/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:url" content="https://gruyeres-tours.com/zh/">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="preload" as="image" href="/web/hero-gruyeres-panorama.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="/img/chateau-2400.webp" imagesrcset="/img/chateau-800.webp 800w, /img/chateau-1400.webp 1400w, /img/chateau-2400.webp 2400w" imagesizes="100vw" fetchpriority="high">
   <link rel="preload" href="/fonts/cormorant-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="icon" type="image/svg+xml" href="/logo.svg">
-  <link rel="stylesheet" href="/style.css?v=b326c0e0">
+  <link rel="stylesheet" href="/style.css?v=61aafc95">
   <script>document.documentElement.classList.add("js")</script>
   <script type="application/ld+json">
   {
@@ -43,7 +45,7 @@
     "description": "从日内瓦出发，用一天时间私享格吕耶尔与前阿尔卑斯山风光。",
     "inLanguage": "zh-Hans",
     "url": "https://gruyeres-tours.com/zh/",
-    "image": "https://gruyeres-tours.com/web/hero_hd_sm.jpg",
+    "image": "https://gruyeres-tours.com/img/og.jpg",
     "provider": {
       "@type": "Organization",
       "name": "Gruyères Tours",
@@ -63,7 +65,7 @@
         <span>Gruyères Tours</span>
       </a>
       <nav class="nav-links" aria-label="主导航">
-        <a href="#experience">体验</a>
+        <a href="#region">格吕耶尔地区</a>
         <a href="#stops">站点</a>
         <a href="#schedule">行程</a>
         <a href="#offer">项目</a>
@@ -86,7 +88,7 @@
   </header>
 
   <div class="mobile-panel" id="mobile-panel" aria-label="移动端导航">
-    <a href="#experience">体验</a>
+    <a href="#region">格吕耶尔地区</a>
     <a href="#stops">站点</a>
     <a href="#schedule">行程</a>
     <a href="#offer">项目</a>
@@ -101,26 +103,33 @@
   </div>
 
   <main id="main">
-    <section class="hero">
-      <div class="hero-media">
-        <img src="/web/hero-gruyeres-panorama.webp" alt="格吕耶尔与前阿尔卑斯山风景" width="2560" height="933" fetchpriority="high">
+    <section class="hero" aria-roledescription="carousel" aria-label="格吕耶尔风光">
+      <div class="slides">
+        <figure class="slide is-active" data-cap="格吕耶尔城堡"><img src="/img/chateau-1400.webp" srcset="/img/chateau-800.webp 800w, /img/chateau-1400.webp 1400w, /img/chateau-2400.webp 2400w" sizes="100vw" alt="格吕耶尔城堡" fetchpriority="high" decoding="async"></figure>
+        <figure class="slide" data-cap="布罗克峰与沙穆瓦峰"><img data-src="/img/dents-1400.webp" data-srcset="/img/dents-800.webp 800w, /img/dents-1400.webp 1400w, /img/dents-2400.webp 2400w" sizes="100vw" alt="布罗克峰与沙穆瓦峰" decoding="async"></figure>
+        <figure class="slide" data-cap="格吕耶尔与前阿尔卑斯山"><img data-src="/img/panorama-1400.webp" data-srcset="/img/panorama-800.webp 800w, /img/panorama-1400.webp 1400w, /img/panorama-2400.webp 2400w" sizes="100vw" alt="格吕耶尔与前阿尔卑斯山" decoding="async"></figure>
+        <figure class="slide" data-cap="高山牧场上的奶牛"><img data-src="/img/alpage-1400.webp" data-srcset="/img/alpage-800.webp 800w, /img/alpage-1400.webp 1400w, /img/alpage-2400.webp 2400w" sizes="100vw" alt="高山牧场上的奶牛" decoding="async"></figure>
       </div>
       <div class="container hero-content">
-        <p class="eyebrow">从日内瓦出发的私人一日游</p>
-        <h1>一天游遍格吕耶尔，行程安排无需您操心。</h1>
-        <p class="lead">城堡、奶酪、巧克力与阿尔卑斯山全景。为您的团体量身定制的私人路线，节奏灵活可调。</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#offer">了解项目 <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+        <p class="eyebrow" data-rise>从日内瓦出发的私人一日游</p>
+        <h1 data-rise style="--d:.12s">一天游遍格吕耶尔，行程安排无需您操心。</h1>
+        <p class="lead" data-rise style="--d:.24s">城堡、奶酪、巧克力与阿尔卑斯山全景。为您的团体量身定制的私人路线，节奏灵活可调。</p>
+        <div class="hero-actions" data-rise style="--d:.36s">
+          <a class="btn btn-primary" href="#offer" data-magnet>了解项目 <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
           <a class="btn btn-ghost" href="#stops">查看站点</a>
         </div>
-        <p class="status-pill"><i aria-hidden="true"></i>Gruyères Tours 正在筹备中。欢迎提前了解我们规划中的体验。</p>
+        <p class="status-pill" data-rise style="--d:.48s"><i aria-hidden="true"></i>Gruyères Tours 正在筹备中。欢迎提前了解我们规划中的体验。</p>
       </div>
       <div class="hero-foot">
         <div class="container">
-          <ul class="hero-facts">
-            <li>城堡</li><li>Gruyère AOP</li><li>Maison Cailler</li><li>前阿尔卑斯山</li>
-          </ul>
-          <a class="scroll-hint" href="#experience"><i aria-hidden="true"></i>向下滚动</a>
+          <p class="slide-cap" aria-live="polite"><span class="slide-num">01</span><span class="slide-name">格吕耶尔城堡</span></p>
+          <div class="slide-dots" role="tablist">
+            <button type="button" role="tab" aria-selected="true" aria-label="格吕耶尔城堡"><i></i></button>
+            <button type="button" role="tab" aria-selected="false" aria-label="布罗克峰与沙穆瓦峰"><i></i></button>
+            <button type="button" role="tab" aria-selected="false" aria-label="格吕耶尔与前阿尔卑斯山"><i></i></button>
+            <button type="button" role="tab" aria-selected="false" aria-label="高山牧场上的奶牛"><i></i></button>
+          </div>
+          <a class="scroll-hint" href="#region"><i aria-hidden="true"></i>向下滚动</a>
         </div>
       </div>
     </section>
@@ -135,7 +144,26 @@
       </div>
     </section>
 
-    <section class="section" id="experience">
+    <section class="section region" id="region">
+      <div class="container region-head">
+        <div data-reveal>
+          <p class="eyebrow">格吕耶尔地区</p>
+          <h2>石城、牧场与群峰之间。</h2>
+        </div>
+        <p class="lead" data-reveal style="--d:.12s">格吕耶尔地区位于弗里堡州的中心，这里有中世纪小镇、孕育格吕耶尔 AOP 奶酪的高山牧场、一片湖泊，以及前阿尔卑斯山的第一道山脊。我们希望以简单从容的方式，带您领略这片风景。</p>
+      </div>
+      <figure class="wide-shot" data-unveil>
+        <div class="wide-inner" data-parallax="0.12"><img src="/img/panorama-1400.webp" srcset="/img/panorama-800.webp 800w, /img/panorama-1400.webp 1400w, /img/panorama-2400.webp 2400w" sizes="100vw" alt="格吕耶尔与前阿尔卑斯山" loading="lazy" decoding="async"></div>
+        <figcaption class="container">格吕耶尔与前阿尔卑斯山</figcaption>
+      </figure>
+      <div class="container mosaic">
+        <figure class="tile tile-a" data-unveil><img src="/img/village-1400.webp" srcset="/img/village-800.webp 800w, /img/village-1400.webp 1400w, /img/village-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 46vw" alt="格吕耶尔小镇" loading="lazy" decoding="async"><figcaption>格吕耶尔小镇</figcaption></figure>
+        <figure class="tile tile-b" data-unveil style="--d:.1s"><img src="/img/cloches-1400.webp" srcset="/img/cloches-800.webp 800w, /img/cloches-1400.webp 1400w, /img/cloches-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 30vw" alt="高山牛铃" loading="lazy" decoding="async"><figcaption>高山牛铃</figcaption></figure>
+        <figure class="tile tile-c" data-unveil style="--d:.2s"><img src="/img/jogne-1400.webp" srcset="/img/jogne-800.webp 800w, /img/jogne-1400.webp 1400w, /img/jogne-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 30vw" alt="约涅峡谷" loading="lazy" decoding="async"><figcaption>约涅峡谷</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
       <div class="container experience-grid">
         <div data-reveal>
           <p class="eyebrow">项目介绍</p>
@@ -154,23 +182,29 @@
     </section>
 
     <section class="section stops" id="stops">
-      <div class="container stops-head">
-        <div data-reveal>
-          <p class="eyebrow">项目核心景点</p>
-          <h2>从中世纪遗产到群山之巅。</h2>
-          <p class="lead">最终路线将在合作伙伴、交通与当日节奏确认后公布。</p>
-        </div>
-        <div class="rail-nav" data-reveal style="--d:.15s">
-          <button type="button" data-rail="-1" aria-label="&lt;"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M14 8H3M7 4 3 8l4 4"/></svg></button>
-          <button type="button" data-rail="1" aria-label="&gt;"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button>
-        </div>
+      <div class="container stops-intro" data-reveal>
+        <p class="eyebrow">项目核心景点</p>
+        <h2>从中世纪遗产到群山之巅。</h2>
+        <p class="lead">最终路线将在合作伙伴、交通与当日节奏确认后公布。</p>
       </div>
-      <div class="rail" tabindex="0" aria-label="站点">
-        <article class="stop" data-reveal><figure class="stop-media"><img src="/web/2_sm.jpg" alt="格吕耶尔城堡与小镇" width="600" height="400" loading="lazy"><span class="num">01</span></figure><h3>格吕耶尔城堡</h3><p>矗立于中世纪小镇之上，承载八个世纪的历史。</p></article>
-        <article class="stop" data-reveal style="--d:.08s"><figure class="stop-media"><img src="/web/fromage2_sm.jpg" alt="格吕耶尔奶酪的制作过程" width="600" height="452" loading="lazy"><span class="num">02</span></figure><h3>格吕耶尔奶酪之家</h3><p>了解当地最具代表性的奶酪是如何制作的。</p></article>
-        <article class="stop" data-reveal style="--d:.16s"><figure class="stop-media"><img src="/web/cailler2_sm.jpg" alt="凯勒巧克力工坊 Maison Cailler" width="600" height="452" loading="lazy"><span class="num">03</span></figure><h3>凯勒巧克力工坊</h3><p>沉浸式感受瑞士巧克力的历史。</p></article>
-        <article class="stop" data-reveal style="--d:.24s"><figure class="stop-media"><img src="/web/giger_sm.jpg" alt="HR·吉格尔的艺术世界" width="600" height="399" loading="lazy"><span class="num">04</span></figure><h3>HR·吉格尔博物馆</h3><p>历史小镇中心一处令人惊叹的反差。</p></article>
-        <article class="stop" data-reveal style="--d:.32s"><figure class="stop-media"><img src="/web/moleson_commons_sm.jpg" alt="莫莱松山全景" width="600" height="400" loading="lazy"><span class="num">05</span></figure><h3>莫莱松山</h3><p>俯瞰前阿尔卑斯山全景，视天气与季节而定。</p></article>
+      <div class="container story">
+        <div class="story-media" aria-hidden="true">
+          <div class="story-frame">
+            <figure class="story-img is-active"><img src="/img/cite-1400.webp" srcset="/img/cite-800.webp 800w, /img/cite-1400.webp 1400w, /img/cite-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 55vw" alt="格吕耶尔中世纪小镇与城堡" loading="lazy" decoding="async"></figure>
+            <figure class="story-img"><img src="/img/fromage-1400.webp" srcset="/img/fromage-800.webp 800w, /img/fromage-1400.webp 1400w, /img/fromage-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 55vw" alt="熟成窖中的格吕耶尔奶酪" loading="lazy" decoding="async"></figure>
+            <figure class="story-img"><img src="/img/cailler-1400.webp" srcset="/img/cailler-800.webp 800w, /img/cailler-1400.webp 1400w, /img/cailler-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 55vw" alt="位于布罗克的凯勒巧克力工坊" loading="lazy" decoding="async"></figure>
+            <figure class="story-img"><img src="/img/saint-germain-1400.webp" srcset="/img/saint-germain-800.webp 800w, /img/saint-germain-1400.webp 1400w, /img/saint-germain-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 55vw" alt="圣日耳曼城堡，HR·吉格尔博物馆所在地" loading="lazy" decoding="async"></figure>
+            <figure class="story-img"><img src="/img/moleson-1400.webp" srcset="/img/moleson-800.webp 800w, /img/moleson-1400.webp 1400w, /img/moleson-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 55vw" alt="从东北方向远眺莫莱松山" loading="lazy" decoding="async"></figure>
+            <span class="story-count"><b>01</b> / 05</span>
+          </div>
+        </div>
+        <ol class="story-steps">
+          <li class="story-step is-active"><figure class="step-img"><img src="/img/cite-1400.webp" srcset="/img/cite-800.webp 800w, /img/cite-1400.webp 1400w, /img/cite-2400.webp 2400w" sizes="100vw" alt="格吕耶尔中世纪小镇与城堡" loading="lazy" decoding="async"></figure><span class="num">01</span><h3>格吕耶尔城堡</h3><p>矗立于中世纪小镇之上，承载八个世纪的历史。</p></li>
+          <li class="story-step"><figure class="step-img"><img src="/img/fromage-1400.webp" srcset="/img/fromage-800.webp 800w, /img/fromage-1400.webp 1400w, /img/fromage-2400.webp 2400w" sizes="100vw" alt="熟成窖中的格吕耶尔奶酪" loading="lazy" decoding="async"></figure><span class="num">02</span><h3>格吕耶尔奶酪之家</h3><p>了解当地最具代表性的奶酪是如何制作的。</p></li>
+          <li class="story-step"><figure class="step-img"><img src="/img/cailler-1400.webp" srcset="/img/cailler-800.webp 800w, /img/cailler-1400.webp 1400w, /img/cailler-2400.webp 2400w" sizes="100vw" alt="位于布罗克的凯勒巧克力工坊" loading="lazy" decoding="async"></figure><span class="num">03</span><h3>凯勒巧克力工坊</h3><p>沉浸式感受瑞士巧克力的历史。</p></li>
+          <li class="story-step"><figure class="step-img"><img src="/img/saint-germain-1400.webp" srcset="/img/saint-germain-800.webp 800w, /img/saint-germain-1400.webp 1400w, /img/saint-germain-2400.webp 2400w" sizes="100vw" alt="圣日耳曼城堡，HR·吉格尔博物馆所在地" loading="lazy" decoding="async"></figure><span class="num">04</span><h3>HR·吉格尔博物馆</h3><p>历史小镇中心一处令人惊叹的反差。</p></li>
+          <li class="story-step"><figure class="step-img"><img src="/img/moleson-1400.webp" srcset="/img/moleson-800.webp 800w, /img/moleson-1400.webp 1400w, /img/moleson-2400.webp 2400w" sizes="100vw" alt="从东北方向远眺莫莱松山" loading="lazy" decoding="async"></figure><span class="num">05</span><h3>莫莱松山</h3><p>俯瞰前阿尔卑斯山全景，视天气与季节而定。</p></li>
+        </ol>
       </div>
     </section>
 
@@ -181,7 +215,7 @@
           <h2>从日内瓦到格吕耶尔，从容而行。</h2>
           <p class="lead">这个项目将历史遗产、美食与自然风光融入同一天。最终路线将考虑季节与当时的情况。</p>
         </div>
-        <ol class="timeline" style="margin:0;padding:0;list-style:none">
+        <ol class="timeline">
           <li class="step" data-reveal><span class="time">出发</span><div><h3>日内瓦出发</h3><p>在日内瓦接送，具体安排将在正式上线时公布。</p></div></li>
           <li class="step" data-reveal><span class="time">上午</span><div><h3>格吕耶尔</h3><p>城堡与中世纪小镇。</p></div></li>
           <li class="step" data-reveal><span class="time">中午</span><div><h3>自由午餐</h3><p>在小镇自由活动。</p></div></li>
@@ -192,13 +226,19 @@
       </div>
     </section>
 
+    <figure class="interlude" data-unveil>
+      <div class="wide-inner" data-parallax="0.18"><img src="/img/lac-1400.webp" srcset="/img/lac-800.webp 800w, /img/lac-1400.webp 1400w, /img/lac-2400.webp 2400w" sizes="100vw" alt="格吕耶尔湖" loading="lazy" decoding="async"></div>
+      <figcaption class="container">格吕耶尔湖</figcaption>
+    </figure>
+
     <section class="section offer" id="offer">
+      <div class="offer-bg" aria-hidden="true"><img src="/img/dents-1400.webp" srcset="/img/dents-800.webp 800w, /img/dents-1400.webp 1400w, /img/dents-2400.webp 2400w" sizes="100vw" alt="布罗克峰与沙穆瓦峰" loading="lazy" decoding="async"></div>
       <div class="container offer-grid">
         <div data-reveal>
           <p class="eyebrow">即将开放</p>
           <h2>一段在地体验正在筹备中。</h2>
           <p class="lead">所有核实工作完成后，行程、可预订日期与相关条件将在此公布。</p>
-          <a class="btn btn-primary" href="#stops">探索景点 <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+          <a class="btn btn-primary" href="#stops" data-magnet>探索景点 <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
         </div>
         <div class="card-glass" data-reveal style="--d:.15s">
           <h3>为什么现在就有这个页面</h3>
@@ -219,7 +259,7 @@
           <h2>仍待确认的事项。</h2>
           <p class="lead">当前版本仅供参考，暂不支持预订或付款。</p>
         </div>
-        <ol class="todo" data-reveal style="--d:.1s;margin:0;padding:0;list-style:none">
+        <ol class="todo" data-reveal style="--d:.1s">
           <li>最终路线与时间安排</li>
           <li>价格与条件</li>
           <li>交通与陪同安排</li>
@@ -251,54 +291,31 @@
           </nav>
         </div>
       </div>
+      <details class="credits">
+        <summary>图片来源</summary>
+        <ul>
+          <li>格吕耶尔城堡 : 作者 Giles Laurent, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:12_Chateau_de_Gruy%C3%A8res_Photo_by_Giles_Laurent.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>布罗克峰与沙穆瓦峰 : 作者 Björn S., <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Dent_de_Broc_and_Dent_du_Chamois_seen_from_the_Niremont_-_panoramio.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>格吕耶尔与前阿尔卑斯山 : 作者 Pepegui, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Panorama_Gruy%C3%A8res.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>高山牧场上的奶牛 : 作者 Thierry Wagner (Gruyere alpage), <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Vache_en_alpage_(lys).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>格吕耶尔城堡 : 作者 Christian David, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Cit%C3%A9_m%C3%A9di%C3%A9vale_de_Gruy%C3%A8res_(1).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>熟成窖中的格吕耶尔奶酪 : 作者 GGDELABAS, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Fromagerie_de_la_ville.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>凯勒巧克力工坊 : 作者 Likasia, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Schokoladenfabrik_Cailler_mit_Bahnhof.JPG" rel="noopener">Wikimedia Commons</a></li>
+          <li>HR·吉格尔博物馆 : 作者 Pro1968, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Fribourg_-_Gruy%C3%A8res_-_Ch%C3%A2teau_Saint-Germain_-_2.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>莫莱松山 : 作者 Christian David, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Moleson_from_north-east.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>格吕耶尔小镇 : 作者 Davide.ceresetti, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruyeres_le_village.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>格吕耶尔湖 : 作者 Thomas Woodtli from Zürich, Switzerland, <a href="https://creativecommons.org/licenses/by-sa/2.0" rel="license noopener">CC BY-SA 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Lac_de_la_Gruy%C3%A8re_(28705367022).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>高山牛铃 : 作者 Thierry Wagner (Gruyere alpage), <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Cloches_des_vaches.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>约涅峡谷 : 作者 Jérémy Sauterel from Suisse, <a href="https://creativecommons.org/licenses/by/2.0" rel="license noopener">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Rivi%C3%A8re_aux_Gorges_de_la_Jogne_(49424343057).jpg" rel="noopener">Wikimedia Commons</a></li>
+        </ul>
+      </details>
       <div class="footer-bottom">
         <p>© 2026 Gruyères Tours</p>
-        <p>封面照片： <a href="https://commons.wikimedia.org/wiki/File:Eglise_Saint-Th%C3%A9odule,_Gruy%C3%A8res,_panorama.jpg" rel="noopener">Ascasis</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans" rel="license noopener">CC BY SA 4.0</a></p>
       </div>
     </div>
   </footer>
 
-  <script>
-    (function () {
-      var root = document.documentElement;
-      var header = document.querySelector(".site-header");
-      var menuBtn = document.querySelector(".menu-btn");
-      var lang = document.querySelector(".lang");
-
-      function onScroll() { header.classList.toggle("is-solid", window.scrollY > 40); }
-      onScroll();
-      window.addEventListener("scroll", onScroll, { passive: true });
-
-      function setMenu(open) {
-        root.classList.toggle("menu-open", open);
-        menuBtn.setAttribute("aria-expanded", String(open));
-        document.body.style.overflow = open ? "hidden" : "";
-      }
-      menuBtn.addEventListener("click", function () { setMenu(!root.classList.contains("menu-open")); });
-      document.querySelectorAll(".mobile-panel a").forEach(function (a) { a.addEventListener("click", function () { setMenu(false); }); });
-      document.addEventListener("keydown", function (e) { if (e.key === "Escape") { setMenu(false); lang.open = false; } });
-      document.addEventListener("click", function (e) { if (lang.open && !lang.contains(e.target)) lang.open = false; });
-
-      var rail = document.querySelector(".rail");
-      document.querySelectorAll("[data-rail]").forEach(function (b) {
-        b.addEventListener("click", function () {
-          var card = rail.querySelector(".stop");
-          rail.scrollBy({ left: Number(b.dataset.rail) * (card.offsetWidth + 24), behavior: "smooth" });
-        });
-      });
-
-      var items = document.querySelectorAll("[data-reveal]");
-      if ("IntersectionObserver" in window) {
-        var io = new IntersectionObserver(function (entries) {
-          entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add("is-in"); io.unobserve(en.target); } });
-        }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
-        items.forEach(function (el) { io.observe(el); });
-      } else {
-        items.forEach(function (el) { el.classList.add("is-in"); });
-      }
-
-      try { localStorage.setItem("gt-lang", "zh"); } catch (e) {}
-    })();
-  </script>
+  <script src="/site.js?v=61aafc95" defer></script>
+  <script>try { localStorage.setItem("gt-lang", "zh"); } catch (e) {}</script>
 </body>
 </html>

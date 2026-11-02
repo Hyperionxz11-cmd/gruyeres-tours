@@ -26,14 +26,16 @@
   <meta property="og:locale:alternate" content="zh_CN">
   <meta property="og:title" content="Gruyères Tours | Private day trip from Geneva">
   <meta property="og:description" content="Gruyères in one day, without worrying about the logistics.">
-  <meta property="og:image" content="https://gruyeres-tours.com/web/hero_hd_sm.jpg">
+  <meta property="og:image" content="https://gruyeres-tours.com/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:url" content="https://gruyeres-tours.com/en/">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="preload" as="image" href="/web/hero-gruyeres-panorama.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="/img/chateau-2400.webp" imagesrcset="/img/chateau-800.webp 800w, /img/chateau-1400.webp 1400w, /img/chateau-2400.webp 2400w" imagesizes="100vw" fetchpriority="high">
   <link rel="preload" href="/fonts/cormorant-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="icon" type="image/svg+xml" href="/logo.svg">
-  <link rel="stylesheet" href="/style.css?v=b326c0e0">
+  <link rel="stylesheet" href="/style.css?v=61aafc95">
   <script>document.documentElement.classList.add("js")</script>
   <script type="application/ld+json">
   {
@@ -43,7 +45,7 @@
     "description": "A private day to discover Gruyères and the Prealps, departing from Geneva.",
     "inLanguage": "en",
     "url": "https://gruyeres-tours.com/en/",
-    "image": "https://gruyeres-tours.com/web/hero_hd_sm.jpg",
+    "image": "https://gruyeres-tours.com/img/og.jpg",
     "provider": {
       "@type": "Organization",
       "name": "Gruyères Tours",
@@ -63,7 +65,7 @@
         <span>Gruyères Tours</span>
       </a>
       <nav class="nav-links" aria-label="Main navigation">
-        <a href="#experience">Experience</a>
+        <a href="#region">The Gruyère region</a>
         <a href="#stops">Stops</a>
         <a href="#schedule">Itinerary</a>
         <a href="#offer">The project</a>
@@ -86,7 +88,7 @@
   </header>
 
   <div class="mobile-panel" id="mobile-panel" aria-label="Mobile navigation">
-    <a href="#experience">Experience</a>
+    <a href="#region">The Gruyère region</a>
     <a href="#stops">Stops</a>
     <a href="#schedule">Itinerary</a>
     <a href="#offer">The project</a>
@@ -101,26 +103,33 @@
   </div>
 
   <main id="main">
-    <section class="hero">
-      <div class="hero-media">
-        <img src="/web/hero-gruyeres-panorama.webp" alt="Landscape of Gruyères and the Prealps" width="2560" height="933" fetchpriority="high">
+    <section class="hero" aria-roledescription="carousel" aria-label="Landscapes of the Gruyère region">
+      <div class="slides">
+        <figure class="slide is-active" data-cap="Gruyères Castle"><img src="/img/chateau-1400.webp" srcset="/img/chateau-800.webp 800w, /img/chateau-1400.webp 1400w, /img/chateau-2400.webp 2400w" sizes="100vw" alt="Gruyères Castle" fetchpriority="high" decoding="async"></figure>
+        <figure class="slide" data-cap="Dent de Broc and Dent du Chamois"><img data-src="/img/dents-1400.webp" data-srcset="/img/dents-800.webp 800w, /img/dents-1400.webp 1400w, /img/dents-2400.webp 2400w" sizes="100vw" alt="Dent de Broc and Dent du Chamois" decoding="async"></figure>
+        <figure class="slide" data-cap="Gruyères and the Prealps"><img data-src="/img/panorama-1400.webp" data-srcset="/img/panorama-800.webp 800w, /img/panorama-1400.webp 1400w, /img/panorama-2400.webp 2400w" sizes="100vw" alt="Gruyères and the Prealps" decoding="async"></figure>
+        <figure class="slide" data-cap="Cow on the alpine pasture"><img data-src="/img/alpage-1400.webp" data-srcset="/img/alpage-800.webp 800w, /img/alpage-1400.webp 1400w, /img/alpage-2400.webp 2400w" sizes="100vw" alt="Cow on the alpine pasture" decoding="async"></figure>
       </div>
       <div class="container hero-content">
-        <p class="eyebrow">Private day trip from Geneva</p>
-        <h1>Gruyères in one day, without the logistics.</h1>
-        <p class="lead">Castle, cheese, chocolate and alpine views. A private itinerary for your group, at a pace that suits you.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#offer">Discover the project <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+        <p class="eyebrow" data-rise>Private day trip from Geneva</p>
+        <h1 data-rise style="--d:.12s">Gruyères in one day, without the logistics.</h1>
+        <p class="lead" data-rise style="--d:.24s">Castle, cheese, chocolate and alpine views. A private itinerary for your group, at a pace that suits you.</p>
+        <div class="hero-actions" data-rise style="--d:.36s">
+          <a class="btn btn-primary" href="#offer" data-magnet>Discover the project <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
           <a class="btn btn-ghost" href="#stops">See the stops</a>
         </div>
-        <p class="status-pill"><i aria-hidden="true"></i>Gruyères Tours is getting ready. Discover the planned experience now.</p>
+        <p class="status-pill" data-rise style="--d:.48s"><i aria-hidden="true"></i>Gruyères Tours is getting ready. Discover the planned experience now.</p>
       </div>
       <div class="hero-foot">
         <div class="container">
-          <ul class="hero-facts">
-            <li>Castle</li><li>Gruyère AOP</li><li>Maison Cailler</li><li>Prealps</li>
-          </ul>
-          <a class="scroll-hint" href="#experience"><i aria-hidden="true"></i>Scroll</a>
+          <p class="slide-cap" aria-live="polite"><span class="slide-num">01</span><span class="slide-name">Gruyères Castle</span></p>
+          <div class="slide-dots" role="tablist">
+            <button type="button" role="tab" aria-selected="true" aria-label="Gruyères Castle"><i></i></button>
+            <button type="button" role="tab" aria-selected="false" aria-label="Dent de Broc and Dent du Chamois"><i></i></button>
+            <button type="button" role="tab" aria-selected="false" aria-label="Gruyères and the Prealps"><i></i></button>
+            <button type="button" role="tab" aria-selected="false" aria-label="Cow on the alpine pasture"><i></i></button>
+          </div>
+          <a class="scroll-hint" href="#region"><i aria-hidden="true"></i>Scroll</a>
         </div>
       </div>
     </section>
@@ -135,7 +144,26 @@
       </div>
     </section>
 
-    <section class="section" id="experience">
+    <section class="section region" id="region">
+      <div class="container region-head">
+        <div data-reveal>
+          <p class="eyebrow">The Gruyère region</p>
+          <h2>Between stone, pastures and peaks.</h2>
+        </div>
+        <p class="lead" data-reveal style="--d:.12s">In the heart of the canton of Fribourg, the Gruyère region brings together a medieval town, alpine pastures where Gruyère AOP is born, a lake and the first ridges of the Prealps. This is the landscape we want to share with you, simply and at your own pace.</p>
+      </div>
+      <figure class="wide-shot" data-unveil>
+        <div class="wide-inner" data-parallax="0.12"><img src="/img/panorama-1400.webp" srcset="/img/panorama-800.webp 800w, /img/panorama-1400.webp 1400w, /img/panorama-2400.webp 2400w" sizes="100vw" alt="Gruyères and the Prealps" loading="lazy" decoding="async"></div>
+        <figcaption class="container">Gruyères and the Prealps</figcaption>
+      </figure>
+      <div class="container mosaic">
+        <figure class="tile tile-a" data-unveil><img src="/img/village-1400.webp" srcset="/img/village-800.webp 800w, /img/village-1400.webp 1400w, /img/village-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 46vw" alt="The town of Gruyères" loading="lazy" decoding="async"><figcaption>The town of Gruyères</figcaption></figure>
+        <figure class="tile tile-b" data-unveil style="--d:.1s"><img src="/img/cloches-1400.webp" srcset="/img/cloches-800.webp 800w, /img/cloches-1400.webp 1400w, /img/cloches-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 30vw" alt="Alpine cowbells" loading="lazy" decoding="async"><figcaption>Alpine cowbells</figcaption></figure>
+        <figure class="tile tile-c" data-unveil style="--d:.2s"><img src="/img/jogne-1400.webp" srcset="/img/jogne-800.webp 800w, /img/jogne-1400.webp 1400w, /img/jogne-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 30vw" alt="Jogne Gorges" loading="lazy" decoding="async"><figcaption>Jogne Gorges</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
       <div class="container experience-grid">
         <div data-reveal>
           <p class="eyebrow">The project</p>
@@ -154,23 +182,29 @@
     </section>
 
     <section class="section stops" id="stops">
-      <div class="container stops-head">
-        <div data-reveal>
-          <p class="eyebrow">The places at the heart of the project</p>
-          <h2>From medieval heritage to mountain peaks.</h2>
-          <p class="lead">The final route will be announced once partners, access and the pace of the day are confirmed.</p>
-        </div>
-        <div class="rail-nav" data-reveal style="--d:.15s">
-          <button type="button" data-rail="-1" aria-label="&lt;"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M14 8H3M7 4 3 8l4 4"/></svg></button>
-          <button type="button" data-rail="1" aria-label="&gt;"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button>
-        </div>
+      <div class="container stops-intro" data-reveal>
+        <p class="eyebrow">The places at the heart of the project</p>
+        <h2>From medieval heritage to mountain peaks.</h2>
+        <p class="lead">The final route will be announced once partners, access and the pace of the day are confirmed.</p>
       </div>
-      <div class="rail" tabindex="0" aria-label="Stops">
-        <article class="stop" data-reveal><figure class="stop-media"><img src="/web/2_sm.jpg" alt="Gruyères castle and village" width="600" height="400" loading="lazy"><span class="num">01</span></figure><h3>Gruyères Castle</h3><p>Eight centuries of history above the medieval town.</p></article>
-        <article class="stop" data-reveal style="--d:.08s"><figure class="stop-media"><img src="/web/fromage2_sm.jpg" alt="Gruyère cheese being made" width="600" height="452" loading="lazy"><span class="num">02</span></figure><h3>La Maison du Gruyère</h3><p>See how the region’s most famous cheese is made.</p></article>
-        <article class="stop" data-reveal style="--d:.16s"><figure class="stop-media"><img src="/web/cailler2_sm.jpg" alt="Maison Cailler" width="600" height="452" loading="lazy"><span class="num">03</span></figure><h3>Maison Cailler</h3><p>A journey into the history of Swiss chocolate.</p></article>
-        <article class="stop" data-reveal style="--d:.24s"><figure class="stop-media"><img src="/web/giger_sm.jpg" alt="The art world of HR Giger" width="600" height="399" loading="lazy"><span class="num">04</span></figure><h3>HR Giger Museum</h3><p>A striking contrast in the heart of the historic village.</p></article>
-        <article class="stop" data-reveal style="--d:.32s"><figure class="stop-media"><img src="/web/moleson_commons_sm.jpg" alt="View from the Moléson" width="600" height="400" loading="lazy"><span class="num">05</span></figure><h3>The Moléson</h3><p>Views over the Prealps, depending on weather and season.</p></article>
+      <div class="container story">
+        <div class="story-media" aria-hidden="true">
+          <div class="story-frame">
+            <figure class="story-img is-active"><img src="/img/cite-1400.webp" srcset="/img/cite-800.webp 800w, /img/cite-1400.webp 1400w, /img/cite-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 55vw" alt="The medieval town of Gruyères and its castle" loading="lazy" decoding="async"></figure>
+            <figure class="story-img"><img src="/img/fromage-1400.webp" srcset="/img/fromage-800.webp 800w, /img/fromage-1400.webp 1400w, /img/fromage-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 55vw" alt="Wheels of Gruyère in a maturing cellar" loading="lazy" decoding="async"></figure>
+            <figure class="story-img"><img src="/img/cailler-1400.webp" srcset="/img/cailler-800.webp 800w, /img/cailler-1400.webp 1400w, /img/cailler-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 55vw" alt="The Maison Cailler factory in Broc" loading="lazy" decoding="async"></figure>
+            <figure class="story-img"><img src="/img/saint-germain-1400.webp" srcset="/img/saint-germain-800.webp 800w, /img/saint-germain-1400.webp 1400w, /img/saint-germain-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 55vw" alt="Saint-Germain Castle, home of the HR Giger Museum" loading="lazy" decoding="async"></figure>
+            <figure class="story-img"><img src="/img/moleson-1400.webp" srcset="/img/moleson-800.webp 800w, /img/moleson-1400.webp 1400w, /img/moleson-2400.webp 2400w" sizes="(max-width: 900px) 100vw, 55vw" alt="The Moléson seen from the north-east" loading="lazy" decoding="async"></figure>
+            <span class="story-count"><b>01</b> / 05</span>
+          </div>
+        </div>
+        <ol class="story-steps">
+          <li class="story-step is-active"><figure class="step-img"><img src="/img/cite-1400.webp" srcset="/img/cite-800.webp 800w, /img/cite-1400.webp 1400w, /img/cite-2400.webp 2400w" sizes="100vw" alt="The medieval town of Gruyères and its castle" loading="lazy" decoding="async"></figure><span class="num">01</span><h3>Gruyères Castle</h3><p>Eight centuries of history above the medieval town.</p></li>
+          <li class="story-step"><figure class="step-img"><img src="/img/fromage-1400.webp" srcset="/img/fromage-800.webp 800w, /img/fromage-1400.webp 1400w, /img/fromage-2400.webp 2400w" sizes="100vw" alt="Wheels of Gruyère in a maturing cellar" loading="lazy" decoding="async"></figure><span class="num">02</span><h3>La Maison du Gruyère</h3><p>See how the region’s most famous cheese is made.</p></li>
+          <li class="story-step"><figure class="step-img"><img src="/img/cailler-1400.webp" srcset="/img/cailler-800.webp 800w, /img/cailler-1400.webp 1400w, /img/cailler-2400.webp 2400w" sizes="100vw" alt="The Maison Cailler factory in Broc" loading="lazy" decoding="async"></figure><span class="num">03</span><h3>Maison Cailler</h3><p>A journey into the history of Swiss chocolate.</p></li>
+          <li class="story-step"><figure class="step-img"><img src="/img/saint-germain-1400.webp" srcset="/img/saint-germain-800.webp 800w, /img/saint-germain-1400.webp 1400w, /img/saint-germain-2400.webp 2400w" sizes="100vw" alt="Saint-Germain Castle, home of the HR Giger Museum" loading="lazy" decoding="async"></figure><span class="num">04</span><h3>HR Giger Museum</h3><p>A striking contrast in the heart of the historic village.</p></li>
+          <li class="story-step"><figure class="step-img"><img src="/img/moleson-1400.webp" srcset="/img/moleson-800.webp 800w, /img/moleson-1400.webp 1400w, /img/moleson-2400.webp 2400w" sizes="100vw" alt="The Moléson seen from the north-east" loading="lazy" decoding="async"></figure><span class="num">05</span><h3>The Moléson</h3><p>Views over the Prealps, depending on weather and season.</p></li>
+        </ol>
       </div>
     </section>
 
@@ -181,7 +215,7 @@
           <h2>From Geneva to Gruyère, taking your time.</h2>
           <p class="lead">The project brings heritage, food and landscapes together in a single day. The final route will take the season and current conditions into account.</p>
         </div>
-        <ol class="timeline" style="margin:0;padding:0;list-style:none">
+        <ol class="timeline">
           <li class="step" data-reveal><span class="time">Departure</span><div><h3>Departure from Geneva</h3><p>Pick-up in Geneva, under arrangements to be published at launch.</p></div></li>
           <li class="step" data-reveal><span class="time">Morning</span><div><h3>Gruyères</h3><p>Castle and medieval town.</p></div></li>
           <li class="step" data-reveal><span class="time">Midday</span><div><h3>Lunch at leisure</h3><p>Free time in the village.</p></div></li>
@@ -192,13 +226,19 @@
       </div>
     </section>
 
+    <figure class="interlude" data-unveil>
+      <div class="wide-inner" data-parallax="0.18"><img src="/img/lac-1400.webp" srcset="/img/lac-800.webp 800w, /img/lac-1400.webp 1400w, /img/lac-2400.webp 2400w" sizes="100vw" alt="Lake Gruyère" loading="lazy" decoding="async"></div>
+      <figcaption class="container">Lake Gruyère</figcaption>
+    </figure>
+
     <section class="section offer" id="offer">
+      <div class="offer-bg" aria-hidden="true"><img src="/img/dents-1400.webp" srcset="/img/dents-800.webp 800w, /img/dents-1400.webp 1400w, /img/dents-2400.webp 2400w" sizes="100vw" alt="Dent de Broc and Dent du Chamois" loading="lazy" decoding="async"></div>
       <div class="container offer-grid">
         <div data-reveal>
           <p class="eyebrow">Opening soon</p>
           <h2>A local experience in the making.</h2>
           <p class="lead">The itinerary, availability and terms will be published here once all checks are complete.</p>
-          <a class="btn btn-primary" href="#stops">Discover the places <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+          <a class="btn btn-primary" href="#stops" data-magnet>Discover the places <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
         </div>
         <div class="card-glass" data-reveal style="--d:.15s">
           <h3>Why this page already exists</h3>
@@ -219,7 +259,7 @@
           <h2>What remains to be confirmed.</h2>
           <p class="lead">This first version is for information only. It does not allow booking or payment.</p>
         </div>
-        <ol class="todo" data-reveal style="--d:.1s;margin:0;padding:0;list-style:none">
+        <ol class="todo" data-reveal style="--d:.1s">
           <li>The final route and times</li>
           <li>Price and terms</li>
           <li>Transport and guiding arrangements</li>
@@ -251,54 +291,31 @@
           </nav>
         </div>
       </div>
+      <details class="credits">
+        <summary>Photo credits</summary>
+        <ul>
+          <li>Gruyères Castle : by Giles Laurent, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:12_Chateau_de_Gruy%C3%A8res_Photo_by_Giles_Laurent.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Dent de Broc and Dent du Chamois : by Björn S., <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Dent_de_Broc_and_Dent_du_Chamois_seen_from_the_Niremont_-_panoramio.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Gruyères and the Prealps : by Pepegui, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Panorama_Gruy%C3%A8res.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Cow on the alpine pasture : by Thierry Wagner (Gruyere alpage), <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Vache_en_alpage_(lys).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Gruyères Castle : by Christian David, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Cit%C3%A9_m%C3%A9di%C3%A9vale_de_Gruy%C3%A8res_(1).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Wheels of Gruyère in a maturing cellar : by GGDELABAS, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Fromagerie_de_la_ville.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Maison Cailler : by Likasia, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Schokoladenfabrik_Cailler_mit_Bahnhof.JPG" rel="noopener">Wikimedia Commons</a></li>
+          <li>HR Giger Museum : by Pro1968, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Fribourg_-_Gruy%C3%A8res_-_Ch%C3%A2teau_Saint-Germain_-_2.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>The Moléson : by Christian David, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Moleson_from_north-east.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>The town of Gruyères : by Davide.ceresetti, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruyeres_le_village.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Lake Gruyère : by Thomas Woodtli from Zürich, Switzerland, <a href="https://creativecommons.org/licenses/by-sa/2.0" rel="license noopener">CC BY-SA 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Lac_de_la_Gruy%C3%A8re_(28705367022).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Alpine cowbells : by Thierry Wagner (Gruyere alpage), <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Cloches_des_vaches.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Jogne Gorges : by Jérémy Sauterel from Suisse, <a href="https://creativecommons.org/licenses/by/2.0" rel="license noopener">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Rivi%C3%A8re_aux_Gorges_de_la_Jogne_(49424343057).jpg" rel="noopener">Wikimedia Commons</a></li>
+        </ul>
+      </details>
       <div class="footer-bottom">
         <p>© 2026 Gruyères Tours</p>
-        <p>Cover photo: <a href="https://commons.wikimedia.org/wiki/File:Eglise_Saint-Th%C3%A9odule,_Gruy%C3%A8res,_panorama.jpg" rel="noopener">Ascasis</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" rel="license noopener">CC BY SA 4.0</a></p>
       </div>
     </div>
   </footer>
 
-  <script>
-    (function () {
-      var root = document.documentElement;
-      var header = document.querySelector(".site-header");
-      var menuBtn = document.querySelector(".menu-btn");
-      var lang = document.querySelector(".lang");
-
-      function onScroll() { header.classList.toggle("is-solid", window.scrollY > 40); }
-      onScroll();
-      window.addEventListener("scroll", onScroll, { passive: true });
-
-      function setMenu(open) {
-        root.classList.toggle("menu-open", open);
-        menuBtn.setAttribute("aria-expanded", String(open));
-        document.body.style.overflow = open ? "hidden" : "";
-      }
-      menuBtn.addEventListener("click", function () { setMenu(!root.classList.contains("menu-open")); });
-      document.querySelectorAll(".mobile-panel a").forEach(function (a) { a.addEventListener("click", function () { setMenu(false); }); });
-      document.addEventListener("keydown", function (e) { if (e.key === "Escape") { setMenu(false); lang.open = false; } });
-      document.addEventListener("click", function (e) { if (lang.open && !lang.contains(e.target)) lang.open = false; });
-
-      var rail = document.querySelector(".rail");
-      document.querySelectorAll("[data-rail]").forEach(function (b) {
-        b.addEventListener("click", function () {
-          var card = rail.querySelector(".stop");
-          rail.scrollBy({ left: Number(b.dataset.rail) * (card.offsetWidth + 24), behavior: "smooth" });
-        });
-      });
-
-      var items = document.querySelectorAll("[data-reveal]");
-      if ("IntersectionObserver" in window) {
-        var io = new IntersectionObserver(function (entries) {
-          entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add("is-in"); io.unobserve(en.target); } });
-        }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
-        items.forEach(function (el) { io.observe(el); });
-      } else {
-        items.forEach(function (el) { el.classList.add("is-in"); });
-      }
-
-      try { localStorage.setItem("gt-lang", "en"); } catch (e) {}
-    })();
-  </script>
+  <script src="/site.js?v=61aafc95" defer></script>
+  <script>try { localStorage.setItem("gt-lang", "en"); } catch (e) {}</script>
 </body>
 </html>

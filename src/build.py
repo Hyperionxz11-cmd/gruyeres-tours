@@ -30,7 +30,55 @@ src = Path(__file__).resolve().parent
 root = src.parent
 template = (src / "template.html").read_text(encoding="utf-8")
 texts = {l: json.loads((src / "i18n" / f"{l}.json").read_text(encoding="utf-8")) for l in LANGS}
-version = hashlib.sha1((root / "style.css").read_bytes()).hexdigest()[:8]
+version = hashlib.sha1((root / "style.css").read_bytes() + (root / "site.js").read_bytes()).hexdigest()[:8]
+credits = json.loads((src / "credits.json").read_text(encoding="utf-8"))
+WIDTHS = (800, 1400, 2400)
+# légende utilisée dans les crédits pour chaque photo
+CAPTION = {"chateau": "capChateau", "dents": "capDents", "panorama": "capPanorama", "alpage": "capAlpage",
+           "cite": "s1t", "fromage": "alt2", "cailler": "s3t", "saint-germain": "s4t", "moleson": "s5t",
+           "village": "capVillage", "lac": "capLac", "cloches": "capCloches", "jogne": "capJogne"}
+IMG_RE = re.compile(r'\[\[img (\S+) "([^"]+)" (\w+) (eager|lazy|defer)\]\]')
+
+
+def img_tag(name, sizes, alt, mode):
+    """Une photo en 3 tailles. eager : tout de suite ; lazy : au défilement ; defer : après la page."""
+    srcset = ", ".join(f"/img/{name}-{w}.webp {w}w" for w in WIDTHS)
+    fallback = f"/img/{name}-1400.webp"
+    alt = html.escape(alt, quote=True)
+    if mode == "eager":
+        return f'<img src="{fallback}" srcset="{srcset}" sizes="{sizes}" alt="{alt}" fetchpriority="high" decoding="async">'
+    if mode == "defer":
+        return f'<img data-src="{fallback}" data-srcset="{srcset}" sizes="{sizes}" alt="{alt}" decoding="async">'
+    return f'<img src="{fallback}" srcset="{srcset}" sizes="{sizes}" alt="{alt}" loading="lazy" decoding="async">'
+
+
+def credits_list(lang):
+    t = texts[lang]
+    rows = []
+    for name, c in credits.items():
+        cap = html.escape(t.get(CAPTION.get(name, ""), name))
+        lic = f'<a href="{html.escape(c["licenseUrl"])}" rel="license noopener">{html.escape(c["license"])}</a>' if c["licenseUrl"] else html.escape(c["license"])
+        rows.append(f'          <li>{cap} : {html.escape(t["creditsBy"])} {html.escape(c["artist"])}, {lic}, '
+                    f'<a href="{html.escape(c["source"])}" rel="noopener">Wikimedia Commons</a></li>')
+    return "\n".join(rows)
+
+
+def make_og():
+    """Image de partage 1200 x 630 en JPG (les réseaux sociaux lisent mal le WebP)."""
+    og = root / "img" / "og.jpg"
+    if og.exists():
+        return
+    from PIL import Image
+    im = Image.open(root / "img" / "chateau-1400.webp").convert("RGB")
+    ratio = 1200 / 630
+    w, h = im.size
+    if w / h > ratio:
+        nw = int(h * ratio)
+        im = im.crop(((w - nw) // 2, 0, (w - nw) // 2 + nw, h))
+    else:
+        nh = int(w / ratio)
+        im = im.crop((0, (h - nh) // 2, w, (h - nh) // 2 + nh))
+    im.resize((1200, 630), Image.LANCZOS).save(og, "JPEG", quality=84, optimize=True, progressive=True)
 today = date.today().isoformat()
 
 errors = []
@@ -79,7 +127,7 @@ def jsonld(lang):
         "description": t["jsonldDescription"],
         "inLanguage": tag(lang),
         "url": url_of(lang),
-        "image": f"{BASE}/web/hero_hd_sm.jpg",
+        "image": f"{BASE}/img/og.jpg",
         "provider": {"@type": "Organization", "name": "Gruyères Tours", "url": f"{BASE}/", "email": "info@gruyeres-tours.com"},
     }
     body = json.dumps(data, ensure_ascii=False, indent=2).replace("</", "<\\/")
@@ -105,6 +153,7 @@ def render(lang):
         "langMenu": lang_links(lang, "menu"),
         "langPills": lang_links(lang, "pill"),
         "footerLangLinks": lang_links(lang, "footer"),
+        "creditsList": credits_list(lang),
         "jsonld": jsonld(lang),
     })
 
@@ -115,7 +164,17 @@ def render(lang):
             return m.group(0)
         return values[key]
 
-    return re.sub(r"\{\{(\w+)\}\}", sub, template)
+    page = re.sub(r"\{\{(\w+)\}\}", sub, template)
+
+    def img_sub(m):
+        name, sizes, alt_key, mode = m.groups()
+        if not (root / "img" / f"{name}-800.webp").exists():
+            errors.append(f"{lang}: photo manquante {name}")
+        if alt_key not in t:
+            errors.append(f"{lang}: texte alternatif manquant {alt_key}")
+        return img_tag(name, sizes, t.get(alt_key, ""), mode)
+
+    return IMG_RE.sub(img_sub, page)
 
 
 def root_page():
@@ -136,7 +195,7 @@ def root_page():
 {hreflang_block()}
   <meta property="og:type" content="website">
   <meta property="og:title" content="Gruyères Tours">
-  <meta property="og:image" content="{BASE}/web/hero_hd_sm.jpg">
+  <meta property="og:image" content="{BASE}/img/og.jpg">
   <meta property="og:url" content="{BASE}/">
   <link rel="icon" type="image/svg+xml" href="/logo.svg">
   <link rel="stylesheet" href="/style.css?v={version}">
@@ -183,6 +242,7 @@ def sitemap():
             + "\n".join(entries) + "\n</urlset>\n")
 
 
+make_og()
 pages = {f"{l}/index.html": render(l) for l in LANGS}
 pages["index.html"] = root_page()
 pages["sitemap.xml"] = sitemap()
