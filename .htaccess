@@ -1,0 +1,5 @@
+AddDefaultCharset utf-8
+AddType image/webp .webp
+AddType image/svg+xml .svg
+
+Options -Indexes

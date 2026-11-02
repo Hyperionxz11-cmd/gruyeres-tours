@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="{{htmlLang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{metaTitle}}</title>
+  <meta name="description" content="{{metaDescription}}">
+  <meta name="theme-color" content="#0e2820">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="{{url}}">
+{{hreflang}}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Gruyères Tours">
+  <meta property="og:locale" content="{{ogLocale}}">
+{{ogAlternates}}
+  <meta property="og:title" content="{{metaTitle}}">
+  <meta property="og:description" content="{{ogDescription}}">
+  <meta property="og:image" content="{{base}}/web/hero_hd_sm.jpg">
+  <meta property="og:url" content="{{url}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" as="image" href="/web/hero-gruyeres-panorama.webp" fetchpriority="high">
+{{fontPreload}}
+  <link rel="icon" type="image/svg+xml" href="/logo.svg">
+  <link rel="stylesheet" href="/style.css?v={{version}}">
+  <script>document.documentElement.classList.add("js")</script>
+  <script type="application/ld+json">
+{{jsonld}}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">{{navExperience}}</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="{{path}}" aria-label="Gruyères Tours">
+        <svg class="brand-mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="16" cy="16" r="15"/><path d="M5 22.5 12 13l4 5 3.5-4.5L27 22.5"/><path d="M10.6 15 12 13l1.4 1.8" stroke-width="1"/></svg>
+        <span>Gruyères Tours</span>
+      </a>
+      <nav class="nav-links" aria-label="{{ariaMainNav}}">
+        <a href="#experience">{{navExperience}}</a>
+        <a href="#stops">{{navStops}}</a>
+        <a href="#schedule">{{navSchedule}}</a>
+        <a href="#offer">{{navOffer}}</a>
+      </nav>
+      <div class="nav-actions">
+        <details class="lang">
+          <summary aria-label="{{ariaLanguages}}">{{langCode}} <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="m1.5 3.5 3.5 3.5 3.5-3.5"/></svg></summary>
+          <nav class="lang-menu" aria-label="{{ariaLanguages}}">
+{{langMenu}}
+          </nav>
+        </details>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-panel" aria-label="{{ariaMenu}}"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-panel" id="mobile-panel" aria-label="{{ariaMobileNav}}">
+    <a href="#experience">{{navExperience}}</a>
+    <a href="#stops">{{navStops}}</a>
+    <a href="#schedule">{{navSchedule}}</a>
+    <a href="#offer">{{navOffer}}</a>
+    <div class="mobile-langs">
+{{langPills}}
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-media">
+        <img src="/web/hero-gruyeres-panorama.webp" alt="{{altHero}}" width="2560" height="933" fetchpriority="high">
+      </div>
+      <div class="container hero-content">
+        <p class="eyebrow">{{heroEyebrow}}</p>
+        <h1>{{heroTitle}}</h1>
+        <p class="lead">{{heroLead}}</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#offer">{{heroCta}} <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+          <a class="btn btn-ghost" href="#stops">{{heroCta2}}</a>
+        </div>
+        <p class="status-pill"><i aria-hidden="true"></i>{{notice}}</p>
+      </div>
+      <div class="hero-foot">
+        <div class="container">
+          <ul class="hero-facts">
+            <li>{{fact1}}</li><li>Gruyère AOP</li><li>Maison Cailler</li><li>{{fact4}}</li>
+          </ul>
+          <a class="scroll-hint" href="#experience"><i aria-hidden="true"></i>{{scroll}}</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Gruyères Tours">
+      <div class="container">
+        <ul>
+          <li data-reveal><strong>1</strong><span>{{stat1}}</span></li>
+          <li data-reveal style="--d:.1s"><strong>5</strong><span>{{stat2}}</span></li>
+          <li data-reveal style="--d:.2s"><strong>{{statAlt}}</strong><span>{{stat3}}</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="container experience-grid">
+        <div data-reveal>
+          <p class="eyebrow">{{experienceEyebrow}}</p>
+          <h2>{{experienceTitle}}</h2>
+        </div>
+        <div>
+          <p class="lead" data-reveal style="--d:.1s">{{experienceLead}}</p>
+          <div class="promises">
+            <article class="promise" data-reveal><span class="num">01</span><h3>{{p1t}}</h3><p>{{p1d}}</p></article>
+            <article class="promise" data-reveal style="--d:.1s"><span class="num">02</span><h3>{{p2t}}</h3><p>{{p2d}}</p></article>
+            <article class="promise" data-reveal><span class="num">03</span><h3>{{p3t}}</h3><p>{{p3d}}</p></article>
+            <article class="promise" data-reveal style="--d:.1s"><span class="num">04</span><h3>{{p4t}}</h3><p>{{p4d}}</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stops" id="stops">
+      <div class="container stops-head">
+        <div data-reveal>
+          <p class="eyebrow">{{stopsEyebrow}}</p>
+          <h2>{{stopsTitle}}</h2>
+          <p class="lead">{{stopsLead}}</p>
+        </div>
+        <div class="rail-nav" data-reveal style="--d:.15s">
+          <button type="button" data-rail="-1" aria-label="&lt;"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M14 8H3M7 4 3 8l4 4"/></svg></button>
+          <button type="button" data-rail="1" aria-label="&gt;"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button>
+        </div>
+      </div>
+      <div class="rail" tabindex="0" aria-label="{{navStops}}">
+        <article class="stop" data-reveal><figure class="stop-media"><img src="/web/2_sm.jpg" alt="{{alt1}}" width="600" height="400" loading="lazy"><span class="num">01</span></figure><h3>{{s1t}}</h3><p>{{s1d}}</p></article>
+        <article class="stop" data-reveal style="--d:.08s"><figure class="stop-media"><img src="/web/fromage2_sm.jpg" alt="{{alt2}}" width="600" height="452" loading="lazy"><span class="num">02</span></figure><h3>{{s2t}}</h3><p>{{s2d}}</p></article>
+        <article class="stop" data-reveal style="--d:.16s"><figure class="stop-media"><img src="/web/cailler2_sm.jpg" alt="{{alt3}}" width="600" height="452" loading="lazy"><span class="num">03</span></figure><h3>{{s3t}}</h3><p>{{s3d}}</p></article>
+        <article class="stop" data-reveal style="--d:.24s"><figure class="stop-media"><img src="/web/giger_sm.jpg" alt="{{alt4}}" width="600" height="399" loading="lazy"><span class="num">04</span></figure><h3>{{s4t}}</h3><p>{{s4d}}</p></article>
+        <article class="stop" data-reveal style="--d:.32s"><figure class="stop-media"><img src="/web/moleson_commons_sm.jpg" alt="{{alt5}}" width="600" height="400" loading="lazy"><span class="num">05</span></figure><h3>{{s5t}}</h3><p>{{s5d}}</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="schedule">
+      <div class="container schedule-grid">
+        <div class="schedule-intro" data-reveal>
+          <p class="eyebrow">{{scheduleEyebrow}}</p>
+          <h2>{{scheduleTitle}}</h2>
+          <p class="lead">{{scheduleLead}}</p>
+        </div>
+        <ol class="timeline" style="margin:0;padding:0;list-style:none">
+          <li class="step" data-reveal><span class="time">{{time1}}</span><div><h3>{{t1t}}</h3><p>{{t1d}}</p></div></li>
+          <li class="step" data-reveal><span class="time">{{time2}}</span><div><h3>{{t2t}}</h3><p>{{t2d}}</p></div></li>
+          <li class="step" data-reveal><span class="time">{{time3}}</span><div><h3>{{t3t}}</h3><p>{{t3d}}</p></div></li>
+          <li class="step" data-reveal><span class="time">{{time4}}</span><div><h3>{{t4t}}</h3><p>{{t4d}}</p></div></li>
+          <li class="step" data-reveal><span class="time">{{time5}}</span><div><h3>{{t5t}}</h3><p>{{t5d}}</p></div></li>
+          <li class="step" data-reveal><span class="time">{{time6}}</span><div><h3>{{t6t}}</h3><p>{{t6d}}</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section offer" id="offer">
+      <div class="container offer-grid">
+        <div data-reveal>
+          <p class="eyebrow">{{offerEyebrow}}</p>
+          <h2>{{offerTitle}}</h2>
+          <p class="lead">{{offerLead}}</p>
+          <a class="btn btn-primary" href="#stops">{{discover}} <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+        </div>
+        <div class="card-glass" data-reveal style="--d:.15s">
+          <h3>{{whyTitle}}</h3>
+          <p class="lead">{{whyLead}}</p>
+          <ul class="checks">
+            <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>{{why1}}</li>
+            <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>{{why2}}</li>
+            <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>{{why3}}</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container status-grid">
+        <div data-reveal>
+          <p class="eyebrow">{{beforeEyebrow}}</p>
+          <h2>{{beforeTitle}}</h2>
+          <p class="lead">{{beforeLead}}</p>
+        </div>
+        <ol class="todo" data-reveal style="--d:.1s;margin:0;padding:0;list-style:none">
+          <li>{{c1}}</li>
+          <li>{{c2}}</li>
+          <li>{{c3}}</li>
+          <li>{{c4}}</li>
+          <li>{{c5}}</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-word">Gruyères Tours</p>
+      <div class="footer-grid">
+        <p>{{footerText}}</p>
+        <div>
+          <h4>{{footerContact}}</h4>
+          <a href="mailto:info@gruyeres-tours.com">info@gruyeres-tours.com</a>
+        </div>
+        <div>
+          <h4>{{footerLangs}}</h4>
+          <nav class="footer-langs" aria-label="{{ariaLanguages}}">
+{{footerLangLinks}}
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Gruyères Tours</p>
+        <p>{{photoCredit}} <a href="https://commons.wikimedia.org/wiki/File:Eglise_Saint-Th%C3%A9odule,_Gruy%C3%A8res,_panorama.jpg" rel="noopener">Ascasis</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.{{ccLang}}" rel="license noopener">CC BY SA 4.0</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var header = document.querySelector(".site-header");
+      var menuBtn = document.querySelector(".menu-btn");
+      var lang = document.querySelector(".lang");
+
+      function onScroll() { header.classList.toggle("is-solid", window.scrollY > 40); }
+      onScroll();
+      window.addEventListener("scroll", onScroll, { passive: true });
+
+      function setMenu(open) {
+        root.classList.toggle("menu-open", open);
+        menuBtn.setAttribute("aria-expanded", String(open));
+        document.body.style.overflow = open ? "hidden" : "";
+      }
+      menuBtn.addEventListener("click", function () { setMenu(!root.classList.contains("menu-open")); });
+      document.querySelectorAll(".mobile-panel a").forEach(function (a) { a.addEventListener("click", function () { setMenu(false); }); });
+      document.addEventListener("keydown", function (e) { if (e.key === "Escape") { setMenu(false); lang.open = false; } });
+      document.addEventListener("click", function (e) { if (lang.open && !lang.contains(e.target)) lang.open = false; });
+
+      var rail = document.querySelector(".rail");
+      document.querySelectorAll("[data-rail]").forEach(function (b) {
+        b.addEventListener("click", function () {
+          var card = rail.querySelector(".stop");
+          rail.scrollBy({ left: Number(b.dataset.rail) * (card.offsetWidth + 24), behavior: "smooth" });
+        });
+      });
+
+      var items = document.querySelectorAll("[data-reveal]");
+      if ("IntersectionObserver" in window) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add("is-in"); io.unobserve(en.target); } });
+        }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+        items.forEach(function (el) { io.observe(el); });
+      } else {
+        items.forEach(function (el) { el.classList.add("is-in"); });
+      }
+
+      try { localStorage.setItem("gt-lang", "{{lang}}"); } catch (e) {}
+    })();
+  </script>
+</body>
+</html>

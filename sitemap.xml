@@ -1,9 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gruyeres-tours.com/</loc>
-    <lastmod>2026-11-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gruyeres-tours.com/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/fr/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gruyeres-tours.com/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/de/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gruyeres-tours.com/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/en/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gruyeres-tours.com/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/pt/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gruyeres-tours.com/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/es/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gruyeres-tours.com/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/zh/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gruyeres-tours.com/"/>
   </url>
 </urlset>
