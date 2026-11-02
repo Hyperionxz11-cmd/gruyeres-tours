@@ -52,32 +52,37 @@ def clean(html_text):
     return re.sub(r"\s+", " ", re.sub("<[^>]+>", "", html_text or "")).strip()
 
 
-credits = {}
-for name, title in PHOTOS.items():
-    ii = info(title)
-    meta = ii.get("extmetadata", {})
-    credits[name] = {
-        "file": title,
-        "artist": clean(meta.get("Artist", {}).get("value")),
-        "license": meta.get("LicenseShortName", {}).get("value", ""),
-        "licenseUrl": meta.get("LicenseUrl", {}).get("value", ""),
-        "source": ii["descriptionurl"],
-    }
-    if all((out / f"{name}-{w}.webp").exists() for w in WIDTHS):
-        print("deja la", name)
-        continue
-    src_url = ii["thumburl"] if ii.get("width", 0) > max(WIDTHS) else ii["url"]
-    with urllib.request.urlopen(urllib.request.Request(src_url, headers=UA), timeout=120) as r:
-        im = Image.open(io.BytesIO(r.read()))
-        im = ImageOps.exif_transpose(im).convert("RGB")
-    for w in WIDTHS:
-        copy = im.copy()
-        if copy.width > w:
-            copy = copy.resize((w, round(copy.height * w / copy.width)), Image.LANCZOS)
-        copy.save(out / f"{name}-{w}.webp", "WEBP", quality=74 if w > 1000 else 70, method=6)
-    sizes = [round((out / f"{name}-{w}.webp").stat().st_size / 1024) for w in WIDTHS]
-    print(f"ok {name} {im.width}x{im.height} -> {sizes} Ko")
-    time.sleep(1)
+def main():
+    credits = {}
+    for name, title in PHOTOS.items():
+        ii = info(title)
+        meta = ii.get("extmetadata", {})
+        credits[name] = {
+            "file": title,
+            "artist": clean(meta.get("Artist", {}).get("value")),
+            "license": meta.get("LicenseShortName", {}).get("value", ""),
+            "licenseUrl": meta.get("LicenseUrl", {}).get("value", ""),
+            "source": ii["descriptionurl"],
+        }
+        if all((out / f"{name}-{w}.webp").exists() for w in WIDTHS):
+            print("deja la", name)
+            continue
+        src_url = ii["thumburl"] if ii.get("width", 0) > max(WIDTHS) else ii["url"]
+        with urllib.request.urlopen(urllib.request.Request(src_url, headers=UA), timeout=120) as r:
+            im = Image.open(io.BytesIO(r.read()))
+            im = ImageOps.exif_transpose(im).convert("RGB")
+        for w in WIDTHS:
+            copy = im.copy()
+            if copy.width > w:
+                copy = copy.resize((w, round(copy.height * w / copy.width)), Image.LANCZOS)
+            copy.save(out / f"{name}-{w}.webp", "WEBP", quality=74 if w > 1000 else 70, method=6)
+        sizes = [round((out / f"{name}-{w}.webp").stat().st_size / 1024) for w in WIDTHS]
+        print(f"ok {name} {im.width}x{im.height} -> {sizes} Ko")
+        time.sleep(1)
 
-(root / "src" / "credits.json").write_text(json.dumps(credits, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-print("credits.json", len(credits))
+    (root / "src" / "credits.json").write_text(json.dumps(credits, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print("credits.json", len(credits))
+
+
+if __name__ == "__main__":
+    main()

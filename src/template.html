@@ -23,12 +23,10 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="preload" as="image" href="/img/chateau-2400.webp" imagesrcset="/img/chateau-800.webp 800w, /img/chateau-1400.webp 1400w, /img/chateau-2400.webp 2400w" imagesizes="100vw" fetchpriority="high">
 {{fontPreload}}
-  <link rel="icon" type="image/svg+xml" href="/logo.svg">
+{{icons}}
   <link rel="stylesheet" href="/style.css?v={{version}}">
   <script>document.documentElement.classList.add("js")</script>
-  <script type="application/ld+json">
 {{jsonld}}
-  </script>
 </head>
 <body>
   <a class="skip" href="#main">{{navExperience}}</a>
@@ -40,10 +38,11 @@
         <span class="brand-text"><span class="brand-name">Gruyères Tours</span><span class="brand-tag">Genève · Gruyère</span></span>
       </a>
       <nav class="nav-links" aria-label="{{ariaMainNav}}">
-        <a href="#region">{{regionEyebrow}}</a>
-        <a href="#stops">{{navStops}}</a>
-        <a href="#schedule">{{navSchedule}}</a>
-        <a href="#offer">{{navOffer}}</a>
+        <a href="{{path}}#region">{{regionEyebrow}}</a>
+        <a href="{{path}}#stops">{{navStops}}</a>
+        <a href="{{path}}#schedule">{{navSchedule}}</a>
+        <a href="{{path}}#organiser">{{navOrganize}}</a>
+        <a href="{{path}}faq/">{{navFaq}}</a>
       </nav>
       <div class="nav-actions">
         <details class="lang">
@@ -58,10 +57,11 @@
   </header>
 
   <div class="mobile-panel" id="mobile-panel" aria-label="{{ariaMobileNav}}">
-    <a href="#region">{{regionEyebrow}}</a>
-    <a href="#stops">{{navStops}}</a>
-    <a href="#schedule">{{navSchedule}}</a>
-    <a href="#offer">{{navOffer}}</a>
+    <a href="{{path}}#region">{{regionEyebrow}}</a>
+    <a href="{{path}}#stops">{{navStops}}</a>
+    <a href="{{path}}#schedule">{{navSchedule}}</a>
+    <a href="{{path}}#organiser">{{navOrganize}}</a>
+    <a href="{{path}}faq/">{{navFaq}}</a>
     <div class="mobile-langs">
 {{langPills}}
     </div>
@@ -80,10 +80,9 @@
         <h1 data-rise style="--d:.12s">{{heroTitle}}</h1>
         <p class="lead" data-rise style="--d:.24s">{{heroLead}}</p>
         <div class="hero-actions" data-rise style="--d:.36s">
-          <a class="btn" href="#offer"><span class="roll"><b>{{heroCta}}</b><b aria-hidden="true">{{heroCta}}</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
+          <a class="btn" href="#organiser"><span class="roll"><b>{{heroCta}}</b><b aria-hidden="true">{{heroCta}}</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
           <a class="btn btn-sec" href="#stops"><span class="roll"><b>{{heroCta2}}</b><b aria-hidden="true">{{heroCta2}}</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
         </div>
-        <p class="status-pill" data-rise style="--d:.48s"><i aria-hidden="true"></i>{{notice}}</p>
       </div>
       <div class="hero-foot">
         <div class="container">
@@ -161,11 +160,11 @@
             <p class="lead">{{stopsLead}}</p>
           </div>
           <ol class="story-steps">
-            <li class="story-step glass is-active"><span class="num">01 / 05</span><h3>{{s1t}}</h3><p>{{s1d}}</p></li>
-            <li class="story-step glass"><span class="num">02 / 05</span><h3>{{s2t}}</h3><p>{{s2d}}</p></li>
-            <li class="story-step glass"><span class="num">03 / 05</span><h3>{{s3t}}</h3><p>{{s3d}}</p></li>
-            <li class="story-step glass"><span class="num">04 / 05</span><h3>{{s4t}}</h3><p>{{s4d}}</p></li>
-            <li class="story-step glass"><span class="num">05 / 05</span><h3>{{s5t}}</h3><p>{{s5d}}</p></li>
+            <li class="story-step glass is-active"><span class="num">01 / 05</span><h3><a href="{{path}}lieux/chateau-de-gruyeres/">{{s1t}}</a></h3><p>{{s1d}}</p><a class="more" href="{{path}}lieux/chateau-de-gruyeres/">{{placeMore}} <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
+            <li class="story-step glass"><span class="num">02 / 05</span><h3><a href="{{path}}lieux/maison-du-gruyere/">{{s2t}}</a></h3><p>{{s2d}}</p><a class="more" href="{{path}}lieux/maison-du-gruyere/">{{placeMore}} <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
+            <li class="story-step glass"><span class="num">03 / 05</span><h3><a href="{{path}}lieux/maison-cailler/">{{s3t}}</a></h3><p>{{s3d}}</p><a class="more" href="{{path}}lieux/maison-cailler/">{{placeMore}} <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
+            <li class="story-step glass"><span class="num">04 / 05</span><h3><a href="{{path}}lieux/musee-hr-giger/">{{s4t}}</a></h3><p>{{s4d}}</p><a class="more" href="{{path}}lieux/musee-hr-giger/">{{placeMore}} <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
+            <li class="story-step glass"><span class="num">05 / 05</span><h3><a href="{{path}}lieux/moleson/">{{s5t}}</a></h3><p>{{s5d}}</p><a class="more" href="{{path}}lieux/moleson/">{{placeMore}} <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
           </ol>
         </div>
       </div>
@@ -201,7 +200,7 @@
             <p class="eyebrow">{{offerEyebrow}}</p>
             <h2>{{offerTitle}}</h2>
             <p class="lead">{{offerLead}}</p>
-            <a class="btn" href="#stops"><span class="roll"><b>{{discover}}</b><b aria-hidden="true">{{discover}}</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
+            <a class="btn" href="#organiser"><span class="roll"><b>{{discover}}</b><b aria-hidden="true">{{discover}}</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
           </div>
           <div class="glass" data-reveal style="--d:.15s">
             <h3>{{whyTitle}}</h3>
@@ -216,22 +215,51 @@
       </div>
     </section>
 
-    <section class="scene" id="status">
+    <section class="scene" id="organiser">
       <div class="scene-bg" aria-hidden="true">[[img jogne "100vw" capJogne lazy]]</div>
       <div class="scene-body">
-        <div class="container status-grid">
-          <div class="glass" data-reveal>
-            <p class="eyebrow">{{beforeEyebrow}}</p>
-            <h2>{{beforeTitle}}</h2>
-            <p class="lead">{{beforeLead}}</p>
+        <div class="container form-grid">
+          <div class="glass form-intro" data-reveal>
+            <p class="eyebrow">{{formEyebrow}}</p>
+            <h2>{{formTitle}}</h2>
+            <p class="lead">{{formLead}}</p>
+            <ul class="checks">
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>{{why1}}</li>
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>{{why2}}</li>
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>{{why3}}</li>
+            </ul>
           </div>
-          <ol class="todo glass" data-reveal style="--d:.1s">
-            <li>{{c1}}</li>
-            <li>{{c2}}</li>
-            <li>{{c3}}</li>
-            <li>{{c4}}</li>
-            <li>{{c5}}</li>
-          </ol>
+          <form class="glass request-form" id="request-form" action="https://formsubmit.co/{{formEndpoint}}" method="POST" data-ajax="https://formsubmit.co/ajax/{{formEndpoint}}" data-sending="{{fSending}}" data-ok="{{fOk}}" data-err="{{fErr}}" data-reveal style="--d:.12s">
+            <input type="hidden" name="_subject" value="{{fSubject}} ({{langCode}})">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="{{url}}merci/">
+            <input type="hidden" name="Langue du site" value="{{langCode}}">
+            <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="field full"><label for="f-name">{{fName}} *</label><input id="f-name" name="Nom" type="text" autocomplete="name" required></div>
+            <div class="field"><label for="f-email">{{fEmail}} *</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+            <div class="field"><label for="f-phone">{{fPhone}}</label><input id="f-phone" name="Telephone" type="tel" autocomplete="tel"></div>
+            <div class="field"><label for="f-date">{{fDate}} *</label><input id="f-date" name="Date souhaitee" type="date" required></div>
+            <div class="field"><label for="f-date2">{{fDate2}}</label><input id="f-date2" name="Autre date" type="date"></div>
+            <div class="field"><label for="f-group">{{fGroup}} *</label><input id="f-group" name="Personnes" type="number" min="1" max="60" inputmode="numeric" required></div>
+            <div class="field"><label for="f-lang">{{fLang}}</label><select id="f-lang" name="Langue de la journee">
+{{langOptions}}
+            </select></div>
+            <fieldset class="field full interests"><legend>{{fInterests}}</legend>
+              <label><input type="checkbox" name="Lieux" value="{{s1t}}"> {{s1t}}</label>
+              <label><input type="checkbox" name="Lieux" value="{{s2t}}"> {{s2t}}</label>
+              <label><input type="checkbox" name="Lieux" value="{{s3t}}"> {{s3t}}</label>
+              <label><input type="checkbox" name="Lieux" value="{{s4t}}"> {{s4t}}</label>
+              <label><input type="checkbox" name="Lieux" value="{{s5t}}"> {{s5t}}</label>
+            </fieldset>
+            <div class="field full"><label for="f-msg">{{fMessage}}</label><textarea id="f-msg" name="Message" rows="4"></textarea></div>
+            <label class="consent full"><input type="checkbox" name="Consentement" value="oui" required> <span>{{fConsent}}</span></label>
+            <div class="form-foot full">
+              <button class="btn" type="submit"><span class="roll"><b>{{fSubmit}}</b><b aria-hidden="true">{{fSubmit}}</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></button>
+              <p class="form-note">{{fRequired}}</p>
+            </div>
+            <p class="form-status full" role="status" aria-live="polite"></p>
+          </form>
         </div>
       </div>
     </section>
@@ -245,6 +273,12 @@
         <div>
           <h4>{{footerContact}}</h4>
           <a href="mailto:info@gruyeres-tours.com">info@gruyeres-tours.com</a>
+        </div>
+        <div>
+          <h4>{{crumbPlaces}}</h4>
+          <nav class="footer-langs" aria-label="{{crumbPlaces}}">
+{{footerPlaces}}
+          </nav>
         </div>
         <div>
           <h4>{{footerLangs}}</h4>

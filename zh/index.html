@@ -34,24 +34,163 @@
   <link rel="preload" as="image" href="/img/chateau-2400.webp" imagesrcset="/img/chateau-800.webp 800w, /img/chateau-1400.webp 1400w, /img/chateau-2400.webp 2400w" imagesizes="100vw" fetchpriority="high">
   <link rel="preload" href="/fonts/ebgaramond-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" type="image/svg+xml" href="/logo.svg">
-  <link rel="stylesheet" href="/style.css?v=6f3d4c0b">
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/icon-192.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/style.css?v=1e9f3330">
   <script>document.documentElement.classList.add("js")</script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "TouristTrip",
-    "name": "Gruyères Tours，从日内瓦出发的私人一日游",
-    "description": "从日内瓦出发，用一天时间私享格吕耶尔与前阿尔卑斯山风光。",
-    "inLanguage": "zh-Hans",
-    "url": "https://gruyeres-tours.com/zh/",
-    "image": "https://gruyeres-tours.com/img/og.jpg",
-    "provider": {
-      "@type": "Organization",
-      "name": "Gruyères Tours",
-      "url": "https://gruyeres-tours.com/",
-      "email": "info@gruyeres-tours.com"
-    }
+    "@graph": [
+      {
+        "@type": "TravelAgency",
+        "@id": "https://gruyeres-tours.com/#organisation",
+        "name": "Gruyères Tours",
+        "url": "https://gruyeres-tours.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://gruyeres-tours.com/img/logo-512.png",
+          "width": 512,
+          "height": 512
+        },
+        "image": "https://gruyeres-tours.com/img/og.jpg",
+        "email": "info@gruyeres-tours.com",
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Genève"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gruyère, canton de Fribourg"
+          }
+        ],
+        "knowsLanguage": [
+          "fr",
+          "de",
+          "en",
+          "pt",
+          "es",
+          "zh-Hans"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://gruyeres-tours.com/#site",
+        "name": "Gruyères Tours",
+        "url": "https://gruyeres-tours.com/",
+        "inLanguage": [
+          "fr",
+          "de",
+          "en",
+          "pt",
+          "es",
+          "zh-Hans"
+        ],
+        "publisher": {
+          "@id": "https://gruyeres-tours.com/#organisation"
+        }
+      },
+      {
+        "@type": "TouristTrip",
+        "name": "Gruyères Tours，从日内瓦出发的私人一日游",
+        "description": "从日内瓦出发，用一天时间私享格吕耶尔与前阿尔卑斯山风光。",
+        "inLanguage": "zh-Hans",
+        "url": "https://gruyeres-tours.com/zh/",
+        "image": "https://gruyeres-tours.com/img/og.jpg",
+        "touristType": [
+          "Groupes privés",
+          "Familles"
+        ],
+        "provider": {
+          "@id": "https://gruyeres-tours.com/#organisation"
+        },
+        "itinerary": {
+          "@type": "ItemList",
+          "numberOfItems": 5,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "格吕耶尔城堡",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Gruyères",
+                  "addressRegion": "FR",
+                  "addressCountry": "CH"
+                },
+                "url": "https://gruyeres-tours.com/zh/lieux/chateau-de-gruyeres/"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "格吕耶尔奶酪之家",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Pringy",
+                  "addressRegion": "FR",
+                  "addressCountry": "CH"
+                },
+                "url": "https://gruyeres-tours.com/zh/lieux/maison-du-gruyere/"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "凯勒巧克力工坊",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Broc",
+                  "addressRegion": "FR",
+                  "addressCountry": "CH"
+                },
+                "url": "https://gruyeres-tours.com/zh/lieux/maison-cailler/"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "HR·吉格尔博物馆",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Gruyères",
+                  "addressRegion": "FR",
+                  "addressCountry": "CH"
+                },
+                "url": "https://gruyeres-tours.com/zh/lieux/musee-hr-giger/"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "莫莱松山",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Moléson-sur-Gruyères",
+                  "addressRegion": "FR",
+                  "addressCountry": "CH"
+                },
+                "url": "https://gruyeres-tours.com/zh/lieux/moleson/"
+              }
+            }
+          ]
+        }
+      }
+    ]
   }
   </script>
 </head>
@@ -65,10 +204,11 @@
         <span class="brand-text"><span class="brand-name">Gruyères Tours</span><span class="brand-tag">Genève · Gruyère</span></span>
       </a>
       <nav class="nav-links" aria-label="主导航">
-        <a href="#region">格吕耶尔地区</a>
-        <a href="#stops">站点</a>
-        <a href="#schedule">行程</a>
-        <a href="#offer">项目</a>
+        <a href="/zh/#region">格吕耶尔地区</a>
+        <a href="/zh/#stops">站点</a>
+        <a href="/zh/#schedule">行程</a>
+        <a href="/zh/#organiser">规划</a>
+        <a href="/zh/faq/">常见问题</a>
       </nav>
       <div class="nav-actions">
         <details class="lang">
@@ -88,10 +228,11 @@
   </header>
 
   <div class="mobile-panel" id="mobile-panel" aria-label="移动端导航">
-    <a href="#region">格吕耶尔地区</a>
-    <a href="#stops">站点</a>
-    <a href="#schedule">行程</a>
-    <a href="#offer">项目</a>
+    <a href="/zh/#region">格吕耶尔地区</a>
+    <a href="/zh/#stops">站点</a>
+    <a href="/zh/#schedule">行程</a>
+    <a href="/zh/#organiser">规划</a>
+    <a href="/zh/faq/">常见问题</a>
     <div class="mobile-langs">
       <a href="/fr/" hreflang="fr" lang="fr" title="Français">fr</a>
       <a href="/de/" hreflang="de" lang="de" title="Deutsch">de</a>
@@ -115,10 +256,9 @@
         <h1 data-rise style="--d:.12s">一天游遍格吕耶尔，行程安排无需您操心。</h1>
         <p class="lead" data-rise style="--d:.24s">城堡、奶酪、巧克力与阿尔卑斯山全景。为您的团体量身定制的私人路线，节奏灵活可调。</p>
         <div class="hero-actions" data-rise style="--d:.36s">
-          <a class="btn" href="#offer"><span class="roll"><b>了解项目</b><b aria-hidden="true">了解项目</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
+          <a class="btn" href="#organiser"><span class="roll"><b>规划我的行程</b><b aria-hidden="true">规划我的行程</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
           <a class="btn btn-sec" href="#stops"><span class="roll"><b>查看站点</b><b aria-hidden="true">查看站点</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
         </div>
-        <p class="status-pill" data-rise style="--d:.48s"><i aria-hidden="true"></i>Gruyères Tours 正在筹备中。欢迎提前了解我们规划中的体验。</p>
       </div>
       <div class="hero-foot">
         <div class="container">
@@ -165,9 +305,9 @@
       <div class="scene-body">
         <div class="container experience-grid">
           <div class="glass" data-reveal>
-            <p class="eyebrow">项目介绍</p>
+            <p class="eyebrow">旅行体验</p>
             <h2>一天的行程，围绕您的团体而设计。</h2>
-            <p class="lead">我们正在筹备从日内瓦出发的私人一日游，带您领略格吕耶尔地区的自然风光、历史遗产与地道风味，节奏根据团体需求调整。</p>
+            <p class="lead">我们组织从日内瓦出发的私人一日游，带您领略格吕耶尔地区的自然风光、历史遗产与地道风味，节奏完全配合您的团体。</p>
           </div>
           <div class="promises">
             <article class="promise glass" data-reveal><span class="num">01</span><h3>日内瓦出发</h3><p>在约定地点接您上车。</p></article>
@@ -191,16 +331,16 @@
       <div class="scene-body">
         <div class="container">
           <div class="stops-intro glass" data-reveal>
-            <p class="eyebrow">项目核心景点</p>
+            <p class="eyebrow">行程中的景点</p>
             <h2>从中世纪遗产到群山之巅。</h2>
-            <p class="lead">最终路线将在合作伙伴、交通与当日节奏确认后公布。</p>
+            <p class="lead">每一天的行程都会根据您的意愿、季节以及各景点的开放情况来安排。</p>
           </div>
           <ol class="story-steps">
-            <li class="story-step glass is-active"><span class="num">01 / 05</span><h3>格吕耶尔城堡</h3><p>矗立于中世纪小镇之上，承载八个世纪的历史。</p></li>
-            <li class="story-step glass"><span class="num">02 / 05</span><h3>格吕耶尔奶酪之家</h3><p>了解当地最具代表性的奶酪是如何制作的。</p></li>
-            <li class="story-step glass"><span class="num">03 / 05</span><h3>凯勒巧克力工坊</h3><p>沉浸式感受瑞士巧克力的历史。</p></li>
-            <li class="story-step glass"><span class="num">04 / 05</span><h3>HR·吉格尔博物馆</h3><p>历史小镇中心一处令人惊叹的反差。</p></li>
-            <li class="story-step glass"><span class="num">05 / 05</span><h3>莫莱松山</h3><p>俯瞰前阿尔卑斯山全景，视天气与季节而定。</p></li>
+            <li class="story-step glass is-active"><span class="num">01 / 05</span><h3><a href="/zh/lieux/chateau-de-gruyeres/">格吕耶尔城堡</a></h3><p>矗立于中世纪小镇之上，承载八个世纪的历史。</p><a class="more" href="/zh/lieux/chateau-de-gruyeres/">了解景点 <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
+            <li class="story-step glass"><span class="num">02 / 05</span><h3><a href="/zh/lieux/maison-du-gruyere/">格吕耶尔奶酪之家</a></h3><p>了解当地最具代表性的奶酪是如何制作的。</p><a class="more" href="/zh/lieux/maison-du-gruyere/">了解景点 <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
+            <li class="story-step glass"><span class="num">03 / 05</span><h3><a href="/zh/lieux/maison-cailler/">凯勒巧克力工坊</a></h3><p>沉浸式感受瑞士巧克力的历史。</p><a class="more" href="/zh/lieux/maison-cailler/">了解景点 <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
+            <li class="story-step glass"><span class="num">04 / 05</span><h3><a href="/zh/lieux/musee-hr-giger/">HR·吉格尔博物馆</a></h3><p>历史小镇中心一处令人惊叹的反差。</p><a class="more" href="/zh/lieux/musee-hr-giger/">了解景点 <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
+            <li class="story-step glass"><span class="num">05 / 05</span><h3><a href="/zh/lieux/moleson/">莫莱松山</a></h3><p>俯瞰前阿尔卑斯山全景，视天气与季节而定。</p><a class="more" href="/zh/lieux/moleson/">了解景点 <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
           </ol>
         </div>
       </div>
@@ -213,10 +353,10 @@
           <div class="schedule-intro glass" data-reveal>
             <p class="eyebrow">一日构想</p>
             <h2>从日内瓦到格吕耶尔，从容而行。</h2>
-            <p class="lead">这个项目将历史遗产、美食与自然风光融入同一天。最终路线将考虑季节与当时的情况。</p>
+            <p class="lead">这一天融合了历史遗产、美食与自然风光。路线会考虑季节与当时的情况。</p>
           </div>
           <ol class="timeline glass">
-            <li class="step" data-reveal><span class="time">出发</span><div><h3>日内瓦出发</h3><p>在日内瓦接送，具体安排将在正式上线时公布。</p></div></li>
+            <li class="step" data-reveal><span class="time">出发</span><div><h3>日内瓦出发</h3><p>在日内瓦与您约定的地点接您上车。</p></div></li>
             <li class="step" data-reveal><span class="time">上午</span><div><h3>格吕耶尔</h3><p>城堡与中世纪小镇。</p></div></li>
             <li class="step" data-reveal><span class="time">中午</span><div><h3>自由午餐</h3><p>在小镇自由活动。</p></div></li>
             <li class="step" data-reveal><span class="time">下午</span><div><h3>地方风味</h3><p>奶酪与巧克力，视确认的时段而定。</p></div></li>
@@ -233,40 +373,74 @@
       <div class="scene-body">
         <div class="container offer-grid">
           <div class="glass" data-reveal>
-            <p class="eyebrow">即将开放</p>
-            <h2>一段在地体验正在筹备中。</h2>
-            <p class="lead">所有核实工作完成后，行程、可预订日期与相关条件将在此公布。</p>
-            <a class="btn" href="#stops"><span class="roll"><b>探索景点</b><b aria-hidden="true">探索景点</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
+            <p class="eyebrow">定制行程</p>
+            <h2>为您的团体量身安排的一天。</h2>
+            <p class="lead">告诉我们您的日期、团体人数和心愿。我们会回复您一份合适的行程建议。</p>
+            <a class="btn" href="#organiser"><span class="roll"><b>规划我的行程</b><b aria-hidden="true">规划我的行程</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
           </div>
           <div class="glass" data-reveal style="--d:.15s">
-            <h3>为什么现在就有这个页面</h3>
-            <p class="lead">为了透明地介绍这个项目，分享它的风格，让旅行者逐步了解未来的体验。</p>
+            <h3>流程说明</h3>
+            <p class="lead">三个简单步骤，无需承诺。</p>
             <ul class="checks">
-              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>从日内瓦出发的私人一日游</li>
-              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>专注于格吕耶尔地区的路线</li>
-              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>目前尚未开放预订与付款</li>
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>您提交需求</li>
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>我们为您建议行程</li>
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>您确认后，我们安排一切</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="scene" id="status">
+    <section class="scene" id="organiser">
       <div class="scene-bg" aria-hidden="true"><img src="/img/jogne-1400.webp" srcset="/img/jogne-800.webp 800w, /img/jogne-1400.webp 1400w, /img/jogne-2400.webp 2400w" sizes="100vw" alt="约涅峡谷" loading="lazy" decoding="async"></div>
       <div class="scene-body">
-        <div class="container status-grid">
-          <div class="glass" data-reveal>
-            <p class="eyebrow">项目进展</p>
-            <h2>仍待确认的事项。</h2>
-            <p class="lead">当前版本仅供参考，暂不支持预订或付款。</p>
+        <div class="container form-grid">
+          <div class="glass form-intro" data-reveal>
+            <p class="eyebrow">规划您的行程</p>
+            <h2>告诉我们您理想中的一天。</h2>
+            <p class="lead">请填写此表格。我们会尽快回复您一份建议方案，无需任何承诺。</p>
+            <ul class="checks">
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>您提交需求</li>
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>我们为您建议行程</li>
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>您确认后，我们安排一切</li>
+            </ul>
           </div>
-          <ol class="todo glass" data-reveal style="--d:.1s">
-            <li>最终路线与时间安排</li>
-            <li>价格与条件</li>
-            <li>交通与陪同安排</li>
-            <li>不同季节的可预订日期</li>
-            <li>在线预订的上线</li>
-          </ol>
+          <form class="glass request-form" id="request-form" action="https://formsubmit.co/info@gruyeres-tours.com" method="POST" data-ajax="https://formsubmit.co/ajax/info@gruyeres-tours.com" data-sending="正在发送…" data-ok="谢谢，您的需求已成功发送。我们会尽快与您联系。" data-err="发送未成功。请重试，或发送邮件至 info@gruyeres-tours.com。" data-reveal style="--d:.12s">
+            <input type="hidden" name="_subject" value="新的一日游需求 (ZH)">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://gruyeres-tours.com/zh/merci/">
+            <input type="hidden" name="Langue du site" value="ZH">
+            <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="field full"><label for="f-name">姓名 *</label><input id="f-name" name="Nom" type="text" autocomplete="name" required></div>
+            <div class="field"><label for="f-email">电子邮箱 *</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+            <div class="field"><label for="f-phone">电话（选填）</label><input id="f-phone" name="Telephone" type="tel" autocomplete="tel"></div>
+            <div class="field"><label for="f-date">期望日期 *</label><input id="f-date" name="Date souhaitee" type="date" required></div>
+            <div class="field"><label for="f-date2">备选日期（选填）</label><input id="f-date2" name="Autre date" type="date"></div>
+            <div class="field"><label for="f-group">人数 *</label><input id="f-group" name="Personnes" type="number" min="1" max="60" inputmode="numeric" required></div>
+            <div class="field"><label for="f-lang">行程语言</label><select id="f-lang" name="Langue de la journee">
+              <option value="Français">Français</option>
+              <option value="Deutsch">Deutsch</option>
+              <option value="English">English</option>
+              <option value="Português">Português</option>
+              <option value="Español">Español</option>
+              <option value="中文" selected>中文</option>
+            </select></div>
+            <fieldset class="field full interests"><legend>您感兴趣的景点</legend>
+              <label><input type="checkbox" name="Lieux" value="格吕耶尔城堡"> 格吕耶尔城堡</label>
+              <label><input type="checkbox" name="Lieux" value="格吕耶尔奶酪之家"> 格吕耶尔奶酪之家</label>
+              <label><input type="checkbox" name="Lieux" value="凯勒巧克力工坊"> 凯勒巧克力工坊</label>
+              <label><input type="checkbox" name="Lieux" value="HR·吉格尔博物馆"> HR·吉格尔博物馆</label>
+              <label><input type="checkbox" name="Lieux" value="莫莱松山"> 莫莱松山</label>
+            </fieldset>
+            <div class="field full"><label for="f-msg">留言（选填）</label><textarea id="f-msg" name="Message" rows="4"></textarea></div>
+            <label class="consent full"><input type="checkbox" name="Consentement" value="oui" required> <span>我同意这些信息仅用于回复我的需求。</span></label>
+            <div class="form-foot full">
+              <button class="btn" type="submit"><span class="roll"><b>提交需求</b><b aria-hidden="true">提交需求</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></button>
+              <p class="form-note">* 必填项</p>
+            </div>
+            <p class="form-status full" role="status" aria-live="polite"></p>
+          </form>
         </div>
       </div>
     </section>
@@ -276,10 +450,21 @@
     <div class="container">
       <div class="footer-head"><img src="/logo.svg" alt="" width="120" height="120" loading="lazy"><p class="footer-word">Gruyères Tours</p></div>
       <div class="footer-grid">
-        <p>从日内瓦出发的私人一日游项目。</p>
+        <p>从日内瓦出发的格吕耶尔私人一日游。</p>
         <div>
           <h4>联系我们</h4>
           <a href="mailto:info@gruyeres-tours.com">info@gruyeres-tours.com</a>
+        </div>
+        <div>
+          <h4>景点</h4>
+          <nav class="footer-langs" aria-label="景点">
+            <a href="/zh/lieux/chateau-de-gruyeres/">格吕耶尔城堡</a>
+            <a href="/zh/lieux/maison-du-gruyere/">格吕耶尔奶酪之家</a>
+            <a href="/zh/lieux/maison-cailler/">凯勒巧克力工坊</a>
+            <a href="/zh/lieux/musee-hr-giger/">HR·吉格尔博物馆</a>
+            <a href="/zh/lieux/moleson/">莫莱松山</a>
+            <a href="/zh/faq/">常见问题</a>
+          </nav>
         </div>
         <div>
           <h4>语言</h4>
@@ -309,6 +494,36 @@
           <li>格吕耶尔湖 : 作者 Thomas Woodtli from Zürich, Switzerland, <a href="https://creativecommons.org/licenses/by-sa/2.0" rel="license noopener">CC BY-SA 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Lac_de_la_Gruy%C3%A8re_(28705367022).jpg" rel="noopener">Wikimedia Commons</a></li>
           <li>高山牛铃 : 作者 Thierry Wagner (Gruyere alpage), <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Cloches_des_vaches.jpg" rel="noopener">Wikimedia Commons</a></li>
           <li>约涅峡谷 : 作者 Jérémy Sauterel from Suisse, <a href="https://creativecommons.org/licenses/by/2.0" rel="license noopener">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Rivi%C3%A8re_aux_Gorges_de_la_Jogne_(49424343057).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>从西南方望去的格吕耶尔城堡 : 作者 JoachimKohler-HB, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Gruy%C3%A8res,_vue_sud-ouest_(2014).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>夏日航拍的城堡与城墙 : 作者 Simon Broccard, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruy%C3%A8res_Castle_Drone.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>面向布罗克峰的法式花园 : 作者 Martin Thurnherr, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Jardin_du_Ch%C3%A2teau_de_Gruy%C3%A8res_Greyerz_01.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>城堡内院 : 作者 Salomé Mulet, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruyere_20190711_02.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>山丘上的城堡与古城，航拍 : 作者 Bob Tan, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruy%C3%A8res_Castle_(Ch%C3%A2teau_de_Gruy%C3%A8res).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>秋日阿尔卑斯前山前的城堡东南塔 : 作者 Ascasis, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Gruy%C3%A8res,_Tour_sud-est,_vue_du_Dent_du_Chamois_et_Dent_du_Bourgo.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>格吕耶尔奶酪之家熟成窖中的奶酪轮 : 作者 WillYs Fotowerkstatt, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruy%C3%A8re-Schauk%C3%A4serei-Lager.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>格吕耶尔奶酪之家的示范奶酪坊 : 作者 WillYs Fotowerkstatt, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruy%C3%A8re-Schauk%C3%A4serei.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>格吕耶尔镇的一座奶酪熟成窖 : 作者 Velatrix, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" rel="license noopener">CC0</a>, <a href="https://commons.wikimedia.org/wiki/File:Cave_d%27affinage_%C3%A0_Gruy%C3%A8res.JPG" rel="noopener">Wikimedia Commons</a></li>
+          <li>高山格吕耶尔奶酪入模 : 作者 Thierry Wagner (Gruyere alpage), <a href="https://creativecommons.org/licenses/by/3.0" rel="license noopener">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Mise_dans_le_moule.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>格吕耶尔镇入口的一头奶牛 : 作者 Traumrune, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruyere_02_vache.JPG" rel="noopener">Wikimedia Commons</a></li>
+          <li>格吕耶尔脚下普兰吉的风景 : 作者 André Schakkal, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruy%C3%A8re_Landscape.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>布罗克的凯勒巧克力工坊 : 作者 Fridolin freudenfett, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Broc_Chocolaterie_Maison_Cailler-008.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>约涅河畔的凯勒巧克力工厂 : 作者 Hansueli Krapf, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:2024-08-15_10-05-13_Botterens_Bataille_735.5.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>凯勒巧克力工坊陈列的果仁糖 : 作者 Tom Key, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:1636_Broc,_Switzerland_-_panoramio.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>布罗克工厂站的旧木站房 : 作者 Hansueli Krapf, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:2024-08-15_09-58-59_Broc_Bataille_743.6.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>布罗克峰与沙穆瓦峰 : 作者 Björn S..., <a href="https://creativecommons.org/licenses/by-sa/2.0" rel="license noopener">CC BY-SA 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Dent_de_Broc_and_Dent_de_Chamois_(15936218152).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>秋日格吕耶尔湖上方的布罗克峰 : 作者 Zacharie Grossen, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Lac_de_la_Gruy%C3%A8re_-_Dent_de_Broc.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>圣日耳曼城堡的立面 : 作者 Pro1968, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Fribourg_-_Gruy%C3%A8res_-_Ch%C3%A2teau_Saint-Germain_-_4.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>从HR吉格尔博物馆望向古城 : 作者 Christophe95, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Vue_de_Gruy%C3%A8res.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>夜幕降临时的布尔街 : 作者 Swphotouk, <a href="https://creativecommons.org/licenses/by/4.0" rel="license noopener">CC BY 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruyeres_Switzerland_04.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>布尔街与莫莱松山 : 作者 JoachimKohler-HB, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Rue_du_Bourg_in_Gruy%C3%A8res_FR_%26_Mol%C3%A9son_(2014).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>格吕耶尔花团锦簇的主街 : 作者 DD31313, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruy%C3%A8re_Main_Street.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>格吕耶尔教堂与积雪的阿尔卑斯前山 : 作者 Lukas Plewnia from Winterthur, Schweiz, <a href="https://creativecommons.org/licenses/by-sa/2.0" rel="license noopener">CC BY-SA 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruyer_(36267434270).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>莫莱松山俯瞰格吕耶尔地区 : 作者 GGDELABAS, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Le_Mol%C3%A9son,_de_ses_2002m,_tr%C3%B4ne_sur_la_Gruy%C3%A8re.JPG" rel="noopener">Wikimedia Commons</a></li>
+          <li>从西南方望去的莫莱松山顶 : 作者 Espandero, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Moleson_from_south-west.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>从莫莱松山顶眺望阿尔卑斯前山 : 作者 Swphotouk, <a href="https://creativecommons.org/licenses/by/4.0" rel="license noopener">CC BY 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Les_Moleson_Switzerland_Alps_04.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>倒映在格吕耶尔湖中的莫莱松山 : 作者 Ludovic Péron, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Mol%C3%A9son_depuis_le_lac_de_la_Gruy%C3%A8re-b.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>云雾之上的雪中莫莱松山 : 作者 Typhaon88, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Pays_de_la_Gruy%C3%A8re.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>从莫莱松山顶看到的云海 : 作者 RyanK1401, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Le_Moleson_au_dessus_des_nuages.jpg" rel="noopener">Wikimedia Commons</a></li>
         </ul>
       </details>
       <div class="footer-bottom">
@@ -317,7 +532,7 @@
     </div>
   </footer>
 
-  <script src="/site.js?v=6f3d4c0b" defer></script>
+  <script src="/site.js?v=1e9f3330" defer></script>
   <script>try { localStorage.setItem("gt-lang", "zh"); } catch (e) {}</script>
 </body>
 </html>

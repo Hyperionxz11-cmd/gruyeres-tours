@@ -1,0 +1,376 @@
+{
+  "places": {
+    "chateau-de-gruyeres": {
+      "title": "Gruyères Castle: history, visit and tips",
+      "description": "Visit Gruyères Castle on a day trip from Geneva: eight centuries of history, the Knights' Hall, the French formal garden and our practical visiting tips.",
+      "h1": "Gruyères Castle",
+      "intro": "Perched on its hill above the Sarine, the castle has watched over the medieval town of Gruyères since the 13th century. It tells eight centuries of architecture, art and regional history.",
+      "sections": [
+        {
+          "h2": "Eight centuries of history",
+          "text": "The castle first appears in the archives in 1244. It follows the layout known as the Savoyard square. For nearly five centuries, the Counts of Gruyère ruled the region from here. In 1554, Count Michel went bankrupt. His main creditors, Bern and Fribourg, seized his estates. From 1555 to 1798, more than fifty bailiffs from Fribourg governed the territory from within these walls. The castle was sold at auction in 1849 to the Bovy family from Geneva, then passed to the Balland family. The Canton of Fribourg became its owner and opened it to the public in 1939."
+        },
+        {
+          "h2": "What you discover inside",
+          "text": "The tour leads from the guardroom to the Romantic salons, then on to the Knights' Hall, decorated in the Troubadour style. Along the way you will see medieval stained glass, frescoes from the Ancien Régime and paintings by Corot. In the 19th century, Daniel Bovy welcomed artists to the castle, among them Barthélemy Menn, who left their decorations in several rooms. Local legends accompany the visit, such as that of Chalamala, the counts' jester. A free audio guide with augmented reality can be downloaded to your smartphone in French, German and English."
+        },
+        {
+          "h2": "The garden and the view over the Gruyère region",
+          "text": "Around the castle, the French formal garden and the ramparts look out over the rooftops of the medieval town and the Fribourg Pre-Alps. The garden is open from Easter to September. From the walls, it is easy to see why the counts chose this promontory: it commands the whole valley. The castle is the historic heart of the region that gave its name to the famous cheese. Picnics are not allowed within the castle walls."
+        },
+        {
+          "h2": "Visiting tips",
+          "text": "According to MySwitzerland, a visit takes between one and two hours. The castle is open every day of the year, with opening hours that vary by season. We recommend checking the official website before you go. For families, a treasure hunt led by a guide in medieval costume is available on booking. Gruyères is best explored on foot: bring comfortable shoes for the cobbled climb up to the castle."
+        }
+      ],
+      "facts": [
+        {
+          "label": "First mention",
+          "value": "1244"
+        },
+        {
+          "label": "Open to the public",
+          "value": "Since 1939"
+        },
+        {
+          "label": "Owner",
+          "value": "Canton of Fribourg"
+        },
+        {
+          "label": "Suggested visit length",
+          "value": "1 to 2 hours"
+        },
+        {
+          "label": "French formal garden",
+          "value": "Open from Easter to September"
+        }
+      ],
+      "inTour": "The castle is one of the highlights of your day, at the top of the medieval town of Gruyères.",
+      "sources": [
+        "https://www.chateau-gruyeres.ch/fr/histoire",
+        "https://www.chateau-gruyeres.ch/en/history/",
+        "https://www.myswitzerland.com/fr-fr/decouvrir/chateau-de-gruyeres/",
+        "https://hls-dhs-dss.ch/fr/articles/000905",
+        "https://www.chateau-gruyeres.ch/en/faq/"
+      ]
+    },
+    "maison-du-gruyere": {
+      "title": "La Maison du Gruyère, Pringy: Gruyère cheese factory",
+      "description": "La Maison du Gruyère in Pringy, below Gruyères: watch Gruyère AOP being made, learn its history and taste it. Practical information and visiting tips.",
+      "h1": "La Maison du Gruyère, a demonstration cheese dairy",
+      "intro": "In Pringy, at the foot of the town of Gruyères, La Maison du Gruyère takes you into the master cheesemaker's workshop. Here Gruyère AOP comes to life, before his eyes and yours.",
+      "sections": [
+        {
+          "h2": "Switzerland's first demonstration cheese dairy",
+          "text": "La Maison du Gruyère opened its doors in Pringy on 24 June 1969. It was the first demonstration cheese dairy in Switzerland. It is run by the Société coopérative Laiterie de Gruyères. In its early days, nine wheels were made here each day. Today, the dairy produces up to 48 wheels of Gruyère AOP a day and processes more than six million litres of milk a year. It is both a genuine production site and a showcase for the know-how of the whole region."
+        },
+        {
+          "h2": "Watch Gruyère AOP being made",
+          "text": "From a glazed gallery, you follow the cheesemaker at work, from the raw milk to the moulding of the wheels. Cheesemaking takes place several times a day, in the morning, depending on the season. A maturing cellar lets you follow the wheels as they age. The interactive exhibition “Le Gruyère AOP, voyage au cœur des sens” (a journey to the heart of the senses) completes the visit with images, objects and games."
+        },
+        {
+          "h2": "A cheese tied to its land",
+          "text": "Gruyère takes its name from the region where it was born. It has held a controlled designation of origin in Switzerland since 2001, today a protected designation of origin (AOP). Its specification requires raw milk, with no pasteurisation or additives, delivered to the dairy twice a day. At least 400 litres of milk are needed for a wheel of around 35 kilos. The Gruyère interprofessional body, which safeguards the designation, also has its headquarters in Pringy."
+        },
+        {
+          "h2": "Visiting tips",
+          "text": "To see the cheesemaker at work, the morning is the best time, as cheesemaking takes place in the morning. Opening hours change with the season: check the official website before you go. On site, a restaurant and a shop let you taste the house cheese and take some home. La Maison du Gruyère is just a few minutes from the medieval town, which makes it a natural stop before or after the climb up to the castle."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Opened",
+          "value": "24 June 1969"
+        },
+        {
+          "label": "Location",
+          "value": "Pringy, municipality of Gruyères"
+        },
+        {
+          "label": "Production",
+          "value": "Up to 48 wheels a day"
+        },
+        {
+          "label": "Milk for one wheel",
+          "value": "At least 400 litres for around 35 kg"
+        },
+        {
+          "label": "Designation",
+          "value": "AOC in Switzerland since 2001, today AOP"
+        }
+      ],
+      "inTour": "La Maison du Gruyère opens the door to the cheese that made the region famous, ideally in the morning to watch it being made.",
+      "sources": [
+        "https://www.lamaisondugruyere.ch/about-us/co-operative-laiterie-de-gruyeres/",
+        "https://www.lamaisondugruyere.ch/wp-content/uploads/2024/04/La-Maison-du-Gruyere_2024_fr.pdf",
+        "https://www.museums.ch/fr/visite-au-musee/musees/musees/la-maison-du-gruyere-2579.html",
+        "https://www.aop-igp.ch/en/le-gruyere-aop",
+        "https://gruyere.com/fr/cahier-des-charges",
+        "https://www.assemblee-nationale.fr/13/pdf/rapports/r2375.pdf"
+      ]
+    },
+    "maison-cailler": {
+      "title": "Maison Cailler, Broc: chocolate factory tour",
+      "description": "Visit Maison Cailler in Broc, in the Gruyère region: the story of Switzerland's oldest chocolate brand, how it is made, and a tasting. Our visiting tips.",
+      "h1": "Maison Cailler, the chocolate factory in Broc",
+      "intro": "In Broc, in the heart of the Gruyère region, Cailler chocolate has been made since 1898. Maison Cailler opens the doors to this story, from the cocoa bean to the tasting.",
+      "sections": [
+        {
+          "h2": "A story that began in 1819",
+          "text": "François-Louis Cailler founded his chocolate business in 1819 in Vevey, on the shores of Lake Geneva. Cailler is today the oldest chocolate brand still in existence in Switzerland. In 1898, his grandson Alexandre-Louis Cailler opened a new factory in Broc, in the Gruyère region, an area renowned for the quality of its milk. In 1929, the company was bought by Nestlé and became one of the group's brands. Cailler chocolate is still made in Broc, in the historic building that now welcomes visitors."
+        },
+        {
+          "h2": "The visitor experience",
+          "text": "Launched in 2010 on the factory site, Maison Cailler offers a tour in several stages. The first part, playful and interactive, tells the story of the Cailler family and the great names of Swiss chocolate. The second part is devoted to production. You touch and examine the raw ingredients, discover the people who produce them, then watch a production line making chocolate branches. The tour ends with a tasting of the house specialities."
+        },
+        {
+          "h2": "Milk from the Gruyère region",
+          "text": "Broc was no accidental choice. Cailler chocolate is made with milk from the region, the same pastureland that produces Gruyère AOP. Chocolate and cheese thus share the same landscape of meadows and dairy cows. This link makes Maison Cailler a natural complement to the nearby cheese dairy in Pringy. A shop at the end of the tour lets you take home bars and pralines."
+        },
+        {
+          "h2": "Visiting tips",
+          "text": "Maison Cailler is open every day except 25 December and 1 January, with opening hours that vary by season. Last entry is one hour before closing. Tickets can be booked online to avoid queuing, which we recommend in high season. The visit is a great favourite with families: the tour is interactive and the tasting delights young and old alike. The visit is also included in the PocketPass La Gruyère."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Brand founded",
+          "value": "1819, in Vevey"
+        },
+        {
+          "label": "Production in Broc",
+          "value": "Since 1898"
+        },
+        {
+          "label": "Maison Cailler opened",
+          "value": "2010"
+        },
+        {
+          "label": "Group",
+          "value": "Nestlé, since 1929"
+        }
+      ],
+      "inTour": "Maison Cailler adds a sweet note to the day, just a few minutes from Gruyères.",
+      "sources": [
+        "https://fribourg.ch/fr/la-gruyere/musees/maison-cailler-chocolaterie-suisse/",
+        "https://en.wikipedia.org/wiki/Cailler",
+        "https://www.swissinfo.ch/fre/economie/histoire_la-chocolaterie-cailler-c%C3%A9l%C3%A8bre-son-bicentenaire/44740216",
+        "https://hls-dhs-dss.ch/fr/articles/003912/"
+      ]
+    },
+    "musee-hr-giger": {
+      "title": "HR Giger Museum in Gruyères: the world of Alien",
+      "description": "The HR Giger Museum at Château St-Germain in Gruyères: the largest collection of the Oscar-winning Swiss artist behind Alien, and his bar. Visitor info.",
+      "h1": "The HR Giger Museum at Château Saint-Germain",
+      "intro": "A few steps from Gruyères Castle, Château Saint-Germain houses an unexpected world: that of HR Giger, the Swiss artist who created the creature in Alien. The contrast with the medieval town is striking.",
+      "sections": [
+        {
+          "h2": "HR Giger, a world-famous Swiss artist",
+          "text": "Hans Ruedi Giger was born on 5 February 1940 in Chur, in the canton of Graubünden, and died on 12 May 2014 in Zurich. His style, described as biomechanical, blends the human body with the machine. He achieved worldwide fame with the film Alien, released in 1979. In 1980, together with the special effects team, he received the Oscar for Best Visual Effects for the film. A painter, sculptor and designer, he left a lasting mark on science fiction cinema and on the imagination of several generations."
+        },
+        {
+          "h2": "The museum",
+          "text": "Since 1998, Château Saint-Germain, a historic residence in the town of Gruyères, has been the artist's museum. It brings together the largest existing collection of his work: paintings, sculptures, furniture and pieces of film sets. Visitors also discover creations linked to Alien. Giger's world is dark and at times explicit. It fascinates lovers of fantasy art and cinema, but it is not to everyone's taste: we are happy to talk it through with you before including it."
+        },
+        {
+          "h2": "The HR Giger Bar",
+          "text": "Opposite the museum, the HR Giger Bar extends the experience. Giger designed it himself: the ceiling, walls, floors and furniture all echo his shapes of bones and skeletons. The bar can be visited without entering the museum, so everyone can choose their own level of immersion. Having a coffee beneath these vaults, in the middle of a medieval town, remains one of the most surprising moments of a day in Gruyères."
+        },
+        {
+          "h2": "Visiting tips",
+          "text": "The museum is in the medieval town, a few metres from Gruyères Castle. The two visits are therefore easy to combine on foot. Opening hours vary by season: check the museum's official website before you go. According to MySwitzerland, the bar is step-free, which is not the case for the museum. For groups with young children, we generally favour other stops, such as the cheese dairy in Pringy or Maison Cailler."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Location",
+          "value": "Château Saint-Germain, Gruyères"
+        },
+        {
+          "label": "Museum open",
+          "value": "Since 1998"
+        },
+        {
+          "label": "Oscar",
+          "value": "1980, Best Visual Effects for Alien"
+        },
+        {
+          "label": "The artist",
+          "value": "HR Giger, 1940 to 2014"
+        }
+      ],
+      "inTour": "The HR Giger Museum is an optional stop for lovers of fantasy art, just a stone's throw from the castle.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/H._R._Giger",
+        "https://www.myswitzerland.com/en/experiences/hr-giger-museum/",
+        "https://www.vaud.ch/en/tourism/activites/hr-giger-museum",
+        "https://www.hrgigermuseum.com/about"
+      ]
+    },
+    "moleson": {
+      "title": "Moléson: the 2,002 m summit of the Gruyère region",
+      "description": "Ride up the Moléson from Moléson-sur-Gruyères by funicular and cable car to a 2,002 m panorama over the Alps and Lake Geneva. Information and visiting tips.",
+      "h1": "Moléson, the iconic summit of the Gruyère region",
+      "intro": "Moléson is the mountain of the Gruyère region, visible from all around. From its summit, at 2,002 metres, the view takes in the Alps, the Jura and Lake Geneva.",
+      "sections": [
+        {
+          "h2": "A mountain of the Fribourg Pre-Alps",
+          "text": "Moléson rises to 2,002 metres above sea level, in the Fribourg Pre-Alps. It towers over the resort of Moléson-sur-Gruyères, which lies at around 1,100 metres. Its silhouette is part of the Gruyère landscape: you can see it from the medieval town as well as from the meadows where the cows that give the cheese its milk graze. In summer, hiking trails criss-cross its slopes. In winter, the resort offers a ski area, snow permitting."
+        },
+        {
+          "h2": "Up by funicular and cable car",
+          "text": "The ascent is made in two stages. A funicular links Moléson-sur-Gruyères to Plan-Francey in about five minutes. From there, a cable car climbs to the summit. The journey already offers an ever-changing view of the valley as you climb the south-eastern flank of the mountain. Plan-Francey, at around 1,500 metres, is also the starting point for several hikes."
+        },
+        {
+          "h2": "The panorama from the summit",
+          "text": "At the top, a panoramic platform on the roof of the upper station offers a 360-degree view. On a clear day, it stretches from Lake Geneva to the line of the Jura and on to the peaks of the Alps. Le Sommet restaurant, with its large picture windows, lets you enjoy a drink facing the mountains. It is the ideal place to take in, at a single glance, the geography of the Gruyère region and its neighbours."
+        },
+        {
+          "h2": "Visiting tips",
+          "text": "The funicular and the cable car run during the warmer months, on dates set each year by the operator: check them before you go. The view depends entirely on the weather: we adapt the order of the day so that you go up at the best moment. At the summit, it is noticeably cooler than in the lowlands. Bring a jacket, even in summer, as well as sunglasses. The funicular leaves from Moléson-sur-Gruyères, a short drive from the medieval town."
+        }
+      ],
+      "facts": [
+        {
+          "label": "Summit altitude",
+          "value": "2,002 m"
+        },
+        {
+          "label": "Departure",
+          "value": "Moléson-sur-Gruyères, around 1,100 m"
+        },
+        {
+          "label": "Funicular",
+          "value": "To Plan-Francey, about 5 minutes"
+        },
+        {
+          "label": "Cable car",
+          "value": "From Plan-Francey to the summit"
+        },
+        {
+          "label": "Season",
+          "value": "Warmer months, as set by the operator"
+        }
+      ],
+      "inTour": "Moléson offers the day's great breath of fresh air, when the weather allows you to enjoy the panorama.",
+      "sources": [
+        "https://moleson.ch/en/?p=327837",
+        "https://fribourg.ch/wp-content/uploads/2024/02/Factsheet_2025_FR_Moleson.pdf",
+        "https://fr.wikipedia.org/wiki/Gruy%C3%A8res_(Fribourg)",
+        "https://en.wikipedia.org/wiki/Funiculaire_Mol%C3%A9son-sur-Gruy%C3%A8res_%E2%80%93_Plan-Francey",
+        "https://torpille.ch/listing/telepherique-et-funiculaire-du-moleson/"
+      ]
+    }
+  },
+  "faq": [
+    {
+      "q": "How far is Gruyères from Geneva?",
+      "a": "Gruyères is around 120 kilometres from Geneva by road. The route follows the A1 motorway to Lausanne, then the A9 and A12 towards Bulle. Without traffic, allow about an hour and a half. The actual journey time depends on traffic, especially around Geneva and Lausanne at rush hour."
+    },
+    {
+      "q": "Can you visit Gruyères on a day trip from Geneva?",
+      "a": "Yes. The distance allows you to leave in the morning and be back in the evening. In one day, you can explore the medieval town and its castle, watch Gruyère AOP being made in Pringy and add one or two further stops, such as Maison Cailler in Broc or Moléson. We put the programme together around your wishes and the season."
+    },
+    {
+      "q": "How long does the excursion last?",
+      "a": "It is a full day, departing from and returning to Geneva. The pace and the number of stops are adapted to your group. A family with young children does not have the same needs as a group of art lovers or hikers. We suggest an itinerary when we prepare your day."
+    },
+    {
+      "q": "What is the best season to visit the Gruyère region?",
+      "a": "The region can be visited all year round, but spring, summer and early autumn offer the most options. The castle garden is open from Easter to September. The Moléson funicular and cable car run during the warmer months, on dates set each year. In winter, the castle, the cheese dairy and Maison Cailler remain open."
+    },
+    {
+      "q": "Do visits need to be booked in advance?",
+      "a": "For Maison Cailler, booking online is recommended to avoid queuing. Some activities, such as the children's treasure hunt at Gruyères Castle, must be booked in advance. When you organise your day with us, we take care of checking availability and opening hours at each venue for your chosen date."
+    },
+    {
+      "q": "Can we bring children?",
+      "a": "Yes, the Gruyère region is ideal for a family outing. Cheesemaking at La Maison du Gruyère, the tasting at Maison Cailler and the funicular ride up Moléson are great favourites with children. The castle offers a treasure hunt on booking. The HR Giger Museum, with its dark world, is less suitable for young children."
+    },
+    {
+      "q": "In which language is the excursion run?",
+      "a": "Our website is available in French, German, English, Portuguese, Spanish and Chinese. We organise the day in your group's language, subject to availability. On site, some venues offer their own materials: the castle's audio guide, for example, is available in French, German and English."
+    },
+    {
+      "q": "What is Gruyère AOP?",
+      "a": "Gruyère is a hard cheese born in the Gruyères region. It has held a controlled designation of origin in Switzerland since 2001, today a protected designation of origin (AOP). It is made from raw milk, with no pasteurisation or additives, using milk delivered twice a day. At least 400 litres of milk are needed for a wheel of around 35 kilos."
+    },
+    {
+      "q": "Are Maison Cailler and Gruyères Castle close to each other?",
+      "a": "Yes. Broc, home to Maison Cailler, and Pringy, home to La Maison du Gruyère, are neighbours of the town of Gruyères. The HR Giger Museum is a few metres from the castle, within the town itself. Moléson rises above Moléson-sur-Gruyères. These stops are easy to combine in a single day."
+    },
+    {
+      "q": "How do I organise my private day in the Gruyère region?",
+      "a": "Fill in the “Plan your day” form, giving your preferred date, the number of participants, the language and the places that interest you. We will come back to you with a proposal tailored to your group. You can then fine-tune it with us before confirming."
+    }
+  ],
+  "sources": [
+    "https://www.chateau-gruyeres.ch/fr/histoire",
+    "https://www.chateau-gruyeres.ch/en/history/",
+    "https://www.chateau-gruyeres.ch/en/faq/",
+    "https://www.myswitzerland.com/fr-fr/decouvrir/chateau-de-gruyeres/",
+    "https://hls-dhs-dss.ch/fr/articles/000905",
+    "https://www.lamaisondugruyere.ch/about-us/co-operative-laiterie-de-gruyeres/",
+    "https://www.lamaisondugruyere.ch/wp-content/uploads/2024/04/La-Maison-du-Gruyere_2024_fr.pdf",
+    "https://www.museums.ch/fr/visite-au-musee/musees/musees/la-maison-du-gruyere-2579.html",
+    "https://www.aop-igp.ch/en/le-gruyere-aop",
+    "https://gruyere.com/fr/cahier-des-charges",
+    "https://www.assemblee-nationale.fr/13/pdf/rapports/r2375.pdf",
+    "https://fribourg.ch/fr/la-gruyere/musees/maison-cailler-chocolaterie-suisse/",
+    "https://en.wikipedia.org/wiki/Cailler",
+    "https://www.swissinfo.ch/fre/economie/histoire_la-chocolaterie-cailler-c%C3%A9l%C3%A8bre-son-bicentenaire/44740216",
+    "https://hls-dhs-dss.ch/fr/articles/003912/",
+    "https://en.wikipedia.org/wiki/H._R._Giger",
+    "https://www.myswitzerland.com/en/experiences/hr-giger-museum/",
+    "https://www.vaud.ch/en/tourism/activites/hr-giger-museum",
+    "https://www.hrgigermuseum.com/about",
+    "https://www.we-heart.com/?p=37815",
+    "https://moleson.ch/en/?p=327837",
+    "https://fribourg.ch/wp-content/uploads/2024/02/Factsheet_2025_FR_Moleson.pdf",
+    "https://fr.wikipedia.org/wiki/Gruy%C3%A8res_(Fribourg)",
+    "https://en.wikipedia.org/wiki/Funiculaire_Mol%C3%A9son-sur-Gruy%C3%A8res_%E2%80%93_Plan-Francey",
+    "https://torpille.ch/listing/telepherique-et-funiculaire-du-moleson/"
+  ],
+  "captions": {
+    "chateau-de-gruyeres": [
+      "Gruyères Castle seen from the south-west",
+      "The castle and its ramparts from the air in summer",
+      "The formal French garden facing the Dent de Broc",
+      "The castle courtyard",
+      "The castle and the old town on their hill, aerial view",
+      "The castle's south-east tower against the Prealps in autumn"
+    ],
+    "maison-du-gruyere": [
+      "Wheels in the ripening cellar of La Maison du Gruyère",
+      "The demonstration dairy of La Maison du Gruyère",
+      "A Gruyère ripening cellar in Gruyères",
+      "Moulding an alpine Gruyère",
+      "A cow at the entrance to Gruyères",
+      "The landscape of Pringy, below Gruyères"
+    ],
+    "maison-cailler": [
+      "Maison Cailler in Broc",
+      "The Cailler chocolate factory on the Jogne river",
+      "Pralines on display at Maison Cailler",
+      "The old wooden station of Broc-Fabrique",
+      "The Dent de Broc and the Dent du Chamois",
+      "The Dent de Broc above Lake Gruyère in autumn"
+    ],
+    "musee-hr-giger": [
+      "The facade of Château Saint-Germain",
+      "The old town seen from the HR Giger Museum",
+      "Rue du Bourg at nightfall",
+      "Rue du Bourg and the Moléson",
+      "The flower-lined main street of Gruyères",
+      "The church of Gruyères and the snowy Prealps"
+    ],
+    "moleson": [
+      "The Moléson towers over the Gruyère region",
+      "The summit of the Moléson from the south-west",
+      "View from the Moléson summit over the Prealps",
+      "The Moléson reflected in Lake Gruyère",
+      "The snowy Moléson above the fog",
+      "A sea of clouds seen from the top of the Moléson"
+    ]
+  }
+}

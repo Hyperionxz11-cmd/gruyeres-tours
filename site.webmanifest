@@ -1,0 +1,20 @@
+{
+  "name": "Gruyères Tours",
+  "short_name": "Gruyères Tours",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e2820",
+  "theme_color": "#0e2820",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

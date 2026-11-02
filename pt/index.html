@@ -34,24 +34,163 @@
   <link rel="preload" as="image" href="/img/chateau-2400.webp" imagesrcset="/img/chateau-800.webp 800w, /img/chateau-1400.webp 1400w, /img/chateau-2400.webp 2400w" imagesizes="100vw" fetchpriority="high">
   <link rel="preload" href="/fonts/ebgaramond-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" type="image/svg+xml" href="/logo.svg">
-  <link rel="stylesheet" href="/style.css?v=6f3d4c0b">
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/icon-192.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/style.css?v=1e9f3330">
   <script>document.documentElement.classList.add("js")</script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "TouristTrip",
-    "name": "Gruyères Tours, passeio privado saindo de Genebra",
-    "description": "Um dia privado para conhecer Gruyères e os Pré-Alpes, saindo de Genebra.",
-    "inLanguage": "pt",
-    "url": "https://gruyeres-tours.com/pt/",
-    "image": "https://gruyeres-tours.com/img/og.jpg",
-    "provider": {
-      "@type": "Organization",
-      "name": "Gruyères Tours",
-      "url": "https://gruyeres-tours.com/",
-      "email": "info@gruyeres-tours.com"
-    }
+    "@graph": [
+      {
+        "@type": "TravelAgency",
+        "@id": "https://gruyeres-tours.com/#organisation",
+        "name": "Gruyères Tours",
+        "url": "https://gruyeres-tours.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://gruyeres-tours.com/img/logo-512.png",
+          "width": 512,
+          "height": 512
+        },
+        "image": "https://gruyeres-tours.com/img/og.jpg",
+        "email": "info@gruyeres-tours.com",
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Genève"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gruyère, canton de Fribourg"
+          }
+        ],
+        "knowsLanguage": [
+          "fr",
+          "de",
+          "en",
+          "pt",
+          "es",
+          "zh-Hans"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://gruyeres-tours.com/#site",
+        "name": "Gruyères Tours",
+        "url": "https://gruyeres-tours.com/",
+        "inLanguage": [
+          "fr",
+          "de",
+          "en",
+          "pt",
+          "es",
+          "zh-Hans"
+        ],
+        "publisher": {
+          "@id": "https://gruyeres-tours.com/#organisation"
+        }
+      },
+      {
+        "@type": "TouristTrip",
+        "name": "Gruyères Tours, passeio privado saindo de Genebra",
+        "description": "Um dia privado para conhecer Gruyères e os Pré-Alpes, saindo de Genebra.",
+        "inLanguage": "pt",
+        "url": "https://gruyeres-tours.com/pt/",
+        "image": "https://gruyeres-tours.com/img/og.jpg",
+        "touristType": [
+          "Groupes privés",
+          "Familles"
+        ],
+        "provider": {
+          "@id": "https://gruyeres-tours.com/#organisation"
+        },
+        "itinerary": {
+          "@type": "ItemList",
+          "numberOfItems": 5,
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Castelo de Gruyères",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Gruyères",
+                  "addressRegion": "FR",
+                  "addressCountry": "CH"
+                },
+                "url": "https://gruyeres-tours.com/pt/lieux/chateau-de-gruyeres/"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "La Maison du Gruyère",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Pringy",
+                  "addressRegion": "FR",
+                  "addressCountry": "CH"
+                },
+                "url": "https://gruyeres-tours.com/pt/lieux/maison-du-gruyere/"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Maison Cailler",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Broc",
+                  "addressRegion": "FR",
+                  "addressCountry": "CH"
+                },
+                "url": "https://gruyeres-tours.com/pt/lieux/maison-cailler/"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "Museu HR Giger",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Gruyères",
+                  "addressRegion": "FR",
+                  "addressCountry": "CH"
+                },
+                "url": "https://gruyeres-tours.com/pt/lieux/musee-hr-giger/"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "item": {
+                "@type": "TouristAttraction",
+                "name": "O Moléson",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Moléson-sur-Gruyères",
+                  "addressRegion": "FR",
+                  "addressCountry": "CH"
+                },
+                "url": "https://gruyeres-tours.com/pt/lieux/moleson/"
+              }
+            }
+          ]
+        }
+      }
+    ]
   }
   </script>
 </head>
@@ -65,10 +204,11 @@
         <span class="brand-text"><span class="brand-name">Gruyères Tours</span><span class="brand-tag">Genève · Gruyère</span></span>
       </a>
       <nav class="nav-links" aria-label="Navegação principal">
-        <a href="#region">A região de Gruyère</a>
-        <a href="#stops">Paradas</a>
-        <a href="#schedule">Roteiro</a>
-        <a href="#offer">O projeto</a>
+        <a href="/pt/#region">A região de Gruyère</a>
+        <a href="/pt/#stops">Paradas</a>
+        <a href="/pt/#schedule">Roteiro</a>
+        <a href="/pt/#organiser">Organizar</a>
+        <a href="/pt/faq/">Perguntas</a>
       </nav>
       <div class="nav-actions">
         <details class="lang">
@@ -88,10 +228,11 @@
   </header>
 
   <div class="mobile-panel" id="mobile-panel" aria-label="Navegação móvel">
-    <a href="#region">A região de Gruyère</a>
-    <a href="#stops">Paradas</a>
-    <a href="#schedule">Roteiro</a>
-    <a href="#offer">O projeto</a>
+    <a href="/pt/#region">A região de Gruyère</a>
+    <a href="/pt/#stops">Paradas</a>
+    <a href="/pt/#schedule">Roteiro</a>
+    <a href="/pt/#organiser">Organizar</a>
+    <a href="/pt/faq/">Perguntas</a>
     <div class="mobile-langs">
       <a href="/fr/" hreflang="fr" lang="fr" title="Français">fr</a>
       <a href="/de/" hreflang="de" lang="de" title="Deutsch">de</a>
@@ -115,10 +256,9 @@
         <h1 data-rise style="--d:.12s">Gruyères em um dia, sem se preocupar com a logística.</h1>
         <p class="lead" data-rise style="--d:.24s">Castelo, queijo, chocolate e vista dos Alpes. Um roteiro privado para o seu grupo, no ritmo de vocês.</p>
         <div class="hero-actions" data-rise style="--d:.36s">
-          <a class="btn" href="#offer"><span class="roll"><b>Conhecer o projeto</b><b aria-hidden="true">Conhecer o projeto</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
+          <a class="btn" href="#organiser"><span class="roll"><b>Organizar meu dia</b><b aria-hidden="true">Organizar meu dia</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
           <a class="btn btn-sec" href="#stops"><span class="roll"><b>Ver as paradas</b><b aria-hidden="true">Ver as paradas</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
         </div>
-        <p class="status-pill" data-rise style="--d:.48s"><i aria-hidden="true"></i>A Gruyères Tours está sendo preparada. Conheça desde já a experiência planejada.</p>
       </div>
       <div class="hero-foot">
         <div class="container">
@@ -165,9 +305,9 @@
       <div class="scene-body">
         <div class="container experience-grid">
           <div class="glass" data-reveal>
-            <p class="eyebrow">O projeto</p>
+            <p class="eyebrow">A experiência</p>
             <h2>Um dia pensado para o seu grupo.</h2>
-            <p class="lead">Estamos preparando um passeio privado saindo de Genebra para mostrar as paisagens, o patrimônio e os sabores da região de Gruyère, em um ritmo adaptado ao grupo.</p>
+            <p class="lead">Organizamos um passeio privado saindo de Genebra para mostrar a vocês as paisagens, o patrimônio e os sabores da região de Gruyère, no ritmo do seu grupo.</p>
           </div>
           <div class="promises">
             <article class="promise glass" data-reveal><span class="num">01</span><h3>Saída de Genebra</h3><p>Embarque em um local combinado.</p></article>
@@ -191,16 +331,16 @@
       <div class="scene-body">
         <div class="container">
           <div class="stops-intro glass" data-reveal>
-            <p class="eyebrow">Os lugares no centro do projeto</p>
+            <p class="eyebrow">Os lugares do dia</p>
             <h2>Do patrimônio medieval aos picos das montanhas.</h2>
-            <p class="lead">O roteiro final será anunciado após a confirmação dos parceiros, dos acessos e do ritmo do dia.</p>
+            <p class="lead">Cada dia é montado conforme os seus desejos, a estação e a disponibilidade dos lugares.</p>
           </div>
           <ol class="story-steps">
-            <li class="story-step glass is-active"><span class="num">01 / 05</span><h3>Castelo de Gruyères</h3><p>Oito séculos de história acima da vila medieval.</p></li>
-            <li class="story-step glass"><span class="num">02 / 05</span><h3>La Maison du Gruyère</h3><p>Entenda como é feito o queijo mais famoso da região.</p></li>
-            <li class="story-step glass"><span class="num">03 / 05</span><h3>Maison Cailler</h3><p>Um mergulho na história do chocolate suíço.</p></li>
-            <li class="story-step glass"><span class="num">04 / 05</span><h3>Museu HR Giger</h3><p>Um contraste impressionante no coração da vila histórica.</p></li>
-            <li class="story-step glass"><span class="num">05 / 05</span><h3>O Moléson</h3><p>Uma vista dos Pré-Alpes, conforme o tempo e a estação.</p></li>
+            <li class="story-step glass is-active"><span class="num">01 / 05</span><h3><a href="/pt/lieux/chateau-de-gruyeres/">Castelo de Gruyères</a></h3><p>Oito séculos de história acima da vila medieval.</p><a class="more" href="/pt/lieux/chateau-de-gruyeres/">Conhecer o lugar <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
+            <li class="story-step glass"><span class="num">02 / 05</span><h3><a href="/pt/lieux/maison-du-gruyere/">La Maison du Gruyère</a></h3><p>Entenda como é feito o queijo mais famoso da região.</p><a class="more" href="/pt/lieux/maison-du-gruyere/">Conhecer o lugar <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
+            <li class="story-step glass"><span class="num">03 / 05</span><h3><a href="/pt/lieux/maison-cailler/">Maison Cailler</a></h3><p>Um mergulho na história do chocolate suíço.</p><a class="more" href="/pt/lieux/maison-cailler/">Conhecer o lugar <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
+            <li class="story-step glass"><span class="num">04 / 05</span><h3><a href="/pt/lieux/musee-hr-giger/">Museu HR Giger</a></h3><p>Um contraste impressionante no coração da vila histórica.</p><a class="more" href="/pt/lieux/musee-hr-giger/">Conhecer o lugar <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
+            <li class="story-step glass"><span class="num">05 / 05</span><h3><a href="/pt/lieux/moleson/">O Moléson</a></h3><p>Uma vista dos Pré-Alpes, conforme o tempo e a estação.</p><a class="more" href="/pt/lieux/moleson/">Conhecer o lugar <svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a></li>
           </ol>
         </div>
       </div>
@@ -213,10 +353,10 @@
           <div class="schedule-intro glass" data-reveal>
             <p class="eyebrow">A ideia do dia</p>
             <h2>De Genebra até Gruyère, sem pressa.</h2>
-            <p class="lead">O projeto reúne patrimônio, gastronomia e paisagens em um único dia. O roteiro definitivo levará em conta a estação e as condições do momento.</p>
+            <p class="lead">O dia reúne patrimônio, gastronomia e paisagens. O roteiro leva em conta a estação e as condições do momento.</p>
           </div>
           <ol class="timeline glass">
-            <li class="step" data-reveal><span class="time">Saída</span><div><h3>Saída de Genebra</h3><p>Embarque em Genebra, conforme as condições que serão publicadas no lançamento.</p></div></li>
+            <li class="step" data-reveal><span class="time">Saída</span><div><h3>Saída de Genebra</h3><p>Embarque em Genebra, no local combinado com vocês.</p></div></li>
             <li class="step" data-reveal><span class="time">Manhã</span><div><h3>Gruyères</h3><p>Castelo e vila medieval.</p></div></li>
             <li class="step" data-reveal><span class="time">Meio-dia</span><div><h3>Almoço livre</h3><p>Tempo livre na vila.</p></div></li>
             <li class="step" data-reveal><span class="time">Tarde</span><div><h3>Sabores regionais</h3><p>Queijo e chocolate, conforme os horários confirmados.</p></div></li>
@@ -233,40 +373,74 @@
       <div class="scene-body">
         <div class="container offer-grid">
           <div class="glass" data-reveal>
-            <p class="eyebrow">Abertura em breve</p>
-            <h2>Uma experiência local em preparação.</h2>
-            <p class="lead">O roteiro, as datas disponíveis e as condições serão publicados aqui quando todas as verificações estiverem concluídas.</p>
-            <a class="btn" href="#stops"><span class="roll"><b>Conhecer os lugares</b><b aria-hidden="true">Conhecer os lugares</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
+            <p class="eyebrow">Sob medida</p>
+            <h2>Um dia organizado para o seu grupo.</h2>
+            <p class="lead">Informe as datas, o tamanho do grupo e o que gostariam de ver. Respondemos com uma proposta de roteiro.</p>
+            <a class="btn" href="#organiser"><span class="roll"><b>Organizar meu dia</b><b aria-hidden="true">Organizar meu dia</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></a>
           </div>
           <div class="glass" data-reveal style="--d:.15s">
-            <h3>Por que esta página já existe</h3>
-            <p class="lead">Para apresentar o projeto com transparência, mostrar o seu universo e permitir que os viajantes conheçam aos poucos a futura experiência.</p>
+            <h3>Como funciona</h3>
+            <p class="lead">Três etapas simples, sem compromisso.</p>
             <ul class="checks">
-              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>Um passeio privado saindo de Genebra</li>
-              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>Um roteiro dedicado à região de Gruyère</li>
-              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>Reservas e pagamentos ainda não estão abertos</li>
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>Vocês nos enviam o pedido</li>
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>Propomos um roteiro</li>
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>Vocês confirmam, nós organizamos tudo</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="scene" id="status">
+    <section class="scene" id="organiser">
       <div class="scene-bg" aria-hidden="true"><img src="/img/jogne-1400.webp" srcset="/img/jogne-800.webp 800w, /img/jogne-1400.webp 1400w, /img/jogne-2400.webp 2400w" sizes="100vw" alt="Gargantas do Jogne" loading="lazy" decoding="async"></div>
       <div class="scene-body">
-        <div class="container status-grid">
-          <div class="glass" data-reveal>
-            <p class="eyebrow">Situação do projeto</p>
-            <h2>O que ainda falta confirmar.</h2>
-            <p class="lead">Esta primeira versão é apenas informativa. Não permite reserva nem pagamento.</p>
+        <div class="container form-grid">
+          <div class="glass form-intro" data-reveal>
+            <p class="eyebrow">Organizar o seu dia</p>
+            <h2>Conte-nos sobre o seu dia.</h2>
+            <p class="lead">Preencha este formulário. Respondemos rapidamente com uma proposta, sem compromisso.</p>
+            <ul class="checks">
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>Vocês nos enviam o pedido</li>
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>Propomos um roteiro</li>
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>Vocês confirmam, nós organizamos tudo</li>
+            </ul>
           </div>
-          <ol class="todo glass" data-reveal style="--d:.1s">
-            <li>O roteiro e os horários definitivos</li>
-            <li>O preço e as condições</li>
-            <li>O transporte e o acompanhamento</li>
-            <li>As datas disponíveis conforme a estação</li>
-            <li>A abertura das reservas online</li>
-          </ol>
+          <form class="glass request-form" id="request-form" action="https://formsubmit.co/info@gruyeres-tours.com" method="POST" data-ajax="https://formsubmit.co/ajax/info@gruyeres-tours.com" data-sending="Enviando…" data-ok="Obrigado, seu pedido foi enviado. Responderemos em breve." data-err="O envio não funcionou. Tente novamente ou escreva para info@gruyeres-tours.com." data-reveal style="--d:.12s">
+            <input type="hidden" name="_subject" value="Novo pedido de passeio (PT)">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://gruyeres-tours.com/pt/merci/">
+            <input type="hidden" name="Langue du site" value="PT">
+            <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="field full"><label for="f-name">Nome completo *</label><input id="f-name" name="Nom" type="text" autocomplete="name" required></div>
+            <div class="field"><label for="f-email">E-mail *</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+            <div class="field"><label for="f-phone">Telefone (opcional)</label><input id="f-phone" name="Telephone" type="tel" autocomplete="tel"></div>
+            <div class="field"><label for="f-date">Data desejada *</label><input id="f-date" name="Date souhaitee" type="date" required></div>
+            <div class="field"><label for="f-date2">Outra data possível (opcional)</label><input id="f-date2" name="Autre date" type="date"></div>
+            <div class="field"><label for="f-group">Número de pessoas *</label><input id="f-group" name="Personnes" type="number" min="1" max="60" inputmode="numeric" required></div>
+            <div class="field"><label for="f-lang">Idioma do dia</label><select id="f-lang" name="Langue de la journee">
+              <option value="Français">Français</option>
+              <option value="Deutsch">Deutsch</option>
+              <option value="English">English</option>
+              <option value="Português" selected>Português</option>
+              <option value="Español">Español</option>
+              <option value="中文">中文</option>
+            </select></div>
+            <fieldset class="field full interests"><legend>Lugares que interessam a vocês</legend>
+              <label><input type="checkbox" name="Lieux" value="Castelo de Gruyères"> Castelo de Gruyères</label>
+              <label><input type="checkbox" name="Lieux" value="La Maison du Gruyère"> La Maison du Gruyère</label>
+              <label><input type="checkbox" name="Lieux" value="Maison Cailler"> Maison Cailler</label>
+              <label><input type="checkbox" name="Lieux" value="Museu HR Giger"> Museu HR Giger</label>
+              <label><input type="checkbox" name="Lieux" value="O Moléson"> O Moléson</label>
+            </fieldset>
+            <div class="field full"><label for="f-msg">Sua mensagem (opcional)</label><textarea id="f-msg" name="Message" rows="4"></textarea></div>
+            <label class="consent full"><input type="checkbox" name="Consentement" value="oui" required> <span>Aceito que estas informações sejam usadas apenas para responder ao meu pedido.</span></label>
+            <div class="form-foot full">
+              <button class="btn" type="submit"><span class="roll"><b>Enviar meu pedido</b><b aria-hidden="true">Enviar meu pedido</b></span><span class="pave" aria-hidden="true"></span><svg class="fleche" viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg></button>
+              <p class="form-note">* campo obrigatório</p>
+            </div>
+            <p class="form-status full" role="status" aria-live="polite"></p>
+          </form>
         </div>
       </div>
     </section>
@@ -276,10 +450,21 @@
     <div class="container">
       <div class="footer-head"><img src="/logo.svg" alt="" width="120" height="120" loading="lazy"><p class="footer-word">Gruyères Tours</p></div>
       <div class="footer-grid">
-        <p>Projeto de passeio privado saindo de Genebra.</p>
+        <p>Passeios privados na região de Gruyère, saindo de Genebra.</p>
         <div>
           <h4>Contato</h4>
           <a href="mailto:info@gruyeres-tours.com">info@gruyeres-tours.com</a>
+        </div>
+        <div>
+          <h4>Os lugares</h4>
+          <nav class="footer-langs" aria-label="Os lugares">
+            <a href="/pt/lieux/chateau-de-gruyeres/">Castelo de Gruyères</a>
+            <a href="/pt/lieux/maison-du-gruyere/">La Maison du Gruyère</a>
+            <a href="/pt/lieux/maison-cailler/">Maison Cailler</a>
+            <a href="/pt/lieux/musee-hr-giger/">Museu HR Giger</a>
+            <a href="/pt/lieux/moleson/">O Moléson</a>
+            <a href="/pt/faq/">Perguntas</a>
+          </nav>
         </div>
         <div>
           <h4>Idiomas</h4>
@@ -309,6 +494,36 @@
           <li>Lago de Gruyère : por Thomas Woodtli from Zürich, Switzerland, <a href="https://creativecommons.org/licenses/by-sa/2.0" rel="license noopener">CC BY-SA 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Lac_de_la_Gruy%C3%A8re_(28705367022).jpg" rel="noopener">Wikimedia Commons</a></li>
           <li>Sinos das vacas : por Thierry Wagner (Gruyere alpage), <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Cloches_des_vaches.jpg" rel="noopener">Wikimedia Commons</a></li>
           <li>Gargantas do Jogne : por Jérémy Sauterel from Suisse, <a href="https://creativecommons.org/licenses/by/2.0" rel="license noopener">CC BY 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Rivi%C3%A8re_aux_Gorges_de_la_Jogne_(49424343057).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>O castelo de Gruyères visto do sudoeste : por JoachimKohler-HB, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Gruy%C3%A8res,_vue_sud-ouest_(2014).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>O castelo e suas muralhas vistos do alto no verão : por Simon Broccard, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruy%C3%A8res_Castle_Drone.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>O jardim à francesa, de frente para a Dent de Broc : por Martin Thurnherr, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Jardin_du_Ch%C3%A2teau_de_Gruy%C3%A8res_Greyerz_01.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>O pátio interno do castelo : por Salomé Mulet, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruyere_20190711_02.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>O castelo e a cidadela na colina, vista aérea : por Bob Tan, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruy%C3%A8res_Castle_(Ch%C3%A2teau_de_Gruy%C3%A8res).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>A torre sudeste do castelo diante dos Pré-Alpes no outono : por Ascasis, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Gruy%C3%A8res,_Tour_sud-est,_vue_du_Dent_du_Chamois_et_Dent_du_Bourgo.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Formas na cave de maturação da Maison du Gruyère : por WillYs Fotowerkstatt, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruy%C3%A8re-Schauk%C3%A4serei-Lager.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>A queijaria de demonstração da Maison du Gruyère : por WillYs Fotowerkstatt, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruy%C3%A8re-Schauk%C3%A4serei.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Uma cave de maturação de Gruyère em Gruyères : por Velatrix, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" rel="license noopener">CC0</a>, <a href="https://commons.wikimedia.org/wiki/File:Cave_d%27affinage_%C3%A0_Gruy%C3%A8res.JPG" rel="noopener">Wikimedia Commons</a></li>
+          <li>Um Gruyère de montanha colocado na forma : por Thierry Wagner (Gruyere alpage), <a href="https://creativecommons.org/licenses/by/3.0" rel="license noopener">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Mise_dans_le_moule.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Uma vaca na entrada de Gruyères : por Traumrune, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruyere_02_vache.JPG" rel="noopener">Wikimedia Commons</a></li>
+          <li>A paisagem de Pringy, ao pé de Gruyères : por André Schakkal, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruy%C3%A8re_Landscape.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>A Maison Cailler em Broc : por Fridolin freudenfett, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Broc_Chocolaterie_Maison_Cailler-008.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>A fábrica de chocolate Cailler à beira do rio Jogne : por Hansueli Krapf, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:2024-08-15_10-05-13_Botterens_Bataille_735.5.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Bombons expostos na Maison Cailler : por Tom Key, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:1636_Broc,_Switzerland_-_panoramio.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>A antiga estação de madeira de Broc-Fabrique : por Hansueli Krapf, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:2024-08-15_09-58-59_Broc_Bataille_743.6.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>A Dent de Broc e a Dent du Chamois : por Björn S..., <a href="https://creativecommons.org/licenses/by-sa/2.0" rel="license noopener">CC BY-SA 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Dent_de_Broc_and_Dent_de_Chamois_(15936218152).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>A Dent de Broc acima do lago de la Gruyère no outono : por Zacharie Grossen, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Lac_de_la_Gruy%C3%A8re_-_Dent_de_Broc.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>A fachada do Château Saint-Germain : por Pro1968, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Fribourg_-_Gruy%C3%A8res_-_Ch%C3%A2teau_Saint-Germain_-_4.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>A cidadela vista do museu HR Giger : por Christophe95, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Vue_de_Gruy%C3%A8res.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>A rue du Bourg ao anoitecer : por Swphotouk, <a href="https://creativecommons.org/licenses/by/4.0" rel="license noopener">CC BY 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruyeres_Switzerland_04.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>A rue du Bourg e o Moléson : por JoachimKohler-HB, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Rue_du_Bourg_in_Gruy%C3%A8res_FR_%26_Mol%C3%A9son_(2014).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>A rua principal florida de Gruyères : por DD31313, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruy%C3%A8re_Main_Street.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>A igreja de Gruyères e os Pré-Alpes nevados : por Lukas Plewnia from Winterthur, Schweiz, <a href="https://creativecommons.org/licenses/by-sa/2.0" rel="license noopener">CC BY-SA 2.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Gruyer_(36267434270).jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>O Moléson domina a região de Gruyère : por GGDELABAS, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Le_Mol%C3%A9son,_de_ses_2002m,_tr%C3%B4ne_sur_la_Gruy%C3%A8re.JPG" rel="noopener">Wikimedia Commons</a></li>
+          <li>O cume do Moléson visto do sudoeste : por Espandero, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Moleson_from_south-west.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Vista do cume do Moléson sobre os Pré-Alpes : por Swphotouk, <a href="https://creativecommons.org/licenses/by/4.0" rel="license noopener">CC BY 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Les_Moleson_Switzerland_Alps_04.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>O Moléson refletido no lago de la Gruyère : por Ludovic Péron, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="license noopener">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Mol%C3%A9son_depuis_le_lac_de_la_Gruy%C3%A8re-b.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>O Moléson nevado acima da neblina : por Typhaon88, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Pays_de_la_Gruy%C3%A8re.jpg" rel="noopener">Wikimedia Commons</a></li>
+          <li>Mar de nuvens visto do alto do Moléson : por RyanK1401, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="license noopener">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Le_Moleson_au_dessus_des_nuages.jpg" rel="noopener">Wikimedia Commons</a></li>
         </ul>
       </details>
       <div class="footer-bottom">
@@ -317,7 +532,7 @@
     </div>
   </footer>
 
-  <script src="/site.js?v=6f3d4c0b" defer></script>
+  <script src="/site.js?v=1e9f3330" defer></script>
   <script>try { localStorage.setItem("gt-lang", "pt"); } catch (e) {}</script>
 </body>
 </html>

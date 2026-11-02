@@ -123,6 +123,70 @@
     update();
   }
 
+  /* Formulaire de demande : envoi sans quitter la page */
+  var form = document.getElementById("request-form");
+  if (form) {
+    var status = form.querySelector(".form-status");
+    var todayIso = new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+    form.querySelectorAll('input[type="date"]').forEach(function (d) { d.min = todayIso; });
+    form.addEventListener("submit", function (e) {
+      if (!window.fetch || !window.FormData) return; // sans JavaScript moderne : envoi classique puis page « merci »
+      e.preventDefault();
+      if (form.querySelector('[name="_honey"]').value) return;
+      var data = {};
+      new FormData(form).forEach(function (value, key) {
+        if (key === "_next") return;
+        data[key] = data[key] ? data[key] + ", " + value : value;
+      });
+      status.classList.remove("is-error");
+      status.textContent = form.dataset.sending;
+      var btn = form.querySelector("button[type=submit]");
+      btn.disabled = true;
+      fetch(form.dataset.ajax, { method: "POST", headers: { "Content-Type": "application/json", "Accept": "application/json" }, body: JSON.stringify(data) })
+        .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, body: j }; }); })
+        .then(function (res) {
+          if (res.ok && String(res.body.success) === "true") {
+            status.textContent = form.dataset.ok;
+            form.reset();
+            form.classList.add("is-sent");
+          } else {
+            throw new Error(res.body && res.body.message);
+          }
+        })
+        .catch(function () {
+          status.classList.add("is-error");
+          status.textContent = form.dataset.err;
+          btn.disabled = false;
+        });
+    });
+  }
+
+  /* Visionneuse : agrandit les photos des galeries */
+  var links = document.querySelectorAll("[data-lightbox]");
+  if (links.length) {
+    var box = document.createElement("div");
+    box.className = "lightbox";
+    box.setAttribute("role", "dialog");
+    box.setAttribute("aria-modal", "true");
+    box.innerHTML = '<button type="button" aria-label="Fermer">×</button><figure><img alt=""><p></p></figure>';
+    document.body.appendChild(box);
+    var bigImg = box.querySelector("img"), bigCap = box.querySelector("p"), closeBtn = box.querySelector("button");
+    function closeBox() { box.classList.remove("is-open"); document.body.style.overflow = ""; }
+    links.forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        bigImg.src = a.getAttribute("href");
+        bigImg.alt = a.dataset.lightbox;
+        bigCap.textContent = a.dataset.lightbox;
+        box.classList.add("is-open");
+        document.body.style.overflow = "hidden";
+        closeBtn.focus();
+      });
+    });
+    box.addEventListener("click", function (e) { if (e.target === box || e.target === closeBtn) closeBox(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeBox(); });
+  }
+
   /* Boutons aimantés : suivent doucement le pointeur */
   if (finePointer && !reduce) {
     document.querySelectorAll("[data-magnet]").forEach(function (btn) {
