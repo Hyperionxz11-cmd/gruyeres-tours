@@ -18,7 +18,7 @@ DEFAULT = "fr"
 # Code de langue complet pour Google et le navigateur (le chemin reste court : /zh/)
 TAG = {"zh": "zh-Hans"}
 FONT_PRELOAD = (
-    '  <link rel="preload" href="/fonts/cormorant-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>\n'
+    '  <link rel="preload" href="/fonts/ebgaramond-400.woff2" as="font" type="font/woff2" crossorigin>\n'
     '  <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>'
 )
 
@@ -219,7 +219,7 @@ def root_page():
 <body>
   <main class="lang-chooser">
     <div>
-      <span class="brand"><svg class="brand-mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="16" cy="16" r="15"/><path d="M5 22.5 12 13l4 5 3.5-4.5L27 22.5"/><path d="M10.6 15 12 13l1.4 1.8" stroke-width="1"/></svg>Gruyères Tours</span>
+      <span class="brand"><img class="brand-mark" src="/logo.svg" alt="" width="96" height="96"><span class="brand-text"><span class="brand-name">Gruyères Tours</span><span class="brand-tag">Genève · Gruyère</span></span></span>
       <p class="lead">{choose}</p>
       <ul class="lang-list">
 {names}

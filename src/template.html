@@ -36,8 +36,8 @@
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="{{path}}" aria-label="Gruyères Tours">
-        <svg class="brand-mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="16" cy="16" r="15"/><path d="M5 22.5 12 13l4 5 3.5-4.5L27 22.5"/><path d="M10.6 15 12 13l1.4 1.8" stroke-width="1"/></svg>
-        <span>Gruyères Tours</span>
+        <img class="brand-mark" src="/logo.svg" alt="" width="44" height="44">
+        <span class="brand-text"><span class="brand-name">Gruyères Tours</span><span class="brand-tag">Genève · Gruyère</span></span>
       </a>
       <nav class="nav-links" aria-label="{{ariaMainNav}}">
         <a href="#region">{{regionEyebrow}}</a>
@@ -99,145 +99,147 @@
       </div>
     </section>
 
-    <section class="stats" aria-label="Gruyères Tours">
-      <div class="container">
-        <ul>
-          <li data-reveal><strong>1</strong><span>{{stat1}}</span></li>
-          <li data-reveal style="--d:.1s"><strong>5</strong><span>{{stat2}}</span></li>
-          <li data-reveal style="--d:.2s"><strong>{{statAlt}}</strong><span>{{stat3}}</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section region" id="region">
-      <div class="container region-head">
-        <div data-reveal>
-          <p class="eyebrow">{{regionEyebrow}}</p>
-          <h2>{{regionTitle}}</h2>
-        </div>
-        <p class="lead" data-reveal style="--d:.12s">{{regionLead}}</p>
-      </div>
-      <figure class="wide-shot" data-unveil>
-        <div class="wide-inner" data-parallax="0.12">[[img panorama "100vw" capPanorama lazy]]</div>
-        <figcaption class="container">{{capPanorama}}</figcaption>
-      </figure>
-      <div class="container mosaic">
-        <figure class="tile tile-a" data-unveil>[[img village "(max-width: 900px) 100vw, 46vw" capVillage lazy]]<figcaption>{{capVillage}}</figcaption></figure>
-        <figure class="tile tile-b" data-unveil style="--d:.1s">[[img cloches "(max-width: 900px) 100vw, 30vw" capCloches lazy]]<figcaption>{{capCloches}}</figcaption></figure>
-        <figure class="tile tile-c" data-unveil style="--d:.2s">[[img jogne "(max-width: 900px) 100vw, 30vw" capJogne lazy]]<figcaption>{{capJogne}}</figcaption></figure>
-      </div>
-    </section>
-
-    <section class="section experience" id="experience">
-      <div class="container experience-grid">
-        <div data-reveal>
-          <p class="eyebrow">{{experienceEyebrow}}</p>
-          <h2>{{experienceTitle}}</h2>
-        </div>
-        <div>
-          <p class="lead" data-reveal style="--d:.1s">{{experienceLead}}</p>
-          <div class="promises">
-            <article class="promise" data-reveal><span class="num">01</span><h3>{{p1t}}</h3><p>{{p1d}}</p></article>
-            <article class="promise" data-reveal style="--d:.1s"><span class="num">02</span><h3>{{p2t}}</h3><p>{{p2d}}</p></article>
-            <article class="promise" data-reveal><span class="num">03</span><h3>{{p3t}}</h3><p>{{p3d}}</p></article>
-            <article class="promise" data-reveal style="--d:.1s"><span class="num">04</span><h3>{{p4t}}</h3><p>{{p4d}}</p></article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section stops" id="stops">
-      <div class="container stops-intro" data-reveal>
-        <p class="eyebrow">{{stopsEyebrow}}</p>
-        <h2>{{stopsTitle}}</h2>
-        <p class="lead">{{stopsLead}}</p>
-      </div>
-      <div class="container story">
-        <div class="story-media" aria-hidden="true">
-          <div class="story-frame">
-            <figure class="story-img is-active">[[img cite "(max-width: 900px) 100vw, 55vw" alt1 lazy]]</figure>
-            <figure class="story-img">[[img fromage "(max-width: 900px) 100vw, 55vw" alt2 lazy]]</figure>
-            <figure class="story-img">[[img cailler "(max-width: 900px) 100vw, 55vw" alt3 lazy]]</figure>
-            <figure class="story-img">[[img saint-germain "(max-width: 900px) 100vw, 55vw" alt4 lazy]]</figure>
-            <figure class="story-img">[[img moleson "(max-width: 900px) 100vw, 55vw" alt5 lazy]]</figure>
-            <span class="story-count"><b>01</b> / 05</span>
-          </div>
-        </div>
-        <ol class="story-steps">
-          <li class="story-step is-active"><figure class="step-img">[[img cite "100vw" alt1 lazy]]</figure><span class="num">01</span><h3>{{s1t}}</h3><p>{{s1d}}</p></li>
-          <li class="story-step"><figure class="step-img">[[img fromage "100vw" alt2 lazy]]</figure><span class="num">02</span><h3>{{s2t}}</h3><p>{{s2d}}</p></li>
-          <li class="story-step"><figure class="step-img">[[img cailler "100vw" alt3 lazy]]</figure><span class="num">03</span><h3>{{s3t}}</h3><p>{{s3d}}</p></li>
-          <li class="story-step"><figure class="step-img">[[img saint-germain "100vw" alt4 lazy]]</figure><span class="num">04</span><h3>{{s4t}}</h3><p>{{s4d}}</p></li>
-          <li class="story-step"><figure class="step-img">[[img moleson "100vw" alt5 lazy]]</figure><span class="num">05</span><h3>{{s5t}}</h3><p>{{s5d}}</p></li>
-        </ol>
-      </div>
-    </section>
-
-    <section class="section" id="schedule">
-      <div class="container schedule-grid">
-        <div class="schedule-intro" data-reveal>
-          <p class="eyebrow">{{scheduleEyebrow}}</p>
-          <h2>{{scheduleTitle}}</h2>
-          <p class="lead">{{scheduleLead}}</p>
-        </div>
-        <ol class="timeline">
-          <li class="step" data-reveal><span class="time">{{time1}}</span><div><h3>{{t1t}}</h3><p>{{t1d}}</p></div></li>
-          <li class="step" data-reveal><span class="time">{{time2}}</span><div><h3>{{t2t}}</h3><p>{{t2d}}</p></div></li>
-          <li class="step" data-reveal><span class="time">{{time3}}</span><div><h3>{{t3t}}</h3><p>{{t3d}}</p></div></li>
-          <li class="step" data-reveal><span class="time">{{time4}}</span><div><h3>{{t4t}}</h3><p>{{t4d}}</p></div></li>
-          <li class="step" data-reveal><span class="time">{{time5}}</span><div><h3>{{t5t}}</h3><p>{{t5d}}</p></div></li>
-          <li class="step" data-reveal><span class="time">{{time6}}</span><div><h3>{{t6t}}</h3><p>{{t6d}}</p></div></li>
-        </ol>
-      </div>
-    </section>
-
-    <figure class="interlude" data-unveil>
-      <div class="wide-inner" data-parallax="0.18">[[img lac "100vw" capLac lazy]]</div>
-      <figcaption class="container">{{capLac}}</figcaption>
-    </figure>
-
-    <section class="section offer" id="offer">
-      <div class="offer-bg" aria-hidden="true">[[img dents "100vw" capDents lazy]]</div>
-      <div class="container offer-grid">
-        <div data-reveal>
-          <p class="eyebrow">{{offerEyebrow}}</p>
-          <h2>{{offerTitle}}</h2>
-          <p class="lead">{{offerLead}}</p>
-          <a class="btn btn-primary" href="#stops" data-magnet>{{discover}} <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
-        </div>
-        <div class="card-glass" data-reveal style="--d:.15s">
-          <h3>{{whyTitle}}</h3>
-          <p class="lead">{{whyLead}}</p>
-          <ul class="checks">
-            <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>{{why1}}</li>
-            <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>{{why2}}</li>
-            <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>{{why3}}</li>
+    <section class="scene" id="region">
+      <div class="scene-bg" aria-hidden="true">[[img lac "100vw" capLac lazy]]</div>
+      <div class="scene-body">
+        <div class="container">
+          <ul class="stats glass" data-reveal>
+            <li><strong>1</strong><span>{{stat1}}</span></li>
+            <li><strong>5</strong><span>{{stat2}}</span></li>
+            <li><strong>{{statAlt}}</strong><span>{{stat3}}</span></li>
           </ul>
+          <div class="region-head glass" data-reveal>
+            <div>
+              <p class="eyebrow">{{regionEyebrow}}</p>
+              <h2>{{regionTitle}}</h2>
+            </div>
+            <p class="lead">{{regionLead}}</p>
+          </div>
+          <div class="mosaic">
+            <figure class="tile tile-a" data-unveil>[[img village "(max-width: 900px) 100vw, 46vw" capVillage lazy]]<figcaption>{{capVillage}}</figcaption></figure>
+            <figure class="tile tile-b" data-unveil style="--d:.1s">[[img cloches "(max-width: 900px) 100vw, 30vw" capCloches lazy]]<figcaption>{{capCloches}}</figcaption></figure>
+            <figure class="tile tile-c" data-unveil style="--d:.2s">[[img jogne "(max-width: 900px) 100vw, 30vw" capJogne lazy]]<figcaption>{{capJogne}}</figcaption></figure>
+          </div>
+          <p class="scene-cap">{{capLac}}</p>
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container status-grid">
-        <div data-reveal>
-          <p class="eyebrow">{{beforeEyebrow}}</p>
-          <h2>{{beforeTitle}}</h2>
-          <p class="lead">{{beforeLead}}</p>
+    <section class="scene" id="experience">
+      <div class="scene-bg" aria-hidden="true">[[img panorama "100vw" capPanorama lazy]]</div>
+      <div class="scene-body">
+        <div class="container experience-grid">
+          <div class="glass" data-reveal>
+            <p class="eyebrow">{{experienceEyebrow}}</p>
+            <h2>{{experienceTitle}}</h2>
+            <p class="lead">{{experienceLead}}</p>
+          </div>
+          <div class="promises">
+            <article class="promise glass" data-reveal><span class="num">01</span><h3>{{p1t}}</h3><p>{{p1d}}</p></article>
+            <article class="promise glass" data-reveal style="--d:.1s"><span class="num">02</span><h3>{{p2t}}</h3><p>{{p2d}}</p></article>
+            <article class="promise glass" data-reveal><span class="num">03</span><h3>{{p3t}}</h3><p>{{p3d}}</p></article>
+            <article class="promise glass" data-reveal style="--d:.1s"><span class="num">04</span><h3>{{p4t}}</h3><p>{{p4d}}</p></article>
+          </div>
         </div>
-        <ol class="todo" data-reveal style="--d:.1s">
-          <li>{{c1}}</li>
-          <li>{{c2}}</li>
-          <li>{{c3}}</li>
-          <li>{{c4}}</li>
-          <li>{{c5}}</li>
-        </ol>
+        <p class="container scene-cap">{{capPanorama}}</p>
+      </div>
+    </section>
+
+    <section class="scene story" id="stops">
+      <div class="scene-bg story-bg" aria-hidden="true">
+        <figure class="story-img is-active">[[img cite "100vw" alt1 lazy]]</figure>
+        <figure class="story-img">[[img fromage "100vw" alt2 lazy]]</figure>
+        <figure class="story-img">[[img cailler "100vw" alt3 lazy]]</figure>
+        <figure class="story-img">[[img saint-germain "100vw" alt4 lazy]]</figure>
+        <figure class="story-img">[[img moleson "100vw" alt5 lazy]]</figure>
+      </div>
+      <div class="scene-body">
+        <div class="container">
+          <div class="stops-intro glass" data-reveal>
+            <p class="eyebrow">{{stopsEyebrow}}</p>
+            <h2>{{stopsTitle}}</h2>
+            <p class="lead">{{stopsLead}}</p>
+          </div>
+          <ol class="story-steps">
+            <li class="story-step glass is-active"><span class="num">01 / 05</span><h3>{{s1t}}</h3><p>{{s1d}}</p></li>
+            <li class="story-step glass"><span class="num">02 / 05</span><h3>{{s2t}}</h3><p>{{s2d}}</p></li>
+            <li class="story-step glass"><span class="num">03 / 05</span><h3>{{s3t}}</h3><p>{{s3d}}</p></li>
+            <li class="story-step glass"><span class="num">04 / 05</span><h3>{{s4t}}</h3><p>{{s4d}}</p></li>
+            <li class="story-step glass"><span class="num">05 / 05</span><h3>{{s5t}}</h3><p>{{s5d}}</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene" id="schedule">
+      <div class="scene-bg" aria-hidden="true">[[img alpage "100vw" capAlpage lazy]]</div>
+      <div class="scene-body">
+        <div class="container schedule-grid">
+          <div class="schedule-intro glass" data-reveal>
+            <p class="eyebrow">{{scheduleEyebrow}}</p>
+            <h2>{{scheduleTitle}}</h2>
+            <p class="lead">{{scheduleLead}}</p>
+          </div>
+          <ol class="timeline glass">
+            <li class="step" data-reveal><span class="time">{{time1}}</span><div><h3>{{t1t}}</h3><p>{{t1d}}</p></div></li>
+            <li class="step" data-reveal><span class="time">{{time2}}</span><div><h3>{{t2t}}</h3><p>{{t2d}}</p></div></li>
+            <li class="step" data-reveal><span class="time">{{time3}}</span><div><h3>{{t3t}}</h3><p>{{t3d}}</p></div></li>
+            <li class="step" data-reveal><span class="time">{{time4}}</span><div><h3>{{t4t}}</h3><p>{{t4d}}</p></div></li>
+            <li class="step" data-reveal><span class="time">{{time5}}</span><div><h3>{{t5t}}</h3><p>{{t5d}}</p></div></li>
+            <li class="step" data-reveal><span class="time">{{time6}}</span><div><h3>{{t6t}}</h3><p>{{t6d}}</p></div></li>
+          </ol>
+        </div>
+        <p class="container scene-cap">{{capAlpage}}</p>
+      </div>
+    </section>
+
+    <section class="scene" id="offer">
+      <div class="scene-bg" aria-hidden="true">[[img dents "100vw" capDents lazy]]</div>
+      <div class="scene-body">
+        <div class="container offer-grid">
+          <div class="glass" data-reveal>
+            <p class="eyebrow">{{offerEyebrow}}</p>
+            <h2>{{offerTitle}}</h2>
+            <p class="lead">{{offerLead}}</p>
+            <a class="btn btn-primary" href="#stops" data-magnet>{{discover}} <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+          </div>
+          <div class="glass" data-reveal style="--d:.15s">
+            <h3>{{whyTitle}}</h3>
+            <p class="lead">{{whyLead}}</p>
+            <ul class="checks">
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>{{why1}}</li>
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>{{why2}}</li>
+              <li><svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m3.5 9.5 3.5 3.5 7.5-8"/></svg>{{why3}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene" id="status">
+      <div class="scene-bg" aria-hidden="true">[[img jogne "100vw" capJogne lazy]]</div>
+      <div class="scene-body">
+        <div class="container status-grid">
+          <div class="glass" data-reveal>
+            <p class="eyebrow">{{beforeEyebrow}}</p>
+            <h2>{{beforeTitle}}</h2>
+            <p class="lead">{{beforeLead}}</p>
+          </div>
+          <ol class="todo glass" data-reveal style="--d:.1s">
+            <li>{{c1}}</li>
+            <li>{{c2}}</li>
+            <li>{{c3}}</li>
+            <li>{{c4}}</li>
+            <li>{{c5}}</li>
+          </ol>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p class="footer-word">Gruyères Tours</p>
+      <div class="footer-head"><img src="/logo.svg" alt="" width="120" height="120" loading="lazy"><p class="footer-word">Gruyères Tours</p></div>
       <div class="footer-grid">
         <p>{{footerText}}</p>
         <div>

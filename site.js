@@ -69,23 +69,37 @@
   } else {
     revealables.forEach(function (el) { el.classList.add("is-in"); });
   }
-  requestAnimationFrame(function () { root.classList.add("is-loaded"); });
+  /* La photo de fond d'une scène se pose doucement à l'arrivée */
+  if ("IntersectionObserver" in window) {
+    var near = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { en.target.classList.toggle("is-near", en.isIntersecting); });
+    }, { threshold: 0.02 });
+    document.querySelectorAll(".scene").forEach(function (s) { near.observe(s); });
+  }
 
   /* Récit des étapes : l'image suit le texte */
   var steps = Array.prototype.slice.call(document.querySelectorAll(".story-step"));
   var storyImgs = Array.prototype.slice.call(document.querySelectorAll(".story-img"));
-  var storyCount = document.querySelector(".story-count b");
-  if (steps.length && "IntersectionObserver" in window) {
-    var so = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (!en.isIntersecting) return;
-        var i = steps.indexOf(en.target);
-        steps.forEach(function (s, k) { s.classList.toggle("is-active", k === i); });
-        storyImgs.forEach(function (m, k) { m.classList.toggle("is-active", k === i); });
-        if (storyCount) storyCount.textContent = String(i + 1).padStart(2, "0");
-      });
-    }, { rootMargin: "-45% 0px -45% 0px" });
-    steps.forEach(function (s) { so.observe(s); });
+  var activeStep = -1;
+  function updateStory() {
+    var mid = window.innerHeight / 2, best = 0, bestDist = Infinity;
+    steps.forEach(function (s, k) {
+      var r = s.getBoundingClientRect();
+      var d = Math.abs(r.top + r.height / 2 - mid);
+      if (d < bestDist) { bestDist = d; best = k; }
+    });
+    if (best === activeStep) return;
+    activeStep = best;
+    steps.forEach(function (s, k) { s.classList.toggle("is-active", k === best); });
+    storyImgs.forEach(function (m, k) { m.classList.toggle("is-active", k === best); });
+  }
+  if (steps.length) {
+    var storyTick = false;
+    window.addEventListener("scroll", function () {
+      if (!storyTick) { storyTick = true; requestAnimationFrame(function () { updateStory(); storyTick = false; }); }
+    }, { passive: true });
+    window.addEventListener("resize", updateStory);
+    updateStory();
   }
 
   /* Parallaxe légère des grandes images */
