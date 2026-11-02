@@ -55,20 +55,22 @@ figcaption, .scene-cap { color: var(--faint); font-size: .7rem; font-weight: 600
 .glass { padding: clamp(26px, 3.4vw, 48px); border: 1px solid var(--line-light); border-radius: 6px; background: var(--glass); backdrop-filter: blur(16px) saturate(1.15); -webkit-backdrop-filter: blur(16px) saturate(1.15); box-shadow: 0 30px 80px rgba(0, 0, 0, .25); }
 
 /* Boutons */
-/* Bouton principal : rectangle ivoire, net ; un voile vert se pose au survol */
-.btn { position: relative; isolation: isolate; overflow: hidden; display: inline-flex; align-items: center; justify-content: center; gap: 18px; min-height: 58px; padding: 0 36px; border: 1px solid transparent; border-radius: 0; font-size: .7rem; font-weight: 600; letter-spacing: .24em; text-decoration: none; text-transform: uppercase; cursor: pointer; transition: color .6s var(--ease), border-color .6s var(--ease), transform .5s var(--ease); }
-.btn::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--forest); transform: scaleX(0); transform-origin: right; transition: transform .7s var(--ease); }
-.btn:hover::before { transform: scaleX(1); transform-origin: left; }
-.btn svg { width: 26px; height: 10px; flex: none; transition: transform .6s var(--ease); }
-.btn:hover svg { transform: translateX(6px); }
-.btn-primary { background: #f4eee3; color: var(--forest); }
-.btn-primary:hover { color: #f4eee3; border-color: rgba(244, 238, 227, .55); }
-/* Bouton secondaire : simple lien souligné d'un trait fin qui se redessine au survol */
-.btn-ghost { min-height: 58px; padding: 0 4px; color: #fff; background: none; overflow: visible; }
-.btn-ghost::before { inset: auto 4px 14px; height: 1px; background: rgba(255, 255, 255, .5); transform: scaleX(1); transform-origin: left; }
-.btn-ghost::after { content: ""; position: absolute; left: 4px; right: 4px; bottom: 14px; height: 1px; background: var(--brass-light); transform: scaleX(0); transform-origin: right; transition: transform .7s var(--ease); }
-.btn-ghost:hover::before { transform: scaleX(1); }
-.btn-ghost:hover::after { transform: scaleX(1); transform-origin: left; }
+/* Boutons : verre vert forêt, filet d'or ; au survol le pavé doré s'étend et le texte roule */
+.btn { position: relative; isolation: isolate; overflow: hidden; display: inline-flex; align-items: center; height: 66px; padding: 0 94px 0 32px; color: #fff; background: rgba(8, 24, 19, .58); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); box-shadow: inset 0 0 0 1px rgba(220, 193, 143, .4); font-size: .74rem; font-weight: 600; letter-spacing: .24em; text-decoration: none; text-transform: uppercase; white-space: nowrap; cursor: pointer; transition: color .6s cubic-bezier(.7, 0, .2, 1), box-shadow .6s; }
+.btn .pave { position: absolute; right: 9px; top: 9px; bottom: 9px; width: 48px; z-index: -1; background: var(--brass-light); transition: width .75s cubic-bezier(.7, 0, .2, 1), right .75s cubic-bezier(.7, 0, .2, 1), top .75s cubic-bezier(.7, 0, .2, 1), bottom .75s cubic-bezier(.7, 0, .2, 1), background .5s; }
+.btn .fleche { position: absolute; right: 22px; top: 50%; width: 22px; height: 10px; margin-top: -5px; color: var(--forest); transition: transform .75s cubic-bezier(.7, 0, .2, 1), color .5s; }
+.btn .roll { position: relative; display: block; height: 1.6em; overflow: hidden; line-height: 1.6; }
+.btn .roll b { display: block; font-weight: inherit; transition: transform .65s cubic-bezier(.7, 0, .2, 1); }
+.btn .roll b + b { position: absolute; left: 0; top: 100%; }
+.btn:hover, .btn:focus-visible { color: var(--forest); box-shadow: inset 0 0 0 1px var(--brass-light); }
+.btn:hover .pave, .btn:focus-visible .pave { right: 0; top: 0; bottom: 0; width: 100%; }
+.btn:hover .roll b, .btn:focus-visible .roll b { transform: translateY(-100%); }
+.btn:hover .fleche, .btn:focus-visible .fleche { transform: translateX(6px); }
+/* secondaire : le pavé n'est qu'un filet d'or, il se remplit au survol */
+.btn-sec .pave { background: transparent; box-shadow: inset 0 0 0 1px var(--brass-light); }
+.btn-sec .fleche { color: var(--brass-light); }
+.btn-sec:hover .pave, .btn-sec:focus-visible .pave { background: var(--brass-light); }
+.btn-sec:hover .fleche, .btn-sec:focus-visible .fleche { color: var(--forest); }
 
 /* En-tête */
 .site-header { position: fixed; inset: 0 0 auto; z-index: 50; color: #fff; transition: background .5s var(--ease), backdrop-filter .5s; }
@@ -287,8 +289,8 @@ figcaption, .scene-cap { color: var(--faint); font-size: .7rem; font-weight: 600
   .lang summary { height: 40px; padding: 0 13px; }
   .hero h1 { font-size: clamp(2.9rem, 13vw, 4rem); }
   :lang(zh) .hero h1 { font-size: clamp(2rem, 9vw, 2.6rem); }
-  .hero-actions .btn-primary { flex: 1 1 100%; }
-  .hero-actions { gap: 6px 14px; }
+  .hero-actions { flex-direction: column; align-items: stretch; gap: 12px; }
+  .btn { height: 60px; }
   .hero-foot .container { grid-template-columns: 1fr auto; }
   .scroll-hint { display: none; }
   .slide-dots button { width: 30px; }
