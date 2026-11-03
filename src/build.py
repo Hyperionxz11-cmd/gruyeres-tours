@@ -42,6 +42,7 @@ ICONS = (
     '  <link rel="manifest" href="/site.webmanifest">'
 )
 WIDTHS = (800, 1400, 2400)
+WIDE = {"panorama": 280}  # largeur affichée en vh quand l'écran est en hauteur (rapport largeur/hauteur x 100)
 ARROW = '<svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg>'
 
 src = Path(__file__).resolve().parent
@@ -105,6 +106,9 @@ def img_tag(name, sizes, alt, mode="lazy", cls=""):
     srcset = ", ".join(f"/img/{name}-{w}.webp {w}w" for w in WIDTHS)
     fallback = f"/img/{name}-1400.webp"
     c = f' class="{cls}"' if cls else ""
+    if name in WIDE and sizes == "100vw":
+        # photo panoramique en plein écran : sur téléphone, elle est rognée en hauteur, il faut la grande version
+        sizes = f"(orientation: portrait) {WIDE[name]}vh, 100vw"
     if not (root / "img" / f"{name}-800.webp").exists():
         errors.append(f"photo manquante {name}")
     if mode == "eager":

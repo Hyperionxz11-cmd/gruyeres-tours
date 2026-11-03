@@ -70,11 +70,11 @@
     "source": "https://commons.wikimedia.org/wiki/File:Gruyeres_le_village.jpg"
   },
   "lac": {
-    "file": "Lac de la Gruyère (28705367022).jpg",
-    "artist": "Thomas Woodtli from Zürich, Switzerland",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Lac_de_la_Gruy%C3%A8re_(28705367022).jpg"
+    "file": "Moléson depuis le lac de la Gruyère-b.jpg",
+    "artist": "Ludovic Péron",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mol%C3%A9son_depuis_le_lac_de_la_Gruy%C3%A8re-b.jpg"
   },
   "cloches": {
     "file": "Cloches des vaches.jpg",
@@ -82,12 +82,5 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Cloches_des_vaches.jpg"
-  },
-  "jogne": {
-    "file": "Rivière aux Gorges de la Jogne (49424343057).jpg",
-    "artist": "Jérémy Sauterel from Suisse",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Rivi%C3%A8re_aux_Gorges_de_la_Jogne_(49424343057).jpg"
   }
 }

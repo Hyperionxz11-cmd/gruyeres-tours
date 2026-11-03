@@ -29,9 +29,8 @@ PHOTOS = {
     "saint-germain": "Fribourg - Gruyères - Château Saint-Germain - 2.jpg",
     "moleson": "Moleson from north-east.jpg",
     "village": "Gruyeres le village.jpg",
-    "lac": "Lac de la Gruyère (28705367022).jpg",
+    "lac": "Moléson depuis le lac de la Gruyère-b.jpg",
     "cloches": "Cloches des vaches.jpg",
-    "jogne": "Rivière aux Gorges de la Jogne (49424343057).jpg",
 }
 
 root = Path(__file__).resolve().parent.parent
