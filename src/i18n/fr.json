@@ -141,5 +141,11 @@
   "faqTitle": "Tout savoir avant d’organiser votre journée.",
   "faqMeta": "Questions fréquentes sur l’excursion privée de Genève à Gruyères : trajet, saison, visites, enfants, langues et demande.",
   "faqMore": "Voir toutes les questions",
-  "sourcesTitle": "Sources"
+  "sourcesTitle": "Sources",
+  "navGuides": "Guides",
+  "guidesEyebrow": "Guides pratiques",
+  "tipsTitle": "Conseils pratiques",
+  "guideFaqTitle": "Questions fréquentes",
+  "otherGuides": "Autres guides",
+  "readGuide": "Lire le guide"
 }

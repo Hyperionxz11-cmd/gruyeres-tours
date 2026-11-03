@@ -141,5 +141,11 @@
   "faqTitle": "Everything to know before planning your day.",
   "faqMeta": "Frequently asked questions about the private day trip from Geneva to Gruyères: travel, season, visits, children, languages and requests.",
   "faqMore": "See all questions",
-  "sourcesTitle": "Sources"
+  "sourcesTitle": "Sources",
+  "navGuides": "Guides",
+  "guidesEyebrow": "Practical guides",
+  "tipsTitle": "Practical tips",
+  "guideFaqTitle": "Frequently asked questions",
+  "otherGuides": "More guides",
+  "readGuide": "Read the guide"
 }

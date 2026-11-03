@@ -25,6 +25,9 @@ STOP_KEY = {s: f"s{i}t" for i, s in enumerate(SLUGS, 1)}
 HERO_OF = {"chateau-de-gruyeres": "cite", "maison-du-gruyere": "fromage", "maison-cailler": "cailler",
            "musee-hr-giger": "saint-germain", "moleson": "moleson"}
 ALT_OF = {s: f"alt{i}" for i, s in enumerate(SLUGS, 1)}
+GUIDES = ["excursion-depuis-geneve", "en-famille", "fromage-et-chocolat", "quand-visiter", "sortie-entreprise"]
+GUIDE_IMG = {"excursion-depuis-geneve": "chateau-de-gruyeres-1", "en-famille": "maison-du-gruyere-5",
+             "fromage-et-chocolat": "maison-du-gruyere-1", "quand-visiter": "moleson-5", "sortie-entreprise": "chateau-de-gruyeres-5"}
 LOCALITY = {"chateau-de-gruyeres": "Gruyères", "maison-du-gruyere": "Pringy", "maison-cailler": "Broc",
             "musee-hr-giger": "Gruyères", "moleson": "Moléson-sur-Gruyères"}
 FONT_PRELOAD = (
@@ -80,6 +83,18 @@ def esc(s):
 
 def has_places(lang):
     return lang in content and all(s in content[lang].get("places", {}) for s in SLUGS)
+
+
+def guides_of(lang):
+    p = src / "guides" / f"{lang}.json"
+    if not p.exists():
+        return None
+    g = json.loads(p.read_text(encoding="utf-8"))
+    return g if all(s in g.get("guides", {}) for s in GUIDES) else None
+
+
+def has_guides(lang):
+    return guides_of(lang) is not None
 
 
 def has_faq(lang):
@@ -155,6 +170,18 @@ def footer_places(lang):
     return "\n".join(rows)
 
 
+def guides_path(lang):
+    return f"/{lang}/guides/" if has_guides(lang) else f"/{DEFAULT}/guides/"
+
+
+def footer_guides(lang):
+    l = lang if has_guides(lang) else DEFAULT
+    g = guides_of(l)
+    if not g:
+        return ""
+    return "\n".join(f'            <a href="/{l}/guides/{s}/">{esc(g["guides"][s]["h1"])}</a>' for s in GUIDES)
+
+
 def credits_list(lang):
     t = texts[lang]
     rows = []
@@ -197,6 +224,10 @@ def page_urls(kind, slug=None):
             urls[l] = f"{BASE}/{l}/lieux/{slug}/"
         elif kind == "faq" and has_faq(l):
             urls[l] = f"{BASE}/{l}/faq/"
+        elif kind == "guides" and has_guides(l):
+            urls[l] = f"{BASE}/{l}/guides/"
+        elif kind == "guide" and has_guides(l):
+            urls[l] = f"{BASE}/{l}/guides/{slug}/"
     return urls
 
 
@@ -217,7 +248,7 @@ def base_values(lang, urls):
         "ogAlternates": "\n".join(f'  <meta property="og:locale:alternate" content="{texts[o]["ogLocale"]}">' for o in urls if o != lang),
         "langMenu": lang_links(lang, "menu", urls), "langPills": lang_links(lang, "pill", urls),
         "footerLangLinks": lang_links(lang, "footer", urls), "creditsList": credits_list(lang),
-        "footerPlaces": footer_places(lang), "langOptions": lang_options(lang), "formEndpoint": FORM_ENDPOINT,
+        "footerPlaces": footer_places(lang), "footerGuides": footer_guides(lang), "guidesPath": guides_path(lang), "langOptions": lang_options(lang), "formEndpoint": FORM_ENDPOINT,
     })
     return v
 
@@ -444,6 +475,128 @@ def render_faq(lang):
     return shell(lang, urls, title, t["faqMeta"], url, f"{BASE}/img/og.jpg", [ld(faq_ld), crumbs_ld], main)
 
 
+def guide_card(lang, slug, g):
+    t = texts[lang]
+    return (f'          <a class="other guide-card" href="/{lang}/guides/{slug}/">{img_tag(GUIDE_IMG[slug], "(max-width: 900px) 100vw, 33vw", g["h1"])}'
+            f'<span>{esc(g["h1"])} {ARROW}</span></a>')
+
+
+def render_guide(lang, slug):
+    t, gall = texts[lang], guides_of(lang)
+    g = gall["guides"][slug]
+    urls = page_urls("guide", slug)
+    url = urls[lang]
+    hub = f"{BASE}/{lang}/guides/"
+    crumbs_nav, crumbs_ld = breadcrumb(lang, [(t["crumbHome"], f"{BASE}/{lang}/"), (t["navGuides"], hub), (g["h1"], url)])
+    image = f"{BASE}/img/{GUIDE_IMG[slug]}-1400.webp"
+    article = {"@context": "https://schema.org", "@type": "Article", "headline": g["h1"], "description": g["description"],
+               "inLanguage": tag(lang), "url": url, "image": image, "datePublished": today, "dateModified": today,
+               "author": {"@id": f"{BASE}/#organisation"}, "publisher": {"@id": f"{BASE}/#organisation"},
+               "mainEntityOfPage": url, "about": [{"@type": "TouristAttraction", "name": t[STOP_KEY[s]]} for s in g.get("places", []) if s in STOP_KEY]}
+    faq_ld = {"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": tag(lang),
+              "mainEntity": [{"@type": "Question", "name": q["q"], "acceptedAnswer": {"@type": "Answer", "text": q["a"]}} for q in g["faq"]]}
+    sections = "\n".join(f'          <section><h2>{esc(s["h2"])}</h2>' + "".join(f"<p>{esc(p)}</p>" for p in s["p"]) + "</section>" for s in g["sections"])
+    tips = "\n".join(f"                <li>{esc(x)}</li>" for x in g["tips"])
+    place_links = "\n".join(f'              <a class="more" href="/{lang}/lieux/{s}/">{esc(t[STOP_KEY[s]])} {ARROW}</a>'
+                            for s in g.get("places", []) if s in STOP_KEY and has_places(lang))
+    faq = "\n".join(f'          <details class="qa glass"><summary><h3>{esc(q["q"])}</h3><i aria-hidden="true"></i></summary><p>{esc(q["a"])}</p></details>' for q in g["faq"])
+    others = "\n".join(guide_card(lang, s, gall["guides"][s]) for s in GUIDES if s != slug)
+    main = f"""  <main id="main">
+    <section class="scene place-hero">
+      <div class="scene-bg" aria-hidden="true">{img_tag(GUIDE_IMG[slug], "100vw", g["h1"], "eager")}</div>
+      <div class="scene-body">
+        <div class="container">
+          {crumbs_nav}
+          <p class="eyebrow" data-rise>{esc(t["guidesEyebrow"])}</p>
+          <h1 data-rise style="--d:.1s">{esc(g["h1"])}</h1>
+          <p class="lead" data-rise style="--d:.2s">{esc(g["intro"])}</p>
+          <div class="hero-actions" data-rise style="--d:.3s">{cta_button(lang, f"/{lang}/#organiser")}</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene">
+      <div class="scene-bg" aria-hidden="true">{img_tag("panorama", "100vw", t["capPanorama"])}</div>
+      <div class="scene-body">
+        <div class="container place-grid">
+          <article class="glass place-text" data-reveal>
+{sections}
+          </article>
+          <aside class="place-side">
+            <div class="glass" data-reveal style="--d:.1s">
+              <p class="eyebrow">{esc(t["tipsTitle"])}</p>
+              <ul class="tips">
+{tips}
+              </ul>
+            </div>
+            <div class="glass" data-reveal style="--d:.2s">
+              <p class="eyebrow">{esc(t["crumbPlaces"])}</p>
+              <div class="place-links">
+{place_links}
+              </div>
+              {cta_button(lang, f"/{lang}/#organiser")}
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene">
+      <div class="scene-bg" aria-hidden="true">{img_tag("village", "100vw", t["capVillage"])}</div>
+      <div class="scene-body">
+        <div class="container faq-wrap">
+          <div class="glass section-title" data-reveal><p class="eyebrow">{esc(t["guideFaqTitle"])}</p><h2>{esc(g["h1"])}</h2></div>
+          <div class="faq-list">
+{faq}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene">
+      <div class="scene-bg" aria-hidden="true">{img_tag("lac", "100vw", t["capLac"])}</div>
+      <div class="scene-body">
+        <div class="container">
+          <div class="glass section-title" data-reveal><p class="eyebrow">{esc(t["guidesEyebrow"])}</p><h2>{esc(t["otherGuides"])}</h2></div>
+          <div class="others">
+{others}
+          </div>
+        </div>
+      </div>
+    </section>
+"""
+    return shell(lang, urls, g["title"], g["description"], url, image, [ld(article), ld(faq_ld), crumbs_ld], main)
+
+
+def render_guides(lang):
+    t, gall = texts[lang], guides_of(lang)
+    urls = page_urls("guides")
+    url = urls[lang]
+    crumbs_nav, crumbs_ld = breadcrumb(lang, [(t["crumbHome"], f"{BASE}/{lang}/"), (t["navGuides"], url)])
+    items = [{"@type": "ListItem", "position": i, "url": f"{BASE}/{lang}/guides/{s}/", "name": gall["guides"][s]["h1"]} for i, s in enumerate(GUIDES, 1)]
+    list_ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": gall["hubH1"], "description": gall["hubDescription"],
+               "inLanguage": tag(lang), "url": url, "mainEntity": {"@type": "ItemList", "itemListElement": items}}
+    cards = "\n".join(
+        f'          <a class="glass guide-row" href="/{lang}/guides/{s}/" data-reveal><h2>{esc(gall["guides"][s]["h1"])}</h2>'
+        f'<p>{esc(gall["guides"][s]["card"])}</p><span class="more">{esc(t["readGuide"])} {ARROW}</span></a>' for s in GUIDES)
+    main = f"""  <main id="main">
+    <section class="scene">
+      <div class="scene-bg" aria-hidden="true">{img_tag("village", "100vw", t["capVillage"], "eager")}</div>
+      <div class="scene-body">
+        <div class="container faq-wrap">
+          {crumbs_nav}
+          <div class="glass section-title" data-rise><p class="eyebrow">{esc(t["guidesEyebrow"])}</p><h1>{esc(gall["hubH1"])}</h1><p class="lead">{esc(gall["hubIntro"])}</p></div>
+          <div class="faq-list">
+{cards}
+          </div>
+          <div class="hero-actions">{cta_button(lang, f"/{lang}/#organiser")}</div>
+        </div>
+      </div>
+    </section>
+"""
+    return shell(lang, urls, gall["hubTitle"], gall["hubDescription"], url, f"{BASE}/img/og.jpg", [ld(list_ld), crumbs_ld], main)
+
+
 def render_thanks(lang):
     t = texts[lang]
     url = f"{BASE}/{lang}/merci/"
@@ -521,7 +674,7 @@ def root_page():
 
 
 def sitemap():
-    groups = [page_urls("home")] + [page_urls("place", s) for s in SLUGS] + [page_urls("faq")]
+    groups = [page_urls("home")] + [page_urls("place", s) for s in SLUGS] + [page_urls("faq"), page_urls("guides")] + [page_urls("guide", s) for s in GUIDES]
     entries = [f"  <url>\n    <loc>{BASE}/</loc>\n    <lastmod>{today}</lastmod>\n  </url>"]
     for urls in groups:
         if not urls:
@@ -534,6 +687,9 @@ def sitemap():
                 slug = m.group(1)
                 names = [HERO_OF[slug]] + [g["name"] for g in gallery_items(slug, l)]
                 imgs = "\n" + "\n".join(f"    <image:image><image:loc>{BASE}/img/{n}-2400.webp</image:loc></image:image>" for n in names)
+            elif re.match(rf"{re.escape(BASE)}/{l}/guides/([^/]+)/", u):
+                gs = re.match(rf"{re.escape(BASE)}/{l}/guides/([^/]+)/", u).group(1)
+                imgs = f"\n    <image:image><image:loc>{BASE}/img/{GUIDE_IMG[gs]}-2400.webp</image:loc></image:image>"
             elif u.endswith(f"/{l}/"):
                 imgs = "\n" + "\n".join(f"    <image:image><image:loc>{BASE}/img/{n}-2400.webp</image:loc></image:image>"
                                         for n in ["chateau", "dents", "panorama", "alpage", "lac", "village"])
@@ -570,6 +726,10 @@ def llms():
                 lines.append(f"- [{content[l]['places'][s]['h1']}]({BASE}/{l}/lieux/{s}/): {content[l]['places'][s]['description']}")
         if has_faq(l):
             lines.append(f"- [{t['faqEyebrow']}]({BASE}/{l}/faq/)")
+        if has_guides(l):
+            for s in GUIDES:
+                gg = guides_of(l)["guides"][s]
+                lines.append(f"- [{gg['h1']}]({BASE}/{l}/guides/{s}/): {gg['description']}")
         lines.append("")
     return "\n".join(lines)
 
@@ -609,6 +769,10 @@ for l in LANGS:
             pages[f"{l}/lieux/{s}/index.html"] = render_place(l, s)
     if has_faq(l):
         pages[f"{l}/faq/index.html"] = render_faq(l)
+    if has_guides(l):
+        pages[f"{l}/guides/index.html"] = render_guides(l)
+        for s in GUIDES:
+            pages[f"{l}/guides/{s}/index.html"] = render_guide(l, s)
 pages["index.html"] = root_page()
 pages["sitemap.xml"] = sitemap()
 pages["robots.txt"] = robots()

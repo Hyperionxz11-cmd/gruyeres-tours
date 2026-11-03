@@ -43,6 +43,7 @@
         <a href="{{path}}#schedule">{{navSchedule}}</a>
         <a href="{{path}}#organiser">{{navOrganize}}</a>
         <a href="{{path}}faq/">{{navFaq}}</a>
+        <a href="{{guidesPath}}">{{navGuides}}</a>
       </nav>
       <div class="nav-actions">
         <details class="lang">
@@ -62,6 +63,7 @@
     <a href="{{path}}#schedule">{{navSchedule}}</a>
     <a href="{{path}}#organiser">{{navOrganize}}</a>
     <a href="{{path}}faq/">{{navFaq}}</a>
+    <a href="{{guidesPath}}">{{navGuides}}</a>
     <div class="mobile-langs">
 {{langPills}}
     </div>
@@ -271,17 +273,23 @@
       <div class="footer-grid">
         <p>{{footerText}}</p>
         <div>
-          <h4>{{footerContact}}</h4>
+          <p class="foot-title">{{footerContact}}</p>
           <a href="mailto:info@gruyeres-tours.com">info@gruyeres-tours.com</a>
         </div>
         <div>
-          <h4>{{crumbPlaces}}</h4>
+          <p class="foot-title">{{crumbPlaces}}</p>
           <nav class="footer-langs" aria-label="{{crumbPlaces}}">
 {{footerPlaces}}
           </nav>
         </div>
         <div>
-          <h4>{{footerLangs}}</h4>
+          <p class="foot-title">{{navGuides}}</p>
+          <nav class="footer-langs" aria-label="{{navGuides}}">
+{{footerGuides}}
+          </nav>
+        </div>
+        <div>
+          <p class="foot-title">{{footerLangs}}</p>
           <nav class="footer-langs" aria-label="{{ariaLanguages}}">
 {{footerLangLinks}}
           </nav>

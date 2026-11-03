@@ -187,7 +187,7 @@ figcaption, .scene-cap { color: var(--faint); font-size: .7rem; font-weight: 600
 .stops-intro { max-width: 760px; }
 .stops-intro .lead { margin-top: 22px; }
 .story-steps { display: grid; justify-items: end; }
-.story-step { width: min(480px, 100%); margin-top: 62vh; opacity: .35; transform: translateY(20px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
+.story-step { width: min(480px, 100%); margin-top: 62vh; opacity: .62; transform: translateY(20px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
 .story-step:first-child { margin-top: 48vh; }
 .story-step:last-child { margin-bottom: 38vh; }
 .story-step.is-active { opacity: 1; transform: none; }
@@ -236,8 +236,8 @@ figcaption, .scene-cap { color: var(--faint); font-size: .7rem; font-weight: 600
 .footer-head { display: flex; align-items: center; gap: clamp(18px, 3vw, 36px); }
 .footer-head img { width: clamp(64px, 9vw, 120px); height: auto; }
 .footer-word { color: #fff; font-family: "EB Garamond", Georgia, serif; font-size: clamp(3rem, 10vw, 9rem); font-weight: 400; line-height: .9; letter-spacing: -.03em; }
-.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--line-light); font-size: .92rem; }
-.footer-grid h4 { margin: 0 0 16px; color: var(--brass-light); font-size: .7rem; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.3fr 1fr; gap: 40px; margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--line-light); font-size: .92rem; }
+.footer-grid .foot-title { margin: 0 0 16px; color: var(--brass-light); font-size: .7rem; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; }
 .footer-grid a { text-decoration: none; transition: color .3s; }
 .footer-grid a:hover { color: #fff; }
 .footer-langs { display: grid; gap: 6px; }
@@ -332,7 +332,19 @@ figcaption, .scene-cap { color: var(--faint); font-size: .7rem; font-weight: 600
 .qa { padding: 0; }
 .qa summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 24px clamp(22px, 3vw, 34px); cursor: pointer; list-style: none; }
 .qa summary::-webkit-details-marker { display: none; }
-.qa h2 { margin: 0; font-size: clamp(1.3rem, 2vw, 1.6rem); line-height: 1.25; }
+.qa h2, .qa h3 { margin: 0; font-size: clamp(1.3rem, 2vw, 1.6rem); line-height: 1.25; }
+/* Guides */
+.place-text section p + p { margin-top: 12px; }
+.tips { display: grid; gap: 14px; margin: 18px 0 0; padding: 0; list-style: none; }
+.tips li { position: relative; padding-left: 26px; color: var(--soft); line-height: 1.6; }
+.tips li::before { content: ""; position: absolute; left: 0; top: .62em; width: 12px; height: 1px; background: var(--brass-light); }
+.place-links { display: grid; gap: 4px; margin: 6px 0 4px; }
+.place-links .more { margin-top: 10px; }
+.guide-row { display: block; padding: 28px clamp(22px, 3vw, 34px); text-decoration: none; transition: border-color .4s, transform .5s var(--ease); }
+.guide-row h2 { margin: 0; font-size: clamp(1.4rem, 2.2vw, 1.8rem); line-height: 1.2; }
+.guide-row p { margin-top: 10px; color: var(--soft); line-height: 1.7; }
+.guide-row:hover { transform: translateY(-3px); }
+.guide-row:hover .more svg { transform: translateX(6px); }
 .qa i { position: relative; flex: none; width: 18px; height: 18px; }
 .qa i::before, .qa i::after { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--brass-light); transition: transform .4s var(--ease); }
 .qa i::after { transform: rotate(90deg); }
@@ -384,7 +396,7 @@ figcaption, .scene-cap { color: var(--faint); font-size: .7rem; font-weight: 600
 :lang(zh) h1, :lang(zh) h2, :lang(zh) h3 { font-weight: 600; letter-spacing: .02em; line-height: 1.25; }
 :lang(zh) h1, :lang(zh) h2 { word-break: keep-all; overflow-wrap: anywhere; }
 :lang(zh) .hero h1 { max-width: 13em; font-size: clamp(2.4rem, 5.6vw, 5rem); line-height: 1.2; }
-:lang(zh) .eyebrow, :lang(zh) .nav-links a, :lang(zh) .btn, :lang(zh) .step .time, :lang(zh) .slide-cap, :lang(zh) figcaption, :lang(zh) .scene-cap, :lang(zh) .footer-grid h4 { letter-spacing: .08em; }
+:lang(zh) .eyebrow, :lang(zh) .nav-links a, :lang(zh) .btn, :lang(zh) .step .time, :lang(zh) .slide-cap, :lang(zh) figcaption, :lang(zh) .scene-cap, :lang(zh) .footer-grid .foot-title { letter-spacing: .08em; }
 :lang(zh) .lead { line-height: 1.9; }
 
 /* Adaptations */
@@ -400,6 +412,8 @@ figcaption, .scene-cap { color: var(--faint); font-size: .7rem; font-weight: 600
   .tile-c { margin-top: 48px; }
   .story-steps { justify-items: stretch; }
   .story-step { width: 100%; margin-top: 70vh; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .footer-grid > p:first-child { grid-column: 1 / -1; }
 }
 @media (max-width: 640px) {
   :root { --header-h: 72px; }

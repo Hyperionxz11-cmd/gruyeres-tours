@@ -1,0 +1,303 @@
+{
+  "hubTitle": "Practical guides to visiting the Gruyère region from Geneva",
+  "hubDescription": "Our guides to visiting Gruyères from Geneva: a day trip, a family outing, cheese and chocolate, the best season to go and a company outing for your team.",
+  "hubH1": "Guides to planning your day in the Gruyère region",
+  "hubIntro": "These guides answer the questions people ask before leaving Geneva for the Gruyère region: how to organise the day, what to do with children, how to combine cheese and chocolate, which season to choose and how to bring a team along. Each guide is based on information checked with the places in the region.",
+  "guides": {
+    "excursion-depuis-geneve": {
+      "title": "Gruyères day trip from Geneva: a private tour itinerary",
+      "description": "Visit Gruyères on a day trip from Geneva: the journey, possible stops, a sample itinerary and how we organise a tailor-made private tour for your group.",
+      "h1": "Visiting Gruyères from Geneva in a single day",
+      "intro": "Yes, Gruyères is easy to visit in a day from Geneva: the drive takes about an hour and a half depending on traffic, which leaves time to explore the medieval town, its castle and one or two other stops. We organise this day privately, with pick-up in Geneva at an agreed place and a return in the evening. The itinerary is put together around your group, the season and the availability of each place.",
+      "sections": [
+        {
+          "h2": "The journey from Geneva to Gruyères",
+          "p": [
+            "Gruyères lies in the canton of Fribourg, very close to Bulle. From Geneva, the route follows the A1 motorway along Lake Geneva to Lausanne, then the A9 and A12 towards Bulle. Allow about an hour and a half, more at rush hour around Geneva and Lausanne. The landscape changes along the way: after the lake and the vineyards, the road climbs towards the pastures and the first ridges of the Fribourg Pre-Alps.",
+            "On a private day trip, you do not have to deal with the journey. Pick-up is in Geneva, at a place agreed together, and the return is in the evening. You can enjoy the ride, watch the scenery or talk about the programme, without hunting for connections or a parking space. At the foot of the town, the car stays below: the medieval town is explored on foot."
+          ]
+        },
+        {
+          "h2": "What you can see in one day",
+          "p": [
+            "The heart of the day is the medieval town of Gruyères and its castle, first mentioned in 1244 and open to the public since 1939. A visit usually takes one to two hours. Several places lie a few minutes away: La Maison du Gruyère in Pringy, where you watch Gruyère AOP being made, Maison Cailler in Broc for chocolate, the HR Giger Museum in the town itself, and Moléson, the summit of the region at 2,002 metres.",
+            "There is no need to do everything. A successful day usually combines the castle and two other stops, with lunch at your leisure in the village. Trying to fit in all five places means rushing and leaves little room to wander. We help you choose according to what matters to your group: history, food, art or scenery."
+          ]
+        },
+        {
+          "h2": "A sample itinerary",
+          "p": [
+            "Here is one possible way to organise the day, by way of illustration. Leave Geneva in the morning. First stop at La Maison du Gruyère, as cheesemaking takes place in the morning. Then up to the medieval town to visit the castle and stroll along the main street. Lunch at your leisure in the village, in one of the restaurants in the town or nearby.",
+            "In the afternoon, the day continues as you wish: Maison Cailler for something sweet, the HR Giger Museum for lovers of fantasy art, or Moléson if the season and the weather allow. Back in Geneva in the evening. This order is not fixed: we adjust it to the opening hours of each place on your chosen date, the weather on the day and the pace of your group."
+          ]
+        },
+        {
+          "h2": "Travelling independently or on a private day",
+          "p": [
+            "You can reach Gruyères on your own, by car or by public transport with a few changes. It is a good option if you enjoy planning your trip. Combining several stops in the same day, however, means carefully timing the journeys between Gruyères, Pringy, Broc and Moléson-sur-Gruyères, as well as the opening hours of each place, which vary with the season.",
+            "A private day trip takes away this logistics. You stay among yourselves, with no strangers in the group, and the programme follows your pace rather than a shared timetable. We check availability at each place on your chosen date and adjust the order of the day if the weather changes. For a first visit to the region, it is a simple way to enjoy the day without having to think about it."
+          ]
+        }
+      ],
+      "tips": [
+        "Wear comfortable shoes: the climb up to the castle is on cobblestones.",
+        "If you want to see the cheesemaker at work, visit La Maison du Gruyère in the morning.",
+        "Keep to three stops to leave time to wander around the town.",
+        "Bring a jacket if Moléson is on the programme, it is cooler at the summit.",
+        "Give a second possible date in your request, it makes planning easier."
+      ],
+      "faq": [
+        {
+          "q": "What time do we leave Geneva?",
+          "a": "The departure time is agreed with you when we prepare the day. It depends on the stops chosen and on the opening hours of each place on the date selected. If La Maison du Gruyère is on the programme, a morning departure lets you see the cheese being made."
+        },
+        {
+          "q": "Where is the pick-up in Geneva?",
+          "a": "Pick-up is in Geneva, at a place we agree on together. We set it when we confirm the day. The return to Geneva is in the evening."
+        },
+        {
+          "q": "Is lunch included in the day?",
+          "a": "Lunch is at your leisure: you choose on the spot, in the village of Gruyères or nearby. If you prefer a picnic, note that picnics are not allowed within the castle walls. It is also a chance to taste the region's cheese specialities."
+        }
+      ],
+      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "musee-hr-giger", "moleson"],
+      "card": "The journey, possible stops and a sample itinerary for discovering Gruyères in a single day from Geneva."
+    },
+    "en-famille": {
+      "title": "Gruyères with kids: a family day trip from Geneva",
+      "description": "Visiting Gruyères with children: cheese, chocolate, a treasure hunt at the castle and the Moléson funicular. Our tips for a successful family day out.",
+      "h1": "Gruyères as a family, a day designed for children",
+      "intro": "Gruyères is ideal for a day out with children: you watch cheese being made, taste chocolate in Broc, and the castle offers a treasure hunt on booking. The secret of a good family day lies in the pace: few stops, breaks, and something hands-on at every stop. We put the itinerary together according to the children's ages and the season.",
+      "sections": [
+        {
+          "h2": "The stops children love",
+          "p": [
+            "At La Maison du Gruyère in Pringy, children follow the cheesemaker's work from a glazed gallery, from the milk to the wheels. The interactive exhibition, with its images, objects and games, completes the visit. In Broc, Maison Cailler offers a playful tour of the history of chocolate, a production line making chocolate branches and a tasting at the end, often the youngest visitors' favourite moment.",
+            "At Gruyères Castle, families can book a treasure hunt led by a host in medieval costume. Local legends, such as that of Chalamala the jester, bring the visit to life. In the warmer months, the ride up Moléson by funicular and then cable car is a small adventure in itself, with a panorama that rewards the whole family."
+          ]
+        },
+        {
+          "h2": "A pace suited to the children's ages",
+          "p": [
+            "A day from Geneva is long for young children: about an hour and a half on the road each way. It is therefore best to choose two or three stops, no more, and keep free time between them. For the youngest, the cheese dairy and the chocolate factory offer short, hands-on visits. With older children, the castle and Moléson fit in easily.",
+            "On a private day trip, the programme follows your family. You can take a break when a child needs one, shorten a visit or drop a stop if tiredness sets in. Lunch at your leisure in the village lets you choose a simple place and eat when it suits you. We suggest an itinerary that you adjust with us before confirming."
+          ]
+        },
+        {
+          "h2": "The town on foot, with children",
+          "p": [
+            "The medieval town of Gruyères is explored on foot. The car stays below, then you walk up to the castle along a cobbled street. The climb is short but real: good shoes help, and a baby carrier is often more practical than a pushchair on the cobblestones. On the main street, the flower-decked facades and the view over the Pre-Alps keep children busy between visits.",
+            "Around the castle, the French formal garden, open from Easter to September, and the ramparts offer space to catch your breath. Picnics are not allowed within the castle walls: if you prefer a quick bite, plan it elsewhere. In the village, several restaurants serve cheese specialities, which children often try with curiosity after visiting the cheese dairy."
+          ]
+        },
+        {
+          "h2": "The HR Giger Museum, a stop for adults",
+          "p": [
+            "The HR Giger Museum is housed in Château Saint-Germain, a few metres from Gruyères Castle. It brings together the work of the Swiss artist who created the creature in the film Alien. His world, dark and at times explicit, is not suitable for all audiences, and especially not for children. For a family day, we generally advise leaving it out and favouring the cheese dairy, the chocolate factory or Moléson.",
+            "If an adult in the group is keen to visit, the family can split up for a while: meanwhile, the children stroll around the town with another adult. We discuss this with you when preparing the day. For teenagers, the decision is up to the parents, and it is best to know what to expect before going in."
+          ]
+        }
+      ],
+      "tips": [
+        "Book the castle treasure hunt in advance, it is available on booking only.",
+        "Choose a baby carrier rather than a pushchair for the cobbled climb to the castle.",
+        "Bring warm clothes for the summit of Moléson, even in summer.",
+        "Save the Maison Cailler tasting for the afternoon, as a reward.",
+        "Bring something to keep the children busy during the journey of about an hour and a half."
+      ],
+      "faq": [
+        {
+          "q": "From what age is the day suitable for children?",
+          "a": "It all depends on the pace chosen. With young children, we suggest fewer stops and more breaks, favouring the cheese dairy and the chocolate factory. Give the children's ages in your request so that our proposal takes them into account."
+        },
+        {
+          "q": "How do we book the castle treasure hunt?",
+          "a": "Gruyères Castle offers families a treasure hunt led by a host in medieval costume, which must be booked in advance. If it interests you, mention it in your request. We check availability on your chosen date."
+        },
+        {
+          "q": "What if a child gets tired during the day?",
+          "a": "The programme of a private day is not fixed: a visit can be shortened or a stop dropped. Free time in the village also gives everyone a chance to rest. It is better to plan few stops at the start and add one if energy allows."
+        }
+      ],
+      "places": ["maison-du-gruyere", "maison-cailler", "chateau-de-gruyeres", "moleson"],
+      "card": "Cheese, chocolate, a treasure hunt and a funicular: our tips for visiting Gruyères with children."
+    },
+    "fromage-et-chocolat": {
+      "title": "Swiss cheese and chocolate day: Gruyères and Cailler",
+      "description": "A Swiss cheese and chocolate day trip from Geneva: watch Gruyère AOP being made in Pringy and visit Maison Cailler in Broc, combined in a single day.",
+      "h1": "Cheese and chocolate: Gruyères and Cailler in one day",
+      "intro": "Yes, you can combine Swiss cheese and chocolate in a single day from Geneva: La Maison du Gruyère in Pringy and Maison Cailler in Broc are both neighbours of the town of Gruyères. The morning is the time to watch Gruyère AOP being made, the afternoon is for chocolate. We organise this day privately, with the medieval town in between.",
+      "sections": [
+        {
+          "h2": "One landscape, two crafts",
+          "p": [
+            "Cheese and chocolate are not found together here by chance. The Gruyère region is a land of pastures and dairy cows, and it is this milk that gives both Gruyère AOP and Cailler chocolate. The cheese bears the name of the region where it was born. As for Cailler, the oldest chocolate brand still in existence in Switzerland, it settled in Broc in 1898, in a region renowned for the quality of its milk.",
+            "Moving from one to the other in the same day helps you understand this link. You see raw milk turn into wheels in the morning, then find the region's milk again in the chocolate in the afternoon. Both places are a few minutes from the medieval town, which leaves time to visit the castle and have lunch in the village without rushing."
+          ]
+        },
+        {
+          "h2": "In the morning, Gruyère AOP in Pringy",
+          "p": [
+            "La Maison du Gruyère opened its doors in 1969: it was the first demonstration cheese dairy in Switzerland. It is not a static museum but a real cheese dairy, producing up to 48 wheels a day. From a glazed gallery, you follow the cheesemaker from the raw milk to the moulding. Cheesemaking takes place in the morning, which is why we put this stop at the start of the day.",
+            "The Gruyère AOP specification requires raw milk, with no pasteurisation or additives, delivered to the dairy twice a day. At least 400 litres of milk are needed for a wheel of around 35 kilos. The maturing cellar then shows how the wheels ripen over time. The restaurant and shop on site let you taste the house cheese and take some home."
+          ]
+        },
+        {
+          "h2": "In the afternoon, chocolate in Broc",
+          "p": [
+            "François-Louis Cailler founded his chocolate business in 1819 in Vevey. His grandson, Alexandre-Louis Cailler, opened the Broc factory in 1898. Cailler chocolate is still made there, in the historic building that now welcomes visitors. Maison Cailler, opened in 2010, first tells the story of the family and the great names of Swiss chocolate, in an interactive tour.",
+            "The second part of the visit is devoted to production. You touch and examine the raw ingredients, discover the people who produce them, then watch a production line making chocolate branches. The tour ends with a tasting of the house specialities. The shop at the exit lets you take home bars and pralines: keep a little room in your bags."
+          ]
+        },
+        {
+          "h2": "In between, the town of Gruyères",
+          "p": [
+            "A cheese and chocolate day benefits from a break in the medieval town. Gruyères Castle, at the top of the hill, tells eight centuries of history, from the Counts of Gruyère to the bailiffs of Fribourg. From its ramparts, you take in the meadows where the milk comes from, and you understand why this small region gave its name to a cheese known far beyond Switzerland.",
+            "Lunch at your leisure in the village is the right moment to taste the region's cheese specialities, after the morning visit. Moléson and the HR Giger Museum remain possible if time allows, but a day centred on cheese and chocolate is best enjoyed without hurrying. We suggest the order of the stops according to the opening hours of each place on your chosen date."
+          ]
+        }
+      ],
+      "tips": [
+        "Arrive in Pringy in the morning to see the cheesemaker at work.",
+        "In high season, booking Maison Cailler avoids queuing: mention your interest in your request.",
+        "Keep lunch light if the chocolate tasting is planned for the afternoon.",
+        "Bring a cool bag if you plan to take cheese back to Geneva.",
+        "Maison Cailler is closed on 25 December and 1 January."
+      ],
+      "faq": [
+        {
+          "q": "Can you watch the cheese being made at any time?",
+          "a": "No. At La Maison du Gruyère, Gruyère AOP is made in the morning, at times that vary with the season. In the afternoon, the exhibition and the maturing cellar are still open to visit, but it is in the morning that you see the cheesemaker at work."
+        },
+        {
+          "q": "Can we take cheese and chocolate back to Geneva?",
+          "a": "Yes. La Maison du Gruyère and Maison Cailler each have a shop selling cheese, bars and pralines. As the return to Geneva is in the evening, a cool bag helps keep the cheese in good condition, especially in summer."
+        },
+        {
+          "q": "Is Cailler chocolate still made in Broc?",
+          "a": "Yes. Cailler chocolate has been made in Broc since 1898, in the historic building that now welcomes visitors. The brand, founded in 1819 in Vevey, has belonged to the Nestlé group since 1929."
+        }
+      ],
+      "places": ["maison-du-gruyere", "maison-cailler", "chateau-de-gruyeres"],
+      "card": "Gruyère AOP in the morning, Cailler chocolate in the afternoon: two crafts combined in a single day."
+    },
+    "quand-visiter": {
+      "title": "Best time to visit Gruyères: summer or winter?",
+      "description": "When to visit Gruyères? Spring, summer, autumn or winter: what is open, what changes with the seasons and how to choose the date of your day trip.",
+      "h1": "When to visit Gruyères: a season by season guide",
+      "intro": "Gruyères can be visited all year round: the castle, La Maison du Gruyère and Maison Cailler stay open in winter. Spring, summer and early autumn nonetheless offer the most options, as the castle garden is open from Easter to September and the Moléson funicular runs in the warmer months. The right choice depends above all on what you want to see.",
+      "sections": [
+        {
+          "h2": "In spring and summer, the fullest day",
+          "p": [
+            "From Easter to the end of summer, all the stops are in principle open. The castle's French formal garden is open, and the Moléson funicular and cable car run, on dates set each year by the operator. This is the period when it is easiest to combine the medieval town, cheese, chocolate and a mountain panorama in the same day.",
+            "Summer is also the busiest season. The town of Gruyères draws many visitors, and booking Maison Cailler is then recommended to avoid queuing. At the summit of Moléson, at 2,002 metres, it is noticeably cooler than in the lowlands: a jacket is still useful even in fine weather. The long days leave plenty of time to wander without hurrying."
+          ]
+        },
+        {
+          "h2": "In autumn, colours and more calm",
+          "p": [
+            "Early autumn remains a very good time. The Pre-Alps take on their colours, the light is soft and the town is often quieter than in the height of summer. The main visits stay open. The castle garden closes at the end of September, and Moléson runs until the end of season date set by the operator, to be checked for your chosen day.",
+            "The further into autumn, the more changeable the weather becomes. Fog can cover the lowlands while the heights sometimes stay in the sun, above a sea of clouds. For a day in October or November, we keep the order of the stops flexible to make the most of the best hours of the day. The days also get shorter: the programme then includes one stop fewer."
+          ]
+        },
+        {
+          "h2": "In winter, a day centred on the town and its flavours",
+          "p": [
+            "In winter, the essentials stay open. Gruyères Castle welcomes visitors every day of the year, with opening hours that vary by season. La Maison du Gruyère and Maison Cailler are also open, the chocolate factory closing only on 25 December and 1 January. The HR Giger Museum, in the town, completes the programme for lovers of fantasy art, according to its seasonal opening hours.",
+            "The Moléson funicular and cable car are not part of the day in winter: they run in the warmer months. The resort of Moléson-sur-Gruyères then offers a ski area, snow permitting, which is not part of our offer. A winter day therefore focuses on the town, cheese and chocolate, with mostly indoor visits. On the cobblestones, good shoes are all the more useful."
+          ]
+        },
+        {
+          "h2": "How to choose your date",
+          "p": [
+            "The best season depends on your priorities. If the Moléson panorama matters a lot, aim for the warmer months and keep a backup date in case of bad weather. If your group is coming mainly for cheese and chocolate, any season works. To avoid the crowds, weekdays and the months either side of summer are generally quieter.",
+            "In your request, give your preferred date and, if possible, another date. We check the opening hours and availability of each place on those dates, which change with the season, then suggest a suitable itinerary. On the day itself, the order of the stops can still change with the weather, so that you go up Moléson at the best moment when it is on the programme."
+          ]
+        }
+      ],
+      "tips": [
+        "Check the Moléson opening dates before setting a day centred on the panorama.",
+        "In summer, bring a jacket for the summit and sun protection for the town.",
+        "In winter, choose shoes with a good grip for the town's cobblestones.",
+        "The castle garden is only open from Easter to September.",
+        "Suggest two dates in your request to keep some leeway with the weather."
+      ],
+      "faq": [
+        {
+          "q": "Is Gruyères worth visiting in winter?",
+          "a": "Yes, if you accept a day without Moléson. The castle, La Maison du Gruyère and Maison Cailler stay open, and the medieval town keeps all its character under snow or fog. It is a good season for a day centred on history and flavours."
+        },
+        {
+          "q": "When does the Moléson funicular run?",
+          "a": "The Moléson funicular and cable car run in the warmer months, on dates set each year by the operator. These dates change from year to year: we check them for the day of your trip. Even in season, the view from the summit depends entirely on the weather."
+        },
+        {
+          "q": "What happens if it rains on the day of the trip?",
+          "a": "Most of the stops are indoors: the castle, the cheese dairy, the chocolate factory and the museum. In bad weather, we adjust the order of the day and may drop Moléson if the view is blocked. The day keeps its appeal, even in the rain."
+        }
+      ],
+      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "musee-hr-giger", "moleson"],
+      "card": "Spring, summer, autumn or winter: what is open in Gruyères and how to choose your date."
+    },
+    "sortie-entreprise": {
+      "title": "Company outing in Gruyère: a team day trip from Geneva",
+      "description": "Plan a company outing to the Gruyère region from Geneva: a private day for your team, with the castle, cheese, chocolate and the Fribourg Pre-Alps.",
+      "h1": "A company outing to the Gruyère region from Geneva",
+      "intro": "The Gruyère region is well suited to a company outing or a group trip from Geneva: it is about an hour and a half away by road and combines heritage, craftsmanship and scenery in a single day. We organise this day privately for your team, with pick-up in Geneva and a return in the evening. You tell us the date and the number of participants, and we suggest an itinerary.",
+      "sections": [
+        {
+          "h2": "Why the Gruyère region for a group outing",
+          "p": [
+            "A successful company outing mixes discovery and shared time, without an overloaded programme. The Gruyère region offers this combination in a small area: a medieval town and its castle, a cheese dairy where you watch Gruyère AOP being made, a historic chocolate factory and a mountain at 2,002 metres. Everyone finds something of interest, whether drawn to history, food or scenery.",
+            "Proximity is another advantage. Leaving Geneva in the morning and returning in the evening avoids any hotel night and makes things simpler for participants. The road runs along Lake Geneva before climbing towards the Fribourg Pre-Alps, giving the day a real change of air without a long journey. For a team based in Geneva, it is an outing that fits easily into the calendar."
+          ]
+        },
+        {
+          "h2": "A programme that brings people together",
+          "p": [
+            "Craft visits work well in groups. At La Maison du Gruyère, the team follows the cheesemaker's work together, from raw milk to the wheels, which naturally sparks questions and conversation. At Maison Cailler, the interactive tour and the final tasting create a relaxed moment. These hands-on visits appeal to everyone, whatever the role or age of the participants.",
+            "Lunch at your leisure in the village of Gruyères gives colleagues time to sit down together, in small groups or all together depending on what the restaurants can offer. In the warmer months, the ride up Moléson adds a moment in the open air, with a panorama over the Alps and Lake Geneva on a clear day. We balance visits and free time so that the day does not feel like a race."
+          ]
+        },
+        {
+          "h2": "Adapting the day to the size and profile of the group",
+          "p": [
+            "Every team is different. A small management committee does not have the same expectations as a whole department or a group of invited clients. The number of participants affects how visits are organised and some bookings. Give it in your request: we tell you what is possible on your chosen date and put the day together accordingly.",
+            "Interests matter as much as size. A team curious about history will spend more time at the castle, a group of food lovers will favour cheese and chocolate, and fresh air enthusiasts will aim for Moléson. The HR Giger Museum may appeal to creative profiles, but its dark world is not suitable for all audiences: we discuss it with you before including it in a group outing."
+          ]
+        },
+        {
+          "h2": "How the planning works",
+          "p": [
+            "The process is simple. You fill in the form on the website with your preferred date, another possible date, the number of participants, the language for the day and the places that interest you. The free text field lets you explain the context: a seminar, a thank-you for the team, hosting clients or partners. This information helps us suggest a suitable itinerary.",
+            "We come back to you with a proposed itinerary, which you can adjust with us before confirming. We check the opening hours and availability of each place on the date chosen. On the day, pick-up is in Geneva at the agreed place, and the return is in the evening. You do not have to handle the logistics of the day, just enjoy it with your team."
+          ]
+        }
+      ],
+      "tips": [
+        "Send your request early if your date falls in high season.",
+        "Give a number of participants as precise as possible, even if provisional.",
+        "Mention any mobility constraints among participants: the town is explored on foot, on cobblestones.",
+        "Plan a backup date if Moléson is a key part of the programme.",
+        "State the purpose of the outing so that the itinerary meets it."
+      ],
+      "faq": [
+        {
+          "q": "How many participants can the group include?",
+          "a": "It depends on the date, the places chosen and their availability. Give the size of your group in your request. We reply with what is feasible and a suitable proposed itinerary."
+        },
+        {
+          "q": "Can the outing be organised for clients or partners from abroad?",
+          "a": "Yes. The form lets you state the language for the day, and we organise the day in your group's language, subject to availability. On site, some places have their own materials, such as the castle's audio guide in French, German and English."
+        },
+        {
+          "q": "Can we all have lunch together?",
+          "a": "Lunch is at your leisure in the village of Gruyères. Depending on the size of the group, a shared meal requires booking a restaurant in advance. Mention this wish in your request: we take it into account in the proposed itinerary."
+        }
+      ],
+      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "moleson", "musee-hr-giger"],
+      "card": "A private day from Geneva for your team, your clients or your partners, in the Gruyère region."
+    }
+  }
+}
