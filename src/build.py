@@ -15,18 +15,24 @@ from datetime import date
 from pathlib import Path
 
 BASE = "https://gruyeres-tours.com"
-LANGS = ["fr", "de", "en", "pt", "es", "zh"]
+LANGS = ["fr", "de", "en", "pt", "es"]  # chinois retiré le 05.11.2026
 DEFAULT = "fr"
 TAG = {"zh": "zh-Hans"}  # code complet pour Google ; le chemin reste /zh/
 FORM_ENDPOINT = "info@gruyeres-tours.com"
 EMAIL = "info@gruyeres-tours.com"
+ADDRESS = ""   # adresse postale de l'éditeur (obligatoire pour les mentions légales) : à donner par André
+WHATSAPP = ""  # numéro WhatsApp au format international sans + ni espaces, ex. 41791234567 ; vide = bouton caché
+LEGAL_DATE = {"fr": "5 novembre 2026", "de": "5. November 2026", "en": "5 November 2026", "pt": "5 de novembro de 2026", "es": "5 de noviembre de 2026"}
+LEGAL_SLUG = {"legal": "mentions-legales", "privacy": "confidentialite"}
+ADDRESS_MISSING = {"fr": "Canton de Fribourg, Suisse", "de": "Kanton Freiburg, Schweiz", "en": "Canton of Fribourg, Switzerland",
+                   "pt": "Cantão de Friburgo, Suíça", "es": "Cantón de Friburgo, Suiza"}
 SLUGS = ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "musee-hr-giger", "moleson"]
 STOP_KEY = {s: f"s{i}t" for i, s in enumerate(SLUGS, 1)}
 HERO_OF = {"chateau-de-gruyeres": "cite", "maison-du-gruyere": "fromage", "maison-cailler": "cailler",
            "musee-hr-giger": "saint-germain", "moleson": "moleson"}
 ALT_OF = {s: f"alt{i}" for i, s in enumerate(SLUGS, 1)}
-GUIDES = ["excursion-depuis-geneve", "en-famille", "fromage-et-chocolat", "quand-visiter", "sortie-entreprise"]
-GUIDE_IMG = {"excursion-depuis-geneve": "chateau-de-gruyeres-1", "en-famille": "maison-du-gruyere-5",
+GUIDES = ["excursion-depuis-geneve", "aller-de-geneve-a-gruyeres", "en-famille", "fromage-et-chocolat", "quand-visiter", "sortie-entreprise"]
+GUIDE_IMG = {"excursion-depuis-geneve": "chateau-de-gruyeres-1", "aller-de-geneve-a-gruyeres": "village", "en-famille": "maison-du-gruyere-5",
              "fromage-et-chocolat": "maison-du-gruyere-1", "quand-visiter": "moleson-5", "sortie-entreprise": "chateau-de-gruyeres-5"}
 LOCALITY = {"chateau-de-gruyeres": "Gruyères", "maison-du-gruyere": "Pringy", "maison-cailler": "Broc",
             "musee-hr-giger": "Gruyères", "moleson": "Moléson-sur-Gruyères"}
@@ -91,7 +97,16 @@ def guides_of(lang):
     if not p.exists():
         return None
     g = json.loads(p.read_text(encoding="utf-8"))
+    n = nouveau_of(lang)
+    if n and "guide" in n:
+        g.setdefault("guides", {})["aller-de-geneve-a-gruyeres"] = n["guide"]
     return g if all(s in g.get("guides", {}) for s in GUIDES) else None
+
+
+def nouveau_of(lang):
+    """Guide « comment y aller » et pages légales (src/nouveau/<langue>.json)."""
+    p = src / "nouveau" / f"{lang}.json"
+    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
 
 
 def has_guides(lang):
@@ -214,6 +229,8 @@ def ld(obj):
 ORG = {"@type": "TravelAgency", "@id": f"{BASE}/#organisation", "name": "Gruyères Tours", "url": f"{BASE}/",
        "logo": {"@type": "ImageObject", "url": f"{BASE}/img/logo-512.png", "width": 512, "height": 512},
        "image": f"{BASE}/img/og.jpg", "email": EMAIL,
+       "contactPoint": {"@type": "ContactPoint", "contactType": "customer service", "email": EMAIL,
+                        **({"telephone": f"+{WHATSAPP}"} if WHATSAPP else {}), "availableLanguage": ["fr", "de", "en", "pt", "es"]},
        "areaServed": [{"@type": "City", "name": "Genève"}, {"@type": "AdministrativeArea", "name": "Gruyère, canton de Fribourg"}],
        "knowsLanguage": [tag(l) for l in LANGS]}
 
@@ -232,6 +249,8 @@ def page_urls(kind, slug=None):
             urls[l] = f"{BASE}/{l}/guides/"
         elif kind == "guide" and has_guides(l):
             urls[l] = f"{BASE}/{l}/guides/{slug}/"
+        elif kind in LEGAL_SLUG and nouveau_of(l):
+            urls[l] = f"{BASE}/{l}/{LEGAL_SLUG[kind]}/"
     return urls
 
 
@@ -240,6 +259,21 @@ def page_urls(kind, slug=None):
 head_part, _, rest = template.partition("<body>")
 HEADER = rest.split('  <main id="main">')[0]
 FOOTER = "  </main>" + rest.split("  </main>", 1)[1]
+# formulaire « Demande d'excursion privée », repris en bas de chaque page de contenu
+FORM_SECTION = '    <section class="scene" id="organiser">' + template.split('    <section class="scene" id="organiser">', 1)[1].split("  </main>", 1)[0]
+WA_ICON = ('<svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>')
+
+
+def wa_link(lang):
+    return f"https://wa.me/{WHATSAPP}" if WHATSAPP else ""
+
+
+def footer_legal(lang):
+    if not nouveau_of(lang):
+        return ""
+    t = texts[lang]
+    return (f'<a href="/{lang}/{LEGAL_SLUG["legal"]}/">{esc(t["navLegal"])}</a> · '
+            f'<a href="/{lang}/{LEGAL_SLUG["privacy"]}/">{esc(t["navPrivacy"])}</a>')
 
 
 def base_values(lang, urls):
@@ -253,6 +287,9 @@ def base_values(lang, urls):
         "langMenu": lang_links(lang, "menu", urls), "langPills": lang_links(lang, "pill", urls),
         "footerLangLinks": lang_links(lang, "footer", urls), "creditsList": credits_list(lang),
         "footerPlaces": footer_places(lang), "footerGuides": footer_guides(lang), "guidesPath": guides_path(lang), "langOptions": lang_options(lang), "formEndpoint": FORM_ENDPOINT,
+        "pageUrl": f"{BASE}/{lang}/", "footerLegal": footer_legal(lang),
+        "waFooter": (f'<a href="{wa_link(lang)}" rel="noopener">WhatsApp</a>' if WHATSAPP else ""),
+        "waFloat": (f'<a class="wa-float" href="{wa_link(lang)}" rel="noopener" aria-label="{esc(t["waCta"])}">{WA_ICON}<span>{esc(t["waCta"])}</span></a>' if WHATSAPP else ""),
     })
     return v
 
@@ -339,8 +376,11 @@ def head(lang, title, desc, url, urls, image, jsonlds, robots="index, follow, ma
 <body>"""
 
 
-def shell(lang, urls, title, desc, url, image, jsonlds, main, robots="index, follow, max-image-preview:large"):
+def shell(lang, urls, title, desc, url, image, jsonlds, main, robots="index, follow, max-image-preview:large", form=True):
     v = base_values(lang, urls)
+    v["pageUrl"] = url
+    if form:
+        main = main.rstrip("\n") + "\n\n" + fill(FORM_SECTION, v, lang)
     return head(lang, title, desc, url, urls, image, jsonlds, robots) + fill(HEADER, v, lang) + main + fill(FOOTER, v, lang)
 
 
@@ -394,7 +434,7 @@ def render_place(lang, slug):
           <p class="eyebrow" data-rise>{esc(t["crumbPlaces"])}</p>
           <h1 data-rise style="--d:.1s">{esc(c["h1"])}</h1>
           <p class="lead" data-rise style="--d:.2s">{esc(c["intro"])}</p>
-          <div class="hero-actions" data-rise style="--d:.3s">{cta_button(lang, f"/{lang}/#organiser")}</div>
+          <div class="hero-actions" data-rise style="--d:.3s">{cta_button(lang, "#organiser")}</div>
         </div>
       </div>
     </section>
@@ -416,7 +456,7 @@ def render_place(lang, slug):
             <div class="glass" data-reveal style="--d:.2s">
               <p class="eyebrow">{esc(t["inTourTitle"])}</p>
               <p class="lead">{esc(c["inTour"])}</p>
-              {cta_button(lang, f"/{lang}/#organiser")}
+              {cta_button(lang, "#organiser")}
             </div>
           </aside>
         </div>
@@ -470,7 +510,7 @@ def render_faq(lang):
           <div class="faq-list">
 {rows}
           </div>
-          <div class="hero-actions">{cta_button(lang, f"/{lang}/#organiser")}</div>
+          <div class="hero-actions">{cta_button(lang, "#organiser")}</div>
         </div>
       </div>
     </section>
@@ -514,7 +554,7 @@ def render_guide(lang, slug):
           <p class="eyebrow" data-rise>{esc(t["guidesEyebrow"])}</p>
           <h1 data-rise style="--d:.1s">{esc(g["h1"])}</h1>
           <p class="lead" data-rise style="--d:.2s">{esc(g["intro"])}</p>
-          <div class="hero-actions" data-rise style="--d:.3s">{cta_button(lang, f"/{lang}/#organiser")}</div>
+          <div class="hero-actions" data-rise style="--d:.3s">{cta_button(lang, "#organiser")}</div>
         </div>
       </div>
     </section>
@@ -538,7 +578,7 @@ def render_guide(lang, slug):
               <div class="place-links">
 {place_links}
               </div>
-              {cta_button(lang, f"/{lang}/#organiser")}
+              {cta_button(lang, "#organiser")}
             </div>
           </aside>
         </div>
@@ -593,7 +633,7 @@ def render_guides(lang):
           <div class="faq-list">
 {cards}
           </div>
-          <div class="hero-actions">{cta_button(lang, f"/{lang}/#organiser")}</div>
+          <div class="hero-actions">{cta_button(lang, "#organiser")}</div>
         </div>
       </div>
     </section>
@@ -619,7 +659,43 @@ def render_thanks(lang):
       </div>
     </section>
 """
-    return shell(lang, {}, f'{t["thanksTitle"]} | Gruyères Tours', t["fOk"], url, f"{BASE}/img/og.jpg", [], main, robots="noindex, follow")
+    return shell(lang, {}, f'{t["thanksTitle"]} | Gruyères Tours', t["fOk"], url, f"{BASE}/img/og.jpg", [], main, robots="noindex, follow", form=False)
+
+
+def render_legal(lang, kind):
+    t, d = texts[lang], nouveau_of(lang)[kind]
+    urls = page_urls(kind)
+    url = urls[lang]
+    crumbs_nav, crumbs_ld = breadcrumb(lang, [(t["crumbHome"], f"{BASE}/{lang}/"), (d["h1"], url)])
+    address = ADDRESS or ADDRESS_MISSING[lang]
+    if not ADDRESS:
+        missing_address.add(lang)
+
+    def put(s):
+        return esc(s.replace("{ADDRESS}", address).replace("{DATE}", LEGAL_DATE[lang])).replace(
+            "{EMAIL}", f'<a href="mailto:{EMAIL}">{EMAIL}</a>')
+
+    sections = "\n".join(f'          <section><h2>{esc(s["h2"])}</h2>' + "".join(f"<p>{put(p)}</p>" for p in s["p"]) + "</section>" for s in d["sections"])
+    page_ld = {"@context": "https://schema.org", "@type": "WebPage", "name": d["h1"], "url": url, "inLanguage": tag(lang),
+               "isPartOf": {"@id": f"{BASE}/#site"}, "publisher": {"@id": f"{BASE}/#organisation"}}
+    main = f"""  <main id="main">
+    <section class="scene">
+      <div class="scene-bg" aria-hidden="true">{img_tag("village", "100vw", t["capVillage"], "eager")}</div>
+      <div class="scene-body">
+        <div class="container faq-wrap">
+          {crumbs_nav}
+          <article class="glass place-text legal" data-rise>
+          <h1>{esc(d["h1"])}</h1>
+{sections}
+          </article>
+        </div>
+      </div>
+    </section>
+"""
+    return shell(lang, urls, f'{d["title"]} | Gruyères Tours', d["description"], url, f"{BASE}/img/og.jpg", [ld(page_ld), crumbs_ld], main, form=False)
+
+
+missing_address = set()
 
 
 # ---------- fichiers racine ----------
@@ -678,7 +754,8 @@ def root_page():
 
 
 def sitemap():
-    groups = [page_urls("home")] + [page_urls("place", s) for s in SLUGS] + [page_urls("faq"), page_urls("guides")] + [page_urls("guide", s) for s in GUIDES]
+    groups = ([page_urls("home")] + [page_urls("place", s) for s in SLUGS] + [page_urls("faq"), page_urls("guides")]
+              + [page_urls("guide", s) for s in GUIDES] + [page_urls(k) for k in LEGAL_SLUG])
     entries = [f"  <url>\n    <loc>{BASE}/</loc>\n    <lastmod>{today}</lastmod>\n  </url>"]
     for urls in groups:
         if not urls:
@@ -717,11 +794,12 @@ def llms():
     fr, en = texts["fr"], texts["en"]
     lines = ["# Gruyères Tours", "",
              f"> {fr['metaDescription']}", f"> {en['metaDescription']}", "",
-             "Gruyères Tours organise des excursions privées d'une journée au départ de Genève vers la région de la Gruyère "
+             "Gruyères Tours recueille des demandes d'excursions privées d'une journée au départ de Genève vers la région de la Gruyère "
              "(canton de Fribourg, Suisse) : château de Gruyères, La Maison du Gruyère, Maison Cailler, musée HR Giger et Moléson. "
-             f"Demandes sans engagement via le formulaire « Organiser votre journée » ; contact : {EMAIL}. "
-             "Site disponible en français, allemand, anglais, portugais, espagnol et chinois.", ""]
-    for l in ["fr", "en", "de", "es", "pt", "zh"]:
+             "Le format (train ou véhicule) et le prix se décident avec le client ; rien n'est garanti avant confirmation écrite. "
+             f"Demandes sans engagement via le formulaire « Demande d'excursion privée » ; contact : {EMAIL}. "
+             "Site disponible en français, allemand, anglais, portugais et espagnol.", ""]
+    for l in ["fr", "en", "de", "es", "pt"]:
         t = texts[l]
         lines.append(f"## {t['langName']}")
         lines.append(f"- [{t['jsonldName']}]({BASE}/{l}/)")
@@ -777,6 +855,9 @@ for l in LANGS:
         pages[f"{l}/guides/index.html"] = render_guides(l)
         for s in GUIDES:
             pages[f"{l}/guides/{s}/index.html"] = render_guide(l, s)
+    if nouveau_of(l):
+        for kind, slug in LEGAL_SLUG.items():
+            pages[f"{l}/{slug}/index.html"] = render_legal(l, kind)
 pages["index.html"] = root_page()
 pages["sitemap.xml"] = sitemap()
 pages["robots.txt"] = robots()

@@ -1,0 +1,163 @@
+{
+  "guide": {
+    "title": "How to get from Geneva to Gruyères: train, car and travel time",
+    "description": "Geneva to Gruyères: about 2 h 20 by train with one or two changes, about 1 h 30 by car via the A1, A9 and A12. Practical tips for your day out.",
+    "h1": "How to get from Geneva to Gruyères",
+    "intro": "Gruyères is about 120 kilometres from Geneva. By car, allow about an hour and a half without traffic. By train, allow about two hours twenty from Geneva station, with one or two changes. Here are both options in detail, and what to know once you arrive.",
+    "sections": [
+      {
+        "h2": "By train from Geneva",
+        "p": [
+          "From Geneva station (Cornavin), you travel to Palézieux, often with a first change at Renens. From Palézieux, a regional train runs to Bulle and then to Gruyères. On the official timetable for a weekday in November 2026, morning journeys take between 2 h 22 and 2 h 34, with one or two changes. There is no direct train.",
+          "Gruyères station is in Pringy, at the foot of the hill. La Maison du Gruyère is very close to the station. The medieval town and the castle sit higher up: you walk up on a sloping path.",
+          "For Maison Cailler in Broc, you need another regional train from Bulle to Broc-Fabrique station. Timetables change every year in December: check the SBB timetable on sbb.ch for your date."
+        ]
+      },
+      {
+        "h2": "By car from Geneva",
+        "p": [
+          "The route follows the A1 motorway along Lake Geneva to Lausanne, then the A9 towards Vevey and the A12 towards Bulle. After the Bulle exit, Gruyères is only a few kilometres away. Allow about an hour and a half, longer at rush hour around Geneva and Lausanne. The Swiss motorway vignette is compulsory.",
+          "In Gruyères, you explore the medieval town on foot. Leave the car in the car parks below, then walk up to the castle."
+        ]
+      },
+      {
+        "h2": "Train or car: which to choose?",
+        "p": [
+          "The train saves you driving and looking for a parking space. However, visiting several places on the same day, such as Gruyères, Pringy, Broc and Moléson-sur-Gruyères, means planning your connections carefully.",
+          "A car gives more flexibility to move from one stop to the next, especially with children or in a group. For a private tour, we choose the format with you based on your group, before anything is confirmed."
+        ]
+      },
+      {
+        "h2": "A typical day there",
+        "p": [
+          "The morning suits La Maison du Gruyère, as the cheese is made in the morning. Next come the medieval town and its castle. In the afternoon, the day continues at Maison Cailler, the HR Giger Museum or the Moléson, depending on the season and the weather."
+        ]
+      }
+    ],
+    "tips": [
+      "Check the train timetable on sbb.ch the day before: it changes every year in December.",
+      "Wear good shoes: the climb to the town is on foot, over cobblestones.",
+      "If you drive, remember the Swiss motorway vignette.",
+      "To see the cheesemaker at work, arrive at La Maison du Gruyère in the morning.",
+      "Check the Moléson opening dates before adding it to your plans."
+    ],
+    "faq": [
+      {
+        "q": "How long does the train take from Geneva to Gruyères?",
+        "a": "About two hours twenty to two and a half hours, with one or two changes, often at Renens and Palézieux. Times vary by day: check them on sbb.ch."
+      },
+      {
+        "q": "Is there a direct train between Geneva and Gruyères?",
+        "a": "No. You need to change at least once, usually at Palézieux, where the regional train to Bulle and Gruyères departs."
+      },
+      {
+        "q": "How long does it take by car?",
+        "a": "About an hour and a half for 120 kilometres, via the A1, A9 and A12. Allow more time at rush hour around Geneva and Lausanne."
+      },
+      {
+        "q": "Can you see Gruyères and Maison Cailler on the same day by train?",
+        "a": "Yes, but you need one more regional train between Gruyères, Bulle and Broc. Plan your connections in advance, or send us a private tour request."
+      }
+    ],
+    "places": ["maison-du-gruyere", "chateau-de-gruyeres", "maison-cailler", "moleson"],
+    "card": "Train or car, travel time, changes and practical tips for getting to Gruyères from Geneva."
+  },
+  "legal": {
+    "title": "Legal notice",
+    "description": "Legal notice for gruyeres-tours.com: publisher, contact, hosting, photo credits and applicable law.",
+    "h1": "Legal notice",
+    "sections": [
+      {
+        "h2": "Website publisher",
+        "p": [
+          "Gruyères Tours, a project by André Isoz.",
+          "Address: {ADDRESS}",
+          "Email: {EMAIL}"
+        ]
+      },
+      {
+        "h2": "Activity",
+        "p": [
+          "Gruyères Tours collects requests for private day tours between Geneva and the Gruyère region. A request sent from this website is not binding. No price, transport or service is guaranteed before our written confirmation."
+        ]
+      },
+      {
+        "h2": "Hosting",
+        "p": [
+          "The website is hosted by GitHub Pages, a service of GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States."
+        ]
+      },
+      {
+        "h2": "Photographs",
+        "p": [
+          "The photographs come from Wikimedia Commons and are published under free licences. Their authors and licences are shown in the credits at the bottom of each page."
+        ]
+      },
+      {
+        "h2": "Practical information and links",
+        "p": [
+          "Timetables, opening dates and conditions for the places mentioned come from their official websites and may change. Check them before your visit. We are not responsible for the content of external websites we link to."
+        ]
+      },
+      {
+        "h2": "Applicable law",
+        "p": [
+          "This website and its use are governed by Swiss law."
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "description": "How Gruyères Tours processes your personal data, in line with the Swiss Federal Act on Data Protection (FADP).",
+    "h1": "Privacy policy",
+    "sections": [
+      {
+        "h2": "Data controller",
+        "p": [
+          "André Isoz, Gruyères Tours, {ADDRESS}. Email: {EMAIL}.",
+          "This policy follows the Swiss Federal Act on Data Protection (FADP). Last updated: {DATE}."
+        ]
+      },
+      {
+        "h2": "Data we receive",
+        "p": [
+          "Through the request form: your name, your email address, your WhatsApp number if you provide it, your preferred dates, the number of people, the language, the places you are interested in and your message.",
+          "By email or WhatsApp: whatever you choose to write to us.",
+          "When you visit the website: the host records technical data, such as your IP address, browser and the page requested, to run and protect the website. The website uses no cookies, no advertising tools and no analytics tools. It only stores your language choice in your browser."
+        ]
+      },
+      {
+        "h2": "Why we use it",
+        "p": [
+          "Only to answer your request and prepare a proposal for you. We do not sell your data and do not use it for advertising."
+        ]
+      },
+      {
+        "h2": "Who receives it",
+        "p": [
+          "FormSubmit (formsubmit.co) forwards the form to our email inbox. Infomaniak Network SA, in Switzerland, hosts this inbox. GitHub, Inc., in the United States, hosts the website. If you write to us on WhatsApp, the service is provided by WhatsApp, a Meta group company."
+        ]
+      },
+      {
+        "h2": "Data processed outside Switzerland",
+        "p": [
+          "Some of these providers may process data outside Switzerland, in particular in the United States. These transfers take place with the safeguards provided by law, for example certification under the Swiss-U.S. Data Privacy Framework or standard contractual clauses."
+        ]
+      },
+      {
+        "h2": "Retention period",
+        "p": [
+          "We keep your data for as long as it takes to handle your request, then for no more than 24 months after our last exchange, unless the law requires us to keep it longer."
+        ]
+      },
+      {
+        "h2": "Your rights",
+        "p": [
+          "You can ask to see your data, correct it or delete it, and you can object to its processing. Write to us at {EMAIL}.",
+          "You can also lodge a complaint with the Federal Data Protection and Information Commissioner (FDPIC), Feldeggweg 1, 3003 Bern, www.edoeb.admin.ch."
+        ]
+      }
+    ]
+  }
+}

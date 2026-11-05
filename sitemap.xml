@@ -2,17 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://gruyeres-tours.com/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/fr/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/dents-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/panorama-2400.webp</image:loc></image:image>
@@ -22,13 +21,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/de/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/dents-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/panorama-2400.webp</image:loc></image:image>
@@ -38,13 +36,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/en/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/dents-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/panorama-2400.webp</image:loc></image:image>
@@ -54,13 +51,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/pt/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/dents-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/panorama-2400.webp</image:loc></image:image>
@@ -70,29 +66,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/es/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/"/>
-    <image:image><image:loc>https://gruyeres-tours.com/img/chateau-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/dents-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/panorama-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/alpage-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/lac-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/village-2400.webp</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://gruyeres-tours.com/zh/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/dents-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/panorama-2400.webp</image:loc></image:image>
@@ -102,13 +81,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/fr/lieux/chateau-de-gruyeres/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/chateau-de-gruyeres/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/chateau-de-gruyeres/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/cite-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-2-2400.webp</image:loc></image:image>
@@ -119,13 +97,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/de/lieux/chateau-de-gruyeres/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/chateau-de-gruyeres/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/chateau-de-gruyeres/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/cite-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-2-2400.webp</image:loc></image:image>
@@ -136,13 +113,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/en/lieux/chateau-de-gruyeres/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/chateau-de-gruyeres/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/chateau-de-gruyeres/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/cite-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-2-2400.webp</image:loc></image:image>
@@ -153,13 +129,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/pt/lieux/chateau-de-gruyeres/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/chateau-de-gruyeres/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/chateau-de-gruyeres/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/cite-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-2-2400.webp</image:loc></image:image>
@@ -170,30 +145,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/es/lieux/chateau-de-gruyeres/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/chateau-de-gruyeres/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/chateau-de-gruyeres/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/chateau-de-gruyeres/"/>
-    <image:image><image:loc>https://gruyeres-tours.com/img/cite-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-1-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-2-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-3-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-4-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-5-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-6-2400.webp</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://gruyeres-tours.com/zh/lieux/chateau-de-gruyeres/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/chateau-de-gruyeres/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/chateau-de-gruyeres/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/chateau-de-gruyeres/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/chateau-de-gruyeres/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/chateau-de-gruyeres/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/chateau-de-gruyeres/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/cite-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-2-2400.webp</image:loc></image:image>
@@ -204,13 +161,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/fr/lieux/maison-du-gruyere/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/maison-du-gruyere/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/maison-du-gruyere/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/fromage-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-2-2400.webp</image:loc></image:image>
@@ -221,13 +177,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/de/lieux/maison-du-gruyere/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/maison-du-gruyere/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/maison-du-gruyere/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/fromage-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-2-2400.webp</image:loc></image:image>
@@ -238,13 +193,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/en/lieux/maison-du-gruyere/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/maison-du-gruyere/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/maison-du-gruyere/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/fromage-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-2-2400.webp</image:loc></image:image>
@@ -255,13 +209,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/pt/lieux/maison-du-gruyere/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/maison-du-gruyere/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/maison-du-gruyere/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/fromage-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-2-2400.webp</image:loc></image:image>
@@ -272,30 +225,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/es/lieux/maison-du-gruyere/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/maison-du-gruyere/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/maison-du-gruyere/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/maison-du-gruyere/"/>
-    <image:image><image:loc>https://gruyeres-tours.com/img/fromage-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-1-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-2-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-3-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-4-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-5-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-6-2400.webp</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://gruyeres-tours.com/zh/lieux/maison-du-gruyere/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/maison-du-gruyere/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/maison-du-gruyere/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/maison-du-gruyere/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/maison-du-gruyere/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/maison-du-gruyere/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/maison-du-gruyere/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/fromage-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-2-2400.webp</image:loc></image:image>
@@ -306,13 +241,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/fr/lieux/maison-cailler/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/maison-cailler/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/maison-cailler/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/cailler-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-2-2400.webp</image:loc></image:image>
@@ -323,13 +257,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/de/lieux/maison-cailler/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/maison-cailler/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/maison-cailler/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/cailler-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-2-2400.webp</image:loc></image:image>
@@ -340,13 +273,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/en/lieux/maison-cailler/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/maison-cailler/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/maison-cailler/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/cailler-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-2-2400.webp</image:loc></image:image>
@@ -357,13 +289,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/pt/lieux/maison-cailler/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/maison-cailler/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/maison-cailler/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/cailler-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-2-2400.webp</image:loc></image:image>
@@ -374,30 +305,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/es/lieux/maison-cailler/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/maison-cailler/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/maison-cailler/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/maison-cailler/"/>
-    <image:image><image:loc>https://gruyeres-tours.com/img/cailler-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-1-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-2-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-3-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-4-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-5-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-6-2400.webp</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://gruyeres-tours.com/zh/lieux/maison-cailler/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/maison-cailler/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/maison-cailler/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/maison-cailler/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/maison-cailler/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/maison-cailler/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/maison-cailler/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/cailler-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-cailler-2-2400.webp</image:loc></image:image>
@@ -408,13 +321,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/fr/lieux/musee-hr-giger/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/musee-hr-giger/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/musee-hr-giger/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/saint-germain-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-2-2400.webp</image:loc></image:image>
@@ -425,13 +337,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/de/lieux/musee-hr-giger/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/musee-hr-giger/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/musee-hr-giger/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/saint-germain-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-2-2400.webp</image:loc></image:image>
@@ -442,13 +353,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/en/lieux/musee-hr-giger/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/musee-hr-giger/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/musee-hr-giger/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/saint-germain-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-2-2400.webp</image:loc></image:image>
@@ -459,13 +369,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/pt/lieux/musee-hr-giger/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/musee-hr-giger/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/musee-hr-giger/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/saint-germain-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-2-2400.webp</image:loc></image:image>
@@ -476,30 +385,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/es/lieux/musee-hr-giger/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/musee-hr-giger/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/musee-hr-giger/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/musee-hr-giger/"/>
-    <image:image><image:loc>https://gruyeres-tours.com/img/saint-germain-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-1-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-2-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-3-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-4-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-5-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-6-2400.webp</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://gruyeres-tours.com/zh/lieux/musee-hr-giger/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/musee-hr-giger/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/musee-hr-giger/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/musee-hr-giger/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/musee-hr-giger/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/musee-hr-giger/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/musee-hr-giger/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/saint-germain-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/musee-hr-giger-2-2400.webp</image:loc></image:image>
@@ -510,13 +401,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/fr/lieux/moleson/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/moleson/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/moleson/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-2-2400.webp</image:loc></image:image>
@@ -527,13 +417,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/de/lieux/moleson/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/moleson/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/moleson/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-2-2400.webp</image:loc></image:image>
@@ -544,13 +433,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/en/lieux/moleson/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/moleson/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/moleson/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-2-2400.webp</image:loc></image:image>
@@ -561,13 +449,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/pt/lieux/moleson/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/moleson/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/moleson/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-2-2400.webp</image:loc></image:image>
@@ -578,30 +465,12 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/es/lieux/moleson/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/moleson/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/moleson/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/moleson/"/>
-    <image:image><image:loc>https://gruyeres-tours.com/img/moleson-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/moleson-1-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/moleson-2-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/moleson-3-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/moleson-4-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/moleson-5-2400.webp</image:loc></image:image>
-    <image:image><image:loc>https://gruyeres-tours.com/img/moleson-6-2400.webp</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://gruyeres-tours.com/zh/lieux/moleson/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/lieux/moleson/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/lieux/moleson/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/lieux/moleson/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/lieux/moleson/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/lieux/moleson/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/lieux/moleson/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-1-2400.webp</image:loc></image:image>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-2-2400.webp</image:loc></image:image>
@@ -612,452 +481,482 @@
   </url>
   <url>
     <loc>https://gruyeres-tours.com/fr/faq/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/faq/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/faq/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/faq/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/faq/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/faq/"/>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/de/faq/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/faq/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/faq/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/faq/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/faq/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/faq/"/>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/en/faq/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/faq/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/faq/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/faq/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/faq/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/faq/"/>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/pt/faq/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/faq/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/faq/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/faq/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/faq/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/faq/"/>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/es/faq/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/faq/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/faq/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/faq/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/faq/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/faq/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/faq/"/>
-  </url>
-  <url>
-    <loc>https://gruyeres-tours.com/zh/faq/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/faq/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/faq/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/faq/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/faq/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/faq/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/faq/"/>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/fr/guides/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/"/>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/de/guides/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/"/>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/en/guides/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/"/>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/pt/guides/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/"/>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/es/guides/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/"/>
-  </url>
-  <url>
-    <loc>https://gruyeres-tours.com/zh/guides/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/"/>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/fr/guides/excursion-depuis-geneve/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/excursion-depuis-geneve/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/excursion-depuis-geneve/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-1-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/de/guides/excursion-depuis-geneve/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/excursion-depuis-geneve/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/excursion-depuis-geneve/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-1-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/en/guides/excursion-depuis-geneve/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/excursion-depuis-geneve/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/excursion-depuis-geneve/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-1-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/pt/guides/excursion-depuis-geneve/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/excursion-depuis-geneve/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/excursion-depuis-geneve/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-1-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/es/guides/excursion-depuis-geneve/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/excursion-depuis-geneve/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/excursion-depuis-geneve/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/excursion-depuis-geneve/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-1-2400.webp</image:loc></image:image>
   </url>
   <url>
-    <loc>https://gruyeres-tours.com/zh/guides/excursion-depuis-geneve/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/excursion-depuis-geneve/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/excursion-depuis-geneve/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/excursion-depuis-geneve/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/excursion-depuis-geneve/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/excursion-depuis-geneve/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/excursion-depuis-geneve/"/>
-    <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-1-2400.webp</image:loc></image:image>
+    <loc>https://gruyeres-tours.com/fr/guides/aller-de-geneve-a-gruyeres/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/aller-de-geneve-a-gruyeres/"/>
+    <image:image><image:loc>https://gruyeres-tours.com/img/village-2400.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/de/guides/aller-de-geneve-a-gruyeres/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/aller-de-geneve-a-gruyeres/"/>
+    <image:image><image:loc>https://gruyeres-tours.com/img/village-2400.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/en/guides/aller-de-geneve-a-gruyeres/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/aller-de-geneve-a-gruyeres/"/>
+    <image:image><image:loc>https://gruyeres-tours.com/img/village-2400.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/pt/guides/aller-de-geneve-a-gruyeres/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/aller-de-geneve-a-gruyeres/"/>
+    <image:image><image:loc>https://gruyeres-tours.com/img/village-2400.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/es/guides/aller-de-geneve-a-gruyeres/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/aller-de-geneve-a-gruyeres/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/aller-de-geneve-a-gruyeres/"/>
+    <image:image><image:loc>https://gruyeres-tours.com/img/village-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/fr/guides/en-famille/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/en-famille/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/en-famille/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-5-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/de/guides/en-famille/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/en-famille/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/en-famille/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-5-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/en/guides/en-famille/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/en-famille/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/en-famille/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-5-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/pt/guides/en-famille/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/en-famille/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/en-famille/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-5-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/es/guides/en-famille/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/en-famille/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/en-famille/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/en-famille/"/>
-    <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-5-2400.webp</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://gruyeres-tours.com/zh/guides/en-famille/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/en-famille/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/en-famille/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/en-famille/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/en-famille/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/en-famille/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/en-famille/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-5-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/fr/guides/fromage-et-chocolat/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/fromage-et-chocolat/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/fromage-et-chocolat/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-1-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/de/guides/fromage-et-chocolat/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/fromage-et-chocolat/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/fromage-et-chocolat/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-1-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/en/guides/fromage-et-chocolat/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/fromage-et-chocolat/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/fromage-et-chocolat/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-1-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/pt/guides/fromage-et-chocolat/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/fromage-et-chocolat/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/fromage-et-chocolat/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-1-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/es/guides/fromage-et-chocolat/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/fromage-et-chocolat/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/fromage-et-chocolat/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/fromage-et-chocolat/"/>
-    <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-1-2400.webp</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://gruyeres-tours.com/zh/guides/fromage-et-chocolat/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/fromage-et-chocolat/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/fromage-et-chocolat/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/fromage-et-chocolat/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/fromage-et-chocolat/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/fromage-et-chocolat/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/fromage-et-chocolat/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/maison-du-gruyere-1-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/fr/guides/quand-visiter/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/quand-visiter/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/quand-visiter/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-5-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/de/guides/quand-visiter/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/quand-visiter/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/quand-visiter/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-5-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/en/guides/quand-visiter/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/quand-visiter/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/quand-visiter/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-5-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/pt/guides/quand-visiter/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/quand-visiter/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/quand-visiter/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-5-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/es/guides/quand-visiter/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/quand-visiter/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/quand-visiter/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/quand-visiter/"/>
-    <image:image><image:loc>https://gruyeres-tours.com/img/moleson-5-2400.webp</image:loc></image:image>
-  </url>
-  <url>
-    <loc>https://gruyeres-tours.com/zh/guides/quand-visiter/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/quand-visiter/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/quand-visiter/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/quand-visiter/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/quand-visiter/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/quand-visiter/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/quand-visiter/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/moleson-5-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/fr/guides/sortie-entreprise/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/sortie-entreprise/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/sortie-entreprise/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-5-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/de/guides/sortie-entreprise/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/sortie-entreprise/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/sortie-entreprise/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-5-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/en/guides/sortie-entreprise/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/sortie-entreprise/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/sortie-entreprise/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-5-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/pt/guides/sortie-entreprise/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/sortie-entreprise/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/sortie-entreprise/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-5-2400.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://gruyeres-tours.com/es/guides/sortie-entreprise/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/sortie-entreprise/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/sortie-entreprise/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/sortie-entreprise/"/>
     <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-5-2400.webp</image:loc></image:image>
   </url>
   <url>
-    <loc>https://gruyeres-tours.com/zh/guides/sortie-entreprise/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/guides/sortie-entreprise/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/guides/sortie-entreprise/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/guides/sortie-entreprise/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/guides/sortie-entreprise/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/guides/sortie-entreprise/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/guides/sortie-entreprise/"/>
-    <image:image><image:loc>https://gruyeres-tours.com/img/chateau-de-gruyeres-5-2400.webp</image:loc></image:image>
+    <loc>https://gruyeres-tours.com/fr/mentions-legales/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/mentions-legales/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/de/mentions-legales/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/mentions-legales/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/en/mentions-legales/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/mentions-legales/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/pt/mentions-legales/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/mentions-legales/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/es/mentions-legales/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/mentions-legales/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/mentions-legales/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/fr/confidentialite/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/confidentialite/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/de/confidentialite/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/confidentialite/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/en/confidentialite/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/confidentialite/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/pt/confidentialite/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/confidentialite/"/>
+  </url>
+  <url>
+    <loc>https://gruyeres-tours.com/es/confidentialite/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gruyeres-tours.com/fr/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://gruyeres-tours.com/de/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/confidentialite/"/>
   </url>
 </urlset>

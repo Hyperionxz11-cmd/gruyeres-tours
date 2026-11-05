@@ -8,13 +8,13 @@
       "title": "Gruyères day trip from Geneva: a private tour itinerary",
       "description": "Visit Gruyères on a day trip from Geneva: the journey, possible stops, a sample itinerary and how we organise a tailor-made private tour for your group.",
       "h1": "Visiting Gruyères from Geneva in a single day",
-      "intro": "Yes, Gruyères is easy to visit in a day from Geneva: the drive takes about an hour and a half depending on traffic, which leaves time to explore the medieval town, its castle and one or two other stops. We organise this day privately, with pick-up in Geneva at an agreed place and a return in the evening. The itinerary is put together around your group, the season and the availability of each place.",
+      "intro": "Yes, Gruyères is easy to visit in a day from Geneva: the drive takes about an hour and a half depending on traffic, which leaves time to explore the medieval town, its castle and one or two other stops. We plan this day privately for your group, starting from Geneva: whether you travel by train or by vehicle is decided together. The itinerary is put together around your group, the season and the availability of each place.",
       "sections": [
         {
           "h2": "The journey from Geneva to Gruyères",
           "p": [
             "Gruyères lies in the canton of Fribourg, very close to Bulle. From Geneva, the route follows the A1 motorway along Lake Geneva to Lausanne, then the A9 and A12 towards Bulle. Allow about an hour and a half, more at rush hour around Geneva and Lausanne. The landscape changes along the way: after the lake and the vineyards, the road climbs towards the pastures and the first ridges of the Fribourg Pre-Alps.",
-            "On a private day trip, you do not have to deal with the journey. Pick-up is in Geneva, at a place agreed together, and the return is in the evening. You can enjoy the ride, watch the scenery or talk about the programme, without hunting for connections or a parking space. At the foot of the town, the car stays below: the medieval town is explored on foot."
+            "There are two ways to make the journey: by train, about two hours twenty from Geneva station with one or two changes, or by private vehicle. We discuss it with you before anything is confirmed, depending on the size of your group and your wishes. The guide “How to get from Geneva to Gruyères” covers both options. Once there, the medieval town is explored on foot."
           ]
         },
         {
@@ -52,15 +52,21 @@
           "a": "The departure time is agreed with you when we prepare the day. It depends on the stops chosen and on the opening hours of each place on the date selected. If La Maison du Gruyère is on the programme, a morning departure lets you see the cheese being made."
         },
         {
-          "q": "Where is the pick-up in Geneva?",
-          "a": "Pick-up is in Geneva, at a place we agree on together. We set it when we confirm the day. The return to Geneva is in the evening."
+          "q": "How do we travel from Geneva?",
+          "a": "The format is not set in advance: by train from Geneva station, or by private vehicle. We choose it together, based on your group, before anything is confirmed."
         },
         {
           "q": "Is lunch included in the day?",
           "a": "Lunch is at your leisure: you choose on the spot, in the village of Gruyères or nearby. If you prefer a picnic, note that picnics are not allowed within the castle walls. It is also a chance to taste the region's cheese specialities."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "musee-hr-giger", "moleson"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "musee-hr-giger",
+        "moleson"
+      ],
       "card": "The journey, possible stops and a sample itinerary for discovering Gruyères in a single day from Geneva."
     },
     "en-famille": {
@@ -119,7 +125,12 @@
           "a": "The programme of a private day is not fixed: a visit can be shortened or a stop dropped. Free time in the village also gives everyone a chance to rest. It is better to plan few stops at the start and add one if energy allows."
         }
       ],
-      "places": ["maison-du-gruyere", "maison-cailler", "chateau-de-gruyeres", "moleson"],
+      "places": [
+        "maison-du-gruyere",
+        "maison-cailler",
+        "chateau-de-gruyeres",
+        "moleson"
+      ],
       "card": "Cheese, chocolate, a treasure hunt and a funicular: our tips for visiting Gruyères with children."
     },
     "fromage-et-chocolat": {
@@ -178,7 +189,11 @@
           "a": "Yes. Cailler chocolate has been made in Broc since 1898, in the historic building that now welcomes visitors. The brand, founded in 1819 in Vevey, has belonged to the Nestlé group since 1929."
         }
       ],
-      "places": ["maison-du-gruyere", "maison-cailler", "chateau-de-gruyeres"],
+      "places": [
+        "maison-du-gruyere",
+        "maison-cailler",
+        "chateau-de-gruyeres"
+      ],
       "card": "Gruyère AOP in the morning, Cailler chocolate in the afternoon: two crafts combined in a single day."
     },
     "quand-visiter": {
@@ -237,14 +252,20 @@
           "a": "Most of the stops are indoors: the castle, the cheese dairy, the chocolate factory and the museum. In bad weather, we adjust the order of the day and may drop Moléson if the view is blocked. The day keeps its appeal, even in the rain."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "musee-hr-giger", "moleson"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "musee-hr-giger",
+        "moleson"
+      ],
       "card": "Spring, summer, autumn or winter: what is open in Gruyères and how to choose your date."
     },
     "sortie-entreprise": {
       "title": "Company outing in Gruyère: a team day trip from Geneva",
       "description": "Plan a company outing to the Gruyère region from Geneva: a private day for your team, with the castle, cheese, chocolate and the Fribourg Pre-Alps.",
       "h1": "A company outing to the Gruyère region from Geneva",
-      "intro": "The Gruyère region is well suited to a company outing or a group trip from Geneva: it is about an hour and a half away by road and combines heritage, craftsmanship and scenery in a single day. We organise this day privately for your team, with pick-up in Geneva and a return in the evening. You tell us the date and the number of participants, and we suggest an itinerary.",
+      "intro": "The Gruyère region is well suited to a company outing or a group trip from Geneva: it is about an hour and a half away by road and combines heritage, craftsmanship and scenery in a single day. We plan this day privately for your team, starting from Geneva, by train or by vehicle as agreed together. You tell us the date and the number of participants, and we suggest an itinerary.",
       "sections": [
         {
           "h2": "Why the Gruyère region for a group outing",
@@ -271,7 +292,7 @@
           "h2": "How the planning works",
           "p": [
             "The process is simple. You fill in the form on the website with your preferred date, another possible date, the number of participants, the language for the day and the places that interest you. The free text field lets you explain the context: a seminar, a thank-you for the team, hosting clients or partners. This information helps us suggest a suitable itinerary.",
-            "We come back to you with a proposed itinerary, which you can adjust with us before confirming. We check the opening hours and availability of each place on the date chosen. On the day, pick-up is in Geneva at the agreed place, and the return is in the evening. You do not have to handle the logistics of the day, just enjoy it with your team."
+            "We come back to you with a proposed itinerary, which you can adjust with us before confirming. We check the opening hours and availability of each place on the date chosen. How you travel, by train or by vehicle, is also something we decide together. You do not have to handle the logistics of the day, just enjoy it with your team."
           ]
         }
       ],
@@ -296,7 +317,13 @@
           "a": "Lunch is at your leisure in the village of Gruyères. Depending on the size of the group, a shared meal requires booking a restaurant in advance. Mention this wish in your request: we take it into account in the proposed itinerary."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "moleson", "musee-hr-giger"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "moleson",
+        "musee-hr-giger"
+      ],
       "card": "A private day from Geneva for your team, your clients or your partners, in the Gruyère region."
     }
   }

@@ -450,3 +450,11 @@ figcaption, .scene-cap { color: var(--faint); font-size: .7rem; font-weight: 600
   .js [data-reveal], [data-rise] { opacity: 1; transform: none; }
   .js .tile[data-unveil] img, .scene-bg img { clip-path: none; transform: none; }
 }
+
+/* pages légales, liens légaux, bouton WhatsApp (05.11.2026) */
+.legal h1 { margin-bottom: 28px; }
+.footer-legal a { color: inherit; }
+.footer-legal { margin-top: 6px; }
+.wa-float { position: fixed; right: 18px; bottom: 18px; z-index: 30; display: inline-flex; align-items: center; gap: 8px; padding: 12px 16px; border-radius: 999px; background: #1f7a4d; color: #fff; font-size: .9rem; font-weight: 600; text-decoration: none; box-shadow: 0 8px 24px rgba(0,0,0,.28); }
+.wa-float:hover, .wa-float:focus-visible { background: #17633e; }
+@media (max-width: 640px) { .wa-float span { display: none; } .wa-float { padding: 14px; } }

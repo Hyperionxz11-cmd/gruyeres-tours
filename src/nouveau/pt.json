@@ -1,0 +1,163 @@
+{
+  "guide": {
+    "title": "Como ir de Genebra a Gruyères: trem, carro e tempo de viagem",
+    "description": "De Genebra a Gruyères: cerca de 2 h 20 de trem com uma ou duas baldeações, cerca de 1 h 30 de carro pela A1, A9 e A12. Dicas práticas para o dia.",
+    "h1": "Como ir de Genebra a Gruyères",
+    "intro": "Gruyères fica a cerca de 120 quilômetros de Genebra. De carro, conte com cerca de uma hora e meia sem trânsito. De trem, conte com cerca de duas horas e vinte a partir da estação de Genebra, com uma ou duas baldeações. Veja as duas opções em detalhe e o que você precisa saber ao chegar.",
+    "sections": [
+      {
+        "h2": "De trem a partir de Genebra",
+        "p": [
+          "Da estação de Genebra (Cornavin), você segue até Palézieux, muitas vezes com uma primeira baldeação em Renens. De Palézieux, um trem regional leva a Bulle e depois a Gruyères. No horário oficial de um dia útil de novembro de 2026, as viagens da manhã duram entre 2 h 22 e 2 h 34, com uma ou duas baldeações. Não há trem direto.",
+          "A estação de Gruyères fica em Pringy, ao pé da colina. La Maison du Gruyère fica bem perto da estação. A cidade medieval e o castelo ficam no alto: você sobe a pé por um caminho inclinado.",
+          "Para a Maison Cailler, em Broc, é preciso pegar outro trem regional a partir de Bulle, até a estação de Broc-Fabrique. Os horários mudam todo ano em dezembro: consulte o horário da CFF em sbb.ch para a sua data."
+        ]
+      },
+      {
+        "h2": "De carro a partir de Genebra",
+        "p": [
+          "O trajeto segue a autoestrada A1 ao longo do Lago Léman até Lausanne, depois a A9 em direção a Vevey e a A12 em direção a Bulle. Depois da saída Bulle, faltam poucos quilômetros até Gruyères. Conte com cerca de uma hora e meia, mais nos horários de pico ao redor de Genebra e de Lausanne. A vinheta suíça das autoestradas é obrigatória.",
+          "Em Gruyères, a cidade medieval é visitada a pé. Você deixa o carro nos estacionamentos mais abaixo e sobe até o castelo."
+        ]
+      },
+      {
+        "h2": "Trem ou carro: qual escolher?",
+        "p": [
+          "O trem evita dirigir e procurar vaga. Por outro lado, visitar vários lugares no mesmo dia, como Gruyères, Pringy, Broc e Moléson-sur-Gruyères, exige planejar bem as conexões.",
+          "O carro dá mais liberdade para encadear as paradas, sobretudo com crianças ou em grupo. Para uma excursão privada, escolhemos o formato com você conforme o seu grupo, antes de qualquer confirmação."
+        ]
+      },
+      {
+        "h2": "Um dia típico no local",
+        "p": [
+          "A manhã é ideal para La Maison du Gruyère, pois o queijo é fabricado de manhã. Em seguida vêm a cidade medieval e o seu castelo. À tarde, o dia continua na Maison Cailler, no museu HR Giger ou no Moléson, conforme a estação e o tempo."
+        ]
+      }
+    ],
+    "tips": [
+      "Confira o horário do trem na véspera em sbb.ch: ele muda todo ano em dezembro.",
+      "Use sapatos confortáveis: a subida até a cidade é feita a pé, sobre paralelepípedos.",
+      "De carro, lembre-se da vinheta suíça das autoestradas.",
+      "Para ver o queijeiro trabalhando, chegue a La Maison du Gruyère de manhã.",
+      "Confira as datas de funcionamento do Moléson antes de incluí-lo no roteiro."
+    ],
+    "faq": [
+      {
+        "q": "Quanto tempo leva o trem de Genebra a Gruyères?",
+        "a": "Cerca de duas horas e vinte a duas horas e meia, com uma ou duas baldeações, muitas vezes em Renens e em Palézieux. Os horários variam conforme o dia: confira em sbb.ch."
+      },
+      {
+        "q": "Existe trem direto entre Genebra e Gruyères?",
+        "a": "Não. É preciso trocar de trem pelo menos uma vez, em geral em Palézieux, de onde parte o trem regional para Bulle e Gruyères."
+      },
+      {
+        "q": "Quanto tempo leva de carro?",
+        "a": "Cerca de uma hora e meia para 120 quilômetros, pela A1, A9 e A12. Reserve mais tempo nos horários de pico ao redor de Genebra e de Lausanne."
+      },
+      {
+        "q": "Dá para ver Gruyères e a Maison Cailler no mesmo dia de trem?",
+        "a": "Sim, mas é preciso um trem regional a mais entre Gruyères, Bulle e Broc. Planeje as conexões com antecedência, ou envie-nos um pedido de excursão privada."
+      }
+    ],
+    "places": ["maison-du-gruyere", "chateau-de-gruyeres", "maison-cailler", "moleson"],
+    "card": "Trem ou carro, tempo de viagem, baldeações e dicas práticas para chegar a Gruyères a partir de Genebra."
+  },
+  "legal": {
+    "title": "Aviso legal",
+    "description": "Aviso legal do site gruyeres-tours.com: responsável, contato, hospedagem, créditos das fotos e lei aplicável.",
+    "h1": "Aviso legal",
+    "sections": [
+      {
+        "h2": "Responsável pelo site",
+        "p": [
+          "Gruyères Tours, projeto de André Isoz.",
+          "Endereço: {ADDRESS}",
+          "E-mail: {EMAIL}"
+        ]
+      },
+      {
+        "h2": "Atividade",
+        "p": [
+          "Gruyères Tours recebe pedidos de excursões privadas de um dia entre Genebra e a região de Gruyère. Um pedido enviado por este site não gera compromisso. Nenhum preço, transporte ou serviço é garantido antes de uma confirmação por escrito da nossa parte."
+        ]
+      },
+      {
+        "h2": "Hospedagem",
+        "p": [
+          "O site é hospedado pelo GitHub Pages, um serviço da GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, Estados Unidos."
+        ]
+      },
+      {
+        "h2": "Fotografias",
+        "p": [
+          "As fotografias vêm do Wikimedia Commons e são publicadas sob licenças livres. Os autores e as licenças aparecem nos créditos, no fim de cada página."
+        ]
+      },
+      {
+        "h2": "Informações práticas e links",
+        "p": [
+          "Os horários, datas de funcionamento e condições dos lugares citados vêm dos seus sites oficiais e podem mudar. Confira antes da sua visita. Não somos responsáveis pelo conteúdo dos sites externos para os quais apontamos."
+        ]
+      },
+      {
+        "h2": "Lei aplicável",
+        "p": [
+          "Este site e o seu uso estão sujeitos à lei suíça."
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Política de privacidade",
+    "description": "Como a Gruyères Tours trata os seus dados pessoais, conforme a lei federal suíça de proteção de dados (FADP, Federal Act on Data Protection).",
+    "h1": "Política de privacidade",
+    "sections": [
+      {
+        "h2": "Responsável pelo tratamento",
+        "p": [
+          "André Isoz, Gruyères Tours, {ADDRESS}. E-mail: {EMAIL}.",
+          "Esta política segue a lei federal suíça de proteção de dados (FADP, Federal Act on Data Protection). Última atualização: {DATE}."
+        ]
+      },
+      {
+        "h2": "Dados que recebemos",
+        "p": [
+          "Pelo formulário de pedido: o seu nome, o seu endereço de e-mail, o seu número de WhatsApp se você o informar, as datas desejadas, o número de pessoas, o idioma, os lugares que interessam a você e a sua mensagem.",
+          "Por e-mail ou WhatsApp: o que você decidir nos escrever.",
+          "Durante a visita ao site: o provedor de hospedagem registra dados técnicos, como o endereço IP, o navegador e a página solicitada, para fazer o site funcionar e protegê-lo. O site não usa cookies, nem ferramenta de publicidade, nem ferramenta de medição de audiência. Ele guarda apenas a sua escolha de idioma no seu navegador."
+        ]
+      },
+      {
+        "h2": "Por que os usamos",
+        "p": [
+          "Somente para responder ao seu pedido e preparar uma proposta para você. Não vendemos os seus dados e não os usamos para publicidade."
+        ]
+      },
+      {
+        "h2": "Quem os recebe",
+        "p": [
+          "O FormSubmit (formsubmit.co) encaminha o formulário até a nossa caixa de e-mail. A Infomaniak Network SA, na Suíça, hospeda essa caixa de e-mail. A GitHub, Inc., nos Estados Unidos, hospeda o site. Se você nos escrever pelo WhatsApp, o serviço é fornecido pelo WhatsApp, empresa do grupo Meta."
+        ]
+      },
+      {
+        "h2": "Dados tratados fora da Suíça",
+        "p": [
+          "Alguns desses fornecedores podem tratar dados fora da Suíça, especialmente nos Estados Unidos. Essas transferências são feitas com as garantias previstas em lei, por exemplo a certificação no Swiss-U.S. Data Privacy Framework ou cláusulas contratuais padrão."
+        ]
+      },
+      {
+        "h2": "Prazo de conservação",
+        "p": [
+          "Guardamos os seus dados pelo tempo necessário para tratar o seu pedido e, depois, no máximo 24 meses após o nosso último contato, salvo se a lei nos obrigar a guardá-los por mais tempo."
+        ]
+      },
+      {
+        "h2": "Os seus direitos",
+        "p": [
+          "Você pode pedir para ver os seus dados, corrigi-los ou apagá-los, e se opor ao seu tratamento. Escreva para {EMAIL}.",
+          "Você também pode apresentar uma reclamação ao Federal Data Protection and Information Commissioner (FDPIC), o Encarregado Federal de Proteção de Dados e Transparência da Suíça, Feldeggweg 1, 3003 Berna, www.edoeb.admin.ch."
+        ]
+      }
+    ]
+  }
+}

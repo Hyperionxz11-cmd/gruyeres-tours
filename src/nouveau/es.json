@@ -1,0 +1,163 @@
+{
+  "guide": {
+    "title": "Cómo ir de Ginebra a Gruyères: tren, coche y duración del viaje",
+    "description": "De Ginebra a Gruyères: unas 2 h 20 en tren con uno o dos transbordos, unas 1 h 30 en coche por la A1, la A9 y la A12. Consejos prácticos para el día.",
+    "h1": "Cómo ir de Ginebra a Gruyères",
+    "intro": "Gruyères está a unos 120 kilómetros de Ginebra. En coche, cuente con una hora y media aproximadamente sin tráfico. En tren, cuente con unas dos horas y veinte desde la estación de Ginebra, con uno o dos transbordos. Aquí tiene las dos opciones en detalle y lo que debe saber una vez allí.",
+    "sections": [
+      {
+        "h2": "En tren desde Ginebra",
+        "p": [
+          "Desde la estación de Ginebra (Cornavin), se llega a Palézieux, a menudo con un primer transbordo en Renens. Desde Palézieux, un tren regional va a Bulle y luego a Gruyères. Según el horario oficial de un día laborable de noviembre de 2026, los trayectos de la mañana duran entre 2 h 22 y 2 h 34, con uno o dos transbordos. No hay tren directo.",
+          "La estación de Gruyères está en Pringy, al pie de la colina. La Maison du Gruyère está muy cerca de la estación. El pueblo medieval y el castillo están en lo alto: se sube a pie por un camino en pendiente.",
+          "Para la Maison Cailler, en Broc, hace falta otro tren regional desde Bulle hasta la estación de Broc-Fabrique. Los horarios cambian cada año en diciembre: consulte el horario de los CFF en sbb.ch para su fecha."
+        ]
+      },
+      {
+        "h2": "En coche desde Ginebra",
+        "p": [
+          "La ruta sigue la autopista A1 a orillas del lago Lemán hasta Lausana, luego la A9 hacia Vevey y la A12 en dirección a Bulle. Después de la salida Bulle, quedan pocos kilómetros hasta Gruyères. Cuente con una hora y media aproximadamente, más en horas punta alrededor de Ginebra y Lausana. La viñeta suiza de autopista es obligatoria.",
+          "En Gruyères, el pueblo medieval se visita a pie. Se deja el coche en los aparcamientos de abajo y se sube hacia el castillo."
+        ]
+      },
+      {
+        "h2": "¿Tren o coche? Cuál elegir",
+        "p": [
+          "El tren le evita conducir y buscar aparcamiento. En cambio, visitar varios lugares el mismo día, como Gruyères, Pringy, Broc y Moléson-sur-Gruyères, exige preparar bien los enlaces.",
+          "El coche da más flexibilidad para encadenar las etapas, sobre todo con niños o en grupo. Para una excursión privada, elegimos el formato con usted según su grupo, antes de cualquier confirmación."
+        ]
+      },
+      {
+        "h2": "Un día típico allí",
+        "p": [
+          "La mañana es ideal para La Maison du Gruyère, porque el queso se elabora por la mañana. Después vienen el pueblo medieval y su castillo. Por la tarde, el día continúa en la Maison Cailler, en el museo HR Giger o en el Moléson, según la temporada y el tiempo."
+        ]
+      }
+    ],
+    "tips": [
+      "Compruebe el horario del tren la víspera en sbb.ch: cambia cada año en diciembre.",
+      "Lleve buen calzado: la subida al pueblo se hace a pie, sobre adoquines.",
+      "En coche, no olvide la viñeta suiza de autopista.",
+      "Para ver al quesero trabajando, llegue a La Maison du Gruyère por la mañana.",
+      "Compruebe las fechas de apertura del Moléson antes de incluirlo en el programa."
+    ],
+    "faq": [
+      {
+        "q": "¿Cuánto se tarda en tren de Ginebra a Gruyères?",
+        "a": "Entre dos horas y veinte y dos horas y media, con uno o dos transbordos, a menudo en Renens y en Palézieux. Los horarios varían según el día: compruébelos en sbb.ch."
+      },
+      {
+        "q": "¿Hay un tren directo entre Ginebra y Gruyères?",
+        "a": "No. Hay que hacer al menos un transbordo, normalmente en Palézieux, de donde sale el tren regional hacia Bulle y Gruyères."
+      },
+      {
+        "q": "¿Cuánto se tarda en coche?",
+        "a": "Una hora y media aproximadamente para 120 kilómetros, por la A1, la A9 y la A12. Calcule más tiempo en horas punta alrededor de Ginebra y Lausana."
+      },
+      {
+        "q": "¿Se pueden ver Gruyères y la Maison Cailler el mismo día en tren?",
+        "a": "Sí, pero hace falta un tren regional más entre Gruyères, Bulle y Broc. Prepare los enlaces con antelación, o envíenos una solicitud de excursión privada."
+      }
+    ],
+    "places": ["maison-du-gruyere", "chateau-de-gruyeres", "maison-cailler", "moleson"],
+    "card": "Tren o coche, duración, transbordos y consejos prácticos para llegar a Gruyères desde Ginebra."
+  },
+  "legal": {
+    "title": "Aviso legal",
+    "description": "Aviso legal del sitio gruyeres-tours.com: titular, contacto, alojamiento web, créditos de las fotos y legislación aplicable.",
+    "h1": "Aviso legal",
+    "sections": [
+      {
+        "h2": "Titular del sitio",
+        "p": [
+          "Gruyères Tours, proyecto de André Isoz.",
+          "Dirección: {ADDRESS}",
+          "Correo electrónico: {EMAIL}"
+        ]
+      },
+      {
+        "h2": "Actividad",
+        "p": [
+          "Gruyères Tours recibe solicitudes de excursiones privadas de un día entre Ginebra y la región de Gruyère. Una solicitud enviada desde este sitio no implica ningún compromiso. Ningún precio, transporte ni servicio está garantizado antes de una confirmación por escrito por nuestra parte."
+        ]
+      },
+      {
+        "h2": "Alojamiento web",
+        "p": [
+          "El sitio está alojado en GitHub Pages, un servicio de GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, Estados Unidos."
+        ]
+      },
+      {
+        "h2": "Fotografías",
+        "p": [
+          "Las fotografías proceden de Wikimedia Commons y se publican con licencias libres. Sus autores y licencias figuran en los créditos, al pie de cada página."
+        ]
+      },
+      {
+        "h2": "Información práctica y enlaces",
+        "p": [
+          "Los horarios, fechas de apertura y condiciones de los lugares citados proceden de sus sitios oficiales y pueden cambiar. Compruébelos antes de su visita. No somos responsables del contenido de los sitios externos a los que enlazamos."
+        ]
+      },
+      {
+        "h2": "Legislación aplicable",
+        "p": [
+          "Este sitio y su uso se rigen por el derecho suizo."
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "description": "Cómo trata Gruyères Tours sus datos personales, de acuerdo con la ley federal suiza de protección de datos (FADP, Federal Act on Data Protection).",
+    "h1": "Política de privacidad",
+    "sections": [
+      {
+        "h2": "Responsable del tratamiento",
+        "p": [
+          "André Isoz, Gruyères Tours, {ADDRESS}. Correo electrónico: {EMAIL}.",
+          "Esta política sigue la ley federal suiza de protección de datos (FADP, Federal Act on Data Protection). Última actualización: {DATE}."
+        ]
+      },
+      {
+        "h2": "Datos que recibimos",
+        "p": [
+          "Mediante el formulario de solicitud: su nombre, su dirección de correo electrónico, su número de WhatsApp si nos lo facilita, las fechas deseadas, el número de personas, el idioma, los lugares que le interesan y su mensaje.",
+          "Por correo electrónico o por WhatsApp: lo que usted decida escribirnos.",
+          "Durante la visita al sitio: el proveedor de alojamiento registra datos técnicos, como la dirección IP, el navegador y la página solicitada, para que el sitio funcione y para protegerlo. El sitio no utiliza cookies, ni herramientas publicitarias, ni herramientas de medición de audiencia. Solo guarda su elección de idioma en su navegador."
+        ]
+      },
+      {
+        "h2": "Para qué los utilizamos",
+        "p": [
+          "Únicamente para responder a su solicitud y prepararle una propuesta. No vendemos sus datos ni los utilizamos para publicidad."
+        ]
+      },
+      {
+        "h2": "Quién los recibe",
+        "p": [
+          "FormSubmit (formsubmit.co) transmite el formulario hasta nuestro buzón de correo electrónico. Infomaniak Network SA, en Suiza, aloja este buzón. GitHub, Inc., en Estados Unidos, aloja el sitio. Si nos escribe por WhatsApp, el servicio lo presta WhatsApp, empresa del grupo Meta."
+        ]
+      },
+      {
+        "h2": "Datos tratados fuera de Suiza",
+        "p": [
+          "Algunos de estos proveedores pueden tratar datos fuera de Suiza, en particular en Estados Unidos. Estas transferencias se realizan con las garantías previstas por la ley, por ejemplo la certificación en el Swiss-U.S. Data Privacy Framework o cláusulas contractuales tipo."
+        ]
+      },
+      {
+        "h2": "Plazo de conservación",
+        "p": [
+          "Conservamos sus datos el tiempo necesario para tramitar su solicitud y, después, como máximo 24 meses tras nuestro último intercambio, salvo que la ley nos obligue a conservarlos más tiempo."
+        ]
+      },
+      {
+        "h2": "Sus derechos",
+        "p": [
+          "Puede solicitar ver sus datos, corregirlos o suprimirlos, y oponerse a su tratamiento. Escríbanos a {EMAIL}.",
+          "También puede presentar una reclamación ante el Federal Data Protection and Information Commissioner (FDPIC), el Comisionado Federal suizo de Protección de Datos y Transparencia, Feldeggweg 1, 3003 Berna, www.edoeb.admin.ch."
+        ]
+      }
+    ]
+  }
+}

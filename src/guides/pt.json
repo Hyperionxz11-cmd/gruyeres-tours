@@ -8,13 +8,13 @@
       "title": "Passeio de um dia em Gruyères saindo de Genebra",
       "description": "Visitar Gruyères saindo de Genebra em um dia: trajeto, etapas possíveis, roteiro típico e organização de um passeio privado sob medida para o seu grupo.",
       "h1": "Visitar Gruyères saindo de Genebra em um dia",
-      "intro": "Sim, Gruyères pode ser visitada muito bem em um dia saindo de Genebra: a estrada leva cerca de uma hora e meia, conforme o trânsito, o que deixa tempo para conhecer a cidade medieval, o seu castelo e uma ou duas outras etapas. Organizamos esse dia de forma privada, com embarque em Genebra no local combinado e retorno à noite. O roteiro é montado conforme o seu grupo, a estação e a disponibilidade dos locais.",
+      "intro": "Sim, Gruyères pode ser visitada muito bem em um dia saindo de Genebra: a estrada leva cerca de uma hora e meia, conforme o trânsito, o que deixa tempo para conhecer a cidade medieval, o seu castelo e uma ou duas outras etapas. Preparamos esse dia de forma privada para o seu grupo, saindo de Genebra: a forma de viajar, de trem ou de veículo, é decidida em conjunto. O roteiro é montado conforme o seu grupo, a estação e a disponibilidade dos locais.",
       "sections": [
         {
           "h2": "O trajeto de Genebra a Gruyères",
           "p": [
             "Gruyères fica no cantão de Friburgo, bem perto de Bulle. Saindo de Genebra, a estrada segue a autoestrada A1 ao longo do Lago Léman até Lausanne, depois a A9 e a A12 em direção a Bulle. Conte cerca de uma hora e meia de trajeto, mais nos horários de pico ao redor de Genebra e de Lausanne. A paisagem muda no caminho: depois do lago e dos vinhedos, a estrada sobe rumo às pastagens e às primeiras cristas dos Pré-Alpes de Friburgo.",
-            "Em um passeio privado, você não precisa se ocupar desse trajeto. O embarque acontece em Genebra, no local combinado em conjunto, e o retorno é à noite. Você aproveita a viagem para olhar a paisagem ou conversar sobre o programa, sem procurar conexões nem vaga de estacionamento. Ao pé da cidade, o carro fica mais abaixo: a cidade medieval se percorre a pé."
+            "Para o trajeto, há dois formatos possíveis: o trem, cerca de duas horas e vinte a partir da estação de Genebra, com uma ou duas baldeações, ou um veículo privado. Conversamos com você antes de confirmar qualquer coisa, conforme o tamanho do grupo e as suas preferências. O guia “Como ir de Genebra a Gruyères” detalha as duas opções. No local, a cidade medieval se percorre a pé."
           ]
         },
         {
@@ -52,15 +52,21 @@
           "a": "O horário de saída é definido com você durante a preparação do dia. Ele depende das etapas escolhidas e dos horários dos locais na data escolhida. Se La Maison du Gruyère estiver no programa, uma saída pela manhã permite ver a fabricação do queijo."
         },
         {
-          "q": "Onde é o embarque em Genebra?",
-          "a": "O embarque acontece em Genebra, em um local que combinamos em conjunto. Nós o definimos no momento de confirmar o dia. O retorno é feito a Genebra à noite."
+          "q": "Como é feito o trajeto saindo de Genebra?",
+          "a": "O formato não é definido de antemão: de trem a partir da estação de Genebra, ou de veículo privado. Escolhemos juntos, conforme o seu grupo, antes de qualquer confirmação."
         },
         {
           "q": "O almoço está previsto no dia?",
           "a": "O almoço é livre: você escolhe no local, na vila de Gruyères ou nos arredores. Se preferir um piquenique, saiba que ele não é permitido dentro do recinto do castelo. É também a ocasião de provar as especialidades de queijo da região."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "musee-hr-giger", "moleson"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "musee-hr-giger",
+        "moleson"
+      ],
       "card": "Trajeto, etapas possíveis e roteiro típico para conhecer Gruyères em um dia saindo de Genebra."
     },
     "en-famille": {
@@ -119,7 +125,12 @@
           "a": "O programa de um dia privado não é fixo: uma visita pode ser encurtada ou uma etapa deixada de lado. O tempo livre na vila também permite descansar. É melhor prever poucas etapas no início e acrescentar uma se a energia permitir."
         }
       ],
-      "places": ["maison-du-gruyere", "maison-cailler", "chateau-de-gruyeres", "moleson"],
+      "places": [
+        "maison-du-gruyere",
+        "maison-cailler",
+        "chateau-de-gruyeres",
+        "moleson"
+      ],
       "card": "Queijo, chocolate, caça ao tesouro e funicular: nossas dicas para visitar Gruyères com crianças."
     },
     "fromage-et-chocolat": {
@@ -178,7 +189,11 @@
           "a": "Sim. O chocolate Cailler é produzido em Broc desde 1898, no prédio histórico que hoje recebe os visitantes. A marca, fundada em 1819 em Vevey, pertence ao grupo Nestlé desde 1929."
         }
       ],
-      "places": ["maison-du-gruyere", "maison-cailler", "chateau-de-gruyeres"],
+      "places": [
+        "maison-du-gruyere",
+        "maison-cailler",
+        "chateau-de-gruyeres"
+      ],
       "card": "O Gruyère AOP pela manhã, o chocolate Cailler à tarde: dois saberes reunidos em um só dia."
     },
     "quand-visiter": {
@@ -237,14 +252,20 @@
           "a": "A maioria das etapas é visitada em ambientes internos: o castelo, a queijaria, a fábrica de chocolate e o museu. Com mau tempo, adaptamos a ordem do dia e podemos deixar o Moléson de lado se a vista estiver encoberta. Assim, o dia mantém o seu interesse, mesmo com chuva."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "musee-hr-giger", "moleson"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "musee-hr-giger",
+        "moleson"
+      ],
       "card": "Primavera, verão, outono ou inverno: o que está aberto em Gruyères e como escolher a sua data."
     },
     "sortie-entreprise": {
       "title": "Passeio de empresa na região de Gruyère saindo de Genebra",
       "description": "Organizar um passeio de empresa na região de Gruyère saindo de Genebra: um dia privado para a sua equipe, entre castelo, queijo, chocolate e Pré-Alpes.",
       "h1": "Um passeio de empresa na região de Gruyère saindo de Genebra",
-      "intro": "A região de Gruyère é ótima para um passeio de empresa ou uma excursão em grupo saindo de Genebra: ela fica a cerca de uma hora e meia de estrada e reúne patrimônio, saber fazer e paisagens em um dia. Organizamos esse dia de forma privada para a sua equipe, com embarque em Genebra e retorno à noite. Você nos indica a data e o número de participantes, e propomos um roteiro.",
+      "intro": "A região de Gruyère é ótima para um passeio de empresa ou uma excursão em grupo saindo de Genebra: ela fica a cerca de uma hora e meia de estrada e reúne patrimônio, saber fazer e paisagens em um dia. Preparamos esse dia de forma privada para a sua equipe, saindo de Genebra, de trem ou de veículo, conforme combinarmos juntos. Você nos indica a data e o número de participantes, e propomos um roteiro.",
       "sections": [
         {
           "h2": "Por que a região de Gruyère para um passeio em grupo",
@@ -271,7 +292,7 @@
           "h2": "Como funciona a organização",
           "p": [
             "O processo é simples. Você preenche o formulário do site com a data desejada, outra data possível, o número de participantes, o idioma do dia e os locais que interessam a você. O campo livre permite detalhar o contexto: seminário, agradecimento à equipe, recepção de clientes ou de parceiros. Esses elementos nos ajudam a propor um roteiro adaptado.",
-            "Voltamos a você com uma proposta de roteiro, que você pode ajustar conosco antes de confirmar. Verificamos os horários e a disponibilidade dos locais na data escolhida. No dia, o embarque acontece em Genebra no local combinado, e o retorno é à noite. Você não precisa cuidar da logística do dia, apenas aproveitá-lo com a sua equipe."
+            "Voltamos a você com uma proposta de roteiro, que você pode ajustar conosco antes de confirmar. Verificamos os horários e a disponibilidade dos locais na data escolhida. A forma de viajar, de trem ou de veículo, também é decidida em conjunto. Você não precisa cuidar da logística do dia, apenas aproveitá-lo com a sua equipe."
           ]
         }
       ],
@@ -296,7 +317,13 @@
           "a": "O almoço é livre na vila de Gruyères. Conforme o tamanho do grupo, uma refeição em conjunto exige reservar um restaurante com antecedência. Informe esse desejo no seu pedido: levamos isso em conta na proposta de roteiro."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "moleson", "musee-hr-giger"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "moleson",
+        "musee-hr-giger"
+      ],
       "card": "Um dia privado saindo de Genebra para a sua equipe, os seus clientes ou os seus parceiros, na região de Gruyère."
     }
   }

@@ -12,7 +12,6 @@
   <link rel="alternate" hreflang="en" href="https://gruyeres-tours.com/en/">
   <link rel="alternate" hreflang="pt" href="https://gruyeres-tours.com/pt/">
   <link rel="alternate" hreflang="es" href="https://gruyeres-tours.com/es/">
-  <link rel="alternate" hreflang="zh-Hans" href="https://gruyeres-tours.com/zh/">
   <link rel="alternate" hreflang="x-default" href="https://gruyeres-tours.com/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Gruyères Tours">
@@ -23,7 +22,7 @@
   <link rel="icon" type="image/png" sizes="192x192" href="/img/icon-192.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="/style.css?v=52ad547c">
+  <link rel="stylesheet" href="/style.css?v=d14a7a22">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -41,6 +40,18 @@
         },
         "image": "https://gruyeres-tours.com/img/og.jpg",
         "email": "info@gruyeres-tours.com",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "email": "info@gruyeres-tours.com",
+          "availableLanguage": [
+            "fr",
+            "de",
+            "en",
+            "pt",
+            "es"
+          ]
+        },
         "areaServed": [
           {
             "@type": "City",
@@ -56,8 +67,7 @@
           "de",
           "en",
           "pt",
-          "es",
-          "zh-Hans"
+          "es"
         ]
       },
       {
@@ -74,7 +84,7 @@
   </script>
   <script>
     (function () {
-      var langs = ["fr", "de", "en", "pt", "es", "zh"];
+      var langs = ["fr", "de", "en", "pt", "es"];
       var pick = null;
       try { pick = localStorage.getItem("gt-lang"); } catch (e) {}
       if (langs.indexOf(pick) < 0) {
@@ -93,14 +103,13 @@
   <main class="lang-chooser">
     <div>
       <span class="brand"><img class="brand-mark" src="/logo.svg" alt="Gruyères Tours" width="96" height="96"><span class="brand-text"><span class="brand-name">Gruyères Tours</span><span class="brand-tag">Genève · Gruyère</span></span></span>
-      <p class="lead">Choisissez votre langue · Sprache wählen · Choose your language · Escolha o seu idioma · Elija su idioma · 请选择语言</p>
+      <p class="lead">Choisissez votre langue · Sprache wählen · Choose your language · Escolha o seu idioma · Elija su idioma</p>
       <ul class="lang-list">
         <li><a href="/fr/" hreflang="fr" lang="fr">Français</a></li>
         <li><a href="/de/" hreflang="de" lang="de">Deutsch</a></li>
         <li><a href="/en/" hreflang="en" lang="en">English</a></li>
         <li><a href="/pt/" hreflang="pt" lang="pt">Português</a></li>
         <li><a href="/es/" hreflang="es" lang="es">Español</a></li>
-        <li><a href="/zh/" hreflang="zh-Hans" lang="zh-Hans">中文</a></li>
       </ul>
     </div>
   </main>

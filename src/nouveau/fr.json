@@ -1,0 +1,163 @@
+{
+  "guide": {
+    "title": "Aller de Genève à Gruyères : train, voiture et durée",
+    "description": "Aller de Genève à Gruyères : en train environ 2 h 20 avec un ou deux changements, en voiture environ 1 h 30. Trajets, durées et conseils.",
+    "h1": "Comment aller de Genève à Gruyères",
+    "intro": "Gruyères se trouve à environ 120 kilomètres de Genève. En voiture, comptez environ une heure et demie sans trafic. En train, comptez environ deux heures vingt depuis la gare de Genève, avec un ou deux changements. Voici les deux options en détail, et ce qu’il faut savoir une fois sur place.",
+    "sections": [
+      {
+        "h2": "En train depuis Genève",
+        "p": [
+          "Depuis la gare de Genève (Cornavin), on rejoint Palézieux, souvent avec un premier changement à Renens. De Palézieux, un train régional mène à Bulle puis à Gruyères. Sur l’horaire officiel d’un jour de semaine de novembre 2026, les trajets du matin durent entre 2 h 22 et 2 h 34, avec un ou deux changements. Il n’y a pas de train direct.",
+          "La gare de Gruyères se trouve à Pringy, au pied de la colline. La Maison du Gruyère est tout près de la gare. La cité médiévale et le château sont en hauteur : on y monte à pied par un chemin en pente.",
+          "Pour la Maison Cailler, à Broc, il faut un autre train régional depuis Bulle, jusqu’à la gare de Broc-Fabrique. Les horaires changent chaque année en décembre : consultez l’horaire CFF sur sbb.ch pour votre date."
+        ]
+      },
+      {
+        "h2": "En voiture depuis Genève",
+        "p": [
+          "La route suit l’autoroute A1 le long du Léman jusqu’à Lausanne, puis l’A9 vers Vevey et l’A12 en direction de Bulle. Après la sortie Bulle, il reste quelques kilomètres jusqu’à Gruyères. Comptez environ une heure et demie, davantage aux heures de pointe autour de Genève et de Lausanne. La vignette autoroutière suisse est obligatoire.",
+          "À Gruyères, la cité médiévale se visite à pied. On laisse la voiture sur les parkings en contrebas, puis on monte vers le château."
+        ]
+      },
+      {
+        "h2": "Train ou voiture : que choisir ?",
+        "p": [
+          "Le train évite la conduite et la recherche d’une place de parc. En revanche, relier plusieurs lieux dans la même journée, comme Gruyères, Pringy, Broc et Moléson-sur-Gruyères, demande de bien préparer les correspondances.",
+          "La voiture laisse plus de souplesse pour enchaîner les étapes, surtout avec des enfants ou en groupe. Pour une excursion privée, nous choisissons le format avec vous selon votre groupe, avant toute confirmation."
+        ]
+      },
+      {
+        "h2": "Une journée type sur place",
+        "p": [
+          "Le matin convient à La Maison du Gruyère, car la fabrication du fromage a lieu le matin. Viennent ensuite la cité médiévale et son château. L’après-midi, la journée continue à la Maison Cailler, au musée HR Giger ou au Moléson, selon la saison et la météo."
+        ]
+      }
+    ],
+    "tips": [
+      "Vérifiez l’horaire du train la veille sur sbb.ch : il change chaque année en décembre.",
+      "Prévoyez de bonnes chaussures : la montée vers la cité se fait à pied, sur des pavés.",
+      "En voiture, pensez à la vignette autoroutière suisse.",
+      "Pour voir le fromager à l’œuvre, arrivez à La Maison du Gruyère le matin.",
+      "Vérifiez les dates d’ouverture du Moléson avant de le mettre au programme."
+    ],
+    "faq": [
+      {
+        "q": "Combien de temps faut-il en train de Genève à Gruyères ?",
+        "a": "Environ deux heures vingt à deux heures et demie, avec un ou deux changements, souvent à Renens et à Palézieux. Les horaires varient selon le jour : vérifiez-les sur sbb.ch."
+      },
+      {
+        "q": "Y a-t-il un train direct entre Genève et Gruyères ?",
+        "a": "Non. Il faut changer au moins une fois, en général à Palézieux, où part le train régional vers Bulle et Gruyères."
+      },
+      {
+        "q": "Combien de temps faut-il en voiture ?",
+        "a": "Environ une heure et demie pour 120 kilomètres, par l’A1, l’A9 et l’A12. Prévoyez davantage aux heures de pointe autour de Genève et de Lausanne."
+      },
+      {
+        "q": "Peut-on voir Gruyères et la Maison Cailler le même jour en train ?",
+        "a": "Oui, mais il faut un train régional de plus entre Gruyères, Bulle et Broc. Préparez les correspondances à l’avance, ou envoyez-nous une demande d’excursion privée."
+      }
+    ],
+    "places": ["maison-du-gruyere", "chateau-de-gruyeres", "maison-cailler", "moleson"],
+    "card": "Train ou voiture, durée, changements et conseils pratiques pour rejoindre Gruyères depuis Genève."
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "description": "Mentions légales du site gruyeres-tours.com : éditeur, contact, hébergement, crédits photos et droit applicable.",
+    "h1": "Mentions légales",
+    "sections": [
+      {
+        "h2": "Éditeur du site",
+        "p": [
+          "Gruyères Tours, projet d’André Isoz.",
+          "Adresse : {ADDRESS}",
+          "E-mail : {EMAIL}"
+        ]
+      },
+      {
+        "h2": "Activité",
+        "p": [
+          "Gruyères Tours recueille des demandes d’excursions privées d’une journée entre Genève et la Gruyère. Une demande envoyée depuis ce site est sans engagement. Aucun prix, aucun transport et aucune prestation ne sont garantis avant une confirmation écrite de notre part."
+        ]
+      },
+      {
+        "h2": "Hébergement",
+        "p": [
+          "Le site est hébergé par GitHub Pages, un service de GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis."
+        ]
+      },
+      {
+        "h2": "Photographies",
+        "p": [
+          "Les photographies proviennent de Wikimedia Commons et sont publiées sous licences libres. Leurs auteurs et leurs licences sont indiqués dans les crédits, en bas de chaque page."
+        ]
+      },
+      {
+        "h2": "Informations pratiques et liens",
+        "p": [
+          "Les horaires, dates d’ouverture et conditions des lieux cités proviennent de leurs sites officiels et peuvent changer. Vérifiez-les avant votre venue. Nous ne sommes pas responsables du contenu des sites externes vers lesquels nous renvoyons."
+        ]
+      },
+      {
+        "h2": "Droit applicable",
+        "p": [
+          "Ce site et son utilisation sont soumis au droit suisse."
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "description": "Comment Gruyères Tours traite vos données personnelles, conformément à la loi fédérale suisse sur la protection des données (LPD).",
+    "h1": "Politique de confidentialité",
+    "sections": [
+      {
+        "h2": "Responsable du traitement",
+        "p": [
+          "André Isoz, Gruyères Tours, {ADDRESS}. E-mail : {EMAIL}.",
+          "Cette politique suit la loi fédérale suisse sur la protection des données (LPD). Dernière mise à jour : {DATE}."
+        ]
+      },
+      {
+        "h2": "Données que nous recevons",
+        "p": [
+          "Par le formulaire de demande : votre nom, votre adresse e-mail, votre numéro WhatsApp si vous le donnez, les dates souhaitées, le nombre de personnes, la langue, les lieux qui vous intéressent et votre message.",
+          "Par e-mail ou par WhatsApp : ce que vous choisissez de nous écrire.",
+          "Pendant la visite du site : l’hébergeur enregistre des données techniques, comme l’adresse IP, le navigateur et la page demandée, pour faire fonctionner et protéger le site. Le site n’utilise ni cookies, ni outil publicitaire, ni outil de mesure d’audience. Il garde seulement votre choix de langue dans votre navigateur."
+        ]
+      },
+      {
+        "h2": "Pourquoi nous les utilisons",
+        "p": [
+          "Uniquement pour répondre à votre demande et vous préparer une proposition. Nous ne vendons pas vos données et ne les utilisons pas pour de la publicité."
+        ]
+      },
+      {
+        "h2": "Qui les reçoit",
+        "p": [
+          "FormSubmit (formsubmit.co) transmet le formulaire jusqu’à notre boîte e-mail. Infomaniak Network SA, en Suisse, héberge cette boîte e-mail. GitHub, Inc., aux États-Unis, héberge le site. Si vous nous écrivez sur WhatsApp, le service est fourni par WhatsApp, société du groupe Meta."
+        ]
+      },
+      {
+        "h2": "Données traitées hors de Suisse",
+        "p": [
+          "Certains de ces prestataires peuvent traiter des données hors de Suisse, notamment aux États-Unis. Ces transferts se font avec les garanties prévues par la loi, par exemple la certification au Swiss-U.S. Data Privacy Framework ou des clauses contractuelles types."
+        ]
+      },
+      {
+        "h2": "Durée de conservation",
+        "p": [
+          "Nous gardons vos données le temps de traiter votre demande, puis au plus 24 mois après notre dernier échange, sauf si la loi nous oblige à les garder plus longtemps."
+        ]
+      },
+      {
+        "h2": "Vos droits",
+        "p": [
+          "Vous pouvez demander à voir vos données, à les corriger ou à les effacer, et vous opposer à leur traitement. Écrivez-nous à {EMAIL}.",
+          "Vous pouvez aussi déposer une réclamation auprès du Préposé fédéral à la protection des données et à la transparence (PFPDT), Feldeggweg 1, 3003 Berne, www.edoeb.admin.ch."
+        ]
+      }
+    ]
+  }
+}

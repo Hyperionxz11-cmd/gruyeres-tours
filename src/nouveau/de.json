@@ -1,0 +1,163 @@
+{
+  "guide": {
+    "title": "Von Genf nach Gruyères: Zug, Auto und Reisezeit",
+    "description": "Von Genf nach Gruyères: mit dem Zug rund 2 h 20 mit ein bis zwei Umstiegen, mit dem Auto rund 1 h 30 über A1, A9 und A12. Praktische Tipps für den Tag.",
+    "h1": "So kommen Sie von Genf nach Gruyères",
+    "intro": "Gruyères liegt rund 120 Kilometer von Genf entfernt. Mit dem Auto brauchen Sie ohne Verkehr etwa anderthalb Stunden. Mit dem Zug sind es ab dem Bahnhof Genf etwa zwei Stunden zwanzig, mit ein oder zwei Umstiegen. Hier finden Sie beide Varianten im Detail und das Wichtigste für die Zeit vor Ort.",
+    "sections": [
+      {
+        "h2": "Mit dem Zug ab Genf",
+        "p": [
+          "Vom Bahnhof Genf (Cornavin) fahren Sie nach Palézieux, oft mit einem ersten Umstieg in Renens. Ab Palézieux bringt Sie ein Regionalzug nach Bulle und weiter nach Gruyères. Laut offiziellem Fahrplan für einen Werktag im November 2026 dauern die Verbindungen am Morgen zwischen 2 h 22 und 2 h 34, mit ein oder zwei Umstiegen. Eine Direktverbindung gibt es nicht.",
+          "Der Bahnhof Gruyères liegt in Pringy, am Fuss des Hügels. La Maison du Gruyère ist ganz in der Nähe des Bahnhofs. Das mittelalterliche Städtchen und das Schloss liegen weiter oben: Sie erreichen sie zu Fuss über einen ansteigenden Weg.",
+          "Für die Maison Cailler in Broc brauchen Sie ab Bulle einen weiteren Regionalzug bis zum Bahnhof Broc-Fabrique. Der Fahrplan ändert jedes Jahr im Dezember: Prüfen Sie den SBB-Fahrplan auf sbb.ch für Ihr Reisedatum."
+        ]
+      },
+      {
+        "h2": "Mit dem Auto ab Genf",
+        "p": [
+          "Die Strecke führt über die Autobahn A1 dem Genfersee entlang bis Lausanne, dann über die A9 Richtung Vevey und die A12 Richtung Bulle. Nach der Ausfahrt Bulle sind es noch wenige Kilometer bis Gruyères. Rechnen Sie mit etwa anderthalb Stunden, zu Stosszeiten rund um Genf und Lausanne mit mehr. Die Schweizer Autobahnvignette ist obligatorisch.",
+          "In Gruyères besichtigen Sie das mittelalterliche Städtchen zu Fuss. Sie stellen das Auto auf den Parkplätzen weiter unten ab und gehen dann zum Schloss hinauf."
+        ]
+      },
+      {
+        "h2": "Zug oder Auto: was ist besser?",
+        "p": [
+          "Mit dem Zug müssen Sie weder fahren noch einen Parkplatz suchen. Wenn Sie aber mehrere Orte am selben Tag besuchen möchten, etwa Gruyères, Pringy, Broc und Moléson-sur-Gruyères, müssen Sie die Anschlüsse gut planen.",
+          "Das Auto lässt mehr Freiheit, um die Etappen aneinanderzureihen, vor allem mit Kindern oder in der Gruppe. Bei einem privaten Ausflug wählen wir das Format gemeinsam mit Ihnen nach Ihrer Gruppe, vor jeder Bestätigung."
+        ]
+      },
+      {
+        "h2": "Ein typischer Tag vor Ort",
+        "p": [
+          "Der Morgen eignet sich für La Maison du Gruyère, denn der Käse wird am Morgen hergestellt. Danach folgen das mittelalterliche Städtchen und sein Schloss. Am Nachmittag geht der Tag in der Maison Cailler, im HR Giger Museum oder auf dem Moléson weiter, je nach Jahreszeit und Wetter."
+        ]
+      }
+    ],
+    "tips": [
+      "Prüfen Sie den Zugfahrplan am Vortag auf sbb.ch: Er ändert jedes Jahr im Dezember.",
+      "Tragen Sie gute Schuhe: Der Aufstieg zum Städtchen erfolgt zu Fuss über Pflastersteine.",
+      "Mit dem Auto: Denken Sie an die Schweizer Autobahnvignette.",
+      "Wenn Sie dem Käser bei der Arbeit zusehen möchten, kommen Sie am Morgen in La Maison du Gruyère.",
+      "Prüfen Sie die Öffnungszeiten des Moléson, bevor Sie ihn einplanen."
+    ],
+    "faq": [
+      {
+        "q": "Wie lange dauert die Zugfahrt von Genf nach Gruyères?",
+        "a": "Etwa zwei Stunden zwanzig bis zweieinhalb Stunden, mit ein oder zwei Umstiegen, oft in Renens und in Palézieux. Die Fahrzeiten ändern je nach Tag: Prüfen Sie sie auf sbb.ch."
+      },
+      {
+        "q": "Gibt es einen direkten Zug von Genf nach Gruyères?",
+        "a": "Nein. Sie müssen mindestens einmal umsteigen, meist in Palézieux, wo der Regionalzug nach Bulle und Gruyères abfährt."
+      },
+      {
+        "q": "Wie lange dauert die Fahrt mit dem Auto?",
+        "a": "Etwa anderthalb Stunden für 120 Kilometer, über A1, A9 und A12. Rechnen Sie zu Stosszeiten rund um Genf und Lausanne mit mehr Zeit."
+      },
+      {
+        "q": "Kann man Gruyères und die Maison Cailler am selben Tag mit dem Zug besuchen?",
+        "a": "Ja, aber Sie brauchen einen zusätzlichen Regionalzug zwischen Gruyères, Bulle und Broc. Planen Sie die Anschlüsse im Voraus, oder senden Sie uns eine Anfrage für einen privaten Ausflug."
+      }
+    ],
+    "places": ["maison-du-gruyere", "chateau-de-gruyeres", "maison-cailler", "moleson"],
+    "card": "Zug oder Auto, Reisezeit, Umstiege und praktische Tipps für die Anreise von Genf nach Gruyères."
+  },
+  "legal": {
+    "title": "Impressum",
+    "description": "Impressum der Website gruyeres-tours.com: Herausgeber, Kontakt, Hosting, Bildnachweise und anwendbares Recht.",
+    "h1": "Impressum",
+    "sections": [
+      {
+        "h2": "Herausgeber der Website",
+        "p": [
+          "Gruyères Tours, ein Projekt von André Isoz.",
+          "Adresse: {ADDRESS}",
+          "E-Mail: {EMAIL}"
+        ]
+      },
+      {
+        "h2": "Tätigkeit",
+        "p": [
+          "Gruyères Tours nimmt Anfragen für private Tagesausflüge zwischen Genf und dem Greyerzerland entgegen. Eine Anfrage über diese Website ist unverbindlich. Preise, Transport und Leistungen sind erst nach unserer schriftlichen Bestätigung garantiert."
+        ]
+      },
+      {
+        "h2": "Hosting",
+        "p": [
+          "Die Website wird von GitHub Pages gehostet, einem Dienst von GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA."
+        ]
+      },
+      {
+        "h2": "Fotos",
+        "p": [
+          "Die Fotos stammen von Wikimedia Commons und stehen unter freien Lizenzen. Urheber und Lizenzen sind in den Bildnachweisen unten auf jeder Seite angegeben."
+        ]
+      },
+      {
+        "h2": "Praktische Informationen und Links",
+        "p": [
+          "Fahrpläne, Öffnungszeiten und Bedingungen der genannten Orte stammen von deren offiziellen Websites und können sich ändern. Prüfen Sie sie vor Ihrem Besuch. Für den Inhalt externer Websites, auf die wir verlinken, übernehmen wir keine Verantwortung."
+        ]
+      },
+      {
+        "h2": "Anwendbares Recht",
+        "p": [
+          "Diese Website und ihre Nutzung unterliegen dem Schweizer Recht."
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "description": "Wie Gruyères Tours Ihre Personendaten bearbeitet, gemäss dem Schweizer Bundesgesetz über den Datenschutz (Datenschutzgesetz, DSG).",
+    "h1": "Datenschutzerklärung",
+    "sections": [
+      {
+        "h2": "Verantwortlicher",
+        "p": [
+          "André Isoz, Gruyères Tours, {ADDRESS}. E-Mail: {EMAIL}.",
+          "Diese Erklärung folgt dem Schweizer Datenschutzgesetz (DSG). Letzte Aktualisierung: {DATE}."
+        ]
+      },
+      {
+        "h2": "Welche Daten wir erhalten",
+        "p": [
+          "Über das Anfrageformular: Ihren Namen, Ihre E-Mail-Adresse, Ihre WhatsApp-Nummer, falls Sie sie angeben, die gewünschten Daten, die Anzahl Personen, die Sprache, die Orte, die Sie interessieren, und Ihre Nachricht.",
+          "Per E-Mail oder WhatsApp: was Sie uns schreiben möchten.",
+          "Beim Besuch der Website: Der Hoster speichert technische Daten wie IP-Adresse, Browser und aufgerufene Seite, um die Website zu betreiben und zu schützen. Die Website verwendet weder Cookies noch Werbe- oder Analysetools. Sie speichert nur Ihre Sprachwahl in Ihrem Browser."
+        ]
+      },
+      {
+        "h2": "Wozu wir sie verwenden",
+        "p": [
+          "Nur um Ihre Anfrage zu beantworten und Ihnen ein Angebot zu erstellen. Wir verkaufen Ihre Daten nicht und verwenden sie nicht für Werbung."
+        ]
+      },
+      {
+        "h2": "Wer sie erhält",
+        "p": [
+          "FormSubmit (formsubmit.co) leitet das Formular an unser E-Mail-Postfach weiter. Infomaniak Network SA in der Schweiz hostet dieses Postfach. GitHub, Inc. in den USA hostet die Website. Wenn Sie uns über WhatsApp schreiben, wird der Dienst von WhatsApp erbracht, einem Unternehmen der Meta-Gruppe."
+        ]
+      },
+      {
+        "h2": "Datenbearbeitung ausserhalb der Schweiz",
+        "p": [
+          "Einige dieser Anbieter können Daten ausserhalb der Schweiz bearbeiten, insbesondere in den USA. Diese Übermittlungen erfolgen mit den gesetzlich vorgesehenen Garantien, zum Beispiel der Zertifizierung nach dem Swiss-U.S. Data Privacy Framework oder Standardvertragsklauseln."
+        ]
+      },
+      {
+        "h2": "Aufbewahrungsdauer",
+        "p": [
+          "Wir bewahren Ihre Daten so lange auf, wie wir für die Bearbeitung Ihrer Anfrage brauchen, danach höchstens 24 Monate nach unserem letzten Austausch, ausser das Gesetz verpflichtet uns zu einer längeren Aufbewahrung."
+        ]
+      },
+      {
+        "h2": "Ihre Rechte",
+        "p": [
+          "Sie können Auskunft über Ihre Daten verlangen, sie berichtigen oder löschen lassen und der Bearbeitung widersprechen. Schreiben Sie uns an {EMAIL}.",
+          "Sie können auch beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) Beschwerde einreichen, Feldeggweg 1, 3003 Bern, www.edoeb.admin.ch."
+        ]
+      }
+    ]
+  }
+}

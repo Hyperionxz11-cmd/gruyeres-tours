@@ -8,13 +8,13 @@
       "title": "Tagesausflug nach Greyerz ab Genf: Ablauf und Tipps",
       "description": "Greyerz ab Genf an einem Tag besuchen: Anfahrt, mögliche Etappen, typischer Ablauf und die Organisation eines privaten Ausflugs nach Mass für Ihre Gruppe.",
       "h1": "Gruyères an einem Tag ab Genf besuchen",
-      "intro": "Ja, Gruyères lässt sich sehr gut an einem Tag ab Genf besuchen: Die Fahrt dauert je nach Verkehr etwa anderthalb Stunden. So bleibt Zeit, das mittelalterliche Städtchen, sein Schloss und ein oder zwei weitere Etappen zu entdecken. Wir organisieren diesen Tag privat, mit Abholung in Genf am vereinbarten Ort und Rückkehr am Abend. Die Route richtet sich nach Ihrer Gruppe, der Jahreszeit und den Verfügbarkeiten der Orte.",
+      "intro": "Ja, Gruyères lässt sich sehr gut an einem Tag ab Genf besuchen: Die Fahrt dauert je nach Verkehr etwa anderthalb Stunden. So bleibt Zeit, das mittelalterliche Städtchen, sein Schloss und ein oder zwei weitere Etappen zu entdecken. Wir planen diesen Tag privat für Ihre Gruppe, ab Genf: Ob Sie mit dem Zug oder mit einem Fahrzeug reisen, legen wir gemeinsam fest. Die Route richtet sich nach Ihrer Gruppe, der Jahreszeit und den Verfügbarkeiten der Orte.",
       "sections": [
         {
           "h2": "Die Fahrt von Genf nach Gruyères",
           "p": [
             "Gruyères liegt im Kanton Freiburg, ganz in der Nähe von Bulle. Ab Genf folgt die Strecke der Autobahn A1 dem Genfersee entlang bis Lausanne, dann der A9 und der A12 Richtung Bulle. Rechnen Sie mit etwa anderthalb Stunden Fahrzeit, zu den Stosszeiten rund um Genf und Lausanne mit mehr. Unterwegs wechselt die Landschaft: Nach dem See und den Reben steigt die Strasse zu den Weiden und den ersten Kämmen der Freiburger Voralpen hinauf.",
-            "Bei einem privaten Ausflug müssen Sie sich um diese Fahrt nicht kümmern. Die Abholung erfolgt in Genf am gemeinsam vereinbarten Ort, die Rückkehr am Abend. Sie geniessen die Reise, schauen in die Landschaft oder besprechen das Programm, ohne Anschlüsse oder Parkplätze zu suchen. Am Fuss des Städtchens bleibt das Auto unten: Das mittelalterliche Städtchen erkundet man zu Fuss."
+            "Für die Anreise gibt es zwei Möglichkeiten: den Zug, etwa zwei Stunden und zwanzig Minuten ab dem Bahnhof Genf mit ein oder zwei Umstiegen, oder ein privates Fahrzeug. Wir besprechen das mit Ihnen, bevor etwas festgelegt wird, je nach Gruppengrösse und Wünschen. Der Ratgeber «Von Genf nach Gruyères» beschreibt beide Varianten. Vor Ort erkundet man das mittelalterliche Städtchen zu Fuss."
           ]
         },
         {
@@ -52,15 +52,21 @@
           "a": "Die Abfahrtszeit legen wir bei der Vorbereitung des Tages gemeinsam mit Ihnen fest. Sie hängt von den gewählten Etappen und den Öffnungszeiten der Orte am gewählten Datum ab. Steht La Maison du Gruyère auf dem Programm, erlaubt eine Abfahrt am Morgen, die Käseherstellung zu sehen."
         },
         {
-          "q": "Wo erfolgt die Abholung in Genf?",
-          "a": "Die Abholung erfolgt in Genf an einem Ort, den wir gemeinsam vereinbaren. Wir legen ihn bei der Bestätigung des Tages fest. Die Rückkehr nach Genf erfolgt am Abend."
+          "q": "Wie reist man ab Genf an?",
+          "a": "Das Format ist nicht im Voraus festgelegt: mit dem Zug ab dem Bahnhof Genf oder mit einem privaten Fahrzeug. Wir wählen es gemeinsam mit Ihnen, je nach Gruppe, vor jeder Bestätigung."
         },
         {
           "q": "Ist das Mittagessen im Tag inbegriffen?",
           "a": "Das Mittagessen ist frei: Sie wählen vor Ort, im Dorf Gruyères oder in der Umgebung. Falls Sie lieber picknicken möchten: Innerhalb der Schlossanlage ist das Picknicken nicht erlaubt. Es ist auch die Gelegenheit, die Käsespezialitäten der Region zu probieren."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "musee-hr-giger", "moleson"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "musee-hr-giger",
+        "moleson"
+      ],
       "card": "Anfahrt, mögliche Etappen und typischer Ablauf, um Gruyères an einem Tag ab Genf zu entdecken."
     },
     "en-famille": {
@@ -119,7 +125,12 @@
           "a": "Das Programm eines privaten Tages ist nicht starr: Ein Besuch kann verkürzt oder eine Etappe ausgelassen werden. Die freie Zeit im Dorf erlaubt ebenfalls, durchzuatmen. Besser plant man zu Beginn wenige Etappen und fügt eine hinzu, wenn die Energie reicht."
         }
       ],
-      "places": ["maison-du-gruyere", "maison-cailler", "chateau-de-gruyeres", "moleson"],
+      "places": [
+        "maison-du-gruyere",
+        "maison-cailler",
+        "chateau-de-gruyeres",
+        "moleson"
+      ],
       "card": "Käse, Schokolade, Schatzsuche und Standseilbahn: unsere Tipps, um Gruyères mit Kindern zu besuchen."
     },
     "fromage-et-chocolat": {
@@ -178,7 +189,11 @@
           "a": "Ja. Die Cailler-Schokolade wird seit 1898 in Broc produziert, im historischen Gebäude, das heute die Besucher empfängt. Die 1819 in Vevey gegründete Marke gehört seit 1929 zum Nestlé-Konzern."
         }
       ],
-      "places": ["maison-du-gruyere", "maison-cailler", "chateau-de-gruyeres"],
+      "places": [
+        "maison-du-gruyere",
+        "maison-cailler",
+        "chateau-de-gruyeres"
+      ],
       "card": "Der Gruyère AOP am Vormittag, die Cailler-Schokolade am Nachmittag: zwei Handwerke an einem einzigen Tag."
     },
     "quand-visiter": {
@@ -237,14 +252,20 @@
           "a": "Die meisten Etappen werden drinnen besucht: das Schloss, die Käserei, die Schokoladenfabrik und das Museum. Bei schlechtem Wetter passen wir die Reihenfolge des Tages an und können auf den Moléson verzichten, wenn die Sicht verdeckt ist. So bleibt der Tag auch bei Regen interessant."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "musee-hr-giger", "moleson"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "musee-hr-giger",
+        "moleson"
+      ],
       "card": "Frühling, Sommer, Herbst oder Winter: was in Gruyères geöffnet ist und wie Sie Ihr Datum wählen."
     },
     "sortie-entreprise": {
       "title": "Firmenausflug ins Greyerzerland: Gruppenausflug ab Genf",
       "description": "Einen Firmenausflug ins Greyerzerland ab Genf organisieren: ein privater Tag für Ihr Team, zwischen Schloss, Käse, Schokolade und Freiburger Voralpen.",
       "h1": "Ein Firmenausflug ins Greyerzerland ab Genf",
-      "intro": "Das Greyerzerland eignet sich gut für einen Firmenausflug oder einen Gruppenausflug ab Genf: Die Region liegt etwa anderthalb Autostunden entfernt und vereint Kulturerbe, Handwerk und Landschaften an einem Tag. Wir organisieren diesen Tag privat für Ihr Team, mit Abholung in Genf und Rückkehr am Abend. Sie nennen uns das Datum und die Zahl der Teilnehmenden, wir schlagen Ihnen eine Route vor.",
+      "intro": "Das Greyerzerland eignet sich gut für einen Firmenausflug oder einen Gruppenausflug ab Genf: Die Region liegt etwa anderthalb Autostunden entfernt und vereint Kulturerbe, Handwerk und Landschaften an einem Tag. Wir planen diesen Tag privat für Ihr Team, ab Genf, mit dem Zug oder einem Fahrzeug, je nach gemeinsamer Absprache. Sie nennen uns das Datum und die Zahl der Teilnehmenden, wir schlagen Ihnen eine Route vor.",
       "sections": [
         {
           "h2": "Warum das Greyerzerland für einen Gruppenausflug",
@@ -271,7 +292,7 @@
           "h2": "Wie die Organisation abläuft",
           "p": [
             "Das Vorgehen ist einfach. Sie füllen das Formular der Website aus, mit dem gewünschten Datum, einem weiteren möglichen Datum, der Zahl der Teilnehmenden, der Sprache des Tages und den Orten, die Sie interessieren. Im freien Feld können Sie den Rahmen präzisieren: Seminar, Dankeschön ans Team, Empfang von Kunden oder Partnern. Diese Angaben helfen uns, Ihnen eine passende Route vorzuschlagen.",
-            "Wir melden uns mit einem Routenvorschlag bei Ihnen, den Sie vor der Bestätigung mit uns anpassen können. Wir prüfen die Öffnungszeiten und Verfügbarkeiten der Orte am gewählten Datum. Am Tag selbst erfolgt die Abholung in Genf am vereinbarten Ort, die Rückkehr am Abend. Sie müssen sich nicht um die Logistik des Tages kümmern, sondern ihn nur mit Ihrem Team geniessen."
+            "Wir melden uns mit einem Routenvorschlag bei Ihnen, den Sie vor der Bestätigung mit uns anpassen können. Wir prüfen die Öffnungszeiten und Verfügbarkeiten der Orte am gewählten Datum. Auch die Art der Anreise, Zug oder Fahrzeug, legen wir gemeinsam fest. Sie müssen sich nicht um die Logistik des Tages kümmern, sondern ihn nur mit Ihrem Team geniessen."
           ]
         }
       ],
@@ -296,7 +317,13 @@
           "a": "Das Mittagessen ist frei im Dorf Gruyères. Je nach Grösse der Gruppe muss für ein gemeinsames Essen im Voraus ein Restaurant reserviert werden. Vermerken Sie diesen Wunsch in Ihrer Anfrage: Wir berücksichtigen ihn im Routenvorschlag."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "moleson", "musee-hr-giger"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "moleson",
+        "musee-hr-giger"
+      ],
       "card": "Ein privater Tag ab Genf für Ihr Team, Ihre Kunden oder Ihre Partner, im Greyerzerland."
     }
   }

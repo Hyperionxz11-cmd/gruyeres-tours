@@ -8,13 +8,13 @@
       "title": "Excursión a Gruyères desde Ginebra: visita en un día",
       "description": "Excursión a Gruyères desde Ginebra en un día: el trayecto, las etapas posibles, un ejemplo de programa y la organización de una jornada privada a medida.",
       "h1": "Visitar Gruyères desde Ginebra en un día",
-      "intro": "Sí, Gruyères se visita muy bien en un día desde Ginebra: la carretera lleva aproximadamente una hora y media según el tráfico, lo que deja tiempo para descubrir la ciudad medieval, su castillo y una o dos etapas más. Organizamos esta jornada en privado, con recogida en Ginebra en el lugar acordado y regreso por la tarde. El itinerario se compone según su grupo, la temporada y la disponibilidad de los lugares.",
+      "intro": "Sí, Gruyères se visita muy bien en un día desde Ginebra: la carretera lleva aproximadamente una hora y media según el tráfico, lo que deja tiempo para descubrir la ciudad medieval, su castillo y una o dos etapas más. Preparamos esta jornada en privado para su grupo, con salida desde Ginebra: la forma de viajar, en tren o en vehículo, se decide juntos. El itinerario se compone según su grupo, la temporada y la disponibilidad de los lugares.",
       "sections": [
         {
           "h2": "El trayecto de Ginebra a Gruyères",
           "p": [
             "Gruyères se encuentra en el cantón de Friburgo, muy cerca de Bulle. Desde Ginebra, la carretera sigue la autopista A1 a orillas del lago Lemán hasta Lausana y después la A9 y la A12 en dirección a Bulle. Hay que contar con aproximadamente una hora y media de trayecto, algo más en horas punta alrededor de Ginebra y Lausana. El paisaje cambia por el camino: tras el lago y los viñedos, la carretera sube hacia los pastos y las primeras crestas de los Prealpes friburgueses.",
-            "En una excursión privada, usted no tiene que ocuparse de este trayecto. La recogida se hace en Ginebra, en el lugar acordado juntos, y el regreso tiene lugar por la tarde. Aprovecha el viaje para mirar el paisaje o hablar del programa, sin buscar conexiones ni aparcamiento. Al pie de la ciudad, el coche se deja abajo: la ciudad medieval se recorre a pie."
+            "Para el trayecto hay dos formatos posibles: el tren, unas dos horas y veinte desde la estación de Ginebra con uno o dos transbordos, o un vehículo privado. Lo hablamos con usted antes de confirmar nada, según el tamaño del grupo y sus preferencias. La guía «Cómo ir de Ginebra a Gruyères» detalla las dos opciones. Una vez allí, la ciudad medieval se recorre a pie."
           ]
         },
         {
@@ -52,15 +52,21 @@
           "a": "La hora de salida se fija con usted al preparar la jornada. Depende de las etapas elegidas y de los horarios de los lugares en la fecha escogida. Si La Maison du Gruyère está en el programa, salir por la mañana permite ver la elaboración del queso."
         },
         {
-          "q": "¿Dónde se hace la recogida en Ginebra?",
-          "a": "La recogida tiene lugar en Ginebra, en un lugar que acordamos juntos. Lo fijamos al confirmar la jornada. El regreso a Ginebra se hace por la tarde."
+          "q": "¿Cómo se hace el trayecto desde Ginebra?",
+          "a": "El formato no está fijado de antemano: en tren desde la estación de Ginebra o en vehículo privado. Lo elegimos juntos, según su grupo, antes de cualquier confirmación."
         },
         {
           "q": "¿El almuerzo está previsto durante la jornada?",
           "a": "El almuerzo es libre: usted elige allí mismo, en el pueblo de Gruyères o en los alrededores. Si prefiere un pícnic, tenga en cuenta que no está permitido dentro del recinto del castillo. Es también la ocasión de probar las especialidades de queso de la región."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "musee-hr-giger", "moleson"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "musee-hr-giger",
+        "moleson"
+      ],
       "card": "Trayecto, etapas posibles y ejemplo de programa para descubrir Gruyères en un día saliendo de Ginebra."
     },
     "en-famille": {
@@ -119,7 +125,12 @@
           "a": "El programa de una jornada privada no es fijo: se puede acortar una visita o abandonar una etapa. El tiempo libre en el pueblo también permite descansar. Es mejor prever pocas etapas al principio y añadir una si hay energía."
         }
       ],
-      "places": ["maison-du-gruyere", "maison-cailler", "chateau-de-gruyeres", "moleson"],
+      "places": [
+        "maison-du-gruyere",
+        "maison-cailler",
+        "chateau-de-gruyeres",
+        "moleson"
+      ],
       "card": "Queso, chocolate, búsqueda del tesoro y funicular: nuestros consejos para visitar Gruyères con niños."
     },
     "fromage-et-chocolat": {
@@ -178,7 +189,11 @@
           "a": "Sí. El chocolate Cailler se produce en Broc desde 1898, en el edificio histórico que hoy recibe a los visitantes. La marca, fundada en 1819 en Vevey, pertenece al grupo Nestlé desde 1929."
         }
       ],
-      "places": ["maison-du-gruyere", "maison-cailler", "chateau-de-gruyeres"],
+      "places": [
+        "maison-du-gruyere",
+        "maison-cailler",
+        "chateau-de-gruyeres"
+      ],
       "card": "El Gruyère AOP por la mañana, el chocolate Cailler por la tarde: dos saberes reunidos en una sola jornada."
     },
     "quand-visiter": {
@@ -237,14 +252,20 @@
           "a": "La mayoría de las etapas se visitan en interiores: el castillo, la quesería, la fábrica de chocolate y el museo. Con mal tiempo, adaptamos el orden de la jornada y podemos renunciar al Moléson si no hay vista. Así la jornada conserva su interés, incluso bajo la lluvia."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "musee-hr-giger", "moleson"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "musee-hr-giger",
+        "moleson"
+      ],
       "card": "Primavera, verano, otoño o invierno: qué está abierto en Gruyères y cómo elegir su fecha."
     },
     "sortie-entreprise": {
       "title": "Salida de empresa en Gruyère: excursión de grupo",
       "description": "Organizar una salida de empresa en la región de Gruyère desde Ginebra: una jornada privada para su equipo, entre castillo, queso, chocolate y Prealpes.",
       "h1": "Una salida de empresa en la región de Gruyère desde Ginebra",
-      "intro": "La región de Gruyère se presta bien a una salida de empresa o a una excursión de grupo desde Ginebra: está a aproximadamente una hora y media de carretera y reúne patrimonio, saber hacer y paisajes en una jornada. Organizamos esta jornada en privado para su equipo, con recogida en Ginebra y regreso por la tarde. Usted nos indica la fecha y el número de participantes, y nosotros le proponemos un itinerario.",
+      "intro": "La región de Gruyère se presta bien a una salida de empresa o a una excursión de grupo desde Ginebra: está a aproximadamente una hora y media de carretera y reúne patrimonio, saber hacer y paisajes en una jornada. Preparamos esta jornada en privado para su equipo, con salida desde Ginebra, en tren o en vehículo según lo que acordemos juntos. Usted nos indica la fecha y el número de participantes, y nosotros le proponemos un itinerario.",
       "sections": [
         {
           "h2": "Por qué la región de Gruyère para una salida de grupo",
@@ -271,7 +292,7 @@
           "h2": "Cómo se organiza",
           "p": [
             "El proceso es sencillo. Usted rellena el formulario del sitio con la fecha deseada, otra fecha posible, el número de participantes, el idioma de la jornada y los lugares que le interesan. El campo libre permite precisar el contexto: seminario, agradecimiento al equipo, recepción de clientes o de socios. Estos elementos nos ayudan a proponerle un itinerario adaptado.",
-            "Volvemos a usted con una propuesta de itinerario, que puede ajustar con nosotros antes de confirmar. Comprobamos los horarios y la disponibilidad de los lugares en la fecha elegida. El día señalado, la recogida tiene lugar en Ginebra en el lugar acordado, y el regreso se hace por la tarde. Usted no tiene que gestionar la logística de la jornada, solo disfrutarla con su equipo."
+            "Volvemos a usted con una propuesta de itinerario, que puede ajustar con nosotros antes de confirmar. Comprobamos los horarios y la disponibilidad de los lugares en la fecha elegida. La forma de viajar, en tren o en vehículo, también la decidimos juntos. Usted no tiene que gestionar la logística de la jornada, solo disfrutarla con su equipo."
           ]
         }
       ],
@@ -296,7 +317,13 @@
           "a": "El almuerzo es libre en el pueblo de Gruyères. Según el tamaño del grupo, una comida conjunta exige reservar un restaurante con antelación. Indique este deseo en su solicitud: lo tendremos en cuenta en la propuesta de itinerario."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "moleson", "musee-hr-giger"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "moleson",
+        "musee-hr-giger"
+      ],
       "card": "Una jornada privada desde Ginebra para su equipo, sus clientes o sus socios, en la región de Gruyère."
     }
   }

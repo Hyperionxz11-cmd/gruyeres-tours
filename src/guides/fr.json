@@ -8,13 +8,13 @@
       "title": "Excursion à Gruyères depuis Genève en une journée",
       "description": "Visiter Gruyères depuis Genève en une journée : trajet, étapes possibles, déroulé type et organisation d’une excursion privée sur mesure pour votre groupe.",
       "h1": "Visiter Gruyères depuis Genève en une journée",
-      "intro": "Oui, Gruyères se visite très bien en une journée depuis Genève : la route prend environ une heure et demie selon le trafic, ce qui laisse le temps de découvrir la cité médiévale, son château et une ou deux autres étapes. Nous organisons cette journée en privé, avec une prise en charge à Genève au lieu convenu et un retour le soir. L’itinéraire se compose selon votre groupe, la saison et les disponibilités des lieux.",
+      "intro": "Oui, Gruyères se visite très bien en une journée depuis Genève : la route prend environ une heure et demie selon le trafic, ce qui laisse le temps de découvrir la cité médiévale, son château et une ou deux autres étapes. Nous préparons cette journée en privé pour votre groupe, au départ de Genève : la façon de voyager, en train ou en véhicule, se décide ensemble. L’itinéraire se compose selon votre groupe, la saison et les disponibilités des lieux.",
       "sections": [
         {
           "h2": "Le trajet de Genève à Gruyères",
           "p": [
             "Gruyères se trouve dans le canton de Fribourg, tout près de Bulle. Depuis Genève, la route suit l’autoroute A1 le long du Léman jusqu’à Lausanne, puis l’A9 et l’A12 en direction de Bulle. Il faut compter environ une heure et demie de trajet, davantage aux heures de pointe autour de Genève et de Lausanne. Le paysage change en chemin : après le lac et les vignes, la route monte vers les pâturages et les premières crêtes des Préalpes fribourgeoises.",
-            "Dans une excursion privée, vous n’avez pas à vous occuper de ce trajet. La prise en charge se fait à Genève, au lieu convenu ensemble, et le retour a lieu le soir. Vous profitez du voyage pour regarder le paysage ou parler du programme, sans chercher de correspondance ni de place de parc. Au pied de la cité, on laisse la voiture en contrebas : la cité médiévale se parcourt à pied."
+            "Pour le trajet, deux formats sont possibles : le train, environ deux heures vingt depuis la gare de Genève avec un ou deux changements, ou un véhicule privé. Nous en parlons avec vous avant de confirmer quoi que ce soit, selon la taille du groupe et vos envies. Le guide « Comment aller de Genève à Gruyères » détaille les deux options. Une fois sur place, la cité médiévale se parcourt à pied."
           ]
         },
         {
@@ -52,15 +52,21 @@
           "a": "L’heure de départ se fixe avec vous lors de la préparation de la journée. Elle dépend des étapes choisies et des horaires des lieux à la date retenue. Si La Maison du Gruyère est au programme, un départ le matin permet de voir la fabrication du fromage."
         },
         {
-          "q": "Où se fait la prise en charge à Genève ?",
-          "a": "La prise en charge a lieu à Genève, à un lieu que nous convenons ensemble. Nous le fixons au moment de confirmer la journée. Le retour se fait à Genève le soir."
+          "q": "Comment se fait le trajet depuis Genève ?",
+          "a": "Le format n’est pas fixé d’avance : en train depuis la gare de Genève, ou en véhicule privé. Nous le choisissons ensemble selon votre groupe, avant toute confirmation."
         },
         {
           "q": "Le déjeuner est-il prévu dans la journée ?",
           "a": "Le déjeuner est libre : vous choisissez sur place, dans le village de Gruyères ou aux environs. Si vous préférez un pique-nique, sachez qu’il n’est pas autorisé dans l’enceinte du château. C’est aussi l’occasion de goûter les spécialités au fromage de la région."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "musee-hr-giger", "moleson"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "musee-hr-giger",
+        "moleson"
+      ],
       "card": "Trajet, étapes possibles et déroulé type pour découvrir Gruyères en une journée au départ de Genève."
     },
     "en-famille": {
@@ -119,7 +125,12 @@
           "a": "Le programme d’une journée privée n’est pas figé : une visite peut être raccourcie ou une étape abandonnée. Le temps libre dans le village permet aussi de souffler. Il vaut mieux prévoir peu d’étapes au départ et en ajouter une si l’énergie est là."
         }
       ],
-      "places": ["maison-du-gruyere", "maison-cailler", "chateau-de-gruyeres", "moleson"],
+      "places": [
+        "maison-du-gruyere",
+        "maison-cailler",
+        "chateau-de-gruyeres",
+        "moleson"
+      ],
       "card": "Fromage, chocolat, chasse au trésor et funiculaire : nos conseils pour visiter Gruyères avec des enfants."
     },
     "fromage-et-chocolat": {
@@ -178,7 +189,11 @@
           "a": "Oui. Le chocolat Cailler est produit à Broc depuis 1898, dans le bâtiment historique qui accueille aujourd’hui les visiteurs. La marque, fondée en 1819 à Vevey, appartient au groupe Nestlé depuis 1929."
         }
       ],
-      "places": ["maison-du-gruyere", "maison-cailler", "chateau-de-gruyeres"],
+      "places": [
+        "maison-du-gruyere",
+        "maison-cailler",
+        "chateau-de-gruyeres"
+      ],
       "card": "Le Gruyère AOP le matin, le chocolat Cailler l’après-midi : deux savoir-faire réunis en une seule journée."
     },
     "quand-visiter": {
@@ -237,14 +252,20 @@
           "a": "La plupart des étapes se visitent à l’intérieur : le château, la fromagerie, la chocolaterie et le musée. Par mauvais temps, nous adaptons l’ordre de la journée et pouvons renoncer au Moléson si la vue est bouchée. La journée garde ainsi son intérêt, même sous la pluie."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "musee-hr-giger", "moleson"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "musee-hr-giger",
+        "moleson"
+      ],
       "card": "Printemps, été, automne ou hiver : ce qui est ouvert à Gruyères et comment choisir votre date."
     },
     "sortie-entreprise": {
       "title": "Sortie d’entreprise en Gruyère : excursion de groupe",
       "description": "Organiser une sortie d’entreprise en Gruyère au départ de Genève : une journée privée pour votre équipe, entre château, fromage, chocolat et Préalpes.",
       "h1": "Une sortie d’entreprise en Gruyère depuis Genève",
-      "intro": "La Gruyère se prête bien à une sortie d’entreprise ou à une excursion de groupe depuis Genève : la région est à environ une heure et demie de route et réunit patrimoine, savoir-faire et paysages en une journée. Nous organisons cette journée en privé pour votre équipe, avec une prise en charge à Genève et un retour le soir. Vous nous indiquez la date et le nombre de participants, nous vous proposons un itinéraire.",
+      "intro": "La Gruyère se prête bien à une sortie d’entreprise ou à une excursion de groupe depuis Genève : la région est à environ une heure et demie de route et réunit patrimoine, savoir-faire et paysages en une journée. Nous préparons cette journée en privé pour votre équipe, au départ de Genève, en train ou en véhicule selon ce que nous convenons ensemble. Vous nous indiquez la date et le nombre de participants, nous vous proposons un itinéraire.",
       "sections": [
         {
           "h2": "Pourquoi la Gruyère pour une sortie de groupe",
@@ -271,7 +292,7 @@
           "h2": "Comment se passe l’organisation",
           "p": [
             "La démarche est simple. Vous remplissez le formulaire du site avec la date souhaitée, une autre date possible, le nombre de participants, la langue de la journée et les lieux qui vous intéressent. Le champ libre permet de préciser le contexte : séminaire, remerciement d’équipe, accueil de clients ou de partenaires. Ces éléments nous aident à vous proposer un itinéraire adapté.",
-            "Nous revenons vers vous avec une proposition d’itinéraire, que vous pouvez ajuster avec nous avant de confirmer. Nous vérifions les horaires et les disponibilités des lieux à la date retenue. Le jour venu, la prise en charge a lieu à Genève au lieu convenu, et le retour se fait le soir. Vous n’avez pas à gérer la logistique de la journée, seulement à en profiter avec votre équipe."
+            "Nous revenons vers vous avec une proposition d’itinéraire, que vous pouvez ajuster avec nous avant de confirmer. Nous vérifions les horaires et les disponibilités des lieux à la date retenue. Le format du trajet, train ou véhicule, fait partie de ce que nous décidons ensemble. Vous n’avez pas à gérer la logistique de la journée, seulement à en profiter avec votre équipe."
           ]
         }
       ],
@@ -296,7 +317,13 @@
           "a": "Le déjeuner est libre dans le village de Gruyères. Selon la taille du groupe, un repas commun demande de réserver un restaurant à l’avance. Signalez ce souhait dans votre demande : nous en tenons compte dans la proposition d’itinéraire."
         }
       ],
-      "places": ["chateau-de-gruyeres", "maison-du-gruyere", "maison-cailler", "moleson", "musee-hr-giger"],
+      "places": [
+        "chateau-de-gruyeres",
+        "maison-du-gruyere",
+        "maison-cailler",
+        "moleson",
+        "musee-hr-giger"
+      ],
       "card": "Une journée privée au départ de Genève pour votre équipe, vos clients ou vos partenaires, en Gruyère."
     }
   }

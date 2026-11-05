@@ -237,10 +237,11 @@
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_next" value="{{url}}merci/">
             <input type="hidden" name="Langue du site" value="{{langCode}}">
+            <input type="hidden" name="Page" value="{{pageUrl}}">
             <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off" aria-hidden="true">
             <div class="field full"><label for="f-name">{{fName}} *</label><input id="f-name" name="Nom" type="text" autocomplete="name" required></div>
             <div class="field"><label for="f-email">{{fEmail}} *</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
-            <div class="field"><label for="f-phone">{{fPhone}}</label><input id="f-phone" name="Telephone" type="tel" autocomplete="tel"></div>
+            <div class="field"><label for="f-phone">{{fPhone}}</label><input id="f-phone" name="WhatsApp" type="tel" autocomplete="tel" inputmode="tel" placeholder="+41 79 123 45 67"></div>
             <div class="field"><label for="f-date">{{fDate}} *</label><input id="f-date" name="Date souhaitee" type="date" required></div>
             <div class="field"><label for="f-date2">{{fDate2}}</label><input id="f-date2" name="Autre date" type="date"></div>
             <div class="field"><label for="f-group">{{fGroup}} *</label><input id="f-group" name="Personnes" type="number" min="1" max="60" inputmode="numeric" required></div>
@@ -275,6 +276,7 @@
         <div>
           <p class="foot-title">{{footerContact}}</p>
           <a href="mailto:info@gruyeres-tours.com">info@gruyeres-tours.com</a>
+          {{waFooter}}
         </div>
         <div>
           <p class="foot-title">{{crumbPlaces}}</p>
@@ -303,9 +305,11 @@
       </details>
       <div class="footer-bottom">
         <p>© 2026 Gruyères Tours</p>
+        <p class="footer-legal">{{footerLegal}}</p>
       </div>
     </div>
   </footer>
+  {{waFloat}}
 
   <script src="/site.js?v={{version}}" defer></script>
   <script>try { localStorage.setItem("gt-lang", "{{lang}}"); } catch (e) {}</script>
