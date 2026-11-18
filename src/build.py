@@ -51,6 +51,46 @@ WIDTHS = (800, 1400, 2400)
 WIDE = {"panorama": 280}  # largeur affichée en vh quand l'écran est en hauteur (rapport largeur/hauteur x 100)
 ARROW = '<svg viewBox="0 0 22 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 5h21M17 1l4 4-4 4"/></svg>'
 
+# Liens vers gruyeres-tickets.com (décision du 17.11.2026 : ici on raconte, là-bas on vend ; jamais la même page deux fois).
+TICKETS = "https://www.gruyeres-tickets.com"
+TICKET_SLUGS = {
+    "fr": {"chateau-de-gruyeres": "billets-chateau-de-gruyeres", "maison-cailler": "billets-maison-cailler", "maison-du-gruyere": "billets-maison-du-gruyere", "moleson": "billets-moleson", "hours": "horaires-gruyeres"},
+    "en": {"chateau-de-gruyeres": "gruyeres-castle-tickets", "maison-cailler": "maison-cailler-tickets", "maison-du-gruyere": "maison-du-gruyere-tickets", "moleson": "moleson-tickets", "hours": "gruyeres-opening-hours"},
+    "de": {"chateau-de-gruyeres": "schloss-greyerz-tickets", "maison-cailler": "maison-cailler-tickets", "maison-du-gruyere": "maison-du-gruyere-tickets", "moleson": "moleson-tickets", "hours": "oeffnungszeiten-greyerz"},
+    "es": {"chateau-de-gruyeres": "entradas-castillo-de-gruyeres", "maison-cailler": "entradas-maison-cailler", "maison-du-gruyere": "entradas-maison-du-gruyere", "moleson": "entradas-moleson", "hours": "horarios-gruyeres"},
+    "pt": {"chateau-de-gruyeres": "ingressos-castelo-de-gruyeres", "maison-cailler": "ingressos-maison-cailler", "maison-du-gruyere": "ingressos-maison-du-gruyere", "moleson": "ingressos-moleson", "hours": "horarios-gruyeres"},
+}
+TICKET_TEXT = {
+    "fr": {"eyebrow": "Billets et horaires", "place": "Prix d'entrée, horaires du jour et pass officiels : tout est réuni sur notre site de billets.",
+           "hours": "Les horaires de chaque lieu, saison par saison, avec Noël et Nouvel An.", "go": "Prix et billets", "goHours": "Voir les horaires"},
+    "en": {"eyebrow": "Tickets and opening hours", "place": "Entry prices, opening hours and the official passes are all on our ticket site.",
+           "hours": "The opening hours of every place, season by season, with Christmas and New Year.", "go": "Prices and tickets", "goHours": "See opening hours"},
+    "de": {"eyebrow": "Tickets und Öffnungszeiten", "place": "Eintrittspreise, Öffnungszeiten und die offiziellen Pässe finden Sie auf unserer Ticket-Seite.",
+           "hours": "Die Öffnungszeiten jedes Ortes, Saison für Saison, mit Weihnachten und Neujahr.", "go": "Preise und Tickets", "goHours": "Öffnungszeiten ansehen"},
+    "es": {"eyebrow": "Entradas y horarios", "place": "Precios de entrada, horarios y los pases oficiales están en nuestro sitio de entradas.",
+           "hours": "Los horarios de cada lugar, temporada por temporada, con Navidad y Año Nuevo.", "go": "Precios y entradas", "goHours": "Ver los horarios"},
+    "pt": {"eyebrow": "Ingressos e horários", "place": "Preços de entrada, horários e os passes oficiais estão no nosso site de ingressos.",
+           "hours": "Os horários de cada lugar, estação a estação, com Natal e Ano Novo.", "go": "Preços e ingressos", "goHours": "Ver os horários"},
+}
+
+
+def tickets_box(lang, key):
+    """Encadré vers la page de gruyeres-tickets.com qui vend ce lieu (ou vers les horaires). Vide si la langue n'a pas de site de billets."""
+    if lang not in TICKET_SLUGS:
+        return ""
+    tt, slug = TICKET_TEXT[lang], TICKET_SLUGS[lang].get(key)
+    hours = TICKET_SLUGS[lang]["hours"]
+    if slug and key != "hours":
+        text, links = tt["place"], [(slug, tt["go"]), (hours, tt["goHours"])]
+    else:
+        text, links = tt["hours"], [(hours, tt["goHours"])]
+    a = "".join(f'<a class="more" href="{TICKETS}/{lang}/{s}/">{esc(label)} {ARROW}</a> ' for s, label in links)
+    return (f'            <div class="glass" data-reveal style="--d:.3s">\n'
+            f'              <p class="eyebrow">{esc(tt["eyebrow"])}</p>\n'
+            f'              <p>{esc(text)}</p>\n'
+            f'              <div class="place-links">{a}</div>\n'
+            f'            </div>\n')
+
 src = Path(__file__).resolve().parent
 root = src.parent
 template = (src / "template.html").read_text(encoding="utf-8")
@@ -458,7 +498,7 @@ def render_place(lang, slug):
               <p class="lead">{esc(c["inTour"])}</p>
               {cta_button(lang, "#organiser")}
             </div>
-          </aside>
+{tickets_box(lang, slug)}          </aside>
         </div>
       </div>
     </section>
@@ -580,7 +620,7 @@ def render_guide(lang, slug):
               </div>
               {cta_button(lang, "#organiser")}
             </div>
-          </aside>
+{tickets_box(lang, "hours") if slug == "quand-visiter" else ""}          </aside>
         </div>
       </div>
     </section>
