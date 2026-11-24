@@ -74,6 +74,13 @@ TICKET_TEXT = {
 }
 
 
+# 24.11 (oui d'André) : lien vers la carte audio de gruyeres-tickets.com, sur les 3 lieux qui y ont leur récit.
+AUDIO_SLUG = {"fr": "carte-audio-gruyeres", "en": "gruyeres-audio-map", "de": "audiokarte-greyerz", "es": "mapa-audio-gruyeres", "pt": "mapa-audio-gruyeres"}
+AUDIO_POINT = {"maison-du-gruyere": 1, "chateau-de-gruyeres": 3, "maison-cailler": 6}
+AUDIO_LABEL = {"fr": "Écouter sur la carte audio", "en": "Listen on the audio map", "de": "Auf der Audiokarte anhören",
+               "es": "Escuchar en el mapa audio", "pt": "Ouvir no mapa em áudio"}
+
+
 def tickets_box(lang, key):
     """Encadré vers la page de gruyeres-tickets.com qui vend ce lieu (ou vers les horaires). Vide si la langue n'a pas de site de billets."""
     if lang not in TICKET_SLUGS:
@@ -85,6 +92,8 @@ def tickets_box(lang, key):
     else:
         text, links = tt["hours"], [(hours, tt["goHours"])]
     a = "".join(f'<a class="more" href="{TICKETS}/{lang}/{s}/">{esc(label)} {ARROW}</a> ' for s, label in links)
+    if key in AUDIO_POINT and lang in AUDIO_SLUG:
+        a += f'<a class="more" href="{TICKETS}/{lang}/{AUDIO_SLUG[lang]}/#am-{AUDIO_POINT[key]}">{esc(AUDIO_LABEL[lang])} {ARROW}</a> '
     return (f'            <div class="glass" data-reveal style="--d:.3s">\n'
             f'              <p class="eyebrow">{esc(tt["eyebrow"])}</p>\n'
             f'              <p>{esc(text)}</p>\n'
